@@ -4977,6 +4977,12 @@
 		(uuid "07d2c6d9-833c-457a-b70c-86743cd1c8a2")
 	)
 	(junction
+		(at 101.6 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "086c2e7a-9861-4cdc-ad0d-ed6828a4a20e")
+	)
+	(junction
 		(at 323.85 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6966,7 +6972,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 246.38) (xy 101.6 273.05)
+			(xy 101.6 246.38) (xy 101.6 265.43)
 		)
 		(stroke
 			(width 0)
@@ -7056,6 +7062,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 265.43) (xy 101.6 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4e9229-2acb-4f92-bbd0-7a27b2f481a1")
+	)
+	(wire
+		(pts
 			(xy 241.3 342.9) (xy 254 342.9)
 		)
 		(stroke
@@ -7093,6 +7109,16 @@
 			(type default)
 		)
 		(uuid "53388e01-d1ff-4c71-9fc4-901816fb3818")
+	)
+	(wire
+		(pts
+			(xy 93.98 265.43) (xy 101.6 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b2c61c-e9ca-43a4-93a8-0d5c0090e328")
 	)
 	(wire
 		(pts
@@ -7583,16 +7609,6 @@
 			(type default)
 		)
 		(uuid "6d3e8caa-1c46-45bf-ac15-1ab3122ee20b")
-	)
-	(wire
-		(pts
-			(xy 86.36 246.38) (xy 101.6 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d575a3b-a723-445e-bfa6-fc0aad6c851a")
 	)
 	(wire
 		(pts
@@ -8206,6 +8222,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 273.05) (xy 93.98 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c35563-5122-4d94-9551-48475ccf2a2c")
+	)
+	(wire
+		(pts
 			(xy 68.58 73.66) (xy 52.07 73.66)
 		)
 		(stroke
@@ -8753,6 +8779,16 @@
 			(type default)
 		)
 		(uuid "aad46ecf-06f2-49e9-a377-a3e36ae4c239")
+	)
+	(wire
+		(pts
+			(xy 86.36 246.38) (xy 101.6 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc25f55-6371-47a9-b53d-ad0bf8b6d641")
 	)
 	(wire
 		(pts
@@ -12663,6 +12699,76 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aa9a54e-d375-4a55-94f1-2f02fce6a989")
+		(property "Reference" "C49"
+			(at 97.79 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 97.79 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.9452 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b40f2d-4fcd-4d3d-8695-082c1a5212ec")
+		)
+		(pin "2"
+			(uuid "eb68b68a-25f7-4dca-8e56-7aa32a8dbecd")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -21334,6 +21440,72 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c74955d1-1b5f-4f0d-8731-5624afb50b4c")
+		(property "Reference" "#PWR09"
+			(at 93.98 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b4dd293-97e1-44ef-bb21-36e0edfe4893")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
