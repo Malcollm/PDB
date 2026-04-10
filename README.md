@@ -1,2 +1,2 @@
 # PDB
-Power distribution board pcb
+A custom designed Power Distribution Board for WiscoHumanoids @ UW-Madison
