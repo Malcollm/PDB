@@ -1,0 +1,15 @@
+# KiCad local settings / cache
+*.kicad_prl
+fp-info-cache
+
+# Plot and fabrication outputs
+/gerbers/
+/plots/
+/drill/
+/output/
+
+# Backups / autosaves
+*-bak
+*.tmp
+*.lck
+*_autosave-*
