@@ -5376,6 +5376,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Test"
+		(exclude_from_sim no)
+		(at 66.294 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0993680c-491b-4e36-ba40-2bef315c0ffe")
+	)
 	(junction
 		(at 52.07 73.66)
 		(diameter 0)
