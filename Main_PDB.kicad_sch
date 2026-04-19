@@ -6704,6 +6704,52 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 139.7 55.88)
+		(end 229.87 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4edaf789-886c-48fa-9a85-0528dd3d43ce")
+	)
+	(rectangle
+		(start 19.05 256.54)
+		(end 283.21 384.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b0be742e-d170-45ad-9513-fd43c171b63d")
+	)
+	(rectangle
+		(start 17.78 161.29)
+		(end 217.17 219.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d063eb06-79ec-4b91-b956-4627f9d72751")
+	)
+	(text "Main Current Sensor"
+		(exclude_from_sim no)
+		(at 193.04 53.594 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "60d33451-dffb-45f9-b39d-303fc6611197")
+	)
 	(text "400KHZ FS\n"
 		(exclude_from_sim no)
 		(at 102.362 169.164 0)
@@ -6713,6 +6759,26 @@
 			)
 		)
 		(uuid "7697a38e-3c00-4119-b2b1-6c9ba18f3109")
+	)
+	(text "48V to 24V"
+		(exclude_from_sim no)
+		(at 161.544 253.492 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a0a82163-81f8-4cef-b918-a2c72c9c5928")
+	)
+	(text "48V to 3.3V"
+		(exclude_from_sim no)
+		(at 106.172 158.75 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a62299a5-27b5-4bf0-97a1-e31662375b4a")
 	)
 	(junction
 		(at 49.53 276.86)
@@ -6835,12 +6901,6 @@
 		(uuid "2974f54f-16c9-444e-aa70-ce44303e0fdb")
 	)
 	(junction
-		(at 25.4 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29773813-fffd-4e59-a690-0d81a5736fc0")
-	)
-	(junction
 		(at 391.16 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6863,12 +6923,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "339e2427-2543-400e-b791-1641ed769589")
-	)
-	(junction
-		(at 152.4 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e2cdd21-c118-47e3-9fab-9facb0c5f92d")
 	)
 	(junction
 		(at 417.83 87.63)
@@ -6899,6 +6953,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4526d1b6-2545-4bfe-b3ae-91fe9fb32996")
+	)
+	(junction
+		(at 152.4 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4581fb2d-6410-4b61-97cb-afd91fb75b3a")
 	)
 	(junction
 		(at 210.82 321.31)
@@ -7313,6 +7373,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8f79c0a-bc31-4f42-8c2c-d92a4986365d")
+	)
+	(junction
+		(at 25.4 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb77f876-2de1-44e9-9df7-de08565b1d15")
 	)
 	(junction
 		(at 71.12 316.23)
@@ -7814,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 133.35 161.29)
+			(xy 133.35 93.98) (xy 133.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8144,7 +8210,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 71.12)
+			(xy 152.4 40.64) (xy 152.4 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8844,7 +8910,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 63.5) (xy 160.02 68.58)
+			(xy 160.02 40.64) (xy 160.02 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9814,7 +9880,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 161.29) (xy 25.4 161.29)
+			(xy 133.35 133.35) (xy 25.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10674,7 +10740,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 161.29) (xy 25.4 175.26)
+			(xy 25.4 133.35) (xy 25.4 175.26)
 		)
 		(stroke
 			(width 0)
@@ -22024,7 +22090,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 68.58 0)
+		(at 160.02 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22035,7 +22101,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0f8efb0-59e4-4050-99ec-c171b8cb55dc")
 		(property "Reference" "#PWR037"
-			(at 160.02 74.93 0)
+			(at 160.02 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22046,7 +22112,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 73.66 0)
+			(at 160.02 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22056,7 +22122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 68.58 0)
+			(at 160.02 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22067,7 +22133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 68.58 0)
+			(at 160.02 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22078,7 +22144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 68.58 0)
+			(at 160.02 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23541,7 +23607,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 156.21 63.5 90)
+		(at 156.21 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23552,7 +23618,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2c182aa-0d0f-43c1-bb74-63fa0074670a")
 		(property "Reference" "C26"
-			(at 155.321 55.88 90)
+			(at 155.321 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23562,7 +23628,7 @@
 			)
 		)
 		(property "Value" "3m"
-			(at 155.321 58.42 90)
+			(at 155.321 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23572,7 +23638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 62.5348 0)
+			(at 160.02 39.6748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23583,7 +23649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 63.5 0)
+			(at 156.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23594,7 +23660,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 156.21 63.5 0)
+			(at 156.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
