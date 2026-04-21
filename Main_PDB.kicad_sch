@@ -7778,12 +7778,6 @@
 		(uuid "77046baa-6c62-493a-974f-baecb9de63d1")
 	)
 	(junction
-		(at 24.13 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "794b0870-fb03-4c16-bb32-4022e0dbaf57")
-	)
-	(junction
 		(at 191.77 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8799,7 +8793,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 262.89) (xy 297.18 246.38)
+			(xy 297.18 237.49) (xy 297.18 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9959,16 +9953,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 246.38) (xy 24.13 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62b31c1b-28e3-423a-9954-4a6a4f81b320")
-	)
-	(wire
-		(pts
 			(xy 316.23 157.48) (xy 311.15 157.48)
 		)
 		(stroke
@@ -10479,7 +10463,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 198.12) (xy 24.13 246.38)
+			(xy 24.13 198.12) (xy 24.13 269.24)
 		)
 		(stroke
 			(width 0)
@@ -12589,16 +12573,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 246.38) (xy 24.13 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6deb48-1600-42ac-936c-f966994d7d68")
-	)
-	(wire
-		(pts
 			(xy 71.12 77.47) (xy 71.12 82.55)
 		)
 		(stroke
@@ -13109,7 +13083,7 @@
 			(uuid "270bda14-893c-499e-ac23-ea6cb3214938")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C13")
 					(unit 1)
@@ -13189,7 +13163,7 @@
 			(uuid "2b2041dd-ccbb-4294-8657-19bede2952e6")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C28")
 					(unit 1)
@@ -13269,7 +13243,7 @@
 			(uuid "e481e159-e377-4611-8edc-338a2b3ec34b")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R9")
 					(unit 1)
@@ -13971,7 +13945,7 @@
 			(uuid "37ed3967-4175-4d0d-985f-b328fb1d3649")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U13")
 					(unit 1)
@@ -14049,7 +14023,7 @@
 			(uuid "46c32f09-0885-4aad-8d3f-6c0152f91c7f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR025")
 					(unit 1)
@@ -14131,7 +14105,7 @@
 			(uuid "ee3d60ae-38c4-4d28-b7a4-426d7a54ee6a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C11")
 					(unit 1)
@@ -14213,7 +14187,7 @@
 			(uuid "dfe9e45f-53a9-413a-b5c3-69a66f852063")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "D1")
 					(unit 1)
@@ -14293,7 +14267,7 @@
 			(uuid "8a187079-359f-4cc7-94f7-227d3366c17d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "F1")
 					(unit 1)
@@ -14372,7 +14346,7 @@
 			(uuid "2e3bb2ab-54d9-467d-a515-0cb735877fda")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR064")
 					(unit 1)
@@ -14454,7 +14428,7 @@
 			(uuid "b4d5e7a0-23a5-4e91-9dbc-878ad4780d7b")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R4")
 					(unit 1)
@@ -14535,7 +14509,7 @@
 			(uuid "6ae73f27-5c5b-41d3-bc3c-66703697efc6")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "COUT1")
 					(unit 1)
@@ -14614,7 +14588,7 @@
 			(uuid "984acd8e-6859-4c6d-be26-319c1ba59c38")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "RFBT1")
 					(unit 1)
@@ -14692,7 +14666,7 @@
 			(uuid "6f7c9534-b04e-4ed5-902f-43bd5cade49e")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR056")
 					(unit 1)
@@ -14772,7 +14746,7 @@
 			(uuid "03771f6d-555b-4c91-9518-9ffb8e8ddf49")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "F5")
 					(unit 1)
@@ -14854,7 +14828,7 @@
 			(uuid "8637a3e4-a695-4223-89b5-43480d0eb0c1")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R11")
 					(unit 1)
@@ -14936,7 +14910,7 @@
 			(uuid "c96d22e5-6f45-49d2-be1a-218dad60b022")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J7")
 					(unit 1)
@@ -15016,7 +14990,7 @@
 			(uuid "e7f8fbf3-88f0-4585-ac76-ec1e0d1f89ed")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R22")
 					(unit 1)
@@ -15095,7 +15069,7 @@
 			(uuid "2ea97d47-74eb-4682-a7f6-5dbec27806df")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR063")
 					(unit 1)
@@ -15174,7 +15148,7 @@
 			(uuid "34f74cbf-3357-434c-9fd7-5437c5b5865b")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR067")
 					(unit 1)
@@ -15390,7 +15364,7 @@
 			(uuid "8ec13bc0-259c-4185-9569-2fdceee1c5ad")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U7")
 					(unit 1)
@@ -15471,7 +15445,7 @@
 			(uuid "05535305-96f1-4547-81d9-aff5f1a54763")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "COUT2")
 					(unit 1)
@@ -15549,7 +15523,7 @@
 			(uuid "7517003b-0e80-4bf0-952e-3d8284212213")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR01")
 					(unit 1)
@@ -15630,7 +15604,7 @@
 			(uuid "3b51b180-463c-4c36-a081-7c976b0446bb")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "F7")
 					(unit 1)
@@ -15710,7 +15684,7 @@
 			(uuid "901bd0c2-176a-4a0c-a2a1-efe2c8c4cb29")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R18")
 					(unit 1)
@@ -15791,7 +15765,7 @@
 			(uuid "3c33a1ae-07da-4c56-9e8b-ec1548c36694")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "F6")
 					(unit 1)
@@ -15869,7 +15843,7 @@
 			(uuid "4c9ed9d7-c025-40c9-8a07-4c55700dbd07")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR046")
 					(unit 1)
@@ -16199,7 +16173,7 @@
 			(uuid "bb7c3b3f-0a7c-4fe3-b8c4-b7cfc502798f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U6")
 					(unit 1)
@@ -16317,7 +16291,7 @@
 			(uuid "3846fe36-289e-4ba4-9235-967e273d7b2a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q12")
 					(unit 1)
@@ -16435,7 +16409,7 @@
 			(uuid "ef9d67e9-8c29-4127-a662-c538d12e8a48")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q2")
 					(unit 1)
@@ -16517,7 +16491,7 @@
 			(uuid "64badddd-14b1-4532-ab0d-788c8466bc03")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C39")
 					(unit 1)
@@ -16595,7 +16569,7 @@
 			(uuid "2ef376cb-2481-4950-945d-098b1263c9e7")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR039")
 					(unit 1)
@@ -16674,7 +16648,7 @@
 			(uuid "03a512cc-b58a-445e-999e-d0e1202dcf41")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR074")
 					(unit 1)
@@ -16754,7 +16728,7 @@
 			(uuid "14280d07-f478-4bae-89ac-d2aeeb27269e")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "F2")
 					(unit 1)
@@ -16836,7 +16810,7 @@
 			(uuid "a9b1bbc1-f107-4502-a87b-6cd3ab4a309f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "CVCC1")
 					(unit 1)
@@ -16914,7 +16888,7 @@
 			(uuid "1fd246c6-a315-46ba-af14-fea73454b0d5")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR034")
 					(unit 1)
@@ -17244,7 +17218,7 @@
 			(uuid "fa867377-e62d-4cca-a976-9cf308946b1a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U4")
 					(unit 1)
@@ -17324,7 +17298,7 @@
 			(uuid "aa5dcaca-c3a4-46d9-a688-835e2be443e5")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R19")
 					(unit 1)
@@ -17406,7 +17380,7 @@
 			(uuid "eb68b68a-25f7-4dca-8e56-7aa32a8dbecd")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C49")
 					(unit 1)
@@ -17488,7 +17462,7 @@
 			(uuid "2a446f79-31db-46e2-b425-a95831b11f41")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "CIN1")
 					(unit 1)
@@ -17566,7 +17540,7 @@
 			(uuid "f2637254-36ca-41aa-ad32-8742d0cf639d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR026")
 					(unit 1)
@@ -17750,7 +17724,7 @@
 			(uuid "ed56ec30-a1d6-473e-8b8c-2572700dd5c7")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U8")
 					(unit 1)
@@ -17829,7 +17803,7 @@
 			(uuid "1bed7bf6-d1a9-4a2a-863f-9e74e5bb0be7")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR059")
 					(unit 1)
@@ -17911,7 +17885,7 @@
 			(uuid "b8c05db8-8224-4bed-9932-b82fd8894394")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C7")
 					(unit 1)
@@ -17993,7 +17967,7 @@
 			(uuid "e30ecabc-9ee5-4adc-be6a-b97681b6db22")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R5")
 					(unit 1)
@@ -18073,7 +18047,7 @@
 			(uuid "22a63f28-ee01-4611-9a90-d0b796a31c4e")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Precharge1")
 					(unit 1)
@@ -18151,7 +18125,7 @@
 			(uuid "7b90679c-e3e2-49e2-9a8e-cbadaa8b6b3d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR073")
 					(unit 1)
@@ -18229,7 +18203,7 @@
 			(uuid "1c370011-63e9-44cc-9492-20fd3c02f299")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR03")
 					(unit 1)
@@ -18311,7 +18285,7 @@
 			(uuid "632f1e44-9e46-49c9-ad8f-2fcc9dc82cee")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C12")
 					(unit 1)
@@ -18389,7 +18363,7 @@
 			(uuid "1a680990-728b-49db-aa99-183fea509a2e")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR057")
 					(unit 1)
@@ -18480,7 +18454,7 @@
 			(uuid "48e2c406-ebfd-44af-a4cb-8b087bcfcb9f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J10")
 					(unit 1)
@@ -18558,7 +18532,7 @@
 			(uuid "b2b4c3b3-db46-4f1d-bcbf-2ccfe7932a0f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR020")
 					(unit 1)
@@ -18636,7 +18610,7 @@
 			(uuid "5e195902-5283-4bad-8a40-9fb5d10f3294")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR011")
 					(unit 1)
@@ -18714,7 +18688,7 @@
 			(uuid "709f1100-d6f5-4126-af69-b00518b084fd")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR014")
 					(unit 1)
@@ -18832,7 +18806,7 @@
 			(uuid "783d1c7b-e435-41c7-81b3-0437996772d9")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q11")
 					(unit 1)
@@ -18910,7 +18884,7 @@
 			(uuid "89bed248-3592-43b4-ba93-2f53fb24c31c")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR018")
 					(unit 1)
@@ -19240,7 +19214,7 @@
 			(uuid "c524d542-e302-486a-8854-9c4d7550ddaa")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U9")
 					(unit 1)
@@ -19318,7 +19292,7 @@
 			(uuid "c7898755-173e-4bc8-9bb6-1a170cfad71c")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR053")
 					(unit 1)
@@ -19396,7 +19370,7 @@
 			(uuid "6728f226-21a4-4449-8a6f-2a22fb9b4f35")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR028")
 					(unit 1)
@@ -19478,7 +19452,7 @@
 			(uuid "20e48364-65bd-4d63-b287-efeea8389c10")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C25")
 					(unit 1)
@@ -19589,7 +19563,7 @@
 			(uuid "6dd9e75b-8fa4-4a35-a5dc-28cfe66ce9cc")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U1")
 					(unit 1)
@@ -19671,7 +19645,7 @@
 			(uuid "e1d73374-a266-4ae4-94c5-f2b9f8cbf95d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C23")
 					(unit 1)
@@ -19753,7 +19727,7 @@
 			(uuid "6cf14165-8ea7-4ff7-b6ef-8ef15434dd37")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "CHF1")
 					(unit 1)
@@ -19835,7 +19809,7 @@
 			(uuid "f20fef80-f8df-4cb1-8151-588784ec3b7e")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C40")
 					(unit 1)
@@ -19913,7 +19887,7 @@
 			(uuid "47cd4ae0-b091-4bdf-91bb-4431651a8844")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR035")
 					(unit 1)
@@ -19991,7 +19965,7 @@
 			(uuid "c0de6406-3b38-41f0-806c-26053f355e0d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR08")
 					(unit 1)
@@ -20069,7 +20043,7 @@
 			(uuid "cc3f3f5d-f942-47b7-9a13-2a5afee4dd0d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR050")
 					(unit 1)
@@ -20147,7 +20121,7 @@
 			(uuid "05fa3ab4-a343-4971-9d00-2ca0ab998d13")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR051")
 					(unit 1)
@@ -20225,7 +20199,7 @@
 			(uuid "61470768-b937-471b-b37b-3cb8f94701ad")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR024")
 					(unit 1)
@@ -20303,7 +20277,7 @@
 			(uuid "5db5caef-ac70-4db0-b075-cfc7f8edc013")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR033")
 					(unit 1)
@@ -20421,7 +20395,7 @@
 			(uuid "32e94144-717f-4eec-87a8-45d52c143a43")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q9")
 					(unit 1)
@@ -20499,7 +20473,7 @@
 			(uuid "e870464c-31ff-42f8-82c3-1dea753fe97b")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR054")
 					(unit 1)
@@ -20579,7 +20553,7 @@
 			(uuid "dae7fb1e-7fbd-4aad-8494-eafd000863af")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C30")
 					(unit 1)
@@ -20657,7 +20631,7 @@
 			(uuid "620c4e8d-a998-4f8b-a925-0e98854d99af")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR04")
 					(unit 1)
@@ -20735,7 +20709,7 @@
 			(uuid "0b55db3b-4bfd-477d-8288-6b84c104e532")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR036")
 					(unit 1)
@@ -20851,7 +20825,7 @@
 			(uuid "cd2931f1-bc88-472b-bb48-86e1c8c5128c")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q1")
 					(unit 1)
@@ -20931,7 +20905,7 @@
 			(uuid "e9121573-e3fc-48c9-94a9-62413789b809")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "F4")
 					(unit 1)
@@ -21009,7 +20983,7 @@
 			(uuid "8b2fd26a-f739-449d-858c-ee659c2352e4")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR045")
 					(unit 1)
@@ -21087,7 +21061,7 @@
 			(uuid "18756c37-7011-4253-b321-49f45d56bec8")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR021")
 					(unit 1)
@@ -21165,7 +21139,7 @@
 			(uuid "4dbf0f6f-bc09-4c8e-ad2d-ef4e9408db7c")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR022")
 					(unit 1)
@@ -21245,7 +21219,7 @@
 			(uuid "9009de8b-f374-4c17-a32c-5a0acde18ce0")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C37")
 					(unit 1)
@@ -21327,7 +21301,7 @@
 			(uuid "6315bdcd-607e-4efd-b3e3-10b7360962b1")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "CFF1")
 					(unit 1)
@@ -21445,7 +21419,7 @@
 			(uuid "faad66fa-56bf-4ec4-bf12-781e0be5ed3a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q8")
 					(unit 1)
@@ -21527,7 +21501,7 @@
 			(uuid "d538303f-72d4-45d1-9144-936261ebf5fa")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C10")
 					(unit 1)
@@ -21607,7 +21581,7 @@
 			(uuid "40b145b7-6271-4289-944e-354bfad7dad4")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R7")
 					(unit 1)
@@ -21687,7 +21661,7 @@
 			(uuid "86ba8ed3-f983-4bfc-869e-f6723aa025ea")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R8")
 					(unit 1)
@@ -21769,7 +21743,7 @@
 			(uuid "01466128-f034-4aa8-b82c-c5e530c24f97")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "CHF2")
 					(unit 1)
@@ -21854,7 +21828,7 @@
 			(uuid "4f888fca-d94d-4a06-8936-fb9909c0f72a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J4")
 					(unit 1)
@@ -21933,7 +21907,7 @@
 			(uuid "3bf9628b-0fe3-404b-8c24-36ac9175d1be")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "RFBB1")
 					(unit 1)
@@ -22018,7 +21992,7 @@
 			(uuid "f0a0d176-338a-4db0-9a6f-8fff13ef177b")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J12")
 					(unit 1)
@@ -22096,9 +22070,87 @@
 			(uuid "1abad484-0552-4c01-b0f4-ea28883263d0")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 297.18 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72d5a6db-b0eb-4f00-9caa-b4425d1b5dc1")
+		(property "Reference" "#PWR060"
+			(at 297.18 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 297.18 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 297.18 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e39bbf1-beab-4003-9892-52ae5ac7ac9a")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -22178,7 +22230,7 @@
 			(uuid "9534dd4a-07cb-4661-ae2c-aab008233a0d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R21")
 					(unit 1)
@@ -22256,7 +22308,7 @@
 			(uuid "a906d1cf-0452-48d2-b6bf-d8fbf1dc74ee")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR023")
 					(unit 1)
@@ -22334,7 +22386,7 @@
 			(uuid "20a526d2-9321-421a-a7d0-2a307d8cf5e2")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR031")
 					(unit 1)
@@ -22416,7 +22468,7 @@
 			(uuid "eddf9ff8-306f-40aa-a63d-9eca4afd6163")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R12")
 					(unit 1)
@@ -22498,7 +22550,7 @@
 			(uuid "86cd2893-d482-4143-8e62-2e9c836b8306")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C20")
 					(unit 1)
@@ -22580,7 +22632,7 @@
 			(uuid "a194b0e4-3789-4f47-ba82-72e7ad0335d6")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C9")
 					(unit 1)
@@ -22658,7 +22710,7 @@
 			(uuid "5a622845-04c9-4518-b294-93adf1e98318")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR029")
 					(unit 1)
@@ -22743,7 +22795,7 @@
 			(uuid "1ebd11cb-cb44-41fd-bf7f-0e6c88dbd2df")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J5")
 					(unit 1)
@@ -22823,7 +22875,7 @@
 			(uuid "3be2f7a0-46ff-4ab5-a01a-02fd1e70b432")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "L2")
 					(unit 1)
@@ -22901,7 +22953,7 @@
 			(uuid "57085579-122a-4821-b0e0-9e58a007389a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR05")
 					(unit 1)
@@ -22983,7 +23035,7 @@
 			(uuid "36545031-a9a9-456c-9879-d733daea6aaa")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R20")
 					(unit 1)
@@ -23101,7 +23153,7 @@
 			(uuid "c1eb2127-6275-41ed-8740-7d6b9822b7c3")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q14")
 					(unit 1)
@@ -23186,7 +23238,7 @@
 			(uuid "509f1045-eab8-45b2-9b0c-c658727b9797")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J2")
 					(unit 1)
@@ -23516,7 +23568,7 @@
 			(uuid "c8e98c82-3408-4e2e-aab6-0dbd349f477f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U2")
 					(unit 1)
@@ -23594,7 +23646,7 @@
 			(uuid "c1a093de-77d0-40bf-bd56-97a73e0fe900")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR010")
 					(unit 1)
@@ -23674,7 +23726,7 @@
 			(uuid "11ce612a-06e9-485c-bef5-3d3325102b55")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C3")
 					(unit 1)
@@ -23752,7 +23804,7 @@
 			(uuid "77f80b8b-c583-4fbe-a6be-84417c13aeca")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#FLG03")
 					(unit 1)
@@ -23834,7 +23886,7 @@
 			(uuid "41ac0ead-b882-400a-b8b5-4dcf38cb0276")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C8")
 					(unit 1)
@@ -23914,7 +23966,7 @@
 			(uuid "d1e9e025-f989-4072-8a63-6acda9578084")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R10")
 					(unit 1)
@@ -24244,7 +24296,7 @@
 			(uuid "0deff983-4dbe-4f11-97e5-42ca0d0d3a10")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U11")
 					(unit 1)
@@ -24322,7 +24374,7 @@
 			(uuid "3afc7f77-2c4c-4f89-9a69-dcb47722d3bb")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR044")
 					(unit 1)
@@ -24402,7 +24454,7 @@
 			(uuid "0b0cd7c9-8106-4066-b391-cbbc200450ce")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C31")
 					(unit 1)
@@ -24482,7 +24534,7 @@
 			(uuid "41f427df-b506-41fa-8829-439eac10a6cd")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "L5")
 					(unit 1)
@@ -24560,7 +24612,7 @@
 			(uuid "bbb818f5-049f-45ea-abc4-f130b9b4261b")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR02")
 					(unit 1)
@@ -24638,7 +24690,7 @@
 			(uuid "a9f1af62-0979-40d2-aaff-46d874b362fc")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR055")
 					(unit 1)
@@ -24723,7 +24775,7 @@
 			(uuid "70111b36-2df9-4641-be47-8fbac7db0a14")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J8")
 					(unit 1)
@@ -24803,7 +24855,7 @@
 			(uuid "3d60962b-a334-4442-9a2d-7e6fff4179ee")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C27")
 					(unit 1)
@@ -24881,7 +24933,7 @@
 			(uuid "f37c3be2-7e38-4b45-a5c0-e6a67bbbcb16")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR038")
 					(unit 1)
@@ -24959,7 +25011,7 @@
 			(uuid "e922d112-a03f-4711-9d64-dbca2097cd03")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR07")
 					(unit 1)
@@ -25041,7 +25093,7 @@
 			(uuid "2c7024cf-64ca-4936-9396-c02c5f1d9c14")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C1")
 					(unit 1)
@@ -25159,7 +25211,7 @@
 			(uuid "af9dcadc-26d7-4b1c-829e-dcdfde709066")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q15")
 					(unit 1)
@@ -25241,7 +25293,7 @@
 			(uuid "09790c5a-5dd1-4b02-9f55-dffde62295e0")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C22")
 					(unit 1)
@@ -25320,7 +25372,7 @@
 			(uuid "cf4bc5e4-12fe-4801-b02c-83db84ebfecf")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR062")
 					(unit 1)
@@ -25400,7 +25452,7 @@
 			(uuid "d50d24e0-b8e6-47f6-bce4-33d6955b5655")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "L1")
 					(unit 1)
@@ -25478,7 +25530,7 @@
 			(uuid "8a5df445-8d9a-47c0-bdac-3e6a7ffe7b63")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR030")
 					(unit 1)
@@ -25556,7 +25608,7 @@
 			(uuid "008d3200-aed1-4449-b4ba-69dadc66a9c9")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR032")
 					(unit 1)
@@ -25641,7 +25693,7 @@
 			(uuid "0375b7c5-e24f-49a2-ab54-5fdd47ecba20")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J1")
 					(unit 1)
@@ -26343,7 +26395,7 @@
 			(uuid "2f38cf71-5f13-4286-9774-9e830ad8db7b")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U10")
 					(unit 1)
@@ -26461,7 +26513,7 @@
 			(uuid "7f3d1ccd-10ea-49de-9dbd-ef7549e635ba")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q10")
 					(unit 1)
@@ -26540,7 +26592,7 @@
 			(uuid "13be0f84-b3c6-4d30-afe6-4755ff72332f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "RPG1")
 					(unit 1)
@@ -26622,7 +26674,7 @@
 			(uuid "53391be5-6acd-42da-b5b8-97def416c028")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C2")
 					(unit 1)
@@ -26702,7 +26754,7 @@
 			(uuid "2bcd29ee-de5e-4e11-a097-4ac203b39559")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R6")
 					(unit 1)
@@ -26780,7 +26832,7 @@
 			(uuid "03c28867-c7db-4173-979f-ec17c11ac0d8")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR040")
 					(unit 1)
@@ -26858,7 +26910,7 @@
 			(uuid "aed09bd4-c274-471f-a236-979364e35e38")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR027")
 					(unit 1)
@@ -26936,7 +26988,7 @@
 			(uuid "dc67d90d-39f3-4cdc-867a-e7c985fce6b9")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR047")
 					(unit 1)
@@ -27014,7 +27066,7 @@
 			(uuid "16e9e75a-c120-4a38-a1f3-4f888adefe7c")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR037")
 					(unit 1)
@@ -27092,7 +27144,7 @@
 			(uuid "3fba9425-f670-4888-af51-a4805f9eed12")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR016")
 					(unit 1)
@@ -27171,7 +27223,7 @@
 			(uuid "7a3a16e6-6d31-4d21-b4de-b12d3c6da1e8")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C43")
 					(unit 1)
@@ -27250,7 +27302,7 @@
 			(uuid "927599a1-7749-43f1-b431-76f06893f5fc")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR065")
 					(unit 1)
@@ -27328,7 +27380,7 @@
 			(uuid "360caddc-2260-4916-bb35-d2ff451ec30d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR019")
 					(unit 1)
@@ -27410,7 +27462,7 @@
 			(uuid "60ee05f9-03d6-4014-84a0-5f03cbfc07f3")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C14")
 					(unit 1)
@@ -27488,7 +27540,7 @@
 			(uuid "8ade5825-b5c8-4ba9-b261-abc3be93220c")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR017")
 					(unit 1)
@@ -27568,7 +27620,7 @@
 			(uuid "ff19bda7-58dc-47ee-8f9b-267a79ea9dd4")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C52")
 					(unit 1)
@@ -27650,7 +27702,7 @@
 			(uuid "17fd8a28-cf0e-483d-9187-b55c4630c43a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C33")
 					(unit 1)
@@ -27731,7 +27783,7 @@
 			(uuid "2642a158-2756-4ede-8955-4f2e0cf73494")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "CBOOT1")
 					(unit 1)
@@ -27811,7 +27863,7 @@
 			(uuid "a9ba2d27-a304-41fc-b95a-8748c7014018")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C4")
 					(unit 1)
@@ -27891,7 +27943,7 @@
 			(uuid "56d422e3-8755-4e27-95c2-53c2d5bf1c9a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C44")
 					(unit 1)
@@ -27970,7 +28022,7 @@
 			(uuid "70318f5b-3325-48cc-aea5-dcd3ebf853dd")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR066")
 					(unit 1)
@@ -28049,7 +28101,7 @@
 			(uuid "e70ad687-d116-4f10-82df-54c37165d46f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR070")
 					(unit 1)
@@ -28129,7 +28181,7 @@
 			(uuid "b209b7e6-b0b7-4009-b676-51525dfec0d8")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C34")
 					(unit 1)
@@ -28211,7 +28263,7 @@
 			(uuid "d29783c9-3567-4ab1-9a53-f31c4f040a96")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C19")
 					(unit 1)
@@ -28291,7 +28343,7 @@
 			(uuid "8df4af21-3cd7-4756-b9ee-f3eaa1eb26a2")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R17")
 					(unit 1)
@@ -28373,7 +28425,7 @@
 			(uuid "35f40952-d1ff-4f2c-8031-f50e88a2ad59")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R1")
 					(unit 1)
@@ -28453,7 +28505,7 @@
 			(uuid "bde4c81b-d5ec-40ac-83e9-a0003cdab7bd")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C51")
 					(unit 1)
@@ -28531,7 +28583,7 @@
 			(uuid "c4a97a41-00db-4fa6-be04-b2d7fdf77756")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR043")
 					(unit 1)
@@ -28616,7 +28668,7 @@
 			(uuid "68d14645-3828-4a47-acb7-c9985b482d28")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J3")
 					(unit 1)
@@ -28694,7 +28746,7 @@
 			(uuid "b5b5e273-67c7-417d-83d1-28e2ebe10b20")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR052")
 					(unit 1)
@@ -28774,7 +28826,7 @@
 			(uuid "28c756f7-d834-426a-bff4-03fcf80eaa07")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C35")
 					(unit 1)
@@ -28852,7 +28904,7 @@
 			(uuid "dab3b90e-277f-4499-bd24-038f1e5ee5ef")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR049")
 					(unit 1)
@@ -28934,7 +28986,7 @@
 			(uuid "89dbb3e9-876f-4e66-ba23-64aebe17ef2d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R13")
 					(unit 1)
@@ -29014,7 +29066,7 @@
 			(uuid "1dd8e3d2-60ee-496a-b700-1be15238a7d7")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C26")
 					(unit 1)
@@ -29198,7 +29250,7 @@
 			(uuid "8a0e1b0e-ddaf-46ee-9c6f-9bec349acf65")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U3")
 					(unit 1)
@@ -29276,7 +29328,7 @@
 			(uuid "2b4dd293-97e1-44ef-bb21-36e0edfe4893")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR09")
 					(unit 1)
@@ -29358,7 +29410,7 @@
 			(uuid "32e85e0b-ba31-44bb-9fee-decab34fd0ce")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C38")
 					(unit 1)
@@ -29438,7 +29490,7 @@
 			(uuid "a7919261-4684-427c-8416-c14d56e5f941")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C36")
 					(unit 1)
@@ -29703,7 +29755,7 @@
 			(uuid "461fdfb7-2a0e-4b11-b8ba-b618c002a203")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U12")
 					(unit 1)
@@ -29785,7 +29837,7 @@
 			(uuid "30d6cad1-27f5-4639-82ba-3cd589f9b788")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R2")
 					(unit 1)
@@ -29865,7 +29917,7 @@
 			(uuid "2156e83f-4d88-42f5-9fc0-feedb6dc5395")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C47")
 					(unit 1)
@@ -29945,7 +29997,7 @@
 			(uuid "a465333e-8734-4348-81d9-b023bc363d3a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C6")
 					(unit 1)
@@ -30275,7 +30327,7 @@
 			(uuid "1e6ad166-b2d9-4c38-b45d-8922ca5064cb")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U5")
 					(unit 1)
@@ -30354,7 +30406,7 @@
 			(uuid "70f5861f-ad76-4dda-b50c-0347e259ed03")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR069")
 					(unit 1)
@@ -30436,7 +30488,7 @@
 			(uuid "6382f190-7fb5-49b7-9d18-397c29d3a205")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C5")
 					(unit 1)
@@ -30518,7 +30570,7 @@
 			(uuid "7c845984-a3ec-4fde-9cad-86d21433cc48")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C48")
 					(unit 1)
@@ -30600,7 +30652,7 @@
 			(uuid "f776661f-2349-451f-a851-24f0d5b9ad0d")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C46")
 					(unit 1)
@@ -30680,7 +30732,7 @@
 			(uuid "5c111271-4fc5-49ac-b487-77a9fea899e6")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C41")
 					(unit 1)
@@ -30758,7 +30810,7 @@
 			(uuid "77e0c797-994e-4186-afd6-b4b82faf7474")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR015")
 					(unit 1)
@@ -30840,7 +30892,7 @@
 			(uuid "3b7c7fee-889c-4724-afcd-7713d80d8a47")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C21")
 					(unit 1)
@@ -30958,7 +31010,7 @@
 			(uuid "99790709-ae94-4afa-a751-f88d367e0784")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q13")
 					(unit 1)
@@ -31036,7 +31088,7 @@
 			(uuid "bf5c119c-2208-4f9a-8a1a-da42503e842a")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#FLG01")
 					(unit 1)
@@ -31114,7 +31166,7 @@
 			(uuid "3c6c1432-87ff-453d-a9dc-7eca4d356051")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR012")
 					(unit 1)
@@ -31194,7 +31246,7 @@
 			(uuid "0072b83a-f80e-465b-a7e7-8cc12af95364")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C29")
 					(unit 1)
@@ -31309,7 +31361,7 @@
 			(uuid "3069de91-8743-4cae-80c3-984a62480269")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q7")
 					(unit 1)
@@ -31387,7 +31439,7 @@
 			(uuid "92e9c01e-7339-4478-84b0-98790e2d85fa")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR048")
 					(unit 1)
@@ -31467,7 +31519,7 @@
 			(uuid "8738b482-da86-4c3f-9ba2-a04a90acd592")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C45")
 					(unit 1)
@@ -31545,7 +31597,7 @@
 			(uuid "9c8458de-815f-4c45-9c57-437111f99ad7")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR042")
 					(unit 1)
@@ -31623,7 +31675,7 @@
 			(uuid "2a91eadf-2fb4-4bac-aa29-344c8037d2cd")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR061")
 					(unit 1)
@@ -31741,7 +31793,7 @@
 			(uuid "e8bb5152-e223-401c-b0b1-b30b6aed750c")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q5")
 					(unit 1)
@@ -31844,7 +31896,7 @@
 			(uuid "6e5bbcb9-59ac-4e62-8fbe-b5f418543b44")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J11")
 					(unit 1)
@@ -31922,7 +31974,7 @@
 			(uuid "e231e684-c597-427e-a17c-adadda723584")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR072")
 					(unit 1)
@@ -32004,7 +32056,7 @@
 			(uuid "a1d1fd60-325e-4f6f-87e0-ec84315b9e26")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C32")
 					(unit 1)
@@ -32086,7 +32138,7 @@
 			(uuid "07922254-9322-489b-8d8c-b8b896ab31f8")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "D2")
 					(unit 1)
@@ -32164,7 +32216,7 @@
 			(uuid "220266cf-6133-4673-a23f-564283bf6f8f")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR058")
 					(unit 1)
@@ -32246,7 +32298,7 @@
 			(uuid "a154beec-d021-445b-a47d-faeaf50baefa")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C24")
 					(unit 1)
@@ -32324,7 +32376,7 @@
 			(uuid "bb36b932-2817-4037-a976-900144781c7c")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR041")
 					(unit 1)
@@ -32404,7 +32456,7 @@
 			(uuid "e5953dbc-c2fb-4efc-b5ad-7860a8f8c077")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "C42")
 					(unit 1)
@@ -32486,7 +32538,7 @@
 			(uuid "fe383eb9-860a-4cef-8d24-202791294eed")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J6")
 					(unit 1)
@@ -32564,7 +32616,7 @@
 			(uuid "4ce5a155-3493-4b24-87ac-2de2fd027d65")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR068")
 					(unit 1)
@@ -32642,7 +32694,7 @@
 			(uuid "e6b8a9db-6c17-4246-a76c-b36959d56d68")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR013")
 					(unit 1)
@@ -32720,7 +32772,7 @@
 			(uuid "d8035a05-5f56-4ab3-9ef2-de1b826c8519")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR071")
 					(unit 1)
@@ -32802,7 +32854,7 @@
 			(uuid "443f0378-55a3-4406-953a-c0b5098bc0b3")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "R3")
 					(unit 1)
@@ -32882,7 +32934,7 @@
 			(uuid "77c6c188-7f75-4463-b189-5c620e65ebe2")
 		)
 		(instances
-			(project "Main_PDB (3)"
+			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "F3")
 					(unit 1)
