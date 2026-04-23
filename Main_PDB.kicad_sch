@@ -7396,6 +7396,12 @@
 		(uuid "c6a8f588-01b0-4182-b19d-7fde755c4d85")
 	)
 	(junction
+		(at 405.13 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e619be-982d-4918-ad77-8f44fba3a924")
+	)
+	(junction
 		(at 445.77 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7951,7 +7957,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 220.98) (xy 405.13 171.45)
+			(xy 405.13 220.98) (xy 405.13 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8068,16 +8074,6 @@
 			(type default)
 		)
 		(uuid "22f53e57-dfa7-4b5a-baed-e48f6462ac3e")
-	)
-	(wire
-		(pts
-			(xy 297.18 237.49) (xy 297.18 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2337cd6d-2505-4b05-9318-51ab9cb8dc76")
 	)
 	(wire
 		(pts
@@ -9521,6 +9517,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 210.82) (xy 297.18 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae5cb08-5881-4989-91fe-d17a8c46dc05")
+	)
+	(wire
+		(pts
 			(xy 485.14 176.53) (xy 485.14 189.23)
 		)
 		(stroke
@@ -10641,6 +10647,16 @@
 	)
 	(wire
 		(pts
+			(xy 405.13 210.82) (xy 405.13 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a37dbf-858a-4cfa-9b6d-31c8dafe888d")
+	)
+	(wire
+		(pts
 			(xy 429.26 95.25) (xy 439.42 95.25)
 		)
 		(stroke
@@ -10728,6 +10744,16 @@
 			(type default)
 		)
 		(uuid "b9393487-7587-443f-9bc9-44c942f93bc4")
+	)
+	(wire
+		(pts
+			(xy 297.18 210.82) (xy 405.13 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba85b16a-6e7c-4e75-b330-c56773839e41")
 	)
 	(wire
 		(pts
@@ -20060,84 +20086,6 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 297.18 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72d5a6db-b0eb-4f00-9caa-b4425d1b5dc1")
-		(property "Reference" "#PWR060"
-			(at 297.18 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+48V"
-			(at 297.18 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 297.18 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e39bbf1-beab-4003-9892-52ae5ac7ac9a")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
