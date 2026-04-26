@@ -7907,16 +7907,16 @@
 		(uuid "c301d98e-6376-45b7-8111-8aa5c9945592")
 	)
 	(junction
+		(at 505.46 388.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5cad935-4a64-4859-903d-e84065c932c6")
+	)
+	(junction
 		(at 166.37 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6a8f588-01b0-4182-b19d-7fde755c4d85")
-	)
-	(junction
-		(at 504.19 388.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c882efe9-ce8a-40f1-ab2e-e01a3a5c6c72")
 	)
 	(junction
 		(at 445.77 171.45)
@@ -8277,6 +8277,16 @@
 			(type default)
 		)
 		(uuid "0a4cdf81-6021-4a2f-9d42-781db5cf6701")
+	)
+	(wire
+		(pts
+			(xy 505.46 388.62) (xy 510.54 388.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ace9093-5a54-4e78-9dd3-d72ce8cd716b")
 	)
 	(wire
 		(pts
@@ -11260,7 +11270,7 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 388.62) (xy 504.19 388.62)
+			(xy 499.11 388.62) (xy 505.46 388.62)
 		)
 		(stroke
 			(width 0)
@@ -12167,16 +12177,6 @@
 			(type default)
 		)
 		(uuid "d6d451b9-bfad-479a-976e-e0d49d3a67ed")
-	)
-	(wire
-		(pts
-			(xy 504.19 388.62) (xy 510.54 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6dbc6a1-68ae-4390-a20f-181b5bae595d")
 	)
 	(wire
 		(pts
@@ -15779,7 +15779,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 504.19 384.81 90)
+		(at 505.46 384.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15789,7 +15789,7 @@
 		(dnp no)
 		(uuid "24e302d6-21e1-4f51-a143-8dabc46e7a3a")
 		(property "Reference" "D7"
-			(at 508 382.27 90)
+			(at 509.27 382.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15799,7 +15799,7 @@
 			)
 		)
 		(property "Value" "TVS"
-			(at 508 384.81 90)
+			(at 509.27 384.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15809,7 +15809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 504.19 384.81 0)
+			(at 505.46 384.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15820,7 +15820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 504.19 384.81 0)
+			(at 505.46 384.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15831,7 +15831,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 504.19 384.81 0)
+			(at 505.46 384.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17845,7 +17845,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 504.19 381 180)
+		(at 505.46 381 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17856,7 +17856,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cfde8e2-5b6e-4b40-81f7-fc16af01695f")
 		(property "Reference" "#PWR054"
-			(at 504.19 374.65 0)
+			(at 505.46 374.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17867,7 +17867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 504.1901 377.19 90)
+			(at 505.4601 377.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17878,7 +17878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 504.19 381 0)
+			(at 505.46 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17889,7 +17889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 504.19 381 0)
+			(at 505.46 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17900,7 +17900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 504.19 381 0)
+			(at 505.46 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26126,7 +26126,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "285u"
+		(property "Value" "15u"
 			(at 335.28 351.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26758,7 +26758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "83u"
+		(property "Value" "30u"
 			(at 502.92 393.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
