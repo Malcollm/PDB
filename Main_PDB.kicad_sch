@@ -7168,7 +7168,7 @@
 		)
 		(uuid "8c27f226-461c-4f2c-96fb-e831897bb042")
 	)
-	(text "Fsw = 475 kHz"
+	(text "Fsw = 472 kHz"
 		(exclude_from_sim no)
 		(at 553.466 399.288 0)
 		(effects
@@ -9090,7 +9090,7 @@
 	)
 	(polyline
 		(pts
-			(xy 692.15 483.87) (xy 692.15 454.66)
+			(xy 692.15 483.87) (xy 692.15 483.87)
 		)
 		(stroke
 			(width 0)
@@ -9320,7 +9320,7 @@
 	)
 	(polyline
 		(pts
-			(xy 692.15 454.66) (xy 734.06 454.66)
+			(xy 692.15 483.87) (xy 734.06 483.87)
 		)
 		(stroke
 			(width 0)
@@ -10290,7 +10290,7 @@
 	)
 	(polyline
 		(pts
-			(xy 734.06 369.57) (xy 651.51 369.57)
+			(xy 734.06 369.57) (xy 734.06 335.28)
 		)
 		(stroke
 			(width 0)
@@ -10840,7 +10840,7 @@
 	)
 	(polyline
 		(pts
-			(xy 734.06 454.66) (xy 734.06 369.57)
+			(xy 734.06 483.87) (xy 734.06 369.57)
 		)
 		(stroke
 			(width 0)
@@ -11250,7 +11250,7 @@
 	)
 	(polyline
 		(pts
-			(xy 651.51 369.57) (xy 651.51 335.28)
+			(xy 734.06 335.28) (xy 651.51 335.28)
 		)
 		(stroke
 			(width 0)
@@ -14905,7 +14905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "65k"
+		(property "Value" "64.9k"
 			(at 695.96 417.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21623,7 +21623,7 @@
 				)
 			)
 		)
-		(property "Value" "45.6k"
+		(property "Value" "45.9k"
 			(at 556.26 392.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22525,7 +22525,7 @@
 				)
 			)
 		)
-		(property "Value" "2.43u"
+		(property "Value" "2.8u"
 			(at 657.86 396.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26126,7 +26126,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "285u"
+		(property "Value" "15u"
 			(at 544.83 361.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26758,7 +26758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "83u"
+		(property "Value" "25u"
 			(at 712.47 403.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
