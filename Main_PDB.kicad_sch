@@ -7238,7 +7238,7 @@
 		)
 		(uuid "d0daa939-cdef-4b1f-9e5e-e2500ffc8901")
 	)
-	(text "SF-650.19 kHz"
+	(text "SF 461.25 kHz"
 		(exclude_from_sim no)
 		(at 127 408.94 0)
 		(effects
@@ -7257,6 +7257,16 @@
 			)
 		)
 		(uuid "d4cea6a2-9bd0-4294-a741-8c85851ba173")
+	)
+	(text "~30% ripple"
+		(exclude_from_sim no)
+		(at 250.19 412.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5d215e1-2bf4-4a30-a068-95eae3394f9b")
 	)
 	(junction
 		(at 184.15 260.35)
@@ -10810,6 +10820,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 365.76) (xy 92.71 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a66be5-7ff9-49d4-b8df-edfb3f6d8bc9")
+	)
+	(wire
+		(pts
 			(xy 680.72 441.96) (xy 621.03 441.96)
 		)
 		(stroke
@@ -10917,16 +10937,6 @@
 			(type default)
 		)
 		(uuid "7df7dcea-a0e6-4461-a015-c71cd55ec314")
-	)
-	(wire
-		(pts
-			(xy 92.71 332.74) (xy 92.71 368.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e494d3b-9b74-4ff8-a5c6-fcab3e937f1f")
 	)
 	(wire
 		(pts
@@ -12217,6 +12227,16 @@
 			(type default)
 		)
 		(uuid "b79f78e9-23a6-4082-982c-e9256c4115e2")
+	)
+	(wire
+		(pts
+			(xy 92.71 332.74) (xy 92.71 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a748eb-6538-4727-a0b8-f685077f3bb0")
 	)
 	(wire
 		(pts
@@ -16652,7 +16672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19ce5fbf-81a4-456f-b478-05a5ac9d6919")
-		(property "Reference" "R22"
+		(property "Reference" "RSEN1"
 			(at 262.89 414.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16714,7 +16734,7 @@
 		(instances
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "R22")
+					(reference "RSEN1")
 					(unit 1)
 				)
 			)
@@ -17145,7 +17165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2310498e-9c92-4c81-82ed-1363e630678a")
-		(property "Reference" "R18"
+		(property "Reference" "RCON1"
 			(at 146.05 398.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17207,7 +17227,7 @@
 		(instances
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "R18")
+					(reference "RCON1")
 					(unit 1)
 				)
 			)
@@ -26687,7 +26707,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5u (~30%)"
+		(property "Value" "4.3uH"
 			(at 251.46 417.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27063,7 +27083,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 110.49 359.41 90)
+		(at 92.71 361.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27074,7 +27094,7 @@
 		(fields_autoplaced yes)
 		(uuid "933e48a7-9021-4832-a37f-bf281a7ebe71")
 		(property "Reference" "F8"
-			(at 110.49 353.06 90)
+			(at 86.36 361.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27085,17 +27105,18 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 110.49 355.6 90)
+			(at 95.25 361.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 361.188 90)
+			(at 94.488 361.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27106,7 +27127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 359.41 0)
+			(at 92.71 361.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27117,7 +27138,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 110.49 359.41 0)
+			(at 92.71 361.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30060,7 +30081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ff7ba7-0181-4bb7-88b8-cda2401c839b")
-		(property "Reference" "R17"
+		(property "Reference" "RSF1"
 			(at 143.51 408.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30070,7 +30091,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "47k"
 			(at 143.51 411.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30122,7 +30143,7 @@
 		(instances
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "R17")
+					(reference "RSF1")
 					(unit 1)
 				)
 			)
@@ -33627,7 +33648,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 397.51 90)
+		(at 210.82 397.51 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33637,7 +33658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9b39292-d405-494a-b5a1-d87bc8a88fa9")
-		(property "Reference" "CVDDA2"
+		(property "Reference" "CVDDA1"
 			(at 210.82 389.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33657,8 +33678,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 214.63 396.5448 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 207.01 398.4752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33710,7 +33731,7 @@
 		(instances
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "CVDDA2")
+					(reference "CVDDA1")
 					(unit 1)
 				)
 			)
