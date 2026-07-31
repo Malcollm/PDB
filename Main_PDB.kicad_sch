@@ -6,7 +6,7 @@
 	(paper "A1")
 	(title_block
 		(title "PDB")
-		(date "2026-06-23")
+		(date "2026-07-31")
 		(company "WiscoHumanoids")
 	)
 	(lib_symbols
