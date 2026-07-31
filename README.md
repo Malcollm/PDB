@@ -11,7 +11,7 @@ The power distribution board is responsible for taking the main battery input an
 The main goals of this board are:
 
 - Distribute 48 V battery power to actuator rails
-- Generate a 12 V compute rail
+- Generate a 24 V compute rail
 - Generate a 6 V servo rail for the robot hands
 - Generate a 3.3 V rail for sensors and control electronics
 - Monitor current on important power paths
@@ -40,7 +40,7 @@ Battery Input
                     |
                     |-- Compute / Control Power Group
                             |
-                            |-- 48 V to 12 V Buck Converter
+                            |-- 48 V to 24 V Buck Converter
                             |       |
                             |       |-- Compute / Embedded Electronics
                             |
@@ -54,7 +54,7 @@ Battery Input
 | Rail | Purpose |
 |---|---|
 | 48 V | Main battery rail and actuator power distribution |
-| 12 V | Compute and embedded electronics |
+| 24 V | Compute and embedded electronics |
 | 6 V | Servo motors in the robot hands |
 | 3.3 V | Sensors, current sensors, and control logic |
 
