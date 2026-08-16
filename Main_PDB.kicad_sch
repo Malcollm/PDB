@@ -6,7 +6,7 @@
 	(paper "A1")
 	(title_block
 		(title "PDB")
-		(date "2026-07-31")
+		(date "2026-08-15")
 		(company "WiscoHumanoids")
 	)
 	(lib_symbols
@@ -40852,7 +40852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLV3011AIDBVT:SOT95P280X145-6N"
+		(property "Footprint" "Footprints:SOT95P280X145-6N"
 			(at 438.15 120.65 0)
 			(hide yes)
 			(show_name no)
