@@ -8780,12 +8780,6 @@
 		(uuid "d6dc089d-2811-4a85-9281-314235328908")
 	)
 	(junction
-		(at 50.8 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8b65d3c-688a-41f4-b003-981b53c652b1")
-	)
-	(junction
 		(at 661.67 452.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10835,16 +10829,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 186.69) (xy 50.8 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a603e7-c559-49f4-bc3f-2a1db68a97f8")
-	)
-	(wire
-		(pts
 			(xy 92.71 368.3) (xy 99.06 368.3)
 		)
 		(stroke
@@ -11605,7 +11589,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 180.34) (xy 77.47 189.23)
+			(xy 77.47 180.34) (xy 77.47 190.5)
 		)
 		(stroke
 			(width 0)
@@ -14325,16 +14309,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 189.23) (xy 50.8 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0044ed1-ba7d-477d-aa0a-3fe625534f4d")
-	)
-	(wire
-		(pts
 			(xy 129.54 66.04) (xy 129.54 82.55)
 		)
 		(stroke
@@ -14432,6 +14406,16 @@
 			(type default)
 		)
 		(uuid "d28c4e79-9b37-4af7-9066-7f46cd802c54")
+	)
+	(wire
+		(pts
+			(xy 50.8 186.69) (xy 50.8 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33ad076-ccce-478a-9c3e-2037c37afaf6")
 	)
 	(wire
 		(pts
@@ -15145,16 +15129,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 189.23) (xy 50.8 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9785311-92bd-4b0e-9565-6d3c1020831a")
-	)
-	(wire
-		(pts
 			(xy 368.3 422.91) (xy 386.08 422.91)
 		)
 		(stroke
@@ -15722,6 +15696,16 @@
 			(justify left bottom)
 		)
 		(uuid "31cb320c-2385-4d5c-b838-9e474343b2c7")
+	)
+	(label "48V_FUSE"
+		(at 50.8 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3393fb1b-1f7d-4e03-a8b2-94ee8c8ac6d3")
 	)
 	(label "Main_curr"
 		(at 740.41 228.6 0)
@@ -19362,7 +19346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
 			(at 271.78 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -20052,7 +20036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ebc98a3-5fab-4a71-b3da-9459ca9828a1")
-		(property "Reference" "RPD2"
+		(property "Reference" "RPU2"
 			(at 53.34 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20116,7 +20100,7 @@
 		(instances
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "RPD2")
+					(reference "RPU2")
 					(unit 1)
 				)
 			)
@@ -29205,7 +29189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 193.04 0)
+		(at 77.47 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29216,7 +29200,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d99dd2b-55f3-4300-a379-27e716df4d7c")
 		(property "Reference" "#PWR081"
-			(at 50.8 199.39 0)
+			(at 77.47 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29227,7 +29211,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 50.8 198.12 0)
+			(at 77.47 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29237,7 +29221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 193.04 0)
+			(at 77.47 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29248,7 +29232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 193.04 0)
+			(at 77.47 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29259,7 +29243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 193.04 0)
+			(at 77.47 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31748,7 +31732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "2R"
 			(at 594.36 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43362,7 +43346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
 			(at 603.25 59.69 0)
 			(hide yes)
 			(show_name no)
