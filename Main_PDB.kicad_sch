@@ -8693,6 +8693,10 @@
 		(uuid "1478b38d-39e8-4e1a-a3a1-a077a5b450ef")
 	)
 	(no_connect
+		(at 755.65 215.9)
+		(uuid "1e1b76a3-6369-4636-ba36-ac4f1b9fbc7e")
+	)
+	(no_connect
 		(at 690.88 166.37)
 		(uuid "48c03c54-845d-4db2-955e-dfe1aee845ef")
 	)
@@ -14258,16 +14262,6 @@
 	)
 	(wire
 		(pts
-			(xy 739.14 215.9) (xy 755.65 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc4a99f4-e09c-40f5-bfdb-bb139dd3738f")
-	)
-	(wire
-		(pts
 			(xy 560.07 386.08) (xy 562.61 386.08)
 		)
 		(stroke
@@ -15105,16 +15099,6 @@
 			(justify left bottom)
 		)
 		(uuid "3b6fae86-174c-40e1-9bde-4dcd78b17568")
-	)
-	(label "Act_rail_curr"
-		(at 739.14 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "414c74eb-9c30-41a4-b6aa-a61a47d996e8")
 	)
 	(label "48V_PRECH"
 		(at 223.52 86.36 0)
