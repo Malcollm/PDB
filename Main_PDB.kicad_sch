@@ -29555,7 +29555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 690.88 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -30111,7 +30111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 690.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -30999,7 +30999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 690.88 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -37030,7 +37030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 699.77 199.39 0)
 			(hide yes)
 			(show_name no)
