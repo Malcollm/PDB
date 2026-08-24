@@ -6,7 +6,7 @@
 	(paper "A1")
 	(title_block
 		(title "PDB")
-		(date "2026-08-16")
+		(date "2026-08-23")
 		(company "WiscoHumanoids")
 	)
 	(lib_symbols
@@ -15627,7 +15627,7 @@
 		)
 		(uuid "0f015ab1-4b0c-4139-a0ca-f643f4a1683f")
 	)
-	(label "12V_SEN"
+	(label "24V_SEN"
 		(at 331.47 412.75 0)
 		(effects
 			(font
@@ -15877,7 +15877,7 @@
 		)
 		(uuid "a28a27cf-1f14-4416-9d61-e19fdff04108")
 	)
-	(label "12V_NMOS"
+	(label "24V_NMOS"
 		(at 236.22 415.29 0)
 		(effects
 			(font
@@ -15887,7 +15887,7 @@
 		)
 		(uuid "a7444d72-ddb4-49b1-9e27-e1068a6d4a4f")
 	)
-	(label "12V_FUSE"
+	(label "24V_FUSE"
 		(at 139.7 363.22 0)
 		(effects
 			(font
@@ -15957,7 +15957,7 @@
 		)
 		(uuid "f209465a-4a8c-47ad-ba03-7952d3b73ac9")
 	)
-	(label "12V_IND"
+	(label "24V_IND"
 		(at 260.35 410.21 0)
 		(effects
 			(font
