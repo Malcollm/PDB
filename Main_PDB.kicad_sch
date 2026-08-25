@@ -28965,7 +28965,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Shunt"
+		(property "Value" "10m"
 			(at 154.94 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)

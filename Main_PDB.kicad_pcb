@@ -14461,7 +14461,7 @@
 	(footprint "Diode_SMD:D_SMC"
 		(layer "F.Cu")
 		(uuid "5183b155-25bd-477b-ab38-c44561eae395")
-		(at 409.6 264.2 90)
+		(at 413.6 262.4 90)
 		(descr "Diode SMC (DO-214AB)")
 		(tags "Diode SMC (DO-214AB)")
 		(property "Reference" "D5"
@@ -30607,7 +30607,7 @@
 	(footprint "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a9140644-ee51-4f7f-8bf3-073221c3d1f6")
-		(at 397.9 269.2)
+		(at 401.7 269.4)
 		(descr "Connector XT30 Vertical PCB Female, https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J8"
