@@ -19975,7 +19975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "PRECOUT"
 			(at 162.2045 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36449,7 +36449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "PRECIN"
 			(at 145.6945 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
