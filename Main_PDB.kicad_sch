@@ -15945,6 +15945,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 655.32 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a98031a-41dc-482a-9d50-9ab64de7d830")
 		)
@@ -16027,6 +16038,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 146.05 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 146.05 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -17853,6 +17875,17 @@
 				)
 			)
 		)
+		(property "JCSC" "C77101"
+			(at 264.16 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aca8d35a-04f3-405d-b763-86378800fe9c")
 		)
@@ -18014,6 +18047,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 561.34 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 561.34 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -19621,6 +19665,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 650.24 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ac265ee-7a11-4fc5-8943-5e13150d5b43")
 		)
@@ -19782,6 +19837,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 276.86 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JCSC" "C77101"
 			(at 276.86 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -20152,6 +20218,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 662.94 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ab2369c-2273-4879-8104-b31f0b6f28cc")
 		)
@@ -20486,6 +20563,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 290.83 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 290.83 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -21660,6 +21748,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 668.02 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c3aad00-1cbb-4418-8164-af3909a51ddf")
 		)
@@ -22427,6 +22526,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 105.41 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a4f5954-a768-4dbe-8827-9755cd9af4ae")
 		)
@@ -22838,7 +22948,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "35V"
+			(at 741.68 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JCSC" "C778721"
 			(at 741.68 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -23114,6 +23235,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C24123"
+			(at 180.34 280.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e9a8f116-90fc-40a9-a302-a7560cff2db2")
 		)
@@ -23195,6 +23327,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 732.79 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 732.79 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -24211,6 +24354,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 722.63 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db1bdada-0a78-4578-9f4c-0a2bcd6bf4ea")
 		)
@@ -24453,6 +24607,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 135.89 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 135.89 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -24996,6 +25161,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 236.22 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7ea571b4-d29a-47e3-9952-98a313a93aae")
 		)
@@ -25079,6 +25255,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 118.11 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 118.11 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -25250,6 +25437,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 173.99 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 173.99 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -25737,7 +25935,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "35V"
+			(at 279.4 427.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JCSC" "C778721"
 			(at 279.4 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -25985,7 +26194,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "35V"
+			(at 293.37 427.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JCSC" "C778721"
 			(at 293.37 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -27062,6 +27282,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C513710"
+			(at 148.59 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19343ae2-68e7-48dd-abf0-aaaea5e24d7a")
 		)
@@ -27491,7 +27722,7 @@
 		(dnp no)
 		(uuid "5d2ab2d8-41c5-4a02-940e-ef6498465eac")
 		(property "Reference" "CIN1A1"
-			(at 114.046 256.286 0)
+			(at 112.522 256.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27502,7 +27733,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 113.792 258.318 0)
+			(at 112.268 258.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27648,7 +27879,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "35V"
+			(at 712.47 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JCSC" "C778721"
 			(at 712.47 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -28116,6 +28358,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 636.27 375.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebcefec7-baa7-475a-936c-281af33064d5")
 		)
@@ -28275,7 +28528,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "35V"
+			(at 308.61 427.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JCSC" "C778721"
 			(at 308.61 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -29392,6 +29656,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C513710"
+			(at 161.29 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "db2a3e65-1f88-4763-8efe-b68fcde20b81")
 		)
@@ -29774,6 +30049,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 655.32 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 655.32 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -30522,7 +30808,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "100V"
+			(at 668.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 668.02 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -31342,6 +31639,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 722.63 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1a1dbb9-cd2a-45f8-a6bb-c015a2a7accd")
 		)
@@ -32075,6 +32383,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 132.08 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 132.08 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -33921,6 +34240,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 642.62 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75a0aeeb-301b-4607-8fb8-ffd7a49988d9")
 		)
@@ -34568,7 +34898,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "100V"
+			(at 668.02 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 668.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -34911,6 +35252,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 655.32 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d0c0959a-1813-41a0-965a-43b13a0b6120")
 		)
@@ -35150,7 +35502,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "100V"
+			(at 675.64 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 675.64 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -35572,6 +35935,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 575.31 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 575.31 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -36286,6 +36660,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 534.67 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "538cac69-9f89-4382-86b4-97eb6ef39d6f")
 		)
@@ -36531,6 +36916,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 642.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 642.62 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -39648,6 +40044,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 725.17 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6da12230-a80a-4b70-a09b-b981b07ea57a")
 		)
@@ -40138,6 +40545,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 547.37 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 547.37 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -41217,6 +41635,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 306.07 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21487ec2-27f6-4575-b25c-481fdecd4102")
 		)
@@ -41548,6 +41977,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 642.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 642.62 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -43600,7 +44040,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "35V"
+			(at 726.44 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JCSC" "C778721"
 			(at 726.44 402.59 0)
 			(hide yes)
 			(show_name no)
