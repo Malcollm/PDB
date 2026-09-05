@@ -18969,6 +18969,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C519406"
+			(at 735.33 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6aa3ac0d-ca25-46f4-b147-c3f49e0abe67")
 		)
@@ -19311,6 +19322,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 741.68 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C519406"
+			(at 741.68 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20483,6 +20505,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 398.78 426.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C519406"
+			(at 398.78 426.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24732,6 +24765,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C519406"
+			(at 740.41 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2da8a8ba-a70b-423f-8079-d7d4d63a22a5")
 		)
@@ -26393,6 +26437,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 341.63 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C519406"
+			(at 341.63 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37959,6 +38014,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C519406"
+			(at 740.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a9fbb6d-926c-42ad-926d-0adbd44eeca2")
 		)
@@ -39898,6 +39964,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 681.99 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C519406"
+			(at 681.99 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
