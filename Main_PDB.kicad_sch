@@ -6,7 +6,7 @@
 	(paper "A1")
 	(title_block
 		(title "PDB")
-		(date "2026-09-03")
+		(date "2026-09-05")
 		(company "WiscoHumanoids")
 	)
 	(lib_symbols
@@ -34431,6 +34431,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 562.61 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd1464e4-7478-40b3-9fba-7ab4aad28241")
 		)
@@ -39029,6 +39040,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 374.65 417.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62af02ea-188d-4b50-a580-014304488db3")
 		)
@@ -40384,7 +40406,18 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
+			(at 203.2 394.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C377773"
 			(at 203.2 394.97 90)
 			(hide yes)
 			(show_name no)
@@ -41737,7 +41770,18 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "35V"
+			(at 212.09 397.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 212.09 397.51 90)
 			(hide yes)
 			(show_name no)
@@ -42563,7 +42607,18 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
+			(at 636.27 364.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C377773"
 			(at 636.27 364.49 90)
 			(hide yes)
 			(show_name no)
@@ -43521,7 +43576,18 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "35V"
+			(at 203.2 407.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 203.2 407.67 90)
 			(hide yes)
 			(show_name no)
