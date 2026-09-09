@@ -37117,7 +37117,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8nF"
+		(property "Value" "4.7nF"
 			(at 657.86 447.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41057,7 +41057,7 @@
 				)
 			)
 		)
-		(property "Value" "4.75k"
+		(property "Value" "6.49k"
 			(at 650.24 448.31 90)
 			(show_name no)
 			(do_not_autoplace no)
