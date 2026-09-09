@@ -1017,7 +1017,7 @@
         "uuid": "b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
       }
     ],
-    "used_designators": "CCS9,#PWR85",
+    "used_designators": "CCS9,#PWR85,R2",
     "variants": []
   },
   "sheets": [
