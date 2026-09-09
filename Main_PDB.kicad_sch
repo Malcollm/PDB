@@ -6,7 +6,7 @@
 	(paper "A1")
 	(title_block
 		(title "PDB")
-		(date "2026-09-05")
+		(date "2026-09-09")
 		(company "WiscoHumanoids")
 	)
 	(lib_symbols
@@ -8939,6 +8939,12 @@
 		(color 0 0 0 0)
 		(uuid "feef75c6-831d-42ce-a6b8-87f038347f7a")
 	)
+	(junction
+		(at 459.74 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff59d771-f8ad-43db-8ca5-cf2eeeb36244")
+	)
 	(no_connect
 		(at 154.94 430.53)
 		(uuid "1478b38d-39e8-4e1a-a3a1-a077a5b450ef")
@@ -14489,6 +14495,16 @@
 	)
 	(wire
 		(pts
+			(xy 474.98 107.95) (xy 474.98 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77dc08d-98fe-43d5-ace2-521bb7bc1ecc")
+	)
+	(wire
+		(pts
 			(xy 215.9 397.51) (xy 217.17 397.51)
 		)
 		(stroke
@@ -14589,6 +14605,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 105.41) (xy 463.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ce2aec-0c07-4c34-a2dd-dd146babc497")
+	)
+	(wire
+		(pts
 			(xy 173.99 273.05) (xy 184.15 273.05)
 		)
 		(stroke
@@ -14636,6 +14662,16 @@
 			(type default)
 		)
 		(uuid "da48cfb8-06d0-4150-be3b-4b9d1e01a844")
+	)
+	(wire
+		(pts
+			(xy 474.98 105.41) (xy 471.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5522d3-778c-43d9-bb06-92ee841bde23")
 	)
 	(wire
 		(pts
@@ -14809,7 +14845,7 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 101.6) (xy 459.74 110.49)
+			(xy 459.74 101.6) (xy 459.74 105.41)
 		)
 		(stroke
 			(width 0)
@@ -15406,6 +15442,16 @@
 			(type default)
 		)
 		(uuid "fad56a93-e9b3-417d-9d69-c49a8b25439f")
+	)
+	(wire
+		(pts
+			(xy 459.74 105.41) (xy 459.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb02b359-e95f-47bd-bbe0-4cf88624ac91")
 	)
 	(wire
 		(pts
@@ -22954,6 +23000,108 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 467.36 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31decf45-8fb0-4027-861c-71a21342029c")
+		(property "Reference" "CCS9"
+			(at 467.36 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 467.36 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 471.17 104.4448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 467.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 467.36 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
+			(at 467.36 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56d9588d-c443-4479-a429-d5400ac48721")
+		)
+		(pin "2"
+			(uuid "4b8e4849-3f8c-4e4c-a4fa-ad495c7cae29")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "CCS9")
 					(unit 1)
 				)
 			)
@@ -41267,6 +41415,84 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 474.98 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c7af03-e1f5-4da6-90d0-491a56393b3e")
+		(property "Reference" "#PWR085"
+			(at 474.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 474.98 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 474.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 474.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 474.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22894991-97f3-4d99-b980-33702f4758cd")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
