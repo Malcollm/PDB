@@ -7432,6 +7432,12 @@
 		(uuid "32c208cc-aaf3-42e0-aea6-605a65a652ef")
 	)
 	(junction
+		(at 45.72 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "367db27a-2b56-409f-acf0-277fabaf42a1")
+	)
+	(junction
 		(at 741.68 406.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7816,6 +7822,12 @@
 		(uuid "7bab13ed-04a5-48d2-9b37-77d8b6adbd5a")
 	)
 	(junction
+		(at 129.54 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bf77785-a4f4-4c2c-8283-bb0b275cc280")
+	)
+	(junction
 		(at 198.12 443.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8014,12 +8026,6 @@
 		(uuid "a7c1c7db-4f57-48b7-a582-1b648ad614f6")
 	)
 	(junction
-		(at 129.54 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aad0c8cb-9f57-47b3-94ff-a8d97f4a0b89")
-	)
-	(junction
 		(at 642.62 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8060,12 +8066,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b57be565-9c16-4107-a5cd-1a007cfeee74")
-	)
-	(junction
-		(at 45.72 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b65be7f1-a252-4ff7-a7a7-45b2dc56cebd")
 	)
 	(junction
 		(at 180.34 78.74)
@@ -11379,7 +11379,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 82.55) (xy 119.38 82.55)
+			(xy 45.72 82.55) (xy 99.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -11569,7 +11569,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 82.55) (xy 129.54 82.55)
+			(xy 106.68 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -17939,7 +17939,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 123.19 82.55 90)
+		(at 102.87 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17950,7 +17950,7 @@
 		(fields_autoplaced yes)
 		(uuid "1357c4ce-c69b-4447-b765-ee90194b703f")
 		(property "Reference" "F1"
-			(at 123.19 76.2 90)
+			(at 102.87 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17960,7 +17960,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 123.19 78.74 90)
+			(at 102.87 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17969,8 +17969,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 84.328 90)
+		(property "Footprint" "Footprints:FUSE_2822HC100-RTR"
+			(at 102.87 84.328 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17981,7 +17981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 82.55 0)
+			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17992,7 +17992,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 123.19 82.55 0)
+			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
