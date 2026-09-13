@@ -36192,7 +36192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 412.75 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -42028,7 +42028,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "NMOS AOT66920L"
 			(at 462.28 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42038,7 +42038,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 459.74 210.82 0)
 			(hide yes)
 			(show_name no)
