@@ -20112,7 +20112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 384.81 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -20123,7 +20123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMAZ12-13-F/725035"
 			(at 384.81 219.71 0)
 			(hide yes)
 			(show_name no)
