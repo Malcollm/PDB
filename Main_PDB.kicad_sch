@@ -7479,6 +7479,16 @@
 		)
 		(uuid "a62299a5-27b5-4bf0-97a1-e31662375b4a")
 	)
+	(text "Should be placed\nas close as possible to \ngate drivers"
+		(exclude_from_sim no)
+		(at 392.938 244.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa3191b4-3d22-4707-aae2-804002361221")
+	)
 	(text "SMCJ58A TVS Diodes\nInput Overvoltage \nProtection"
 		(exclude_from_sim no)
 		(at 54.356 91.694 0)
@@ -7872,6 +7882,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ae8dc2c-e03e-465e-9857-557d099e450e")
+	)
+	(junction
+		(at 421.64 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b336a96-eced-4d3b-a669-b4ab2f4c9fc3")
 	)
 	(junction
 		(at 619.76 424.18)
@@ -9165,6 +9181,16 @@
 	)
 	(wire
 		(pts
+			(xy 524.51 240.03) (xy 520.7 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7ea3cf-16d8-4c0e-8eab-f1b76036da33")
+	)
+	(wire
+		(pts
 			(xy 712.47 406.4) (xy 720.09 406.4)
 		)
 		(stroke
@@ -9262,6 +9288,16 @@
 			(type default)
 		)
 		(uuid "1042bd60-cd7b-4ca3-b94c-723d7758ab1c")
+	)
+	(wire
+		(pts
+			(xy 421.64 246.38) (xy 421.64 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10876013-b451-41d1-bcb4-2e5f5fafccb5")
 	)
 	(wire
 		(pts
@@ -12145,7 +12181,7 @@
 	)
 	(wire
 		(pts
-			(xy 421.64 240.03) (xy 421.64 251.46)
+			(xy 421.64 240.03) (xy 421.64 246.38)
 		)
 		(stroke
 			(width 0)
@@ -17202,6 +17238,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 417.83 240.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09864abf-d52b-4909-8ef2-5fa5a7332b0f")
+		(property "Reference" "CCS11"
+			(at 414.528 232.918 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 414.528 235.458 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 421.64 239.0648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 417.83 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 417.83 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
+			(at 417.83 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca9bed34-42d8-4774-98fc-27aee59c0e3d")
+		)
+		(pin "2"
+			(uuid "ac2411b6-6944-4ee3-8f6e-7429bffa9eae")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "CCS11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Fuse-178.6165.0002:178.6165.0002")
 		(at 92.71 358.14 270)
 		(unit 1)
@@ -19753,6 +19890,85 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "RPU2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 414.02 240.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "210aa9a3-1b0c-4cae-a76f-7d83025ab36a")
+		(property "Reference" "#PWR088"
+			(at 407.67 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 410.21 240.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 414.02 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adf28821-7aee-4f28-afbf-2021ccb9e493")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -27806,6 +28022,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 417.83 246.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e4f9e03-446e-493f-a3d6-7a3fe315aa09")
+		(property "Reference" "CCS12"
+			(at 414.528 255.778 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 414.02 251.968 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 421.64 245.4148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 417.83 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 417.83 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
+			(at 417.83 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c5a0355-7f0f-4a3f-b981-aacccddf509d")
+		)
+		(pin "2"
+			(uuid "a8ce9dfd-c47a-4e9b-971d-c4cb38496729")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "CCS12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 728.98 184.15 90)
 		(unit 1)
@@ -29446,7 +29763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 404.1648 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -29635,7 +29952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 518.922 266.7 90)
 			(hide yes)
 			(show_name no)
@@ -36988,7 +37305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2R"
+		(property "Value" "TBD R"
 			(at 445.77 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36999,7 +37316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 441.452 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -38195,7 +38512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 470.408 266.7 90)
 			(hide yes)
 			(show_name no)
@@ -38266,7 +38583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2R"
+		(property "Value" "TBD R"
 			(at 445.77 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38277,7 +38594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 441.452 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -38501,6 +38818,85 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 414.02 246.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd41fea4-7c96-4575-9cd6-87dff80d19e5")
+		(property "Reference" "#PWR089"
+			(at 407.67 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 410.21 246.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 414.02 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db5f0508-bc0b-4f43-86f1-1d82204450f5")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -39938,7 +40334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 518.922 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -41283,7 +41679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 383.032 205.74 90)
 			(hide yes)
 			(show_name no)
@@ -41363,7 +41759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 518.16 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -41662,7 +42058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 466.852 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -42074,7 +42470,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 520.7 240.03 90)
+		(at 524.51 240.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42085,7 +42481,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed87bc12-27f6-401d-8482-c7d2710cdaa7")
 		(property "Reference" "#PWR087"
-			(at 527.05 240.03 0)
+			(at 530.86 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42096,7 +42492,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 524.51 240.0299 90)
+			(at 528.32 240.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42107,7 +42503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 520.7 240.03 0)
+			(at 524.51 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42118,7 +42514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 520.7 240.03 0)
+			(at 524.51 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42129,7 +42525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 520.7 240.03 0)
+			(at 524.51 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43905,7 +44301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 466.09 187.96 0)
 			(hide yes)
 			(show_name no)
