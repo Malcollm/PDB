@@ -24984,7 +24984,7 @@
 		(dnp no)
 		(uuid "3e21762e-13fe-4e90-a8c8-665287506afe")
 		(property "Reference" "D10"
-			(at 413.512 198.628 0)
+			(at 420.624 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24993,8 +24993,8 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
-			(at 408.94 198.628 0)
+		(property "Value" "TVS 93.6V max clamp"
+			(at 411.988 199.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25003,7 +25003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 411.48 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -25014,7 +25014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stmicroelectronics/SMBJ58A-TR/1039146?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhkePOC4RWITT_o7REk6adgL&gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnT3W5YTk4OhdyTIRvfIb-xk2hNkzrY3tC6QbM76uHey5AP5WcuKwkQaAoWfEALw_wcB"
 			(at 411.48 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -26423,7 +26423,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 495.3 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -32034,7 +32034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 410.21 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -32351,7 +32351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 433.07 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -37682,7 +37682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 430.53 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -41770,7 +41770,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRFR220TRPBF/812636?gclsrc=aw.ds&gad_source=1&gad_campaignid=175054755&gbraid=0AAAAADrbLlgVF38o4_tkCjH0WKL5eGYna&gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnSd27kBHZgEVZjKiPUajKvSh4oJTavFo-Ruw0AECKPMUqdrRMVNNJAaAi0dEALw_wcB"
 			(at 533.4 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -44312,7 +44312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRFR220TRPBF/812636?gclsrc=aw.ds&gad_source=1&gad_campaignid=175054755&gbraid=0AAAAADrbLlgVF38o4_tkCjH0WKL5eGYna&gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnSd27kBHZgEVZjKiPUajKvSh4oJTavFo-Ruw0AECKPMUqdrRMVNNJAaAi0dEALw_wcB"
 			(at 481.33 193.04 0)
 			(hide yes)
 			(show_name no)
