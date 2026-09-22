@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Rebuilds images/ whenever a commit touches the board or schematic, and stages
+# the results so they land in that same commit.
+# Skip once with:  SKIP_IMAGE_REGEN=1 git commit ...
+set -euo pipefail
+
+[ "${SKIP_IMAGE_REGEN:-0}" = "1" ] && exit 0
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+
+git diff --cached --name-only --diff-filter=ACM \
+  | grep -Eq '^[^/]+\.kicad_(pcb|sch)$' || exit 0
+
+KICAD_CLI="${KICAD_CLI:-C:/Program Files/KiCad/10.0/bin/kicad-cli.exe}"
+if ! [ -x "$KICAD_CLI" ] && ! command -v "$KICAD_CLI" >/dev/null 2>&1; then
+  echo "pre-commit: kicad-cli not found, leaving images/ as-is" >&2
+  exit 0
+fi
+
+echo "pre-commit: design files changed, regenerating images/"
+./images/regenerate.sh
+git add images/board-iso.png images/board-top.png images/layer-*.svg images/schematic.pdf
