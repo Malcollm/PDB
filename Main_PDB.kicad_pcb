@@ -681,6 +681,186 @@
 			)
 		)
 	)
+	(footprint "Footprints:FUSE_2822HC100-RTR"
+		(layer "F.Cu")
+		(uuid "027e5737-e3a4-4664-b301-341b81f89972")
+		(at 237.75 159.66)
+		(property "Reference" "F1"
+			(at -2.075 -5.135 0)
+			(layer "F.SilkS")
+			(uuid "1a59c9b9-0b41-496f-a852-718e48d819e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 6.18 5.135 0)
+			(layer "F.Fab")
+			(uuid "1cc9b4e7-113b-493c-a062-1e0972d8fb47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc77f791-2889-4f6f-9373-d9b5556355ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18af90d9-12e5-4d0b-b28d-b43f5c32a3f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "*Fuse*")
+		(path "/1357c4ce-c69b-4447-b765-ee90194b703f")
+		(sheetname "/")
+		(sheetfile "Main_PDB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.48 -3)
+			(end 1.48 -3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9b2ad6b-9cb8-4fe5-918f-b0b852f49d1f")
+		)
+		(fp_line
+			(start -1.48 3)
+			(end 1.48 3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e3eb93e4-ea4f-4559-97e9-a3c01fd63568")
+		)
+		(fp_line
+			(start -5.25 -3.5)
+			(end -5.25 3.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "db5a0697-9492-4bc4-a4a6-9bbc53c63bd0")
+		)
+		(fp_line
+			(start -5.25 3.5)
+			(end 5.25 3.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "36a95f42-d198-449d-b3d3-cc023e1941f3")
+		)
+		(fp_line
+			(start 5.25 -3.5)
+			(end -5.25 -3.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e3c2f4be-16f4-42d1-9722-3a78c8ac63d3")
+		)
+		(fp_line
+			(start 5.25 3.5)
+			(end 5.25 -3.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "95b1f466-ba8b-4579-8412-5a61ab38034e")
+		)
+		(fp_line
+			(start -3.45 -3)
+			(end 3.45 -3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c44b84a2-49bc-4257-a60a-e1fdcc40d9d1")
+		)
+		(fp_line
+			(start -3.45 3)
+			(end -3.45 -3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f31da227-2440-4261-8ffe-9b2288415d87")
+		)
+		(fp_line
+			(start 3.45 -3)
+			(end 3.45 3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2d03d95a-da92-4bb7-a60d-0793516cacd2")
+		)
+		(fp_line
+			(start 3.45 3)
+			(end -3.45 3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5a1fcc73-3885-465e-ae88-de18af58205a")
+		)
+		(pad "1" smd rect
+			(at -3.4 0)
+			(size 3.2 6.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+48V_BATT")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1a7437e1-13ec-461b-8e59-1e4306fe15f5")
+		)
+		(pad "2" smd rect
+			(at 3.4 0)
+			(size 3.2 6.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/48V_FUSE")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7bc59e6d-19ab-4c19-a732-bceab1e51674")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:CP_Elec_10x10"
 		(layer "F.Cu")
 		(uuid "07284fa9-811e-4ae2-93e9-5b87830da174")
