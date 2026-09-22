@@ -19702,7 +19702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
+		(property "Footprint" "Footprints:MountingHole_5.3mm_M5_Pad_Via_HP"
 			(at 271.78 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -20433,7 +20433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:MountingHole_5.3mm_M5_Pad_Via_HP"
 			(at 163.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -37072,7 +37072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:MountingHole_5.3mm_M5_Pad_Via_HP"
 			(at 147.32 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -44650,7 +44650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
+		(property "Footprint" "Footprints:MountingHole_5.3mm_M5_Pad_Via_HP"
 			(at 603.25 59.69 0)
 			(hide yes)
 			(show_name no)
