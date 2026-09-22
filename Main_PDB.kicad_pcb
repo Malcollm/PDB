@@ -32634,7 +32634,7 @@
 	(footprint "Footprints:FUSE_2822HC100-RTR"
 		(layer "F.Cu")
 		(uuid "9449ccf3-b575-4695-8958-e8b8a53c410e")
-		(at 309.39 64.48)
+		(at 308.26 64.99)
 		(property "Reference" "F1"
 			(at -2.075 -5.135 0)
 			(layer "F.SilkS")
