@@ -41770,7 +41770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Untitled"
+		(property "Footprint" "Footprints:TO-263-2_Resistor"
 			(at 156.21 84.328 90)
 			(hide yes)
 			(show_name no)
