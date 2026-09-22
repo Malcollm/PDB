@@ -684,7 +684,7 @@
 	(footprint "Footprints:FUSE_2822HC100-RTR"
 		(layer "F.Cu")
 		(uuid "027e5737-e3a4-4664-b301-341b81f89972")
-		(at 204.08 166.42)
+		(at 204.9 163.7)
 		(property "Reference" "F1"
 			(at -2.075 -5.135 0)
 			(layer "F.SilkS")
@@ -3290,12 +3290,6 @@
 		(path "/2e2989db-5c4c-46ca-bded-bfcf7b777228")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1_1" "1_2" "1_3" "1_4" "2_1" "2_2" "2_3" "2_4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3514,6 +3508,17 @@
 			(uuid "c4f1b7ff-c187-4bdd-bdf8-b610003ae310")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d Models/178.6165.0000 - Holder FLR (ATO) Step model.step"
+			(offset
+				(xyz -6.5 -11.25 -11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprints:XDCR_ACS758LCB-100U-PFF-T"
 		(layer "F.Cu")
@@ -6489,12 +6494,6 @@
 		(path "/3d7d986f-e3d5-4fbb-9dbe-16fd9b45a74f")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1_1" "1_2" "1_3" "1_4" "2_1" "2_2" "2_3" "2_4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6713,6 +6712,17 @@
 			(uuid "eeab7166-b606-4dbf-ae13-23eea6d62d94")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d Models/178.6165.0000 - Holder FLR (ATO) Step model.step"
+			(offset
+				(xyz -6.5 -11.25 -11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
@@ -27214,12 +27224,6 @@
 		(path "/384a3ef4-b240-4902-b706-1d71eef0872e")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1_1" "1_2" "1_3" "1_4" "2_1" "2_2" "2_3" "2_4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27438,6 +27442,17 @@
 			(uuid "12129d41-1f1f-4440-addb-6458b6359482")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d Models/178.6165.0000 - Holder FLR (ATO) Step model.step"
+			(offset
+				(xyz -6.5 -11.25 -11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -31076,12 +31091,6 @@
 		(path "/09c688f4-cb69-4041-a213-74808d6b97a5")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1_1" "1_2" "1_3" "1_4" "2_1" "2_2" "2_3" "2_4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31300,6 +31309,17 @@
 			(uuid "788ccb39-9d08-4618-9e37-87cfab5898a9")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d Models/178.6165.0000 - Holder FLR (ATO) Step model.step"
+			(offset
+				(xyz -6.5 -11.25 -11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Footprints:QFN50P550X350X100-25N"
 		(layer "F.Cu")
@@ -35421,12 +35441,6 @@
 		(path "/f6afe9a4-6a61-4d3c-980a-bf8d650b854e")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1_1" "1_2" "1_3" "1_4" "2_1" "2_2" "2_3" "2_4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35645,6 +35659,17 @@
 			(uuid "88a8cb55-1ce8-4268-9dcf-4faa49bb48e9")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d Models/178.6165.0000 - Holder FLR (ATO) Step model.step"
+			(offset
+				(xyz -6.5 -11.25 -11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -49811,12 +49836,6 @@
 		(path "/c166a3f1-18b2-4ab8-80c6-726aa37c850e")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1_1" "1_2" "1_3" "1_4" "2_1" "2_2" "2_3" "2_4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -50035,6 +50054,17 @@
 			(uuid "cbac323b-7397-4ddd-8306-d3a0ecb67389")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d Models/178.6165.0000 - Holder FLR (ATO) Step model.step"
+			(offset
+				(xyz -6.5 -11.25 -11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:CP_Elec_10x10"
 		(layer "F.Cu")
