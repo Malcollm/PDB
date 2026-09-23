@@ -1,16 +1,24 @@
 #!/usr/bin/env bash
 # Rebuilds images/ whenever a commit touches the board or schematic, and stages
-# the results so they land in that same commit.
+# the results so they land in that same commit. The board renders and layer SVGs
+# are rebuilt only for .kicad_pcb changes, the schematic PDF only for .kicad_sch
+# changes.
 # Skip once with:  SKIP_IMAGE_REGEN=1 git commit ...
 set -euo pipefail
 
-[ "${SKIP_IMAGE_REGEN:-0}" = "1" ] && exit 0
+if [ "${SKIP_IMAGE_REGEN:-0}" = "1" ]; then
+  exit 0
+fi
 
 ROOT="$(git rev-parse --show-toplevel)"
 cd "$ROOT"
 
-git diff --cached --name-only --diff-filter=ACM \
-  | grep -Eq '^[^/]+\.kicad_(pcb|sch)$' || exit 0
+staged="$(git diff --cached --name-only --diff-filter=ACM)"
+
+targets=()
+if grep -Eq '^[^/]+\.kicad_pcb$' <<<"$staged"; then targets+=(pcb); fi
+if grep -Eq '^[^/]+\.kicad_sch$' <<<"$staged"; then targets+=(sch); fi
+if [ "${#targets[@]}" -eq 0 ]; then exit 0; fi
 
 KICAD_CLI="${KICAD_CLI:-C:/Program Files/KiCad/10.0/bin/kicad-cli.exe}"
 if ! [ -x "$KICAD_CLI" ] && ! command -v "$KICAD_CLI" >/dev/null 2>&1; then
@@ -18,6 +26,12 @@ if ! [ -x "$KICAD_CLI" ] && ! command -v "$KICAD_CLI" >/dev/null 2>&1; then
   exit 0
 fi
 
-echo "pre-commit: design files changed, regenerating images/"
-./images/regenerate.sh
-git add images/board-iso.png images/board-top.png images/layer-*.svg images/schematic.pdf
+echo "pre-commit: regenerating images/ (${targets[*]})"
+./images/regenerate.sh "${targets[@]}"
+
+for target in "${targets[@]}"; do
+  case "$target" in
+    pcb) git add images/board-iso.png images/board-top.png images/layer-*.svg ;;
+    sch) git add images/schematic.pdf ;;
+  esac
+done
