@@ -8234,6 +8234,12 @@
 		(uuid "01f17d83-975f-4f58-b9ec-ab54ad266d8c")
 	)
 	(junction
+		(at 384.81 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0524e350-f491-42ef-94db-fd20c9be4978")
+	)
+	(junction
 		(at 173.99 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8922,12 +8928,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c9dee00-377d-4341-bbd1-0c879004fc84")
-	)
-	(junction
-		(at 384.81 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cac85bb-38ac-42fd-80ef-e0959ee61f75")
 	)
 	(junction
 		(at 650.24 140.97)
@@ -10389,16 +10389,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 190.5) (xy 384.81 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2537972a-eb2e-484e-b68c-6adb492fd1fe")
-	)
-	(wire
-		(pts
 			(xy 109.22 519.43) (xy 109.22 523.24)
 		)
 		(stroke
@@ -11706,6 +11696,16 @@
 			(type default)
 		)
 		(uuid "57530cba-1618-4095-941b-643b16d6e8cf")
+	)
+	(wire
+		(pts
+			(xy 365.76 190.5) (xy 372.11 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576c3612-f644-411a-9f50-f3a15df50168")
 	)
 	(wire
 		(pts
@@ -15309,6 +15309,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 190.5) (xy 384.81 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded96258-3b0d-41e4-bfaf-81952e60e1be")
+	)
+	(wire
+		(pts
 			(xy 368.3 430.53) (xy 368.3 436.88)
 		)
 		(stroke
@@ -16008,7 +16018,7 @@
 		(uuid "0f5304af-ba3a-47a6-b84d-b92e5cca5376")
 	)
 	(label "48V_FUSE"
-		(at 372.11 190.5 180)
+		(at 365.76 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16157,7 +16167,7 @@
 		)
 		(uuid "7e3997b8-a5f2-43e8-aa38-ac56eb7b77e1")
 	)
-	(label "48V_ACT"
+	(label "48V_ESTOP"
 		(at 424.18 81.28 0)
 		(effects
 			(font
@@ -28522,7 +28532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal"
 			(at 791.21 398.78 0)
 			(hide yes)
 			(show_name no)
@@ -29242,6 +29252,86 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 375.92 190.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "630bc6c2-3cad-454e-8d0b-1d7513f26f49")
+		(property "Reference" "F8"
+			(at 375.92 184.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 375.92 186.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 375.92 192.278 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 375.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ee12297-7353-43d8-bd96-924560bebe7e")
+		)
+		(pin "2"
+			(uuid "65a02f88-b478-41e0-b4e9-0ad3b754436a")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -30446,7 +30536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal"
 			(at 312.42 287.02 0)
 			(hide yes)
 			(show_name no)
