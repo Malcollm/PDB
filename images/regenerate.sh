@@ -38,7 +38,8 @@ if [ "$do_pcb" = 1 ]; then
     --width 2000 --height 1500 --background transparent "$PCB"
 
   for pair in "F.Cu,F.SilkS:layer-f-cu" "In1.Cu:layer-in1-cu" \
-              "In2.Cu:layer-in2-cu" "B.Cu:layer-b-cu"; do
+              "In2.Cu:layer-in2-cu" "In3.Cu:layer-in3-cu" \
+              "In4.Cu:layer-in4-cu" "B.Cu:layer-b-cu"; do
     L="${pair%%:*}"; N="${pair##*:}"
     "$KICAD_CLI" pcb export svg -o "$OUT/$N.svg" --mode-single \
       --layers "$L,Edge.Cuts" --exclude-drawing-sheet --page-size-mode 2 \
