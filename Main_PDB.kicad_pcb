@@ -391,7 +391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RT0603BRD074K75L | Datasheet | YAGEO | LCSC Electronics"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -418,6 +418,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a8c944c1-8800-4a59-8303-3a17aa3c3283")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C705782"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "528b7539-d1bf-435e-a148-2f823370713c")
 			(effects
 				(font
 					(size 1 1)
@@ -5187,7 +5200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "MCT06030C1001FP500 | Datasheet | VISHAY | LCSC Electronics"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5214,6 +5227,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "57c3fedc-bd9a-45f3-88a6-a3ea1f2765d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C161809"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54e9cdac-0255-45ac-8335-f641b6d06db2")
 			(effects
 				(font
 					(size 1 1)
@@ -9494,7 +9520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RT0603DRE0764K9L | Datasheet | YAGEO | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9521,6 +9547,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "151333c9-9033-423d-97c3-bb8bddf78d59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C863197"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a86e30db-21ec-4239-ac2a-d3ebf31f324d")
 			(effects
 				(font
 					(size 1 1)
@@ -11837,7 +11876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "1622866-1 | Datasheet | TE Connectivity | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11864,6 +11903,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e6178e82-517c-4285-a87f-7d8db2eba455")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5172965"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa52f76b-70e1-456c-913b-e2dad6bacb28")
 			(effects
 				(font
 					(size 1 1)
@@ -12574,7 +12626,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RT0603BRD0747KL | Datasheet | YAGEO | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12601,6 +12653,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eab1d8e7-a1da-4aa0-adef-aa653ec52c0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C326725"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f8f969a-035c-4d38-9624-ae70167fa01d")
 			(effects
 				(font
 					(size 1 1)
@@ -17028,7 +17093,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "1622866-1 | Datasheet | TE Connectivity | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17055,6 +17120,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d69353f9-7742-46b6-9bf0-99ca1be92461")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5172965"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ca856e3-936a-40e5-836a-63cab69d35c6")
 			(effects
 				(font
 					(size 1 1)
@@ -19421,7 +19499,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "FRC0603F1654TS | Datasheet | FOJAN | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19448,6 +19526,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "807ffaa1-e2fd-4b92-a213-72fcb6c5de86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2999469"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8869077-16f9-49c5-b430-76c38bf3fdb8")
 			(effects
 				(font
 					(size 1 1)
@@ -20005,7 +20096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TNPW060347K0BEEA | Datasheet | VISHAY | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20032,6 +20123,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8cfd5a2e-2e37-40ec-bc69-46ba216a3adf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2089026"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e66dbae-50c5-402c-804f-c7c5138e60a5")
 			(effects
 				(font
 					(size 1 1)
@@ -22497,7 +22601,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RC0603FR-0710KL | Datasheet | YAGEO | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22524,6 +22628,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0f85bef2-8552-472e-87bf-0fdb610714ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06b40e9b-27f7-48d1-aac1-33889fc99b8f")
 			(effects
 				(font
 					(size 1 1)
@@ -28046,7 +28163,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TC0325B4122T5F | Datasheet | UNI-ROYAL | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28073,6 +28190,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8ea05126-4ed9-4c2d-97d5-9c83352594fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C50670167"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fa275e4-39ff-404a-96a8-38e353fb4ad4")
 			(effects
 				(font
 					(size 1 1)
@@ -29884,7 +30014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "PTFR0603B6K49N9 | Datasheet | RESI | LCSC Electronics"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29911,6 +30041,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8bb814ff-2553-455e-8af4-69f9e6d93726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2692790"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67cffd6a-c254-443d-9ef6-9437b8983daf")
 			(effects
 				(font
 					(size 1 1)
@@ -32918,7 +33061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RC0603FR-0710KL | Datasheet | YAGEO | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32945,6 +33088,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d0fb8c26-0b0c-4aea-8c8f-c62651f1eb16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C95204"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d907e8c-3350-4695-9ce2-c5bbff4bca69")
 			(effects
 				(font
 					(size 1 1)
@@ -34829,7 +34985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TC0325B1004T5F | Datasheet | UNI-ROYAL | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34856,6 +35012,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5b9e9360-b2ff-4aa8-bb15-bb5ecc2157f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2989464"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf04a8d6-73f4-4d8a-a30b-5e8a373a4cd2")
 			(effects
 				(font
 					(size 1 1)
@@ -35806,7 +35975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2093359.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35833,6 +36002,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "02321d65-e67a-430c-b18e-421a2f7f569b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2093359"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78881305-4da0-46fe-934d-9ea0b2f0d9e8")
 			(effects
 				(font
 					(size 1 1)
@@ -35964,7 +36146,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "ARG03BTC4122 | Datasheet | Viking | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35991,6 +36173,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "992377ef-14f1-4f2d-90e8-a49964cdadba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2684548"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c6a7333-60a5-48c9-adc7-7738b77ae451")
 			(effects
 				(font
 					(size 1 1)
@@ -37841,7 +38036,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RT0603BRD0743K2L | Datasheet | YAGEO | LCSC Electronics"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37868,6 +38063,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4d16721f-f908-4ecc-968e-1f405bfbce88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C861404"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45919938-db39-4c86-a2b4-5f7c23cd1407")
 			(effects
 				(font
 					(size 1 1)
@@ -38468,7 +38676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "1622866-1 | Datasheet | TE Connectivity | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38495,6 +38703,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "763ecc53-85e5-4d8d-b01c-2bb8a1a1d7a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5172965"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f8031f8-a85c-4a5b-adcb-7a0033a3864b")
 			(effects
 				(font
 					(size 1 1)
@@ -47585,7 +47806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RC0603FR-0710KL | Datasheet | YAGEO | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47612,6 +47833,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4c61ef4b-0dfb-434d-8d58-08d81ab6eeb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C95204"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b39fce76-0f35-4baf-8522-4db95b7470d4")
 			(effects
 				(font
 					(size 1 1)
@@ -48111,7 +48345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RT0603BRD07291KL | Datasheet | YAGEO | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48138,6 +48372,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "390574ec-8c23-4912-abf1-37775b11f509")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C861285"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f77201f9-42bd-4eb2-a516-7b227931523a")
 			(effects
 				(font
 					(size 1 1)
@@ -48440,7 +48687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "1622866-1 | Datasheet | TE Connectivity | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48467,6 +48714,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4d1c2af0-6a3b-49fb-b6b8-c3914ec24e60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5172965"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd31508c-a1aa-43fb-8767-6331da3d9bdb")
 			(effects
 				(font
 					(size 1 1)
@@ -48782,7 +49042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "1622866-1 | Datasheet | TE Connectivity | LCSC Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48809,6 +49069,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b019afbc-b8dd-4951-98cb-6a2f58847297")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5172965"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "107f03a9-f65c-42a9-9b18-0d8aa4095a37")
 			(effects
 				(font
 					(size 1 1)
@@ -49339,7 +49612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RNCP0603FTD24K9 | Datasheet | SEI(Stackpole Electronics Inc.) | LCSC Electronics"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49366,6 +49639,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "67590cc7-afd0-4fdb-a727-441df720b5d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2479134"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b913a37-50de-475d-b043-63aafc6fedd1")
 			(effects
 				(font
 					(size 1 1)
