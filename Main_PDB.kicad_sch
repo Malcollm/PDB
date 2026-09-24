@@ -33286,7 +33286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "RNCP0603FTD24K9 | Datasheet | SEI(Stackpole Electronics Inc.) | LCSC Electronics"
 			(at 424.18 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -33298,6 +33298,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 424.18 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2479134"
 			(at 424.18 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -35633,7 +35644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TC0325B1004T5F | Datasheet | UNI-ROYAL | LCSC Electronics"
 			(at 424.18 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -35645,6 +35656,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 424.18 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2989464"
 			(at 424.18 91.44 0)
 			(hide yes)
 			(show_name no)
