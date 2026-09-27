@@ -7974,6 +7974,16 @@
 		)
 		(uuid "eb5aeb88-3a77-416c-9584-840a383a8162")
 	)
+	(text "Test\n"
+		(exclude_from_sim no)
+		(at 327.914 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14a7841f-78b8-462b-aa42-e4ccb4a67490")
+	)
 	(text "Need to calculate values.\nVoltage divider to get to 3.3v or \n1.8v depending on GPIO type. \nCurrent specs also unknown atp."
 		(exclude_from_sim no)
 		(at 447.04 206.248 0)
