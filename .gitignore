@@ -13,3 +13,7 @@ fp-info-cache
 *.tmp
 *.lck
 *_autosave-*
+*.raw
+*.log
+*.net
+*.db

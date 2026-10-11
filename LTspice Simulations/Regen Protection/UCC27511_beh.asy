@@ -1,0 +1,32 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -64 -64 64 64
+LINE Normal -96 -32 -64 -32
+LINE Normal -96 32 -64 32
+LINE Normal 0 -96 0 -64
+LINE Normal 64 -32 96 -32
+LINE Normal 64 32 96 32
+LINE Normal 0 64 0 96
+TEXT 0 0 Center 2 UCC27511
+SYMATTR Prefix X
+SYMATTR Value UCC27511_BEH
+SYMATTR Description Behavioral UCC27511 model (regen_models.lib)
+WINDOW 0 72 -72 Left 2
+PIN -96 -32 LEFT 8
+PINATTR PinName IN+
+PINATTR SpiceOrder 1
+PIN -96 32 LEFT 8
+PINATTR PinName IN-
+PINATTR SpiceOrder 2
+PIN 0 -96 TOP 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 3
+PIN 96 -32 RIGHT 8
+PINATTR PinName OUTH
+PINATTR SpiceOrder 4
+PIN 96 32 RIGHT 8
+PINATTR PinName OUTL
+PINATTR SpiceOrder 5
+PIN 0 96 BOTTOM 8
+PINATTR PinName GND
+PINATTR SpiceOrder 6

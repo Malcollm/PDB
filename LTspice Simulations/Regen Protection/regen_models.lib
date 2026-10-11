@@ -1,0 +1,76 @@
+* regen_models.lib -- models for regen_protection.asc
+* Behavioral stand-ins for the Wiscohumanoids PDB back-current protection.
+* Works in LTspice and ngspice. Swap in vendor models once the design settles.
+
+* ---------------------------------------------------------------------------
+* TLV3011 (U1): open-drain comparator with internal 1.242 V reference.
+* Pins: IN+ IN- REF OUT V+ V-
+* - open-drain output (needs the external pull-up, RPU3)
+* - ~6 us propagation delay (datasheet typ), modeled as an RC on the logic
+* - no internal hysteresis (the B version adds some; yours is the plain part)
+* ---------------------------------------------------------------------------
+.subckt TLV3011_BEH INP INM REF OUT VP VM
+VREF   REFI VM 1.242
+RREF   REFI REF 100
+RINP   INP  VM 1T
+RINM   INM  VM 1T
+* logic = 1 when IN- > IN+  -> output transistor ON (pulls OUT low)
+BCMP   LOGIC VM V=0.5+0.5*tanh((V(INM)-V(INP))/0.5m)
+RDLY   LOGIC DLY 1k
+CDLY   DLY   VM  8.66n
+SOUT   OUT VM DLY VM SWOD
+.model SWOD SW(Ron=50 Roff=1G Vt=0.5 Vh=0)
+.ends TLV3011_BEH
+
+* ---------------------------------------------------------------------------
+* UCC27511 (U6): single low-side driver, split OUTH / OUTL.
+* Pins: IN+ IN- VDD OUTH OUTL GND
+* - IN+ thresholds 2.2 V rising / 1.2 V falling (switch hysteresis)
+* - IN- must be low for the output to go high (tied to AGND on the PDB)
+* - ROH ~5 ohm, ROL ~0.375 ohm, ~13 ns delay
+* - UVLO ~4.2 V: output held low below it
+* ---------------------------------------------------------------------------
+.subckt UCC27511_BEH INP INM VDD OUTH OUTL GND
+VONE   ONE  GND 1
+RLA    ONE  LOGA 1Meg
+SIN    LOGA GND INP GND SWIN
+.model SWIN SW(Ron=1 Roff=1G Vt=1.7 Vh=0.5)
+BLOG   LOG GND V=(1-V(LOGA,GND))*(0.5-0.5*tanh((V(INM,GND)-1.7)/10m))*(0.5+0.5*tanh((V(VDD,GND)-4.2)/50m))
+RDLY   LOG DLY 1k
+CDLY   DLY GND 18.8p
+SH     VDD  OUTH DLY GND SWH
+SL     OUTL GND  GND DLY SWL
+.model SWH SW(Ron=5     Roff=100Meg Vt=0.5  Vh=0)
+.model SWL SW(Ron=0.375 Roff=100Meg Vt=-0.5 Vh=0)
+.ends UCC27511_BEH
+
+* ---------------------------------------------------------------------------
+* Constant-power load: the aux converters (24 V / 6 V / 3.3 V rails) look like
+* constant power to the bus, so current falls as the bus rises.
+* Power is the global parameter Pmin set on the schematic.
+* The converters regulate with finite bandwidth, so the load follows the bus
+* through a ~10 kHz filter. (An instantaneous constant-power load is a
+* negative resistance at every frequency and will make parasitic LC ring.)
+* ---------------------------------------------------------------------------
+.subckt CPL_BEH P N
+RF     P  VF 100k
+CF     VF N  160p
+BCPL   P N I={Pmin}/max(V(VF,N),10)
+.ends CPL_BEH
+
+* ---------------------------------------------------------------------------
+* Discrete models (placeholders -- replace with your real parts)
+* ---------------------------------------------------------------------------
+* Hot-swap path (TPS48110 + FETs) as a near-ideal diode: passes forward
+* current, blocks regen from flowing back into the source.
+.model DHOTSWAP D(Is=100u N=1 Rs=2m Cjo=10n)
+
+* Regen TVS clamp -- placeholder: ~56 V breakdown, ~0.25 ohm dynamic R.
+* Fit BV and Rs to your part's Vbr and Vc @ Ipp.
+.model DTVS D(Is=1p N=1 Rs=0.25 BV=56 Ibv=1m Cjo=2n)
+
+* Freewheel diode across the dump resistor (NOT on the current schematic)
+.model DFW D(Is=1u N=1.1 Rs=5m Cjo=500p BV=100 Ibv=1u)
+
+* Q6 dump FET -- generic 100 V, ~9 mohm at Vgs = 6 V. Replace with Q6's model.
+.model QDUMP VDMOS(Vto=2.5 Kp=60 Rd=3m Rs=1m Rg=1 Rb=3m Cgdmax=1.2n Cgdmin=60p A=0.6 Cgs=3n Cjo=1.5n Is=10p BV=100 Ibv=1m)

@@ -1,0 +1,13 @@
+* precharge_models.lib -- models for precharge_Rsweep.asc
+
+* D1/D2 input TVS, SMCJ58A: Vbr 64.4-71.2 V @ 1 mA, Vc 93.6 V @ 16 A
+.model DSMCJ58A D(Is=1p N=1 Rs=1.7 BV=66 Ibv=1m Cjo=1.5n)
+
+* Constant-power load (aux converters) that only turns on above Von.
+* Pload and Von are set on the schematic. Pload=0 disables it.
+* Follows the bus through a ~10 kHz filter (converter loop bandwidth).
+.subckt CPL_EN_BEH P N
+RF   P  VF 100k
+CF   VF N  160p
+BCPL P  N  I={Pload}/max(V(VF,N),10)*(0.5+0.5*tanh((V(VF,N)-{Von})/0.5))
+.ends CPL_EN_BEH
