@@ -12657,13 +12657,8 @@
 		(path "/79f09106-bb53-4d90-bf86-bcb33326e762")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 0)
@@ -20950,13 +20945,8 @@
 		(path "/fdc0c674-8c66-43fe-b41b-7c3fcfd5c30a")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 0)
@@ -21672,13 +21662,8 @@
 		(path "/37d7c87d-42f1-4d51-a241-61e568bafd44")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 180)
@@ -36516,13 +36501,8 @@
 		(path "/18f0e7ab-e9f6-4b43-9df0-1969de9a949f")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 270)
@@ -39159,13 +39139,8 @@
 		(path "/aae6f412-d997-4f49-bbab-0834995a9e21")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 180)
@@ -44231,13 +44206,8 @@
 		(path "/d8491845-be29-4d11-848f-e495c4258ea3")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 270)
@@ -54228,13 +54198,8 @@
 		(path "/2fd8ebcd-c2ba-4a04-be7a-5117183ab8f3")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 180)
@@ -56029,13 +55994,8 @@
 		(path "/ac7ea191-ffa6-4677-853d-726625bc46ed")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 0)
@@ -56615,13 +56575,8 @@
 		(path "/5ea74e0c-aec0-4ec0-b06e-ef95f6e07669")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.2 180)
