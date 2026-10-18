@@ -1,0 +1,98 @@
+(footprint "NetTie_AGND_PGND_VIA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c62f5c5a-02e7-4dfb-9603-b3a962eef525")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.03)
+			)
+		)
+	)
+	(property "Value" "NetTie_AGND_PGND_VIA"
+		(at 0 1.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92a9b7ea-49bd-40cd-a0cf-93eba244eba0")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c935c1d-8a8c-45ce-bb14-05295dc90e3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45fa6c3c-0299-435c-86ec-42a7a9e30541")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c461038-7485-49c1-9e86-dd7720e87d5b")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 0.6 0.6)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 0 1)
+				(width 0.2)
+			)
+		)
+		(uuid "5ddb7c71-f13f-46c8-92aa-f542ac848ea8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "2b0d8a7c-614c-4380-8929-4a1438b946b1")
+	)
+	(embedded_fonts no)
+)
