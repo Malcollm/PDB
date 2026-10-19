@@ -8344,6 +8344,28 @@
 		)
 		(uuid "206f2272-f3bf-46a0-8bbd-18018cff59df")
 	)
+	(text "Size Fuse"
+		(exclude_from_sim no)
+		(at 375.666 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "2a3e8262-ad94-4db5-87a2-5dbb181c9d4b")
+	)
+	(text "THIS IS A SHORT\n(prob)"
+		(exclude_from_sim no)
+		(at 109.728 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "2d4e2d79-917a-4f71-ab14-f0d5ca7b49cc")
+	)
 	(text "Final will include more than 3."
 		(exclude_from_sim no)
 		(at 166.37 509.778 0)
@@ -8353,6 +8375,17 @@
 			)
 		)
 		(uuid "34c97587-55fa-4365-b13c-f34d20447e7a")
+	)
+	(text "Check coil for resistance and determine wether this is a short"
+		(exclude_from_sim no)
+		(at 411.988 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "3b17c4e2-5abb-4b83-b85d-85cd42418754")
 	)
 	(text "Thermistors to be placed nearby FETs.\nNegative Temperature Coeffecient resistors so disconnect reads high."
 		(exclude_from_sim no)
@@ -8375,7 +8408,7 @@
 		)
 		(uuid "47481f72-0135-4476-85de-ba4232efdea0")
 	)
-	(text "Trip point: 51.1V\nRelease: 49.8V"
+	(text "Trip point: 54V\nRelease: 51V\nPeak: 54.5"
 		(exclude_from_sim no)
 		(at 442.722 135.636 0)
 		(effects
@@ -8394,6 +8427,28 @@
 			)
 		)
 		(uuid "54181341-1941-43e5-99b2-437c2157a00b")
+	)
+	(text "Validate and choose CHF1 (suspected to be 22pF.\nCalculate phase margin"
+		(exclude_from_sim no)
+		(at 655.828 465.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "5a36c78d-3dff-4fb3-b2c9-59a3ebbcdeec")
+	)
+	(text "Change to Varistor"
+		(exclude_from_sim no)
+		(at 411.988 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "5df5cba0-fcb3-4feb-ad07-c2b7611a9b8a")
 	)
 	(text "Main Current Sensor"
 		(exclude_from_sim no)
@@ -8435,6 +8490,17 @@
 		)
 		(uuid "7f754d53-4a10-446d-96f5-0c1e947e5ed2")
 	)
+	(text "Change RFBC1 For thighter Trip and Release"
+		(exclude_from_sim no)
+		(at 441.452 141.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "83cf523d-8fdd-43e3-909e-abcbc6b18413")
+	)
 	(text "SF 461.25 kHz"
 		(exclude_from_sim no)
 		(at 567.182 399.288 0)
@@ -8444,6 +8510,17 @@
 			)
 		)
 		(uuid "85eee55a-2846-4af5-aa4d-d736b247886f")
+	)
+	(text "Validate and choose CHF1.\nCalculate phase margin"
+		(exclude_from_sim no)
+		(at 220.218 456.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "9226542a-9de9-4c4e-8745-da6a2eba3fe7")
 	)
 	(text "Thermistors"
 		(exclude_from_sim no)
@@ -25992,7 +26069,7 @@
 				)
 			)
 		)
-		(property "Value" "4.75k"
+		(property "Value" "8.25k"
 			(at 213.36 440.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34554,7 +34631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24.9k"
+		(property "Value" "24"
 			(at 426.72 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37159,7 +37236,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100pF (TBD)"
 			(at 217.17 447.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37873,7 +37950,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8nF"
+		(property "Value" "4.7nF"
 			(at 220.98 439.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39290,7 +39367,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "5.6nF"
 			(at 657.86 447.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44119,7 +44196,7 @@
 				)
 			)
 		)
-		(property "Value" "6.49k"
+		(property "Value" "6k"
 			(at 650.24 448.31 90)
 			(show_name no)
 			(do_not_autoplace no)
