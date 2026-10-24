@@ -7831,17 +7831,6 @@
 		)
 		(uuid "eb5aeb88-3a77-416c-9584-840a383a8162")
 	)
-	(text "Need to calculate values.\nVoltage divider to get to 3.3v or \n1.8v depending on GPIO type. \nCurrent specs also unknown atp."
-		(exclude_from_sim no)
-		(at 447.04 206.248 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "191e8f21-e5f2-480d-b20f-502af5c1ff94")
-	)
 	(text "Actuator rails"
 		(exclude_from_sim no)
 		(at 639.064 31.496 0)
@@ -8756,6 +8745,12 @@
 		(uuid "6b5f6264-750c-4a5f-8def-9d89dd804ac5")
 	)
 	(junction
+		(at 434.34 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e552e14-fb60-459c-8894-0a142cd812fd")
+	)
+	(junction
 		(at 151.13 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8918,12 +8913,6 @@
 		(uuid "8c4d771c-4fe2-4524-ba83-6c8cf8e2eea7")
 	)
 	(junction
-		(at 443.23 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c51ef14-b4d1-4e71-a64a-67135e18a137")
-	)
-	(junction
 		(at 279.4 424.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9036,6 +9025,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a22ed51d-626e-477a-8a64-5d636cc60c20")
+	)
+	(junction
+		(at 443.23 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a352f7f8-5dbd-4ebd-9615-85f5f41835f5")
 	)
 	(junction
 		(at 560.07 391.16)
@@ -10006,16 +10001,6 @@
 			(type default)
 		)
 		(uuid "172a75c5-2a78-4556-9501-fbe204841c98")
-	)
-	(wire
-		(pts
-			(xy 443.23 203.2) (xy 443.23 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c27911-50ad-4c52-a733-1f2a9d6a374f")
 	)
 	(wire
 		(pts
@@ -10996,6 +10981,16 @@
 			(type default)
 		)
 		(uuid "3e19fc65-d8fd-422e-b29a-e3b4ded34076")
+	)
+	(wire
+		(pts
+			(xy 434.34 220.98) (xy 434.34 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1ae286-d051-43e9-a7c4-e80a2f219f59")
 	)
 	(wire
 		(pts
@@ -13209,6 +13204,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 207.01) (xy 443.23 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95177e26-e620-4483-8c46-f934510bd6c8")
+	)
+	(wire
+		(pts
 			(xy 209.55 444.5) (xy 208.28 444.5)
 		)
 		(stroke
@@ -13569,7 +13574,7 @@
 	)
 	(wire
 		(pts
-			(xy 443.23 205.74) (xy 443.23 209.55)
+			(xy 443.23 203.2) (xy 443.23 207.01)
 		)
 		(stroke
 			(width 0)
@@ -13666,6 +13671,16 @@
 			(type default)
 		)
 		(uuid "a95dcea7-fdc6-42fa-bb05-c0726cc8090a")
+	)
+	(wire
+		(pts
+			(xy 434.34 210.82) (xy 434.34 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9853362-43f0-4050-80af-fa13491d6686")
 	)
 	(wire
 		(pts
@@ -13909,7 +13924,7 @@
 	)
 	(wire
 		(pts
-			(xy 438.15 205.74) (xy 443.23 205.74)
+			(xy 433.07 207.01) (xy 434.34 207.01)
 		)
 		(stroke
 			(width 0)
@@ -15016,6 +15031,16 @@
 			(type default)
 		)
 		(uuid "d9085604-0756-4fe6-b32a-9e987f0eafce")
+	)
+	(wire
+		(pts
+			(xy 443.23 207.01) (xy 443.23 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90d5dd6-b682-498c-877d-f9529efc80a7")
 	)
 	(wire
 		(pts
@@ -18939,6 +18964,84 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 434.34 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "101e8ae0-8519-4441-b64e-477c039ebc4a")
+		(property "Reference" "#PWR0116"
+			(at 434.34 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 434.34 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 434.34 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 434.34 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 434.34 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c12c1d33-d9b5-425c-8645-35b12b83cb63")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -34298,7 +34401,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 433.07 205.74 180)
+		(at 427.99 207.01 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34308,7 +34411,7 @@
 		(dnp no)
 		(uuid "92fa9357-b9a3-4792-a011-4bd597bb2177")
 		(property "Reference" "J2"
-			(at 433.07 202.946 0)
+			(at 427.99 204.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34318,7 +34421,7 @@
 			)
 		)
 		(property "Value" "Rockchip ESTOP feedback"
-			(at 418.592 205.74 0)
+			(at 413.512 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34328,7 +34431,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 433.07 205.74 0)
+			(at 427.99 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34339,7 +34442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 433.07 205.74 0)
+			(at 427.99 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34350,7 +34453,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 433.07 205.74 0)
+			(at 427.99 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39757,7 +39860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD R"
+		(property "Value" "100k"
 			(at 445.77 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39768,7 +39871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 441.452 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -40770,6 +40873,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 434.34 214.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9a2555e-83d2-4127-8785-06c4a57d1f9c")
+		(property "Reference" "D11"
+			(at 436.88 213.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3V Zener"
+			(at 423.164 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 434.34 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMAZ12-13-F/725035"
+			(at 434.34 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 434.34 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d1e7212e-6d49-4ba4-bf0e-b0ca011e7de5")
+		)
+		(pin "1"
+			(uuid "a826e6ab-7f14-4012-8051-670b57a98daa")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 200.66 66.04 90)
 		(unit 1)
@@ -41113,7 +41297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD R"
+		(property "Value" "6.2k"
 			(at 445.77 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
