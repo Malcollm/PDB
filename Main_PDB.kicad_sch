@@ -3092,6 +3092,223 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Varistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at 3.175 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Varistor"
+				(at -3.175 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Voltage dependent resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_varistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=A 2=B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Params" "threshold=1k"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "VDR resistance"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RV_* Varistor*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Varistor_0_0"
+				(text "U"
+					(at -1.778 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Varistor_0_1"
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Varistor_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Fuse-178.6165.0002:178.6165.0002"
 			(pin_names
 				(offset 1.016)
@@ -7883,17 +8100,6 @@
 		)
 		(uuid "34c97587-55fa-4365-b13c-f34d20447e7a")
 	)
-	(text "Check coil for resistance and determine wether this is a short"
-		(exclude_from_sim no)
-		(at 411.988 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "3b17c4e2-5abb-4b83-b85d-85cd42418754")
-	)
 	(text "Thermistors to be placed nearby FETs.\nNegative Temperature Coeffecient resistors so disconnect reads high."
 		(exclude_from_sim no)
 		(at 122.936 558.292 0)
@@ -7906,7 +8112,7 @@
 	)
 	(text "These resistors are for dampening \nthe ringing from driver ICs a bit"
 		(exclude_from_sim no)
-		(at 481.33 213.868 0)
+		(at 481.33 220.218 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7945,17 +8151,6 @@
 			)
 		)
 		(uuid "5a36c78d-3dff-4fb3-b2c9-59a3ebbcdeec")
-	)
-	(text "Change to Varistor"
-		(exclude_from_sim no)
-		(at 411.988 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "5df5cba0-fcb3-4feb-ad07-c2b7611a9b8a")
 	)
 	(text "Main Current Sensor"
 		(exclude_from_sim no)
@@ -8017,6 +8212,16 @@
 			)
 		)
 		(uuid "85eee55a-2846-4af5-aa4d-d736b247886f")
+	)
+	(text "Pulldowns in case\n12 V rail goes down\n"
+		(exclude_from_sim no)
+		(at 494.538 199.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89ac3708-c588-4569-891b-0e23a6afdb64")
 	)
 	(text "Validate and choose CHF1.\nCalculate phase margin"
 		(exclude_from_sim no)
@@ -8697,6 +8902,12 @@
 		(uuid "62871439-cedf-463e-8bde-2c37af34443f")
 	)
 	(junction
+		(at 520.7 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63436517-58d3-4d3e-a9f3-4aaa5e2717d0")
+	)
+	(junction
 		(at 636.27 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9223,6 +9434,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc349d31-767f-4e3d-9be1-38299a0710d6")
+	)
+	(junction
+		(at 468.63 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccb482af-97a2-41ab-b09d-826dc88746fd")
 	)
 	(junction
 		(at 161.29 261.62)
@@ -10324,6 +10541,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 203.2) (xy 468.63 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297db035-fadc-401c-aa30-730f08be9bfb")
+	)
+	(wire
+		(pts
 			(xy 635 231.14) (xy 642.62 231.14)
 		)
 		(stroke
@@ -11394,6 +11621,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 204.47) (xy 520.7 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecf0a07-1ccb-4b07-a2dc-7d2235f3ff51")
+	)
+	(wire
+		(pts
 			(xy 274.32 427.99) (xy 274.32 420.37)
 		)
 		(stroke
@@ -11804,6 +12041,16 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 204.47) (xy 505.46 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd90a99-2c1a-4b8d-9616-34ed6a98e1f5")
+	)
+	(wire
+		(pts
 			(xy 187.96 262.89) (xy 184.15 262.89)
 		)
 		(stroke
@@ -11904,7 +12151,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 198.12) (xy 468.63 209.55)
+			(xy 468.63 198.12) (xy 468.63 203.2)
 		)
 		(stroke
 			(width 0)
@@ -12674,6 +12921,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 204.47) (xy 520.7 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810e9db9-4eba-4433-8e0e-52d085e02ae9")
+	)
+	(wire
+		(pts
 			(xy 254 300.99) (xy 254 312.42)
 		)
 		(stroke
@@ -12904,6 +13161,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 203.2) (xy 472.44 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cc65c6-7f56-4b74-ae9f-ec30757fb2c6")
+	)
+	(wire
+		(pts
 			(xy 210.82 422.91) (xy 195.58 422.91)
 		)
 		(stroke
@@ -12911,6 +13178,16 @@
 			(type default)
 		)
 		(uuid "88e99ff5-10af-428d-a712-d56ec3e196d8")
+	)
+	(wire
+		(pts
+			(xy 508 204.47) (xy 505.46 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8933f2da-6b76-4279-9837-29e882d5c9f9")
 	)
 	(wire
 		(pts
@@ -14624,6 +14901,16 @@
 	)
 	(wire
 		(pts
+			(xy 483.87 203.2) (xy 483.87 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce86e3af-b085-4376-b725-5f3522824f54")
+	)
+	(wire
+		(pts
 			(xy 650.24 140.97) (xy 655.32 140.97)
 		)
 		(stroke
@@ -15101,6 +15388,16 @@
 			(type default)
 		)
 		(uuid "db30ed98-d9b7-4ad9-9546-107babccf3d9")
+	)
+	(wire
+		(pts
+			(xy 480.06 203.2) (xy 483.87 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc37d46-7093-4d7f-b45f-c0af67a7c5b2")
 	)
 	(wire
 		(pts
@@ -15634,7 +15931,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 198.12) (xy 520.7 209.55)
+			(xy 520.7 198.12) (xy 520.7 204.47)
 		)
 		(stroke
 			(width 0)
@@ -25688,6 +25985,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 483.87 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39aa6a47-12de-4fbd-8365-4e814cfea4ed")
+		(property "Reference" "#PWR0117"
+			(at 483.87 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 483.87 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 483.87 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 483.87 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 483.87 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "869cd333-790c-42ef-85c3-e22a009aa9ce")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 722.63 91.44 90)
 		(unit 1)
@@ -26420,96 +26795,6 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "F6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 411.48 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e21762e-13fe-4e90-a8c8-665287506afe")
-		(property "Reference" "D10"
-			(at 420.624 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TVS 93.6V max clamp"
-			(at 411.988 199.136 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 411.48 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/stmicroelectronics/SMBJ58A-TR/1039146?gclsrc=aw.ds&gad_source=1&gad_campaignid=9265913509&gbraid=0AAAAADrbLlhkePOC4RWITT_o7REk6adgL&gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnT3W5YTk4OhdyTIRvfIb-xk2hNkzrY3tC6QbM76uHey5AP5WcuKwkQaAoWfEALw_wcB"
-			(at 411.48 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 411.48 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JCSC" "C42371547"
-			(at 411.48 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18e2d520-3938-4134-992b-e4aaf20d4df8")
-		)
-		(pin "2"
-			(uuid "0d0b46fe-5964-4119-9b86-67757664a9bc")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -31778,7 +32063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "2.2k"
 			(at 523.24 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33400,6 +33685,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 511.81 204.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "884c596e-7205-486c-893c-b09c0d6e78c9")
+		(property "Reference" "RESTP9"
+			(at 511.81 198.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 511.81 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 511.81 206.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 511.81 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 511.81 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "918ac2c2-d29a-4fde-81a1-ec237ee72ad3")
+		)
+		(pin "1"
+			(uuid "a12701b3-4afb-412c-b067-65dcdee1b8fe")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "RESTP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T")
 		(at 353.06 422.91 0)
 		(unit 1)
@@ -34982,6 +35347,140 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Varistor")
+		(at 411.48 195.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "958dd9a8-2b17-4169-8c62-5727ea14152d")
+		(property "Reference" "ZV50K2220801NIR1"
+			(at 411.48 201.676 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Varistor"
+			(at 411.226 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
+			(at 411.48 193.802 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/ZV50K2220801NIR1/11585294"
+			(at 411.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage dependent resistor"
+			(at 411.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 411.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 411.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 411.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 411.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 411.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f055ec64-6719-4b59-aaab-ffabecd77acc")
+		)
+		(pin "1"
+			(uuid "333746e0-95e2-487b-ad8f-14ed0ee21288")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "ZV50K2220801NIR1")
 					(unit 1)
 				)
 			)
@@ -36674,6 +37173,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 476.25 203.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0c5a18e-4f70-4142-b6bf-6e3168cca9a9")
+		(property "Reference" "RESTP8"
+			(at 476.25 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 476.25 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 476.25 204.978 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 476.25 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 476.25 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b47b94d4-82bc-48a9-8873-ec667b5c6eae")
+		)
+		(pin "1"
+			(uuid "d51a1b09-a983-4c96-9b2e-c19095a38848")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "RESTP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 83.82 0)
 		(unit 1)
@@ -37710,6 +38289,84 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 505.46 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab7b1e28-4e74-4d66-998a-dbb875edc77e")
+		(property "Reference" "#PWR0118"
+			(at 505.46 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 505.46 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 505.46 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 505.46 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 505.46 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b3149a9-7ac7-4c03-83ab-0724d1d624c0")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -40884,7 +41541,7 @@
 		(dnp no)
 		(uuid "c9a2555e-83d2-4127-8785-06c4a57d1f9c")
 		(property "Reference" "D11"
-			(at 436.88 213.3599 90)
+			(at 428.752 215.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41215,7 +41872,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "2.2k"
 			(at 459.232 268.732 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41297,7 +41954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.2k"
+		(property "Value" "7.5k"
 			(at 445.77 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
