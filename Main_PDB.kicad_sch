@@ -8068,17 +8068,6 @@
 		)
 		(uuid "206f2272-f3bf-46a0-8bbd-18018cff59df")
 	)
-	(text "Size Fuse"
-		(exclude_from_sim no)
-		(at 375.666 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "2a3e8262-ad94-4db5-87a2-5dbb181c9d4b")
-	)
 	(text "THIS IS A SHORT\n(prob)"
 		(exclude_from_sim no)
 		(at 109.728 125.476 0)
@@ -30290,7 +30279,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "0.5A Fuse"
 			(at 375.92 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
