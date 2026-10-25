@@ -18797,7 +18797,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "22pF"
 			(at 654.05 455.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18829,7 +18829,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" ""
 			(at 654.05 459.74 0)
 			(hide yes)
 			(show_name no)
