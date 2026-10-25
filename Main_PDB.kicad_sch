@@ -10301,7 +10301,7 @@
 		)
 		(uuid "89ac3708-c588-4569-891b-0e23a6afdb64")
 	)
-	(text "Needs to be connected to precharge signal connector\n"
+	(text "24V buck EN driven by precharge board: J24 pin 4 (24V_EN_IN), 3.3V logic, HIGH = on.\nRUV2 100k pulldown keeps the buck off if J24 is unplugged."
 		(exclude_from_sim no)
 		(at 105.918 400.05 0)
 		(effects
@@ -10958,12 +10958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56125b2e-1646-4d5b-ba6d-ad10ed714f7c")
-	)
-	(junction
-		(at 81.28 403.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59c9a54d-7d3d-4c82-b257-737ae1046edf")
 	)
 	(junction
 		(at 424.18 97.79)
@@ -11746,12 +11740,6 @@
 		(uuid "f29ebbde-5b63-46ce-adcb-8140f3604673")
 	)
 	(junction
-		(at 99.06 408.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3d36ffc-7cd9-4f8d-bb2a-416d3a3e8bc1")
-	)
-	(junction
 		(at 668.02 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12104,16 +12092,6 @@
 			(type default)
 		)
 		(uuid "0babd9c5-1ebc-4ad3-8c5d-b0275053b004")
-	)
-	(wire
-		(pts
-			(xy 99.06 408.94) (xy 99.06 411.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca66043-f55d-4391-9fa8-ca9afaddf87b")
 	)
 	(wire
 		(pts
@@ -12594,16 +12572,6 @@
 			(type default)
 		)
 		(uuid "22db126b-3913-4034-8574-ce4448249077")
-	)
-	(wire
-		(pts
-			(xy 99.06 408.94) (xy 96.52 408.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22e1c115-041b-4e92-a2f9-c6912237115b")
 	)
 	(wire
 		(pts
@@ -13764,16 +13732,6 @@
 			(type default)
 		)
 		(uuid "4b0d1223-4e93-4652-a7da-5a15d34061c3")
-	)
-	(wire
-		(pts
-			(xy 81.28 403.86) (xy 109.22 403.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b51fd1f-38e2-42cf-91fb-06e33d58a1a8")
 	)
 	(wire
 		(pts
@@ -18457,16 +18415,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 408.94) (xy 99.06 408.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcbc98e8-5323-456a-8f34-bc0f5b88b2e6")
-	)
-	(wire
-		(pts
 			(xy 307.34 287.02) (xy 307.34 267.97)
 		)
 		(stroke
@@ -18755,16 +18703,6 @@
 		)
 		(uuid "78191932-b245-4bb7-b6a6-038b94eb3ea6")
 	)
-	(label "24V_DIS"
-		(at 96.52 408.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "787b10e5-2564-41c1-954f-46320ae5c986")
-	)
 	(label "48V_ACT4_FUSE"
 		(at 646.43 224.79 0)
 		(effects
@@ -18855,7 +18793,7 @@
 		)
 		(uuid "a25d7d34-8314-44f1-943d-fd0cd5ce208c")
 	)
-	(label "24V_DIS"
+	(label "24V_EN_IN"
 		(at 49.53 135.89 0)
 		(effects
 			(font
@@ -18905,7 +18843,7 @@
 		)
 		(uuid "c2eac6de-7d4f-444c-b018-2133134ca4c4")
 	)
-	(label "24V_FUSE"
+	(label "24V_EN_IN"
 		(at 68.58 391.16 90)
 		(effects
 			(font
@@ -23650,83 +23588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 414.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c9e8446-5030-4120-96c4-e8b3cc554fd8")
-		(property "Reference" "#PWR0121"
-			(at 109.22 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND2"
-			(at 109.22 419.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 414.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 414.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 414.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "522f4c03-ef2e-498a-b46a-869bd0701a45")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 276.86 271.78 0)
 		(unit 1)
@@ -26992,83 +26853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 99.06 419.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "30167d16-c58f-4e76-83b9-7fb05684ff27")
-		(property "Reference" "#PWR0122"
-			(at 99.06 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND2"
-			(at 99.06 424.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 419.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 419.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 419.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3f7f74b-019a-4e26-8a2a-6cff8111afc7")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 276.86 27.94 0)
 		(unit 1)
@@ -28341,7 +28125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "499k"
+		(property "Value" "1k"
 			(at 71.12 398.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28374,7 +28158,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "EN series resistor from precharge board (J24 pin 4)"
 			(at 68.58 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -38202,7 +37986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12.7k"
+		(property "Value" "100k"
 			(at 71.12 416.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38235,7 +38019,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
 			(at 68.58 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -43064,87 +42848,6 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "CIN5B2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 415.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "abf53d28-ac4b-47ff-a2a9-a291e7c6636e")
-		(property "Reference" "RGEN1"
-			(at 91.44 414.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 91.44 416.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.06 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0cfcf2af-4850-44b6-bd2f-aabcb1a51617")
-		)
-		(pin "2"
-			(uuid "1720f005-eb53-496a-a2a3-6880164b345f")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "RGEN1")
 					(unit 1)
 				)
 			)
@@ -48988,90 +48691,6 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 106.68 408.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9bedb41-016c-4bd4-af25-8886057c3503")
-		(property "Reference" "Q9"
-			(at 111.76 407.035 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 111.76 408.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 106.68 408.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 106.68 408.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 106.68 408.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "847e48a0-b062-4b6c-859c-05b0075eb6e1")
-		)
-		(pin "2"
-			(uuid "9a496df7-a967-4502-ac08-93e0ff8c1430")
-		)
-		(pin "3"
-			(uuid "50f74ea2-dea2-4e32-8725-8b724b8e24c8")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
