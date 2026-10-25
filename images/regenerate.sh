@@ -37,9 +37,11 @@ if [ "$do_pcb" = 1 ]; then
   "$KICAD_CLI" pcb render -o "$OUT/board-top.png" --side top --quality high \
     --width 2000 --height 1500 --background transparent "$PCB"
 
-  for pair in "F.Cu,F.SilkS:layer-f-cu" "In1.Cu:layer-in1-cu" \
-              "In2.Cu:layer-in2-cu" "In3.Cu:layer-in3-cu" \
-              "In4.Cu:layer-in4-cu" "B.Cu:layer-b-cu"; do
+  # Every copper layer carries silkscreen so parts can be located on it; the
+  # inner layers use the top silk, B.Cu uses the bottom silk plus the top silk.
+  for pair in "F.Cu,F.SilkS:layer-f-cu" "In1.Cu,F.SilkS:layer-in1-cu" \
+              "In2.Cu,F.SilkS:layer-in2-cu" "In3.Cu,F.SilkS:layer-in3-cu" \
+              "In4.Cu,F.SilkS:layer-in4-cu" "B.Cu,B.SilkS,F.SilkS:layer-b-cu"; do
     L="${pair%%:*}"; N="${pair##*:}"
     "$KICAD_CLI" pcb export svg -o "$OUT/$N.svg" --mode-single \
       --layers "$L,Edge.Cuts" --exclude-drawing-sheet --page-size-mode 2 \
