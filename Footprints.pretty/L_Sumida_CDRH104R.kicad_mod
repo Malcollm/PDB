@@ -1,0 +1,160 @@
+(footprint "L_Sumida_CDRH104R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Sumida CDRH104R SMD power inductor, body 10.0x10.2x4.0mm (max 10.3x10.5), land pattern per Sumida CDRH104R datasheet rev 6-Jan-17: pads 3.2x1.6mm, 7.3mm gap")
+	(tags "inductor Sumida CDRH104R")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "4ee68663-0ad0-441b-83ff-1ec6a5d8e4e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Sumida_CDRH104R"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "a4f6b6a7-1ac3-47e1-82e2-e637675872cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d5c311a-0361-4177-8563-ca57f7a33027")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c209d7d-e66a-4978-b4b0-0f81d7d16f51")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.11 -5.21)
+		(end -5.11 5.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a4c03c1-e376-4789-8be8-4819b0c2b7b9")
+	)
+	(fp_line
+		(start -5.11 -5.21)
+		(end -1.86 -5.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf39c784-7d7b-4c20-b67c-1c034f1fc196")
+	)
+	(fp_line
+		(start -5.11 5.21)
+		(end -1.86 5.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "462bde66-5720-46f2-9b1e-196bbbe74e55")
+	)
+	(fp_line
+		(start 1.86 -5.21)
+		(end 5.11 -5.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ae1684b-13f2-4220-868d-8eac9662e5b7")
+	)
+	(fp_line
+		(start 1.86 5.21)
+		(end 5.11 5.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "469dd791-403a-4849-aeec-9c6b9b2d9bf8")
+	)
+	(fp_line
+		(start 5.11 -5.21)
+		(end 5.11 5.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd247e91-0dd4-4ec1-8910-0164492bd2b9")
+	)
+	(fp_rect
+		(start -5.4 -5.5)
+		(end 5.4 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0ead97d4-bea2-4747-8446-9aaeac058dc5")
+	)
+	(fp_rect
+		(start -5 -5.1)
+		(end 5 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "04bebcfc-e48f-4d60-90c5-cde472b3f4a0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ff51736a-8fc7-4695-928f-2bb90b507be8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -4.45)
+		(size 3.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa4d5b26-1470-420f-ae70-ab9cf6244d85")
+	)
+	(pad "2" smd rect
+		(at 0 4.45)
+		(size 3.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e21e1933-a80c-46a1-98e2-1be1766283f9")
+	)
+	(embedded_fonts no)
+)
