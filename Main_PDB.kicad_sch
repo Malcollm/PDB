@@ -3199,171 +3199,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Polyfuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Polyfuse_0_1"
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -10262,6 +10097,12 @@
 		(uuid "3b57b31e-ef24-4f55-b32b-ba773493b267")
 	)
 	(junction
+		(at 143.51 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c6ebba3-3071-4a21-8875-72bea4e21dd3")
+	)
+	(junction
 		(at 146.05 368.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10452,12 +10293,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d716def-18db-4e97-95da-faa4d5dee60d")
-	)
-	(junction
-		(at 163.83 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e7d61e4-1fe9-4828-939d-c2aecfd0fb49")
 	)
 	(junction
 		(at 297.18 100.33)
@@ -11150,6 +10985,12 @@
 		(uuid "ebb9da3a-0e95-42b1-b3dc-f5ff6997d1b9")
 	)
 	(junction
+		(at 163.83 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebd45435-04ed-4882-9b74-5cb5c21c9218")
+	)
+	(junction
 		(at 196.85 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11208,12 +11049,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4f8b4ff-2cd2-430a-9d0f-b76aa32fcd8b")
-	)
-	(junction
-		(at 143.51 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f52825d5-bf34-458b-883b-39710511841b")
 	)
 	(junction
 		(at 276.86 295.91)
@@ -11530,6 +11365,16 @@
 			(type default)
 		)
 		(uuid "0d58db80-79e5-4f64-b70f-121561329ff8")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df36643-862c-4ceb-ab3b-b3d2c3332dc1")
 	)
 	(wire
 		(pts
@@ -13453,16 +13298,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 82.55) (xy 163.83 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b60cfca-5fd4-45a1-aec9-2503d5bede80")
-	)
-	(wire
-		(pts
 			(xy 300.99 265.43) (xy 300.99 267.97)
 		)
 		(stroke
@@ -13730,6 +13565,16 @@
 			(type default)
 		)
 		(uuid "641e6b54-9c7e-4297-b2e5-5cebc36bcfa2")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6428b1ca-8f8c-4959-9091-8dd0b7f21cfe")
 	)
 	(wire
 		(pts
@@ -14320,6 +14165,16 @@
 			(type default)
 		)
 		(uuid "77a66be5-7ff9-49d4-b8df-edfb3f6d8bc9")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 163.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79585897-055d-4703-9f7f-7d8fcbfbdd04")
 	)
 	(wire
 		(pts
@@ -17550,16 +17405,6 @@
 			(type default)
 		)
 		(uuid "f45b9681-82f6-48cc-a72d-bea8ce3f1890")
-	)
-	(wire
-		(pts
-			(xy 151.13 82.55) (xy 156.21 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f496e41c-8df0-4c35-ae7a-8aa904ca543b")
 	)
 	(wire
 		(pts
@@ -22287,7 +22132,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -25512,7 +25357,7 @@
 				)
 			)
 		)
-		(property "Value" "AGND1"
+		(property "Value" "PGND"
 			(at 534.162 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26412,7 +26257,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -28471,7 +28316,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -33155,7 +33000,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -36131,7 +35976,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -36590,97 +36435,6 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 147.32 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f2b0b8a-f1b7-4ed8-9d2a-6e90c0f0c867")
-		(property "Reference" "F9"
-			(at 147.32 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MF-MSMF010-2"
-			(at 147.32 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 147.32 84.328 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf"
-			(at 147.32 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable PTC fuse, 0.10 A hold / 0.30 A trip (<=1.5 s @ 0.5 A), 60 V, 1812 - protects RPRE1"
-			(at 147.32 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C12430"
-			(at 147.32 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "565f5aa6-d9f5-4088-bc50-b98380d25cdd")
-		)
-		(pin "2"
-			(uuid "c731d34c-ee0f-4dfd-b7cf-0a32e1bc9f4f")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "F9")
 					(unit 1)
 				)
 			)
@@ -39186,7 +38940,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C23164"
 			(at 528.32 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -40974,7 +40728,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -42900,7 +42654,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -43241,7 +42995,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -46591,7 +46345,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C473237"
+		(property "LCSC" "C861404"
 			(at 254 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -49163,7 +48917,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -49596,7 +49350,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -50593,7 +50347,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 82.55 90)
+		(at 153.67 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50604,7 +50358,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1860cd0-95d5-4c06-8ccb-39ef03af40af")
 		(property "Reference" "RPRE1"
-			(at 160.02 76.2 90)
+			(at 153.67 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50614,7 +50368,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 160.02 78.74 90)
+			(at 153.67 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50624,7 +50378,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:TO-263-2_Resistor"
-			(at 160.02 84.328 90)
+			(at 153.67 84.328 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50635,7 +50389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 82.55 0)
+			(at 153.67 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50646,7 +50400,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 82.55 0)
+			(at 153.67 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54294,7 +54048,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C23164"
 			(at 528.32 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -54557,7 +54311,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
