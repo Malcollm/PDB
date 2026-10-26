@@ -1,0 +1,12 @@
+(version 1)
+
+# Board-wide copper-to-hole clearance (kept here instead of Board Setup > Constraints,
+# because Board Setup minimums can't be relaxed by custom rules).
+(rule "Hole clearance"
+	(constraint hole_clearance (min 0.25mm)))
+
+# Net ties NT1-NT11 (NetTie_AGND_PGND_VIA): pad 1's AGND copper runs into the pad 2 PGND via
+# by design, so hole clearance between the two pads of one net tie is waived.
+(rule "Net tie AGND tail into its own PGND via"
+	(constraint hole_clearance (min 0mm))
+	(condition "A.memberOfFootprint('NT*') && B.memberOfFootprint('NT*')"))

@@ -24093,7 +24093,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15899"
+		(property "LCSC" "C492903"
 			(at 728.98 389.89 0)
 			(hide yes)
 			(show_name no)
@@ -50715,6 +50715,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 153.67 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C26159126"
+			(at 153.67 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
