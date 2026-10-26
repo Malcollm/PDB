@@ -6,7 +6,7 @@
 	(paper "A1")
 	(title_block
 		(title "PDB")
-		(date "2026-09-09")
+		(date "2026-10-25")
 		(company "WiscoHumanoids")
 	)
 	(lib_symbols
@@ -9962,6 +9962,12 @@
 		(uuid "093536dc-9b3a-4016-93e7-e10ede10058f")
 	)
 	(junction
+		(at 124.46 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "094a1cea-5ff7-4972-a581-40a156049afd")
+	)
+	(junction
 		(at 308.61 424.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10382,12 +10388,6 @@
 		(uuid "4ec0886c-9d28-4641-97dd-74405483e6a4")
 	)
 	(junction
-		(at 110.49 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ee67e4f-eaea-484d-acfa-b59be076f523")
-	)
-	(junction
 		(at 207.01 417.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10464,6 +10464,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f085f28-4f30-4a99-9516-56f1a2ac07e1")
+	)
+	(junction
+		(at 113.03 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f986293-c2e0-4d59-afe6-3fff591edc33")
 	)
 	(junction
 		(at 204.47 78.74)
@@ -10742,12 +10748,6 @@
 		(uuid "9861f898-1c91-42bd-b9ff-03634fdd9d66")
 	)
 	(junction
-		(at 110.49 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98a312c8-cdaa-45c6-9da0-136d382dbf1f")
-	)
-	(junction
 		(at 741.68 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10830,12 +10830,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c1c7db-4f57-48b7-a582-1b648ad614f6")
-	)
-	(junction
-		(at 124.46 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abbc4776-04fb-4078-956e-0cd3ca38c36b")
 	)
 	(junction
 		(at 93.98 170.18)
@@ -11357,6 +11351,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 130.81) (xy 113.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0467d503-e022-496e-ba2f-3eb049f529b4")
+	)
+	(wire
+		(pts
 			(xy 646.43 92.71) (xy 646.43 97.79)
 		)
 		(stroke
@@ -11514,6 +11518,16 @@
 			(type default)
 		)
 		(uuid "0ba5ec64-0515-4188-8e24-4540cc841bac")
+	)
+	(wire
+		(pts
+			(xy 105.41 128.27) (xy 109.22 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0babd9c5-1ebc-4ad3-8c5d-b0275053b004")
 	)
 	(wire
 		(pts
@@ -11897,16 +11911,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 105.41 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d413f80-8e6c-48ee-aa5a-7c7f0f7c9a98")
-	)
-	(wire
-		(pts
 			(xy 195.58 427.99) (xy 260.35 427.99)
 		)
 		(stroke
@@ -12067,16 +12071,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 130.81) (xy 119.38 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2785ab20-9354-4100-97d0-1a4eaaa4412c")
-	)
-	(wire
-		(pts
 			(xy 671.83 245.11) (xy 678.18 245.11)
 		)
 		(stroke
@@ -12114,16 +12108,6 @@
 			(type default)
 		)
 		(uuid "297db035-fadc-401c-aa30-730f08be9bfb")
-	)
-	(wire
-		(pts
-			(xy 105.41 130.81) (xy 110.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29d1e044-feeb-4093-a096-b40c93596bb4")
 	)
 	(wire
 		(pts
@@ -13097,6 +13081,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 130.81) (xy 119.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a748c65-456f-4a1f-bbef-f27bf4cf2787")
+	)
+	(wire
+		(pts
 			(xy 354.33 476.25) (xy 347.98 476.25)
 		)
 		(stroke
@@ -13954,6 +13948,16 @@
 			(type default)
 		)
 		(uuid "6b919b7a-a124-4481-8d86-992aab3cf1ae")
+	)
+	(wire
+		(pts
+			(xy 113.03 138.43) (xy 113.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf49cc9-007d-42b9-ba09-389ca2df0832")
 	)
 	(wire
 		(pts
@@ -15937,16 +15941,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 115.57) (xy 110.49 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b9a853-c942-49e0-9144-fb4045b016e4")
-	)
-	(wire
-		(pts
 			(xy 207.01 417.83) (xy 233.68 417.83)
 		)
 		(stroke
@@ -17087,16 +17081,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 127) (xy 110.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e192824f-977f-4cc1-a14d-cac749ea6f07")
-	)
-	(wire
-		(pts
 			(xy 71.12 105.41) (xy 74.93 105.41)
 		)
 		(stroke
@@ -17487,16 +17471,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 115.57) (xy 110.49 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f45b9681-82f6-48cc-a72d-bea8ce3f1890")
-	)
-	(wire
-		(pts
 			(xy 151.13 82.55) (xy 156.21 82.55)
 		)
 		(stroke
@@ -17735,6 +17709,16 @@
 		)
 		(uuid "ffeb7382-5775-4aad-9269-9475543ee636")
 	)
+	(label "C_FUSE"
+		(at 109.22 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07286a11-a7a5-4f71-b8f5-fae6ef03b306")
+	)
 	(label "48V_ACT2_FUSE"
 		(at 650.24 135.89 0)
 		(effects
@@ -17854,16 +17838,6 @@
 			(justify left bottom)
 		)
 		(uuid "3b6fae86-174c-40e1-9bde-4dcd78b17568")
-	)
-	(label "48V_FUSE"
-		(at 118.11 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3de16b0c-1d18-495e-b924-648b10d91d75")
 	)
 	(label "ESTOP_FB"
 		(at 765.81 292.1 0)
@@ -18135,6 +18109,16 @@
 		)
 		(uuid "a7bf501c-a261-44ec-aae7-bc80aa6a4172")
 	)
+	(label "C_FUSE"
+		(at 394.97 190.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1a4ea14-f8a9-4a0a-898d-623d60cb5ede")
+	)
 	(label "48V_ACT3"
 		(at 701.04 195.58 0)
 		(effects
@@ -18174,6 +18158,16 @@
 			(justify left bottom)
 		)
 		(uuid "d2e13bd1-79f9-4bf9-9811-91cd2db08150")
+	)
+	(label "C_FUSE"
+		(at 113.03 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3d14a61-e29f-41dd-a65f-8f5d5903aa13")
 	)
 	(label "48V_ACT"
 		(at 520.7 331.47 0)
@@ -18313,6 +18307,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 655.32 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a98031a-41dc-482a-9d50-9ab64de7d830")
 		)
@@ -18395,6 +18400,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 146.05 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 146.05 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -18815,6 +18831,17 @@
 		)
 		(property "Description" ""
 			(at 654.05 459.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1653"
+			(at 654.05 459.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19696,6 +19723,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 323.85 427.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eb500d16-96b7-4681-a068-7a603f9a3c68")
 		)
@@ -20169,6 +20207,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 417.83 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 417.83 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -20736,6 +20785,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 561.34 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79727f93-2f2a-4bf2-8c2c-5acd8b680a40")
 		)
@@ -21048,6 +21108,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C218044"
+			(at 571.5 396.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d86240e6-c0f1-4181-a29a-9a7427bfc12d")
 		)
@@ -21292,6 +21363,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 708.66 431.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C95204"
 			(at 708.66 431.8 0)
 			(hide yes)
 			(show_name no)
@@ -21552,6 +21634,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C519406"
+			(at 735.33 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6aa3ac0d-ca25-46f4-b147-c3f49e0abe67")
 		)
@@ -21794,6 +21887,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 741.68 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C519406"
+			(at 741.68 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22218,6 +22322,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C105388"
+			(at 267.97 420.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ccfb64e6-afaa-4803-80cf-71a0a37ffb00")
 		)
@@ -22533,6 +22648,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1588"
+			(at 81.28 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "66748f55-419a-43a8-866b-bc6fe9d65cf5")
 		)
@@ -22616,6 +22742,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 650.24 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 650.24 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -23028,7 +23165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 127 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23062,6 +23199,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
 			(at 124.46 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -23344,6 +23492,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 662.94 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ab2369c-2273-4879-8104-b31f0b6f28cc")
 		)
@@ -23497,6 +23656,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.24 405.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C705776"
+			(at 142.24 405.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23840,6 +24010,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C519406"
+			(at 398.78 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "762bd6e3-3033-4cf2-8834-e8ef833c7ee1")
 		)
@@ -23922,6 +24103,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 290.83 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 290.83 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -24917,6 +25109,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14676"
+			(at 731.52 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c505a59f-4de6-469b-88dd-86e3818936fc")
 		)
@@ -24989,6 +25192,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 359.41 473.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C480537"
 			(at 359.41 473.71 0)
 			(hide yes)
 			(show_name no)
@@ -25239,6 +25453,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 668.02 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
+			(at 668.02 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26097,6 +26322,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 105.41 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a4f5954-a768-4dbe-8827-9755cd9af4ae")
 		)
@@ -26508,6 +26744,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 481.33 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 481.33 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -26964,6 +27211,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C24123"
+			(at 180.34 280.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e9a8f116-90fc-40a9-a302-a7560cff2db2")
 		)
@@ -27045,6 +27303,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 732.79 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 732.79 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -27204,6 +27473,17 @@
 			)
 		)
 		(property "Description" "EN series resistor from precharge board (J24 pin 4)"
+			(at 68.58 397.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C122538"
 			(at 68.58 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -28235,6 +28515,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149926"
+			(at 213.36 444.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "504cf2ca-c23b-4a38-b376-32f5d968c02d")
 		)
@@ -28394,6 +28685,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 722.63 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 722.63 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -28656,6 +28958,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 135.89 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7138a8aa-b91b-4f58-89aa-ab132a56851d")
 		)
@@ -28740,6 +29053,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 740.41 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C519406"
+			(at 740.41 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29269,6 +29593,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 236.22 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7ea571b4-d29a-47e3-9952-98a313a93aae")
 		)
@@ -29352,6 +29687,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 118.11 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 118.11 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -29523,6 +29869,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 173.99 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 173.99 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -30291,6 +30648,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 341.63 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C519406"
+			(at 341.63 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31582,6 +31950,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C513710"
+			(at 148.59 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19343ae2-68e7-48dd-abf0-aaaea5e24d7a")
 		)
@@ -31732,6 +32111,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 791.21 398.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C480537"
 			(at 791.21 398.78 0)
 			(hide yes)
 			(show_name no)
@@ -32234,6 +32624,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 417.83 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c5a0355-7f0f-4a3f-b981-aacccddf509d")
 		)
@@ -32387,6 +32788,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 728.98 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14676"
+			(at 728.98 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32647,6 +33059,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C122538"
+			(at 69.85 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56209ef1-30ac-4a5a-b6c1-f5c1ee504954")
 		)
@@ -32684,7 +33107,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5A"
+		(property "Value" "1A Fuse"
 			(at 375.92 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32694,7 +33117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 375.92 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -32808,6 +33231,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 636.27 375.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 636.27 375.92 90)
 			(hide yes)
 			(show_name no)
@@ -33037,7 +33471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "22pF"
 			(at 248.412 285.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33082,6 +33516,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 241.3 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1653"
 			(at 241.3 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -33242,6 +33687,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 463.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C95204"
 			(at 260.35 463.55 0)
 			(hide yes)
 			(show_name no)
@@ -33764,6 +34220,17 @@
 				)
 			)
 		)
+		(property "LCSC" " C122538"
+			(at 40.64 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb236589-f93d-4d81-af1e-075ee1b8fa1a")
 		)
@@ -33913,6 +34380,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 81.28 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -34094,6 +34572,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C513710"
+			(at 161.29 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "db2a3e65-1f88-4763-8efe-b68fcde20b81")
 		)
@@ -34248,6 +34737,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 312.42 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C480537"
 			(at 312.42 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -34428,6 +34928,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 655.32 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ee2999f-e33a-48e4-bf93-f5720b1be9e1")
 		)
@@ -34511,6 +35022,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 405.13 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 405.13 220.98 90)
 			(hide yes)
 			(show_name no)
@@ -34685,6 +35207,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C4190"
+			(at 520.7 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c3c80399-720e-42d4-8604-05f614061f26")
 		)
@@ -34732,7 +35265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 476.25 84.582 90)
 			(hide yes)
 			(show_name no)
@@ -34756,6 +35289,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 476.25 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C218412"
+			(at 476.25 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35255,6 +35799,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 668.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 668.02 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -36147,6 +36702,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 722.63 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1a1dbb9-cd2a-45f8-a6bb-c015a2a7accd")
 		)
@@ -36376,6 +36942,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 511.81 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 511.81 204.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36808,6 +37385,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 132.08 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fadbf05-f1d9-49d9-b46e-4093863ed25b")
 		)
@@ -36888,6 +37476,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20417064"
+			(at 251.46 420.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6a542efd-e81e-4fb5-9d47-12c869a2a47a")
 		)
@@ -36959,6 +37558,17 @@
 			)
 		)
 		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+			(at 68.58 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C122538"
 			(at 68.58 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -37361,6 +37971,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C217904"
+			(at 424.18 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "26537dc9-0d07-446f-9197-29533b773d91")
 		)
@@ -37744,6 +38365,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 566.42 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 566.42 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38578,6 +39210,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C105388"
+			(at 692.15 398.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f38ca36-5aa8-4e51-ab2b-6d198f2e33d9")
 		)
@@ -38660,6 +39303,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C480537"
+			(at 359.41 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "01c0c15e-48c0-4aaa-b966-592c1f526481")
 		)
@@ -38731,6 +39385,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
 			(at 124.46 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -39618,6 +40283,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 642.62 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75a0aeeb-301b-4607-8fb8-ffd7a49988d9")
 		)
@@ -39854,6 +40530,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 562.61 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 562.61 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -40171,7 +40858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "TC0325B1004T5F | Datasheet | UNI-ROYAL | LCSC Electronics"
+		(property "Datasheet" ""
 			(at 424.18 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -40183,6 +40870,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 424.18 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C326730"
 			(at 424.18 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -40264,6 +40962,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 476.25 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 476.25 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40421,6 +41130,17 @@
 		)
 		(property "Description" "Unpolarized capacitor NP0"
 			(at 217.17 450.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1653"
+			(at 217.17 450.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40590,6 +41310,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 668.02 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 668.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -40882,7 +41613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.98 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -40905,6 +41636,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 93.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C24123"
 			(at 93.98 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -40998,6 +41740,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 655.32 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 655.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -41190,6 +41943,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C344180"
+			(at 675.64 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98061714-f6a9-4757-9ca2-3fdfaa86be74")
 		)
@@ -41271,6 +42035,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 220.98 444.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1870141"
 			(at 220.98 444.5 90)
 			(hide yes)
 			(show_name no)
@@ -41601,6 +42376,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 575.31 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 575.31 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -42226,6 +43012,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C122538"
+			(at 254 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c105d99-fb55-40fd-913d-a5c7aaabef38")
 		)
@@ -42397,6 +43194,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 534.67 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "538cac69-9f89-4382-86b4-97eb6ef39d6f")
 		)
@@ -42468,6 +43276,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 139.7 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C218044"
+			(at 139.7 415.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42638,6 +43457,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14675"
+			(at 495.3 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0824d77-5abc-438b-96cf-551048710a66")
 		)
@@ -42731,6 +43561,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 642.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36f281d3-8a89-4dbf-a5cd-d6941e103643")
 		)
@@ -42812,6 +43653,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 657.86 452.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77034"
 			(at 657.86 452.12 90)
 			(hide yes)
 			(show_name no)
@@ -43215,6 +44067,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14676"
+			(at 389.89 422.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "250987cc-aa40-428c-acc9-fd02d5edb0a4")
 		)
@@ -43368,6 +44231,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 666.75 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14676"
+			(at 666.75 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43614,6 +44488,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C473237"
+			(at 69.85 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2410860-8158-4218-aa3b-19f5c9083374")
 		)
@@ -43843,6 +44728,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 443.23 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
 			(at 443.23 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -44118,6 +45014,17 @@
 		)
 		(property "Voltage" "16V"
 			(at 740.41 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C519406"
+			(at 740.41 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44649,86 +45556,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 114.3 115.57 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c25e94e9-81d5-414c-a837-86fb33d09779")
-		(property "Reference" "F10"
-			(at 114.3 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.5A"
-			(at 114.3 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 114.3 113.792 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 114.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cafcff46-1f11-4c28-8739-b02cb02df45c")
-		)
-		(pin "2"
-			(uuid "c0a2e2c4-621f-4d98-844b-f6973b7df9e1")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "F10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 254 297.18 0)
 		(unit 1)
@@ -44785,6 +45612,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 254 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C473237"
 			(at 254 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -44866,6 +45704,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 566.42 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C705776"
+			(at 566.42 386.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45195,6 +46044,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C95204"
+			(at 519.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6425310b-4e2c-49bc-92d4-899997ed1600")
 		)
@@ -45266,6 +46126,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 468.63 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
 			(at 468.63 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -45358,6 +46229,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23234"
+			(at 443.23 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1b139a3f-c0cf-403b-b4f3-7b1ce42b19e5")
 		)
@@ -45439,6 +46321,17 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 374.65 417.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C66501"
 			(at 374.65 417.83 90)
 			(hide yes)
 			(show_name no)
@@ -46396,6 +47289,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C519406"
+			(at 681.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17a30c09-45e5-4ee4-b03b-8e80ff231045")
 		)
@@ -46643,6 +47547,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 725.17 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6da12230-a80a-4b70-a09b-b981b07ea57a")
 		)
@@ -46660,7 +47575,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 110.49 123.19 270)
+		(at 113.03 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46670,7 +47585,7 @@
 		(dnp no)
 		(uuid "d419be3b-eaf4-4cde-acde-44897f9abd5c")
 		(property "Reference" "DFB1"
-			(at 112.776 124.206 90)
+			(at 110.744 133.604 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46681,7 +47596,7 @@
 			)
 		)
 		(property "Value" "S1M"
-			(at 113.284 122.174 90)
+			(at 110.236 135.636 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46692,7 +47607,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 110.49 123.19 0)
+			(at 113.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46703,7 +47618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 123.19 0)
+			(at 113.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46714,7 +47629,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 123.19 0)
+			(at 113.03 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47117,6 +48032,17 @@
 			)
 		)
 		(property "Voltage" "50V"
+			(at 203.2 394.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C377773"
 			(at 203.2 394.97 90)
 			(hide yes)
 			(show_name no)
@@ -47616,6 +48542,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 50.8 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c527dc7-9000-4e19-b0c9-8f604ed315fa")
 		)
@@ -47736,7 +48673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100R"
 			(at 523.24 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47770,6 +48707,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 520.7 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
 			(at 520.7 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -47873,6 +48821,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 547.37 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5326f109-6185-4ed6-bfa5-fd1bd11b586d")
 		)
@@ -47944,6 +48903,17 @@
 			)
 		)
 		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+			(at 40.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C473237"
 			(at 40.64 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -48117,6 +49087,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 448.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C861285"
 			(at 260.35 448.31 0)
 			(hide yes)
 			(show_name no)
@@ -48381,6 +49362,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C705723"
+			(at 650.24 452.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b009d8c-c323-4bb7-ad4a-3c2423f13b5a")
 		)
@@ -48530,6 +49522,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
 			(at 135.89 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -49116,6 +50119,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14676"
+			(at 732.79 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8869cf36-1348-47f8-821b-117a11e801dc")
 		)
@@ -49390,6 +50404,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C506577"
+			(at 520.7 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de493c35-9f71-4f12-8c56-050f491dfb44")
 		)
@@ -49563,6 +50588,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C66501"
+			(at 306.07 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21487ec2-27f6-4575-b25c-481fdecd4102")
 		)
@@ -49679,7 +50715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100R"
 			(at 471.17 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49713,6 +50749,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 468.63 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
 			(at 468.63 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -49804,6 +50851,17 @@
 			)
 		)
 		(property "Voltage" "35V"
+			(at 212.09 397.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 212.09 397.51 90)
 			(hide yes)
 			(show_name no)
@@ -49975,6 +51033,17 @@
 			)
 		)
 		(property "Voltage" "100V"
+			(at 642.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 642.62 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -50459,6 +51528,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14676"
+			(at 734.06 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0cbcaf6-d640-45ae-b390-8113ca7c6ed1")
 		)
@@ -50629,6 +51709,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14676"
+			(at 332.74 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87094dd7-d37c-4c61-af60-a38449cdcf4e")
 		)
@@ -50700,6 +51791,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 673.1 398.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7432408"
+			(at 673.1 398.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50789,6 +51891,17 @@
 			)
 		)
 		(property "Voltage" "50V"
+			(at 636.27 364.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C377773"
 			(at 636.27 364.49 90)
 			(hide yes)
 			(show_name no)
@@ -51767,6 +52880,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 203.2 407.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f21f2df-8030-49cf-808d-bb0efb803c1c")
 		)
@@ -52082,6 +53206,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 566.42 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f371e71-3190-4625-b772-3cac4dbceed7")
 		)
@@ -52187,6 +53322,17 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 483.87 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C506577"
+			(at 468.63 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52649,6 +53795,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 588.01 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
 			(at 588.01 128.27 0)
 			(hide yes)
 			(show_name no)
