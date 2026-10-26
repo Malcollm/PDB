@@ -35162,10 +35162,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7874595f-de26-4d8b-a4c6-1bb548aef7d7")
 		(property "Reference" "CCS10"
-			(at 408.94 219.7099 0)
+			(at 418.846 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35176,7 +35175,7 @@
 			)
 		)
 		(property "Value" "100uF 35V"
-			(at 408.94 222.2499 0)
+			(at 418.846 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
