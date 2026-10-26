@@ -18468,7 +18468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_18x22"
 			(at 187.96 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -18491,6 +18491,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100V"
+			(at 184.15 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
 			(at 184.15 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18560,7 +18571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
 			(at 528.32 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -18594,6 +18605,17 @@
 			)
 		)
 		(property "Package" "SMD electrolytic"
+			(at 528.32 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5246576"
 			(at 528.32 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -18988,7 +19010,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221756_Texas-Instruments-LM5148RGYR_C7470701.pdf"
 			(at 599.44 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -19562,6 +19584,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C7470701"
+			(at 599.44 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "18"
 			(uuid "f96bc234-989b-40ac-aaa1-dddca2d7c029")
 		)
@@ -19712,7 +19745,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "50V"
 			(at 323.85 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -20016,7 +20049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_18x22"
 			(at 204.47 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -20039,6 +20072,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100V"
+			(at 200.66 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
 			(at 200.66 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -20184,7 +20228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 417.83 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -20206,7 +20250,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 417.83 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -20217,7 +20261,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 417.83 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -23004,7 +23048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Lelon-VZH470M2ATR-1010_C164068.pdf"
 			(at 643.89 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -23038,6 +23082,17 @@
 			)
 		)
 		(property "Package" "SMD electrolytic"
+			(at 643.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C164068"
 			(at 643.89 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -24080,7 +24135,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 290.83 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -24102,7 +24157,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 290.83 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -24113,7 +24168,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 290.83 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -24340,7 +24395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Lelon-VZH470M2ATR-1010_C164068.pdf"
 			(at 99.06 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -24374,6 +24429,17 @@
 			)
 		)
 		(property "Package" "SMD electrolytic"
+			(at 99.06 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C164068"
 			(at 99.06 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -24443,7 +24509,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 701.04 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -24561,7 +24627,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 701.04 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -24607,6 +24673,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 701.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -25429,7 +25506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 668.02 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -25451,7 +25528,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 668.02 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -25462,7 +25539,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 668.02 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -25689,7 +25766,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 638.81 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -25711,8 +25788,19 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 638.81 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 638.81 387.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26392,7 +26480,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 635 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -26510,7 +26598,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 635 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -26556,6 +26644,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 635 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -26721,7 +26820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 481.33 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -26743,7 +26842,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 481.33 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -26754,7 +26853,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 481.33 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -27005,7 +27104,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0805X7R104K101DT_C344180.pdf"
 			(at 668.02 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -27027,7 +27126,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "100V"
+			(at 668.02 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 668.02 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -27085,7 +27195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_18x22"
 			(at 204.47 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -27108,6 +27218,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100V"
+			(at 200.66 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
 			(at 200.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -27280,7 +27401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 732.79 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -27302,7 +27423,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 732.79 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -27313,7 +27434,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 732.79 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -27735,7 +27856,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 709.93 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -27853,7 +27974,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 709.93 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -27899,6 +28020,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 709.93 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -28662,7 +28794,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 722.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -28684,7 +28816,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 722.63 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -28695,7 +28827,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 722.63 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -28832,7 +28964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_18x22"
 			(at 187.96 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -28855,6 +28987,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100V"
+			(at 184.15 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
 			(at 184.15 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -29560,7 +29703,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 236.22 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -29582,7 +29725,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 236.22 260.35 90)
 			(hide yes)
 			(show_name no)
@@ -29593,7 +29736,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 236.22 260.35 90)
 			(hide yes)
 			(show_name no)
@@ -30962,7 +31105,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 281.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -31080,7 +31223,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 281.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -31126,6 +31269,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 281.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -32269,7 +32423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Lelon-VZH470M2ATR-1010_C164068.pdf"
 			(at 121.92 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -32303,6 +32457,17 @@
 			)
 		)
 		(property "Package" "SMD electrolytic"
+			(at 121.92 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C164068"
 			(at 121.92 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -32454,7 +32619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NVMFS6H848NLT1G"
+		(property "Value" "BSC070N10LS5ATMA1"
 			(at 237.49 425.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32476,7 +32641,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h848nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031043_Infineon-Technologies-BSC070N10LS5ATMA1_C3278731.pdf"
 			(at 231.14 436.88 0)
 			(hide yes)
 			(show_name no)
@@ -32522,6 +32687,17 @@
 		)
 		(property "Sim.Pins" "1=S 2=G 3=D"
 			(at 231.14 439.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3278731"
+			(at 231.14 424.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32591,7 +32767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 417.83 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -32613,7 +32789,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 417.83 246.38 90)
 			(hide yes)
 			(show_name no)
@@ -32624,7 +32800,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 417.83 246.38 90)
 			(hide yes)
 			(show_name no)
@@ -32946,7 +33122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1402-E/OT"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
 			(at 492.76 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -32959,6 +33135,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 492.76 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C128573"
 			(at 492.76 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -33208,7 +33395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 636.27 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -33230,7 +33417,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 636.27 375.92 90)
 			(hide yes)
 			(show_name no)
@@ -33241,7 +33428,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 636.27 375.92 90)
 			(hide yes)
 			(show_name no)
@@ -33515,7 +33702,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 241.3 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -34059,7 +34246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NVMFS6H858NLT1G"
+		(property "Value" "BSC146N10LS5"
 			(at 237.49 406.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34081,7 +34268,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h858nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2411220327_Infineon-Technologies-BSC146N10LS5_C534417.pdf"
 			(at 231.14 417.83 0)
 			(hide yes)
 			(show_name no)
@@ -34127,6 +34314,17 @@
 		)
 		(property "Sim.Pins" "1=S 2=G 3=D"
 			(at 231.14 420.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C534417"
+			(at 231.14 405.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34955,8 +35153,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 405.13 220.98 180)
+		(lib_id "Device:C_Polarized")
+		(at 405.13 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34977,7 +35175,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uF 50V"
+		(property "Value" "100uF 35V"
 			(at 408.94 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34999,7 +35197,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208230930_KNSCHA-RVT100UF35V167RV0082_C5138965.pdf"
 			(at 405.13 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -35010,7 +35208,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 405.13 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -35021,7 +35219,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "35V"
 			(at 405.13 220.98 90)
 			(hide yes)
 			(show_name no)
@@ -35032,7 +35230,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C5138965"
 			(at 405.13 220.98 90)
 			(hide yes)
 			(show_name no)
@@ -35368,7 +35566,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0805X7R104K101DT_C344180.pdf"
 			(at 756.92 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -35390,7 +35588,18 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "100V"
+			(at 756.92 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
 			(at 756.92 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -35858,7 +36067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NVMFS6H858NLT1G"
+		(property "Value" "BSC146N10LS5"
 			(at 664.21 384.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35880,7 +36089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h858nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2411220327_Infineon-Technologies-BSC146N10LS5_C534417.pdf"
 			(at 657.86 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -35926,6 +36135,17 @@
 		)
 		(property "Sim.Pins" "1=S 2=G 3=D"
 			(at 657.86 398.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C534417"
+			(at 657.86 383.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36155,7 +36375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Lelon-VZH470M2ATR-1010_C164068.pdf"
 			(at 635 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -36189,6 +36409,17 @@
 			)
 		)
 		(property "Package" "SMD electrolytic"
+			(at 635 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C164068"
 			(at 635 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -36340,7 +36571,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 701.04 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -36458,7 +36689,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 701.04 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -36504,6 +36735,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 701.04 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -36669,7 +36911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 722.63 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -36691,7 +36933,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 722.63 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -36702,7 +36944,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 722.63 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -36760,7 +37002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_18x22"
 			(at 187.96 65.0748 0)
 			(hide yes)
 			(show_name no)
@@ -36783,6 +37025,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100V"
+			(at 184.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
 			(at 184.15 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -37139,7 +37392,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 353.06 422.91 0)
 			(hide yes)
 			(show_name no)
@@ -37185,6 +37438,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 353.06 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -38502,7 +38766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NVMFS6H848NLT1G"
+		(property "Value" "BSC070N10LS5ATMA1"
 			(at 664.21 417.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38524,7 +38788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h848nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031043_Infineon-Technologies-BSC070N10LS5ATMA1_C3278731.pdf"
 			(at 657.86 429.26 0)
 			(hide yes)
 			(show_name no)
@@ -38570,6 +38834,17 @@
 		)
 		(property "Sim.Pins" "1=S 2=G 3=D"
 			(at 657.86 431.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3278731"
+			(at 657.86 416.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40039,6 +40314,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C7470701"
+			(at 175.26 420.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "18"
 			(uuid "9a2edde3-fe87-4e66-81c1-d498135f617f")
 		)
@@ -40507,7 +40793,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 562.61 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -40529,7 +40815,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 562.61 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -40540,7 +40826,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 562.61 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -42034,7 +42320,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 220.98 444.5 90)
 			(hide yes)
 			(show_name no)
@@ -42722,6 +43008,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1850345"
+			(at 208.28 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "337d1cda-fa0a-4447-809a-31775d1dea70")
 		)
@@ -42916,6 +43213,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C191027"
+			(at 537.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -43652,7 +43960,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 657.86 452.12 90)
 			(hide yes)
 			(show_name no)
@@ -44705,7 +45013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 441.452 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -44738,7 +45046,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14675"
+		(property "LCSC" "C96346"
 			(at 443.23 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -44808,7 +45116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
 			(at 636.27 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -44842,6 +45150,17 @@
 			)
 		)
 		(property "Package" "SMD electrolytic"
+			(at 636.27 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5246576"
 			(at 636.27 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -45852,7 +46171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_18x22"
 			(at 204.47 65.0748 0)
 			(hide yes)
 			(show_name no)
@@ -45875,6 +46194,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100V"
+			(at 200.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
 			(at 200.66 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -46298,7 +46628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 374.65 417.83 0)
 			(hide yes)
 			(show_name no)
@@ -46320,7 +46650,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 374.65 417.83 90)
 			(hide yes)
 			(show_name no)
@@ -46331,7 +46661,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 374.65 417.83 90)
 			(hide yes)
 			(show_name no)
@@ -46616,7 +46946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NVMFS6H848NLT1G"
+		(property "Value" "BSC070N10LS5ATMA1"
 			(at 599.44 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46638,7 +46968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h848nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031043_Infineon-Technologies-BSC070N10LS5ATMA1_C3278731.pdf"
 			(at 593.09 127 0)
 			(hide yes)
 			(show_name no)
@@ -46684,6 +47014,17 @@
 		)
 		(property "Sim.Pins" "1=S 2=G 3=D"
 			(at 593.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3278731"
+			(at 593.09 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46925,7 +47266,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 701.04 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -47043,7 +47384,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 701.04 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -47089,6 +47430,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 701.04 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -47514,7 +47866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 725.17 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -47536,7 +47888,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 725.17 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -47547,7 +47899,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 725.17 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -48351,7 +48703,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1401T-E/OT"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
 			(at 96.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -48364,6 +48716,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C128573"
 			(at 96.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -48983,7 +49346,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1401T-E/OT"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
 			(at 440.69 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -48996,6 +49359,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 440.69 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C128573"
 			(at 440.69 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -49839,7 +50213,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
 			(at 636.27 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -49873,6 +50247,17 @@
 			)
 		)
 		(property "Package" "SMD electrolytic"
+			(at 636.27 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5246576"
 			(at 636.27 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -50555,7 +50940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 306.07 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -50577,7 +50962,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 306.07 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -50588,7 +50973,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 306.07 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -50850,7 +51235,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "50V"
 			(at 212.09 397.51 90)
 			(hide yes)
 			(show_name no)
@@ -52235,6 +52620,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C2867795"
+			(at 452.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f15e1576-86bc-4ea0-bda5-c891c7abefca")
 		)
@@ -52576,7 +52972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
 			(at 772.16 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -52610,6 +53006,17 @@
 			)
 		)
 		(property "Package" "SMD electrolytic"
+			(at 772.16 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5246576"
 			(at 772.16 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -52869,7 +53276,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "50V"
 			(at 203.2 407.67 90)
 			(hide yes)
 			(show_name no)
@@ -53566,7 +53973,7 @@
 				)
 			)
 		)
-		(property "Value" "NVMFS6H848NLT1G"
+		(property "Value" "BSC070N10LS5ATMA1"
 			(at 127.254 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53587,7 +53994,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h848nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031043_Infineon-Technologies-BSC070N10LS5ATMA1_C3278731.pdf"
 			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -53633,6 +54040,17 @@
 		)
 		(property "Sim.Pins" "1=S 2=G 3=D"
 			(at 139.7 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3278731"
+			(at 124.46 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

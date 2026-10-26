@@ -1680,7 +1680,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Lelon-VZH470M2ATR-1010_C164068.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1736,6 +1736,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C164068"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecaec3d0-284d-49ff-905a-c2a23d0ec771")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2324,7 +2336,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2380,6 +2392,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5246576"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b66e7e99-338b-4e9a-84ba-860529492a84")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2981,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3037,6 +3061,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5246576"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5644de38-93f7-43be-b884-dbbd9fe69fab")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3788,7 +3824,7 @@
 		(property "Reference" "F4"
 			(at -7.075 -4.885 0)
 			(layer "F.SilkS")
-			(uuid "46bc2146-ed93-4a49-b7d9-a15fe70dbf1b")
+			(uuid "70d591d1-5371-4e54-9b8a-218f38b9b2ef")
 			(effects
 				(font
 					(size 1 1)
@@ -3799,7 +3835,7 @@
 		(property "Value" "~"
 			(at 4.99 4.885 0)
 			(layer "F.Fab")
-			(uuid "8ee74ae1-88fe-4d1f-8f9c-b6a76c13f40d")
+			(uuid "6c0bfa07-c548-4a6b-be5e-f18c1f8a2701")
 			(effects
 				(font
 					(size 1 1)
@@ -3811,7 +3847,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6d74ac1-9b5f-47b7-978b-d1bd10b58263")
+			(uuid "9f9772ec-91b9-4cc1-8c43-ed507f019df9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3858,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "938752de-29b2-4d64-85fe-3498cb661da1")
+			(uuid "7c9e6482-df95-4566-9dab-0c957970fa35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4402,7 +4438,7 @@
 				)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4450,6 +4486,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a04080b2-c171-4173-b15c-c80eb1ed9853")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6784,7 +6832,7 @@
 		(property "Reference" "Q7"
 			(at -11.201419 0.53 0)
 			(layer "F.SilkS")
-			(uuid "e79ecc14-4eea-45cd-ad82-26ef406f4cd9")
+			(uuid "ba6e951e-4e7b-4c45-b16b-7d0809cdef45")
 			(effects
 				(font
 					(size 1 1)
@@ -6792,10 +6840,10 @@
 				)
 			)
 		)
-		(property "Value" "NVMFS6H858NLT1G"
+		(property "Value" "BSC146N10LS5"
 			(at 0 3.4 90)
 			(layer "F.Fab")
-			(uuid "e2ff8b5a-1a7f-4419-aaac-0ac0409f4188")
+			(uuid "d716b3ac-f635-4493-9607-92a09f4b83ab")
 			(effects
 				(font
 					(size 1 1)
@@ -6803,12 +6851,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h858nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2411220327_Infineon-Technologies-BSC146N10LS5_C534417.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33f1e415-d964-4b25-9b99-ac04bc40b9ef")
+			(uuid "c0884b80-f6c9-46f5-bab5-b74fc3e57301")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +6869,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6eb755c1-e6a9-4d06-831d-34bf3cd2ada9")
+			(uuid "3c906f97-7771-4ef3-904e-de2902577ea6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,6 +6912,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C534417"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bced3097-f12a-4769-8b5d-5abed330b6e3")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7608,7 +7668,7 @@
 		(property "Reference" "F6"
 			(at -11.24 0.14 180)
 			(layer "F.SilkS")
-			(uuid "73728767-4880-4e1f-97ac-8b97be6b8efd")
+			(uuid "ff7b2f02-39ca-4c73-acd5-babb8ad50237")
 			(effects
 				(font
 					(size 1 1)
@@ -7619,7 +7679,7 @@
 		(property "Value" "~"
 			(at 4.99 4.885 90)
 			(layer "F.Fab")
-			(uuid "42802670-a083-4aa0-bf93-929b5d3bd335")
+			(uuid "a1154ecd-28d6-4d93-a997-ee22b780c7fc")
 			(effects
 				(font
 					(size 1 1)
@@ -7631,7 +7691,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a232dc4-b917-4db8-86d7-be21b0bd981f")
+			(uuid "805c8b1e-b3bb-4a05-be7b-9593f17f60ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,7 +7702,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "309e1805-511b-4171-b8de-57d0e859ecd5")
+			(uuid "145a957b-63dc-458b-b52e-cf9101a7d1a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +8537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8603,7 +8663,7 @@
 				)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8651,6 +8711,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c605c411-880d-47b5-b37a-b9a754c56894")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10355,7 +10427,7 @@
 				)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10403,6 +10475,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1851ebd-f91e-4bd9-97db-4b7c360ad481")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12398,7 +12482,7 @@
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "566733f9-eff3-4bbf-8179-325102588ed7")
+			(uuid "8f6dda38-118c-4f1f-a4b1-8fa0adabbbf4")
 			(effects
 				(font
 					(size 1 1)
@@ -12409,7 +12493,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "97a09e58-492b-49b4-8bb7-3e9de242fb0d")
+			(uuid "1143c5e1-8228-4227-b354-d9aac4e7eef8")
 			(effects
 				(font
 					(size 1 1)
@@ -12421,7 +12505,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76248b95-ba42-4883-b269-89e45fd42113")
+			(uuid "26f0ce85-028e-447b-8850-84de6973fb19")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12516,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a73632d3-d588-4f84-8dcc-c9b1544b89b8")
+			(uuid "9c48cf32-ac78-4ae2-b178-6438738a8c6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,7 +12782,7 @@
 		(property "Reference" "J11"
 			(at 6.6 3.95 180)
 			(layer "F.SilkS")
-			(uuid "2d23e579-145c-4373-83a6-c596d154a667")
+			(uuid "7d2db2f0-2ddc-4475-ae40-17fbd4636cf5")
 			(effects
 				(font
 					(size 1 1)
@@ -12709,7 +12793,7 @@
 		(property "Value" "Conn_01x08"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "b9a267e7-c790-40ea-bf6c-68c76c4b9a96")
+			(uuid "ecbca449-3485-469a-b3a8-25f0f7bf28ce")
 			(effects
 				(font
 					(size 1 1)
@@ -12721,7 +12805,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58cdabdc-9b13-4aac-a771-d76c95594d54")
+			(uuid "b4dbd01d-0ee0-4993-95e8-9ede82d0cd9c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12732,7 +12816,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "078ae2c3-671a-4497-898a-f69b734c00c3")
+			(uuid "6b02b5b2-ab81-42f9-97c5-fd31e06eec2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15326,7 +15410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15452,7 +15536,7 @@
 				)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15500,6 +15584,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30f6ff98-aab5-4b2a-aee3-be2b736d74e3")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -16495,7 +16591,7 @@
 		(property "Reference" "H1"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "6273373a-297e-4b53-acba-ecad68f9729b")
+			(uuid "da88dfed-c9ae-4824-81c8-1cd8b3079060")
 			(effects
 				(font
 					(size 1 1)
@@ -16506,7 +16602,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "7007cef2-edd6-4fa2-a030-b8209f52f144")
+			(uuid "d3a9f3f3-93cb-4a75-b1d7-169ac8568483")
 			(effects
 				(font
 					(size 1 1)
@@ -16518,7 +16614,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79d1d4f3-3e9b-4a1a-bae4-b6f75d84ab6f")
+			(uuid "465f3be6-bb4f-4236-af99-d999c294acbe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16529,7 +16625,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0c61057-9299-41ec-b184-6f17f9202997")
+			(uuid "d4b7da95-15fc-4110-b979-a5e82c8a8c1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,11 +16698,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:CP_Elec_18x17.5"
+	(footprint "Capacitor_SMD:CP_Elec_18x22"
 		(layer "F.Cu")
 		(uuid "3a0b8316-bdf8-4958-8e9f-5b1239e2a21c")
 		(at 274.2 100.4 90)
-		(descr "SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
+		(descr "SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "CBLK4"
 			(at 0 -10.55 90)
@@ -16660,6 +16756,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e69faa07-8d8c-4bed-b295-ce757896de80")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -17037,7 +17145,7 @@
 			(uuid "ab151954-54ca-49f8-b77c-0d9db1da74fb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x17.5.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x22.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17078,7 +17186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1401T-E/OT"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17097,6 +17205,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C128573"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85742ef7-f789-4a32-adcc-3f06c11d6e0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17680,7 +17800,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17830,7 +17950,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17864,7 +17984,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17877,7 +17997,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18170,14 +18290,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
+	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "41508f87-346e-4c02-b38e-45cd936aad52")
 		(at 218.4975 310.4)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
-		(tags "capacitor")
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
 		(property "Reference" "RESTP5"
-			(at 0 -1.43 0)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "21c81ec3-e8ef-4781-8175-73f4cc4ea494")
 			(effects
@@ -18188,7 +18308,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.43 0)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "34858f5b-734f-49fe-9742-c36c6125cb57")
 			(effects
@@ -18237,7 +18357,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04c78b18-6456-49ca-8d9b-bef0f291af7d")
+			(uuid "8523dc4a-d0ca-4dc7-a6af-8ea23a9cd5bf")
 			(effects
 				(font
 					(size 1 1)
@@ -18258,18 +18378,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0d45c12a-bd45-4b6c-adbb-010a76f4755e")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18277,9 +18387,19 @@
 			(layer "F.SilkS")
 			(uuid "63826054-4eef-41c9-8a41-88410018dafa")
 		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0d45c12a-bd45-4b6c-adbb-010a76f4755e")
+		)
 		(fp_rect
-			(start -1.48 -0.73)
-			(end 1.48 0.73)
+			(start -1.68 -0.95)
+			(end 1.68 0.95)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -18289,8 +18409,8 @@
 			(uuid "6ede1fd8-f9eb-48e4-b8a2-922b069541d7")
 		)
 		(fp_rect
-			(start -0.8 -0.4)
-			(end 0.8 0.4)
+			(start -1 -0.625)
+			(end 1 0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -18305,31 +18425,31 @@
 			(uuid "8521177f-a79b-4e6e-a36f-397280e34638")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
-			(size 0.9 0.95)
+			(at -0.9125 0)
+			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.243902)
 			(net "Net-(J20-Pin_2)")
 			(pintype "passive")
 			(uuid "cba25288-05c0-4903-bb82-d7f78449b71a")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
-			(size 0.9 0.95)
+			(at 0.9125 0)
+			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.243902)
 			(net "/ESTOP_FB")
 			(pintype "passive")
 			(uuid "0975a0ec-0fd8-4b0b-8e0f-b9f7fef80fc9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18512,11 +18632,11 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:CP_Elec_18x17.5"
+	(footprint "Capacitor_SMD:CP_Elec_18x22"
 		(layer "F.Cu")
 		(uuid "451ef8b9-0ee1-4744-aef5-3d04f612a406")
 		(at 295.7 100.4 90)
-		(descr "SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
+		(descr "SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "CBLK5"
 			(at 0 -10.55 90)
@@ -18570,6 +18690,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e52b0acd-87e2-4d06-b225-20286b2fb6db")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -18947,7 +19079,7 @@
 			(uuid "ac60c2d0-fdb8-45fd-bb44-ad439a7e6a72")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x17.5.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x22.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19158,7 +19290,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19192,7 +19324,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19205,7 +19337,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19342,7 +19474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19398,6 +19530,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5246576"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab374300-96e8-41b1-9537-d34fcb732ae8")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -20948,11 +21092,11 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:CP_Elec_18x17.5"
+	(footprint "Capacitor_SMD:CP_Elec_18x22"
 		(layer "F.Cu")
 		(uuid "4d8c5bf0-cfc2-46f8-abae-2f839b39cb55")
 		(at 274.2 137.4 -90)
-		(descr "SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
+		(descr "SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "CBLK7"
 			(at 0 -10.55 90)
@@ -21006,6 +21150,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51be8993-06ce-4521-9e96-efa538553145")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -21383,7 +21539,7 @@
 			(uuid "fefdaa6d-2a12-4ff4-a151-a5f21e0077eb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x17.5.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x22.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23808,7 +23964,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0805X7R104K101DT_C344180.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23842,7 +23998,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "100V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23851,6 +24007,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89a21a66-9ad5-4bc9-b0f8-f10f16418bc9")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -24144,7 +24312,7 @@
 		(property "Reference" "J24"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "91d2b0ba-69df-44f8-bb6f-b3dc30e6039c")
+			(uuid "dc258df7-7629-401d-9a60-7f57805f0137")
 			(effects
 				(font
 					(size 1 1)
@@ -24155,7 +24323,7 @@
 		(property "Value" "Precharge Ctrl In"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "bbf77a16-724b-42dd-bfba-4f501056b852")
+			(uuid "e84ca941-6b32-47a2-af97-7481d1c37d52")
 			(effects
 				(font
 					(size 1 1)
@@ -24167,7 +24335,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "542a6d68-b1e0-4a07-8553-3d4197865b6e")
+			(uuid "b0c92d5b-2cc6-41c9-aa38-c627d90096a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24178,7 +24346,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4afaa30-0874-432b-bfad-1545c30f3ca3")
+			(uuid "07d051f4-a67c-4ad6-b32a-8543d2b61761")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25516,7 +25684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25642,7 +25810,7 @@
 				)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25690,6 +25858,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "123eff9e-61ba-412e-9742-a6209e230009")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -27276,7 +27456,7 @@
 	(footprint "Capacitor_SMD:CP_Elec_6.3x5.4"
 		(layer "F.Cu")
 		(uuid "656e498a-74fb-42ca-936a-b81f2a7d569e")
-		(at 223.3225 301.9)
+		(at 223.3225 301.9 180)
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic C55, 6.3x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "CCS10"
@@ -27290,7 +27470,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF 50V"
+		(property "Value" "100uF 35V"
 			(at 0 4.35 0)
 			(layer "F.Fab")
 			(uuid "b277b6cd-50fb-4ac1-bba5-196ca6cb2770")
@@ -27301,7 +27481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208230930_KNSCHA-RVT100UF35V167RV0082_C5138965.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27312,7 +27492,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27335,8 +27515,8 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
-			(at 0 0 0)
+		(property "Voltage" "35V"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27348,8 +27528,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
-			(at 0 0 0)
+		(property "LCSC" "C5138965"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27361,7 +27541,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property ki_fp_filters "CP_*")
 		(path "/7874595f-de26-4d8b-a4c6-1bb548aef7d7")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
@@ -27374,84 +27554,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -4.4375 -1.8475)
-			(end -3.65 -1.8475)
+			(start 3.41 3.41)
+			(end 3.41 1.06)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "580b5ddd-eace-4fa7-9020-7f834cf14278")
-		)
-		(fp_line
-			(start -4.04375 -2.24125)
-			(end -4.04375 -1.45375)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1cd865a5-f93a-4ff7-bf5e-b76a3707b8aa")
-		)
-		(fp_line
-			(start -3.41 -2.345563)
-			(end -3.41 -1.06)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7f9e6b63-869a-4339-a41a-ca5c3be78279")
-		)
-		(fp_line
-			(start -3.41 -2.345563)
-			(end -2.345563 -3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "25929a7b-27c1-40f8-ba81-83ce0ab68ba6")
-		)
-		(fp_line
-			(start -3.41 2.345563)
-			(end -3.41 1.06)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c8c73972-f574-44a5-bdd9-07f63fbf23dd")
-		)
-		(fp_line
-			(start -3.41 2.345563)
-			(end -2.345563 3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "022c3528-c11f-4dbe-9464-1dacbfca9b40")
-		)
-		(fp_line
-			(start -2.345563 -3.41)
-			(end 3.41 -3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6ecb96e5-5132-4913-9935-b32dbadb4c87")
-		)
-		(fp_line
-			(start -2.345563 3.41)
-			(end 3.41 3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3db53e88-8368-48e4-8236-5c9372a190d9")
+			(uuid "274031fe-b6a1-4cd8-8da4-f172aa4417f4")
 		)
 		(fp_line
 			(start 3.41 -3.41)
@@ -27464,144 +27574,84 @@
 			(uuid "f247712d-93dc-43ba-b0a4-d030577a9168")
 		)
 		(fp_line
-			(start 3.41 3.41)
-			(end 3.41 1.06)
+			(start -2.345563 3.41)
+			(end 3.41 3.41)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "274031fe-b6a1-4cd8-8da4-f172aa4417f4")
+			(uuid "3db53e88-8368-48e4-8236-5c9372a190d9")
 		)
 		(fp_line
-			(start -4.8 -1.05)
-			(end -4.8 1.05)
+			(start -2.345563 -3.41)
+			(end 3.41 -3.41)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "db545c2c-2fc3-4385-9052-8de26e3f25c5")
+			(layer "F.SilkS")
+			(uuid "6ecb96e5-5132-4913-9935-b32dbadb4c87")
 		)
 		(fp_line
-			(start -4.8 1.05)
-			(end -3.55 1.05)
+			(start -3.41 2.345563)
+			(end -2.345563 3.41)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "3b404592-4b51-452d-84a7-86cf272c661a")
+			(layer "F.SilkS")
+			(uuid "022c3528-c11f-4dbe-9464-1dacbfca9b40")
 		)
 		(fp_line
-			(start -3.55 -2.4)
-			(end -3.55 -1.05)
+			(start -3.41 2.345563)
+			(end -3.41 1.06)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "95e810a4-6631-4820-9a1b-2112666c12d8")
+			(layer "F.SilkS")
+			(uuid "c8c73972-f574-44a5-bdd9-07f63fbf23dd")
 		)
 		(fp_line
-			(start -3.55 -2.4)
-			(end -2.4 -3.55)
+			(start -3.41 -2.345563)
+			(end -2.345563 -3.41)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "b3db8935-11ed-42bd-83da-2c214cb85567")
+			(layer "F.SilkS")
+			(uuid "25929a7b-27c1-40f8-ba81-83ce0ab68ba6")
 		)
 		(fp_line
-			(start -3.55 -1.05)
-			(end -4.8 -1.05)
+			(start -3.41 -2.345563)
+			(end -3.41 -1.06)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "b67b65cd-6f93-47d7-847c-1ae6a9c1e203")
+			(layer "F.SilkS")
+			(uuid "7f9e6b63-869a-4339-a41a-ca5c3be78279")
 		)
 		(fp_line
-			(start -3.55 1.05)
-			(end -3.55 2.4)
+			(start -4.04375 -2.24125)
+			(end -4.04375 -1.45375)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "548ac153-d34c-4260-9d9c-d631b69f849a")
+			(layer "F.SilkS")
+			(uuid "1cd865a5-f93a-4ff7-bf5e-b76a3707b8aa")
 		)
 		(fp_line
-			(start -3.55 2.4)
-			(end -2.4 3.55)
+			(start -4.4375 -1.8475)
+			(end -3.65 -1.8475)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "89213859-6720-48be-add4-f99ae7d41095")
-		)
-		(fp_line
-			(start -2.4 -3.55)
-			(end 3.55 -3.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "220a5785-81b1-4779-a6d5-bed5bf08e598")
-		)
-		(fp_line
-			(start -2.4 3.55)
-			(end 3.55 3.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ce929ded-67b8-403d-bb43-9b8303e3d1f5")
-		)
-		(fp_line
-			(start 3.55 -3.55)
-			(end 3.55 -1.05)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "58a994e7-d669-4446-ba3a-77036193b854")
-		)
-		(fp_line
-			(start 3.55 -1.05)
-			(end 4.8 -1.05)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a96e3209-25df-4ccd-8057-80a3837dc76b")
-		)
-		(fp_line
-			(start 3.55 1.05)
-			(end 3.55 3.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fbc82c7c-f238-4ff2-b3c6-1b05d3fa7c3f")
-		)
-		(fp_line
-			(start 4.8 -1.05)
-			(end 4.8 1.05)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d3ee8be2-a9ed-4402-9cde-4e7ec2c69f72")
+			(layer "F.SilkS")
+			(uuid "580b5ddd-eace-4fa7-9020-7f834cf14278")
 		)
 		(fp_line
 			(start 4.8 1.05)
@@ -27614,64 +27664,144 @@
 			(uuid "7363547c-9bc5-4d9c-919e-00498c174ba8")
 		)
 		(fp_line
-			(start -3.3 -2.3)
-			(end -3.3 2.3)
+			(start 4.8 -1.05)
+			(end 4.8 1.05)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "fc58b055-b21e-4e27-9d42-27bffcb73d1a")
+			(layer "F.CrtYd")
+			(uuid "d3ee8be2-a9ed-4402-9cde-4e7ec2c69f72")
 		)
 		(fp_line
-			(start -3.3 -2.3)
-			(end -2.3 -3.3)
+			(start 3.55 1.05)
+			(end 3.55 3.55)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "3ec69b60-5323-4619-91cd-2f545ca0cc22")
+			(layer "F.CrtYd")
+			(uuid "fbc82c7c-f238-4ff2-b3c6-1b05d3fa7c3f")
 		)
 		(fp_line
-			(start -3.3 2.3)
-			(end -2.3 3.3)
+			(start 3.55 -1.05)
+			(end 4.8 -1.05)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "b86f4372-7e39-4cfb-8d48-1281629d29df")
+			(layer "F.CrtYd")
+			(uuid "a96e3209-25df-4ccd-8057-80a3837dc76b")
 		)
 		(fp_line
-			(start -2.704838 -1.33)
-			(end -2.074838 -1.33)
+			(start 3.55 -3.55)
+			(end 3.55 -1.05)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "94447f23-d9e6-4acf-a45d-608c5ed2c5b9")
+			(layer "F.CrtYd")
+			(uuid "58a994e7-d669-4446-ba3a-77036193b854")
 		)
 		(fp_line
-			(start -2.389838 -1.645)
-			(end -2.389838 -1.015)
+			(start -2.4 3.55)
+			(end 3.55 3.55)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "4bb136c6-a099-4914-a3b8-212693cae874")
+			(layer "F.CrtYd")
+			(uuid "ce929ded-67b8-403d-bb43-9b8303e3d1f5")
 		)
 		(fp_line
-			(start -2.3 -3.3)
-			(end 3.3 -3.3)
+			(start -2.4 -3.55)
+			(end 3.55 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "220a5785-81b1-4779-a6d5-bed5bf08e598")
+		)
+		(fp_line
+			(start -3.55 2.4)
+			(end -2.4 3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "89213859-6720-48be-add4-f99ae7d41095")
+		)
+		(fp_line
+			(start -3.55 1.05)
+			(end -3.55 2.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "548ac153-d34c-4260-9d9c-d631b69f849a")
+		)
+		(fp_line
+			(start -3.55 -1.05)
+			(end -4.8 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b67b65cd-6f93-47d7-847c-1ae6a9c1e203")
+		)
+		(fp_line
+			(start -3.55 -2.4)
+			(end -2.4 -3.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3db8935-11ed-42bd-83da-2c214cb85567")
+		)
+		(fp_line
+			(start -3.55 -2.4)
+			(end -3.55 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "95e810a4-6631-4820-9a1b-2112666c12d8")
+		)
+		(fp_line
+			(start -4.8 1.05)
+			(end -3.55 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3b404592-4b51-452d-84a7-86cf272c661a")
+		)
+		(fp_line
+			(start -4.8 -1.05)
+			(end -4.8 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "db545c2c-2fc3-4385-9052-8de26e3f25c5")
+		)
+		(fp_line
+			(start 3.3 -3.3)
+			(end 3.3 3.3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "79e4e59e-9288-4bff-a6f0-f737e40e7ad6")
+			(uuid "57836dcf-de0f-4ebd-94da-e0510aeb6da0")
 		)
 		(fp_line
 			(start -2.3 3.3)
@@ -27684,14 +27814,64 @@
 			(uuid "89b85514-094f-4f8d-bb9d-4f2af59d6c68")
 		)
 		(fp_line
-			(start 3.3 -3.3)
-			(end 3.3 3.3)
+			(start -2.3 -3.3)
+			(end 3.3 -3.3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "57836dcf-de0f-4ebd-94da-e0510aeb6da0")
+			(uuid "79e4e59e-9288-4bff-a6f0-f737e40e7ad6")
+		)
+		(fp_line
+			(start -2.389838 -1.645)
+			(end -2.389838 -1.015)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4bb136c6-a099-4914-a3b8-212693cae874")
+		)
+		(fp_line
+			(start -2.704838 -1.33)
+			(end -2.074838 -1.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "94447f23-d9e6-4acf-a45d-608c5ed2c5b9")
+		)
+		(fp_line
+			(start -3.3 2.3)
+			(end -2.3 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b86f4372-7e39-4cfb-8d48-1281629d29df")
+		)
+		(fp_line
+			(start -3.3 -2.3)
+			(end -2.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3ec69b60-5323-4619-91cd-2f545ca0cc22")
+		)
+		(fp_line
+			(start -3.3 -2.3)
+			(end -3.3 2.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc58b055-b21e-4e27-9d42-27bffcb73d1a")
 		)
 		(fp_circle
 			(center 0 0)
@@ -27716,20 +27896,20 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.8 0)
-			(size 3.5 1.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.15625)
-			(net "PGND")
-			(pintype "passive")
-			(uuid "a52cf355-9ab7-4bf3-b390-8912c485d95e")
-		)
-		(pad "2" smd roundrect
-			(at 2.8 0)
+			(at -2.8 0 180)
 			(size 3.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "/12V_BIAS")
+			(pintype "passive")
+			(uuid "a52cf355-9ab7-4bf3-b390-8912c485d95e")
+		)
+		(pad "2" smd roundrect
+			(at 2.8 0 180)
+			(size 3.5 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15625)
+			(net "PGND")
 			(pintype "passive")
 			(uuid "a1cc652d-4e10-40e1-a5d2-a7bfb5456275")
 		)
@@ -27746,11 +27926,11 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:CP_Elec_18x17.5"
+	(footprint "Capacitor_SMD:CP_Elec_18x22"
 		(layer "F.Cu")
 		(uuid "657d396d-50bc-4ad4-b635-276c8a869522")
 		(at 252.7 137.4 -90)
-		(descr "SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
+		(descr "SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "CBLK6"
 			(at 0 -10.55 90)
@@ -27804,6 +27984,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfa8eac8-31cf-4ce5-9806-bd95cf2d7543")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -28181,7 +28373,7 @@
 			(uuid "a07968c8-54e3-4a2e-9827-a91d7d173925")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x17.5.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x22.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28221,7 +28413,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28255,7 +28447,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28268,7 +28460,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28512,6 +28704,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2867795"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ab44b62-3875-4318-aea7-d4de86ff332c")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -28818,7 +29022,7 @@
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4cbb8f02-5627-48c5-833b-cf881530339b")
+			(uuid "9d661119-d957-4541-9c20-41093dc66280")
 			(effects
 				(font
 					(size 1 1)
@@ -28829,7 +29033,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "d99033ed-6a14-4af5-bfd3-c87824062f5b")
+			(uuid "88bfe9c7-7589-42d3-97e2-8f2c6e4d4c77")
 			(effects
 				(font
 					(size 1 1)
@@ -28841,7 +29045,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15c3bad9-378b-496b-a687-fc1bbb421e87")
+			(uuid "841d3c02-8e14-4f4b-9891-64839733e63c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28852,7 +29056,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1d2c202-9bb1-40ed-981f-3de14e931302")
+			(uuid "58e196d8-246e-44d2-827b-fd5054d6670f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28954,7 +29158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1402-E/OT"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28973,6 +29177,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C128573"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2641171-086a-4e8a-81f2-d580e83032d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -29522,7 +29738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29578,6 +29794,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5246576"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef7e4863-d2e8-4227-8dfc-0a5889e22e63")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -29995,7 +30223,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Lelon-VZH470M2ATR-1010_C164068.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30051,6 +30279,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C164068"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c00a32a2-dfc1-4adb-bac9-cd43e64e205c")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -30468,7 +30708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30502,7 +30742,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30515,7 +30755,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30948,7 +31188,7 @@
 		(property "Reference" "RPRE1"
 			(at 1.175 -6.975 0)
 			(layer "F.SilkS")
-			(uuid "b0d28e09-cb5f-42b7-9e94-9fc4addb5aaa")
+			(uuid "798acddc-ff68-43fd-a28f-61516d54aeeb")
 			(effects
 				(font
 					(size 1 1)
@@ -30959,7 +31199,7 @@
 		(property "Value" "100"
 			(at 0 6.65 0)
 			(layer "F.Fab")
-			(uuid "eb06fa07-73e8-48ea-91ee-177098ec00d9")
+			(uuid "a0d41278-a712-4cd0-bc58-f7110ff1e650")
 			(effects
 				(font
 					(size 1 1)
@@ -30971,7 +31211,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "635da152-be13-460b-a009-c86afa7df376")
+			(uuid "80a6e1a7-20b5-4937-9b27-85297b5c045a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30982,7 +31222,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad4dbf0c-f188-48a7-a3c2-dfc4f9ee1e11")
+			(uuid "81209883-1ead-44ec-9852-f6a09d2caceb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31264,7 +31504,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "a80f0dc3-dfa0-4cc8-baed-3b6a97bfc76b")
+			(uuid "9738e2a9-b3e6-4909-b96c-038c00ce003f")
 			(effects
 				(font
 					(size 1 1)
@@ -31275,7 +31515,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "77af5ade-ab0e-44d6-a639-915cf2ca92fb")
+			(uuid "33b982ed-dc2d-4a61-9253-876d43ccde15")
 			(effects
 				(font
 					(size 1 1)
@@ -31287,7 +31527,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1b1049b-23bc-42d4-9aac-5b05a7eec427")
+			(uuid "6daa48b1-4c0e-4679-b48f-27f369fa7beb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31298,7 +31538,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b620b86a-cac1-43c4-bfdc-4fdbcd9b28a1")
+			(uuid "a5ff05cf-f3d7-408f-97c4-57932b8b4463")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32017,6 +32257,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C7470701"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33c350c8-a05d-4f84-bf5c-94f2999395aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9983e8fd-d85b-4939-80d1-ec7d7a6c5660")
 		(sheetname "/")
 		(sheetfile "Main_PDB.kicad_sch")
@@ -32670,7 +32922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32704,7 +32956,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32717,7 +32969,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32835,7 +33087,7 @@
 		(property "Reference" "Q5"
 			(at -1.08 3.36 90)
 			(layer "F.SilkS")
-			(uuid "2308b969-065c-48a6-b964-f9438e891ce9")
+			(uuid "cb99065b-02f2-407c-b775-4a8d2e065107")
 			(effects
 				(font
 					(size 1 1)
@@ -32843,10 +33095,10 @@
 				)
 			)
 		)
-		(property "Value" "NVMFS6H848NLT1G"
+		(property "Value" "BSC070N10LS5ATMA1"
 			(at 0 3.4 270)
 			(layer "F.Fab")
-			(uuid "e6b009e2-5c00-4336-96fa-2f1859cefa23")
+			(uuid "c5933824-90a8-4e0e-81f1-79f93b75937d")
 			(effects
 				(font
 					(size 1 1)
@@ -32854,12 +33106,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h848nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031043_Infineon-Technologies-BSC070N10LS5ATMA1_C3278731.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "395a763f-0fd7-42dc-aaf5-8abe149a045b")
+			(uuid "b407a88e-718e-4f6a-b4b1-e17b7c6f9d37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32872,7 +33124,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "937f2715-366b-4102-95a2-a9852790cbce")
+			(uuid "00ad5be6-f6c6-4ce9-9f8a-e9bda2e064df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32915,6 +33167,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3278731"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a0cf6d3-e413-4736-bee6-48f810343b5a")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -33233,7 +33497,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33267,7 +33531,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33280,7 +33544,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33689,7 +33953,7 @@
 		(property "Reference" "F5"
 			(at -9.31 4.72 0)
 			(layer "F.SilkS")
-			(uuid "0a72c9a3-7524-49af-9b46-40d54f4b2c8c")
+			(uuid "94c2fa6a-ed27-4014-a153-14b00175c6ba")
 			(effects
 				(font
 					(size 1 1)
@@ -33700,7 +33964,7 @@
 		(property "Value" "~"
 			(at 4.99 4.885 0)
 			(layer "F.Fab")
-			(uuid "920ef436-8bf5-42e5-bc1a-fc3398b35f67")
+			(uuid "758e2576-3fa4-4914-8b1a-0b90445184c7")
 			(effects
 				(font
 					(size 1 1)
@@ -33712,7 +33976,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33a72da9-d100-4d07-8f26-fd48cf9046a2")
+			(uuid "91dbbec8-e8c0-4819-b2f1-9dc71962989b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33723,7 +33987,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0a00b0a-b6e8-43a4-95f3-2fc69d27ec9d")
+			(uuid "400cc42d-c8cc-44c3-8f5f-b8d1b8a1f99e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34179,7 +34443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34213,7 +34477,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34222,6 +34486,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d74c4a9a-c046-4e28-bf18-c5064618fb3f")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -34521,7 +34797,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34555,7 +34831,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34568,7 +34844,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34705,7 +34981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34739,7 +35015,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34752,7 +35028,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35240,7 +35516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35274,7 +35550,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35287,7 +35563,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35779,7 +36055,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Lelon-VZH470M2ATR-1010_C164068.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35835,6 +36111,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C164068"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ffbe24b-2f2c-4804-8cd7-348a0133b3c6")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -36224,11 +36512,11 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:CP_Elec_18x17.5"
+	(footprint "Capacitor_SMD:CP_Elec_18x22"
 		(layer "F.Cu")
 		(uuid "84321d16-cd67-4122-981c-d3bd80a37654")
 		(at 252.7 100.4 90)
-		(descr "SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
+		(descr "SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "CBLK3"
 			(at 0 -10.55 90)
@@ -36282,6 +36570,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d43b254-ba42-4ab3-8cfc-d364134a4047")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -36659,7 +36959,7 @@
 			(uuid "ef8f5fd5-e09f-44ab-8b52-435103bdb656")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x17.5.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x22.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37270,6 +37570,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C191027"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f33b9f60-0a5a-426f-afc8-eb892da0514e")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -37928,7 +38240,7 @@
 		(property "Reference" "F2"
 			(at -8.88 4.32 0)
 			(layer "F.SilkS")
-			(uuid "5ac800d8-261c-49cc-89d6-0838d5260db3")
+			(uuid "dc8ae23d-23d3-4600-949f-ebaad86c83f6")
 			(effects
 				(font
 					(size 1 1)
@@ -37939,7 +38251,7 @@
 		(property "Value" "~"
 			(at 4.99 4.885 0)
 			(layer "F.Fab")
-			(uuid "02b76034-5850-44f7-91b2-f37d0aa4e53e")
+			(uuid "7dcf6cfd-6bdb-4685-8c78-8a5e904d04af")
 			(effects
 				(font
 					(size 1 1)
@@ -37951,7 +38263,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d096c213-2804-417e-8c89-4929b826d6fa")
+			(uuid "d92d030b-b2b4-47d2-8177-05568e5ebe76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37962,7 +38274,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1812a45-d0ff-4cbc-8ae1-fe96cf8971cd")
+			(uuid "6a57db96-b974-462d-b58a-ad8d71306508")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38416,7 +38728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221756_Texas-Instruments-LM5148RGYR_C7470701.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39032,6 +39344,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7470701"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a7e3937-7f8d-4a10-8999-bdb8e5cb19f1")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -39979,7 +40303,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40013,7 +40337,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40026,7 +40350,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42232,7 +42556,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42266,7 +42590,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42279,7 +42603,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42397,7 +42721,7 @@
 		(property "Reference" "Q2"
 			(at 5.81 0.1975 180)
 			(layer "F.SilkS")
-			(uuid "598e2c46-f670-49fe-9f20-907f01c50ca7")
+			(uuid "0ce638c7-3b2c-46cd-b955-a5e6f5405e1c")
 			(effects
 				(font
 					(size 1 1)
@@ -42408,7 +42732,7 @@
 		(property "Value" "NMOS IRFR220N"
 			(at 0 4.5 90)
 			(layer "F.Fab")
-			(uuid "7f4ded64-a2e7-43c9-8e05-5f676c30bf53")
+			(uuid "0654bd7a-8399-4dd0-938c-415c820b3815")
 			(effects
 				(font
 					(size 1 1)
@@ -42420,7 +42744,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6d3db8a-cd3b-45f0-88e0-8f46c5bbdec1")
+			(uuid "d0b40de6-3688-4085-93c8-eab0d43719ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42431,7 +42755,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "486db6ca-9957-40b8-bb19-9022bcef351e")
+			(uuid "3f9c6f41-9f6c-44a7-80a6-5d4a82420be9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43162,7 +43486,7 @@
 		(property "Reference" "F3"
 			(at -11.725 0.6975 0)
 			(layer "F.SilkS")
-			(uuid "8f2a2ef0-6f68-4bed-be42-8a9e53138c4d")
+			(uuid "eae955e4-16d4-4698-91aa-760e5aaa1f0a")
 			(effects
 				(font
 					(size 1 1)
@@ -43173,7 +43497,7 @@
 		(property "Value" "~"
 			(at 4.99 4.885 0)
 			(layer "F.Fab")
-			(uuid "59e603ce-99e8-480b-bd23-b9f65e8e76cf")
+			(uuid "b0ea0351-c0e0-43ae-9a67-06899109d071")
 			(effects
 				(font
 					(size 1 1)
@@ -43185,7 +43509,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d377649c-c899-44ff-940c-278d2ac9f7cc")
+			(uuid "dfdec8ec-ec89-4792-b695-81521f3ba99b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43196,7 +43520,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac00f819-4170-49d2-a0e8-a3e0676b712c")
+			(uuid "6605f6b9-8eca-4b0d-a26a-2197eb86b498")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44106,7 +44430,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44232,7 +44556,7 @@
 				)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44280,6 +44604,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34a3d103-ceb2-4a51-9119-9924800dec83")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -45479,7 +45815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1401T-E/OT"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45498,6 +45834,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C128573"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98a5085d-866a-4359-8694-127010d00bf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46912,7 +47260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "file:///C:/Users/malco/AppData/Local/KiCad/10.0/embed/kicad_embedded_F65ED7425D990FA3CF6A01CFC63A328F.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061516_Allegro-MicroSystems--LLC-ACS758LCB-100B-PFF-T_C82405.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47038,7 +47386,7 @@
 				)
 			)
 		)
-		(property "MP" "ACS758LCB100UPFFT"
+		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47086,6 +47434,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82405"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a57549cf-6b35-4722-b587-d57f95d145bf")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -48081,7 +48441,7 @@
 		(property "Reference" "Q1"
 			(at 0.0275 3.645 0)
 			(layer "F.SilkS")
-			(uuid "a97f6656-780f-46e1-8e49-ee144085ab9d")
+			(uuid "ba958c18-4878-4c80-aafe-e4e64d30806c")
 			(effects
 				(font
 					(size 1 1)
@@ -48089,10 +48449,10 @@
 				)
 			)
 		)
-		(property "Value" "NVMFS6H848NLT1G"
+		(property "Value" "BSC070N10LS5ATMA1"
 			(at 0 3.4 0)
 			(layer "F.Fab")
-			(uuid "1558a0b9-884d-46b5-ba42-ff84750e65b0")
+			(uuid "379e5aee-86a5-4331-836b-b294bd3758fb")
 			(effects
 				(font
 					(size 1 1)
@@ -48100,12 +48460,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h848nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031043_Infineon-Technologies-BSC070N10LS5ATMA1_C3278731.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d103529-c47a-4719-8f2c-6ab79d0e2c4c")
+			(uuid "b2e0e7db-1587-4c65-ac6f-99b413da82ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48118,7 +48478,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8af95f9c-96ea-40e4-8c5d-6c9687ac6f8b")
+			(uuid "40c81070-a2b9-458d-a03e-6a99e318c778")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48161,6 +48521,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3278731"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d47fb19-4b6e-4076-ac88-a88ffa95fc7a")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -49804,7 +50176,7 @@
 		(property "Reference" "Q4"
 			(at 4.3175 0.65 0)
 			(layer "F.SilkS")
-			(uuid "6b9445b2-22dd-4f22-9846-ba5dd2adbec8")
+			(uuid "29157967-fbb1-48ab-81a7-d4400fd5af12")
 			(effects
 				(font
 					(size 1 1)
@@ -49812,10 +50184,10 @@
 				)
 			)
 		)
-		(property "Value" "NVMFS6H858NLT1G"
+		(property "Value" "BSC146N10LS5"
 			(at 0 3.4 270)
 			(layer "F.Fab")
-			(uuid "e2612342-5b09-4dc5-b716-356f6f319a82")
+			(uuid "e9fadaff-41c2-4022-8aaa-419f156db293")
 			(effects
 				(font
 					(size 1 1)
@@ -49823,12 +50195,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h858nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2411220327_Infineon-Technologies-BSC146N10LS5_C534417.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ee67462-047f-436b-8e02-e0484223cd5f")
+			(uuid "f0e471ad-d737-443e-a05b-eda043959749")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49841,7 +50213,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f28b69b-078c-4eec-b10c-a8a3996af6b0")
+			(uuid "2a2bc04e-fb8c-46ff-a529-7248f96fc8ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49884,6 +50256,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C534417"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f74735a5-51f2-434c-9faa-e7a645f9509e")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -50202,7 +50586,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50236,7 +50620,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50249,7 +50633,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50420,7 +50804,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52793,7 +53177,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52977,7 +53361,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53660,7 +54044,7 @@
 		(property "Reference" "J2"
 			(at -3.525 -4.5 180)
 			(layer "F.SilkS")
-			(uuid "a518e387-4704-4e16-8eea-49881bfdac5f")
+			(uuid "48bed342-d85f-4172-ba63-53c9387c6c41")
 			(effects
 				(font
 					(size 1 1)
@@ -53671,7 +54055,7 @@
 		(property "Value" "Conn_01x04"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "5925bd9e-3855-44db-ba8c-363dcabf6664")
+			(uuid "a2c28031-b71a-4755-8ac0-bcb03ec1c80c")
 			(effects
 				(font
 					(size 1 1)
@@ -53683,7 +54067,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd6965fb-8060-4b5b-8f3e-2a60ded5f42c")
+			(uuid "e2556e87-201f-4044-b5b1-a998ab4b9390")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53694,7 +54078,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d9d1882-e5d7-4a78-b6a8-5c12d82ddae8")
+			(uuid "8b864029-9464-4c0f-b59a-f7c0b4ab356d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54444,7 +54828,7 @@
 		(property "Reference" "Q6"
 			(at -0.478709 -3.489862 0)
 			(layer "F.SilkS")
-			(uuid "ccd8b5cf-8734-46fd-8e86-6d988cf69917")
+			(uuid "465b611f-b5cd-48df-9a9e-d67cff9a65cc")
 			(effects
 				(font
 					(size 1 1)
@@ -54452,10 +54836,10 @@
 				)
 			)
 		)
-		(property "Value" "NVMFS6H848NLT1G"
+		(property "Value" "BSC070N10LS5ATMA1"
 			(at 0 3.4 0)
 			(layer "F.Fab")
-			(uuid "b01ecdc6-9ac2-4637-8744-26bbae00e5f3")
+			(uuid "0482070d-24c6-4097-b01f-d5f0dfe67c8b")
 			(effects
 				(font
 					(size 1 1)
@@ -54463,12 +54847,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h848nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031043_Infineon-Technologies-BSC070N10LS5ATMA1_C3278731.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afb56f2f-1cb3-4490-babe-3b275f78c92a")
+			(uuid "d058bfd3-612d-4d57-8710-699189f4cce3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54481,7 +54865,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4978ddf4-29f1-42cf-8555-1aed2ac73b0d")
+			(uuid "38003f85-e8f5-40b3-ac1e-4f0977ad4740")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54524,6 +54908,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3278731"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c00c8f91-2da7-4cd5-9c29-6035194d4bde")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -54803,11 +55199,11 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:CP_Elec_18x17.5"
+	(footprint "Capacitor_SMD:CP_Elec_18x22"
 		(layer "F.Cu")
 		(uuid "cd2a3f6c-23fd-4529-aa06-9eeed754401b")
 		(at 295.7 137.4 -90)
-		(descr "SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
+		(descr "SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf")
 		(tags "capacitor electrolytic")
 		(property "Reference" "CBLK8"
 			(at 0 -10.55 90)
@@ -54861,6 +55257,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3829592"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24f570b4-e92c-42c1-8131-16adb48648ac")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -55238,7 +55646,7 @@
 			(uuid "610b0a53-4c13-449c-ae5c-8a135525150a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x17.5.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_18x22.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -56606,7 +57014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0805X7R104K101DT_C344180.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56640,7 +57048,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "100V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56649,6 +57057,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C344180"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa8529ba-2d3d-4073-b6b0-3aeeeedf9c66")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -57284,7 +57704,7 @@
 		(property "Reference" "Q3"
 			(at 5.81 -0.2225 180)
 			(layer "F.SilkS")
-			(uuid "f1e07cdd-8425-43b5-a028-3bedab709f33")
+			(uuid "09460f82-5aa9-4456-baf1-1f2be158bb12")
 			(effects
 				(font
 					(size 1 1)
@@ -57295,7 +57715,7 @@
 		(property "Value" "NMOS IRFR220N"
 			(at 0 4.5 90)
 			(layer "F.Fab")
-			(uuid "a833d220-1186-4f41-bad0-48494ce8266b")
+			(uuid "d2aa5d0f-b0b0-4df2-b73c-dfc122a2f2c4")
 			(effects
 				(font
 					(size 1 1)
@@ -57307,7 +57727,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6656c804-a200-4397-a06e-cd8473f5b4cc")
+			(uuid "030c2e46-e018-4963-9d24-f2e51a968c8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57318,7 +57738,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4fa3112-27d6-4332-b954-51f1c7ceeea0")
+			(uuid "613ba8dc-3c19-4f2a-b3bb-e742a34aae75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57886,7 +58306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57920,7 +58340,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57933,7 +58353,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60847,7 +61267,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61513,7 +61933,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61855,6 +62275,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1850345"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5cc731f-f211-46ab-88c0-f73cdbdbcbf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -62306,7 +62738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -62340,7 +62772,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62353,7 +62785,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C66501"
+		(property "LCSC" "C1591"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62585,7 +63017,7 @@
 		(property "Reference" "Q8"
 			(at 11.0475 0.48 0)
 			(layer "F.SilkS")
-			(uuid "b2d24e52-c026-4e90-8da1-5eb507a7a2c3")
+			(uuid "ba7068e6-d07a-4812-8314-3ee133a5481b")
 			(effects
 				(font
 					(size 1 1)
@@ -62593,10 +63025,10 @@
 				)
 			)
 		)
-		(property "Value" "NVMFS6H848NLT1G"
+		(property "Value" "BSC070N10LS5ATMA1"
 			(at 0 3.4 90)
 			(layer "F.Fab")
-			(uuid "c052a6de-79ad-4449-8fd6-eece4b5cbbff")
+			(uuid "8082fd90-0ef4-4187-a345-d01b86993eb7")
 			(effects
 				(font
 					(size 1 1)
@@ -62604,12 +63036,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nvmfs6h848nl-d.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031043_Infineon-Technologies-BSC070N10LS5ATMA1_C3278731.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "737b1637-ec63-43a1-9e65-f270fe96217b")
+			(uuid "4bde9983-be77-41de-beab-a7866ea4415b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62622,7 +63054,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb7a5a23-77d9-4f73-91b2-c311500318da")
+			(uuid "83cc75cf-c8e2-43f0-8298-67832ca6fd4c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62665,6 +63097,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3278731"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87e48b2d-b5fd-46b7-b6f6-0657f46b4c7d")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -62962,7 +63406,7 @@
 		(property "Reference" "F7"
 			(at -11.61 -0.11 180)
 			(layer "F.SilkS")
-			(uuid "ad07e6b0-c21e-4dca-93ba-8bcf8c05b4d8")
+			(uuid "9dcf8c85-fd93-4d10-8182-bc38d67e658c")
 			(effects
 				(font
 					(size 1 1)
@@ -62973,7 +63417,7 @@
 		(property "Value" "~"
 			(at 4.99 4.885 90)
 			(layer "F.Fab")
-			(uuid "a4a6ca5d-82b1-4a74-90f0-7c900a77ca7a")
+			(uuid "3fbad4d0-8aa7-4d52-969e-5f552ae26e26")
 			(effects
 				(font
 					(size 1 1)
@@ -62985,7 +63429,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64a936db-cf94-4e4c-ba31-a878c106caf3")
+			(uuid "e24edd89-e37d-4a3e-9b9d-c6b8d87ee422")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62996,7 +63440,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23e383a7-2896-47bb-8173-c58f960ead87")
+			(uuid "a9060e81-dde8-4753-98d6-d32ad8a6d487")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63566,7 +64010,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://150crz.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Lelon-VZH470M2ATR-1010_C164068.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63622,6 +64066,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C164068"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce2c1c08-80b4-4103-8681-68afc168369d")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
