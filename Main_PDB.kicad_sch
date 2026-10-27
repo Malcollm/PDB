@@ -9865,6 +9865,18 @@
 		)
 		(uuid "60d33451-dffb-45f9-b39d-303fc6611197")
 	)
+	(text "SW nodes"
+		(exclude_from_sim no)
+		(at 40.64 539.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dd8be41-9498-4afe-b181-9096b59d8dcd")
+	)
 	(text "ESTOP "
 		(exclude_from_sim no)
 		(at 367.538 153.416 0)
@@ -9988,7 +10000,7 @@
 		)
 		(uuid "af13dd8c-e8db-4df0-87b1-add29613dbd8")
 	)
-	(text "Ground"
+	(text "PGND (SW probe)"
 		(exclude_from_sim no)
 		(at 40.64 497.84 0)
 		(effects
@@ -11435,16 +11447,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 523.24) (xy 154.94 523.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00679b80-8902-412a-b2d5-1c2620bbd0ab")
-	)
-	(wire
-		(pts
 			(xy 161.29 254) (xy 173.99 254)
 		)
 		(stroke
@@ -11812,6 +11814,16 @@
 			(type default)
 		)
 		(uuid "1180f7b2-533d-47b9-a8cf-5a61b8e49122")
+	)
+	(wire
+		(pts
+			(xy 121.92 523.24) (xy 127 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118a3793-483e-48f2-8a90-35a901e17907")
 	)
 	(wire
 		(pts
@@ -12295,6 +12307,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 497.84) (xy 179.07 497.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28093762-5e8e-4c90-9a97-271d855ec65f")
+	)
+	(wire
+		(pts
 			(xy 481.33 111.76) (xy 481.33 106.68)
 		)
 		(stroke
@@ -12302,16 +12324,6 @@
 			(type default)
 		)
 		(uuid "2857f028-cb6c-499f-88e1-a8b4cde60ec9")
-	)
-	(wire
-		(pts
-			(xy 66.04 523.24) (xy 71.12 523.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28891682-671d-47ae-b1e1-117cec89f5ff")
 	)
 	(wire
 		(pts
@@ -12392,16 +12404,6 @@
 			(type default)
 		)
 		(uuid "2b652b2f-b3f7-48c2-91f3-e850a3b90881")
-	)
-	(wire
-		(pts
-			(xy 93.98 523.24) (xy 99.06 523.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b7b4faa-8071-4a86-b94b-00f3c6170d31")
 	)
 	(wire
 		(pts
@@ -13272,6 +13274,16 @@
 			(type default)
 		)
 		(uuid "4783cf46-2aeb-4f11-84a1-8a2b9e0f6d6a")
+	)
+	(wire
+		(pts
+			(xy 121.92 539.75) (xy 127 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48683fe3-0384-4eba-ac19-2863653f6786")
 	)
 	(wire
 		(pts
@@ -14495,16 +14507,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 523.24) (xy 182.88 523.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7545da5e-3e26-45ea-94c4-0b5771548b46")
-	)
-	(wire
-		(pts
 			(xy 674.37 156.21) (xy 678.18 156.21)
 		)
 		(stroke
@@ -15125,6 +15127,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 523.24) (xy 182.88 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d953985-8c72-4472-a4c3-f75f4c38f803")
+	)
+	(wire
+		(pts
 			(xy 293.37 431.8) (xy 308.61 431.8)
 		)
 		(stroke
@@ -15705,6 +15717,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 523.24) (xy 99.06 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45446cf-a4d5-4fbf-9040-07dd46d5815b")
+	)
+	(wire
+		(pts
 			(xy 386.08 106.68) (xy 386.08 115.57)
 		)
 		(stroke
@@ -15712,6 +15734,16 @@
 			(type default)
 		)
 		(uuid "a4fe2ed5-355a-4335-9c67-4388573da95e")
+	)
+	(wire
+		(pts
+			(xy 66.04 539.75) (xy 71.12 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d60b81-92f1-42f1-a130-26a82a337492")
 	)
 	(wire
 		(pts
@@ -15962,6 +15994,16 @@
 			(type default)
 		)
 		(uuid "ad6be0bd-89ec-4077-a630-a74f81ff3b01")
+	)
+	(wire
+		(pts
+			(xy 149.86 497.84) (xy 154.94 497.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8746f4-b494-41d4-b7e5-460895c4e96f")
 	)
 	(wire
 		(pts
@@ -16485,6 +16527,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 523.24) (xy 71.12 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c8e485-ab04-4e60-bbe6-d034bcc7d38d")
+	)
+	(wire
+		(pts
 			(xy 636.27 441.96) (xy 636.27 408.94)
 		)
 		(stroke
@@ -16542,6 +16594,16 @@
 			(type default)
 		)
 		(uuid "c2e51eb9-2f64-4b06-8e58-8ec036795d41")
+	)
+	(wire
+		(pts
+			(xy 93.98 539.75) (xy 99.06 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fbd5a6-3171-437c-b64b-96cc39631a67")
 	)
 	(wire
 		(pts
@@ -16742,16 +16804,6 @@
 			(type default)
 		)
 		(uuid "cb300bc9-0c75-4213-918a-630775e1b502")
-	)
-	(wire
-		(pts
-			(xy 121.92 523.24) (xy 127 523.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb424fed-fc69-44fa-9e4c-757ca83c55f0")
 	)
 	(wire
 		(pts
@@ -17555,6 +17607,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 523.24) (xy 154.94 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62e003b-c075-432d-ada6-07961f3140ba")
+	)
+	(wire
+		(pts
 			(xy 549.91 350.52) (xy 549.91 356.87)
 		)
 		(stroke
@@ -18253,6 +18315,16 @@
 		)
 		(uuid "3de16b0c-1d18-495e-b924-648b10d91d75")
 	)
+	(label "24V_NMOS"
+		(at 71.12 539.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ecdc537-9e99-47c1-bbe9-6cd48599d5ca")
+	)
 	(label "D_R_OUT"
 		(at 590.55 107.95 0)
 		(effects
@@ -18403,6 +18475,16 @@
 		)
 		(uuid "6ce59e93-330c-428a-95fc-cc8fcfdeffd4")
 	)
+	(label "3V3_SW"
+		(at 127 539.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "743977ae-b892-413d-9496-bda7f41023e7")
+	)
 	(label "ESTOP_G2"
 		(at 520.7 198.12 270)
 		(effects
@@ -18482,6 +18564,16 @@
 			(justify left bottom)
 		)
 		(uuid "88514a03-a422-4b36-9380-7dd4fff44473")
+	)
+	(label "6V_NMOS"
+		(at 99.06 539.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d6b2d1-c37a-469e-9737-58f81636daea")
 	)
 	(label "PRECH_SENSE"
 		(at 50.8 144.78 0)
@@ -18702,6 +18794,16 @@
 			(justify left bottom)
 		)
 		(uuid "be6dcc1b-82f6-49f0-a43f-46082f32c050")
+	)
+	(label "3V3_SW"
+		(at 243.84 267.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c035b927-e332-46ee-9cb5-fa2c250fb568")
 	)
 	(label "DUMP_REF"
 		(at 238.76 510.54 0)
@@ -19355,7 +19457,7 @@
 				)
 			)
 		)
-		(property "Value" "Keystone 5011"
+		(property "Value" "Keystone 5015"
 			(at 66.04 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -19366,7 +19468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 71.12 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -19377,7 +19479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2409302136_Keystone-5011_C238127.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
 			(at 71.12 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -19399,7 +19501,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238127"
+		(property "LCSC" "C2906768"
 			(at 66.04 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -33335,7 +33437,7 @@
 				)
 			)
 		)
-		(property "Value" "Keystone 5011"
+		(property "Value" "Keystone 5015"
 			(at 121.92 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -33346,7 +33448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 127 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -33357,7 +33459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2409302136_Keystone-5011_C238127.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
 			(at 127 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -33379,7 +33481,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238127"
+		(property "LCSC" "C2906768"
 			(at 121.92 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -36095,7 +36197,7 @@
 				)
 			)
 		)
-		(property "Value" "Keystone 5011"
+		(property "Value" "Keystone 5015"
 			(at 93.98 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -36106,7 +36208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 99.06 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -36117,7 +36219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2409302136_Keystone-5011_C238127.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
 			(at 99.06 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -36139,7 +36241,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238127"
+		(property "LCSC" "C2906768"
 			(at 93.98 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -36783,6 +36885,85 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 497.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7331a061-d301-4cf0-b340-c65167ac03b7")
+		(property "Reference" "#PWR0145"
+			(at 179.07 504.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 179.07 501.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7b427fe-94d3-47af-a386-b2262d5e2592")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -38623,6 +38804,173 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 173.99 497.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81d6e2b1-965a-41c8-9f8f-a32ae59e2586")
+		(property "Reference" "TP20"
+			(at 173.99 490.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND probe pad"
+			(at 173.99 492.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+			(at 179.07 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 173.99 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" "C2906768"
+			(at 173.99 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b116b05c-2125-4de4-bb6f-f0fccdc16289")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 497.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8493df40-55de-4a23-a382-de3ab7c90296")
+		(property "Reference" "#PWR0144"
+			(at 154.94 504.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 154.94 501.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "314fd819-3ab5-44f1-a468-c21bc96f9b28")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -46560,6 +46908,94 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 149.86 497.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b67ee67e-a61f-478b-a737-cb40161cf2e4")
+		(property "Reference" "TP16"
+			(at 149.86 490.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keystone 5015"
+			(at 149.86 492.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+			(at 154.94 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+			(at 154.94 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906768"
+			(at 149.86 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6f2ecc9-63b9-4b1b-8ea2-17cb0a634544")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 149.86 510.54 0)
 		(unit 1)
 		(body_style 1)
@@ -51552,6 +51988,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 539.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "daeb4285-da8e-4e6f-a00a-e4a2fee22a67")
+		(property "Reference" "TP18"
+			(at 93.98 532.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW probe pad"
+			(at 93.98 534.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 99.06 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adaf4263-2d92-49dd-b858-df07eb0a4842")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 520.7 213.36 0)
 		(unit 1)
@@ -54366,6 +54879,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 539.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "ed25773a-4447-4990-bd6d-9ccdb45fbc00")
+		(property "Reference" "TP19"
+			(at 121.92 532.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW probe pad"
+			(at 121.92 534.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 127 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6bea4fa-41c7-42f5-aa54-08d597c8db24")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 265.43 27.94 180)
 		(unit 1)
@@ -56846,6 +57436,83 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 539.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "fede84ff-7bc1-4c2a-b680-bdb827958b1e")
+		(property "Reference" "TP17"
+			(at 66.04 532.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW probe pad"
+			(at 66.04 534.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 71.12 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0bec774-6b10-4723-994a-83e06ff967e8")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
