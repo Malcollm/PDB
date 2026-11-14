@@ -2,17 +2,32 @@
 *.kicad_prl
 fp-info-cache
 
+# KiCad automatic backups and local history (KiCad 10 keeps these per machine)
+*-backups/
+.history/
+.history_trim/
+
 # Plot and fabrication outputs
+# (production/ holds the Rev 1 outputs that were ordered and stays tracked)
 /gerbers/
 /plots/
 /drill/
 /output/
+/jlcpcb/
+/bom/
+/Main_PDB.csv
+
+# Unused personal libraries
+*[Yy]ates*
 
 # Backups / autosaves
 *-bak
+*.bak
 *.tmp
 *.lck
 *_autosave-*
+
+# LTspice run outputs (only the .asc / .asy / .lib sources are tracked)
 *.raw
 *.log
 *.net
