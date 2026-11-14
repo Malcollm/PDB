@@ -5,6 +5,23 @@
 (rule "Hole clearance"
 	(constraint hole_clearance (min 0.25mm)))
 
+# JLCPCB multilayer limits (6-layer, 1.6 mm, 2 oz outer / 1 oz inner), jlcpcb.com/capabilities.
+# Vias are covered by Board Setup: 0.15 mm drill / 0.25 mm dia / 0.05 mm ring, 0.25 hole-to-hole (JLC 0.2).
+# Board Setup min clearance 0.15 mm = JLC 2 oz outer-layer trace/space.
+(rule "JLC PTH hole to track"
+	(constraint hole_clearance (min 0.28mm))
+	(condition "A.Type == 'Pad' && A.isPlated()"))
+
+(rule "JLC pad hole to pad hole"
+	(constraint hole_to_hole (min 0.45mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+
+# 2 oz outer copper PTH ring. Holes <= 0.55 mm are via arrays inside footprints
+# (ACS758 current sensors, U11, net ties) and follow the via rule instead.
+(rule "JLC PTH annular ring 2oz"
+	(constraint annular_width (min 0.254mm))
+	(condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X > 0.55mm"))
+
 # Net ties NT1-NT11 (NetTie_AGND_PGND_VIA): pad 1's AGND copper runs into the pad 2 PGND via
 # by design, so hole clearance between the two pads of one net tie is waived.
 (rule "Net tie AGND tail into its own PGND via"
