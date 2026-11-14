@@ -1,5 +1,7 @@
 # Humanoid Robot Power Distribution Board
 
+![Power distribution board](images/board-iso.png)
+
 This repository contains the power distribution board design for the Wiscohumanoids humanoid robot. The board distributes the main battery power to the robot’s high-current actuator system and generates regulated lower-voltage rails for compute, servos, sensors, and control electronics.
 
 The PDB is designed around a 48 V main power system with onboard regulation for the robot’s auxiliary electronics.
