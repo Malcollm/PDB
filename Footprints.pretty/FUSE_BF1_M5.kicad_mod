@@ -1,4 +1,4 @@
-(footprint "FUSE_BF1_M5_100A"
+(footprint "FUSE_BF1_M5"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FUSE_BF1_M5_100A"
+	(property "Value" "FUSE_BF1_M5"
 		(at 0 6.98 0)
 		(layer "F.Fab")
 		(uuid "db76ea84-d7b3-401c-993e-20ae1308a247")

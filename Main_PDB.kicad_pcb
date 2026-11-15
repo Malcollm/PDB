@@ -723,7 +723,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:FUSE_BF1_M5_100A"
+	(footprint "Footprints:FUSE_BF1_M5"
 		(layer "F.Cu")
 		(uuid "027e5737-e3a4-4664-b301-341b81f89972")
 		(at 227.66 167.87)
@@ -740,7 +740,7 @@
 				)
 			)
 		)
-		(property "Value" "100A"
+		(property "Value" "70A"
 			(at 0 6.98 0)
 			(layer "F.Fab")
 			(uuid "21ba98f3-9fb4-422c-9157-0a29294359c2")
@@ -762,7 +762,7 @@
 				)
 			)
 		)
-		(property "Description" "100 A main battery fuse, BF1 58 V"
+		(property "Description" "Main fuse, BF1 142.5631.5702, 70 A 58 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

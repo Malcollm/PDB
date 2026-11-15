@@ -22162,7 +22162,7 @@
 				)
 			)
 		)
-		(property "Value" "100A"
+		(property "Value" "70A"
 			(at 59.69 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22172,7 +22172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:FUSE_BF1_M5_100A"
+		(property "Footprint" "Footprints:FUSE_BF1_M5"
 			(at 59.69 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -22194,7 +22194,7 @@
 				)
 			)
 		)
-		(property "Description" "100 A main battery fuse, BF1 58 V"
+		(property "Description" "Main fuse, BF1 142.5631.5702, 70 A 58 V"
 			(at 59.69 82.55 0)
 			(hide yes)
 			(show_name no)

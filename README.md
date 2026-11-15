@@ -13,8 +13,8 @@ This repository contains the power distribution board (PDB) for the WiscoHumanoi
 | Board size | 178.6 mm × 242.3 mm |
 | Layers | 6 (FR-4 TG155, 1.6 mm) |
 | Copper | 2 oz outer, 1 oz inner |
-| Input | 48 V battery, 100 A main fuse |
-| Current rating | 100 A at the battery input; about 65 A continuous with every output at full load (see [Current Ratings](#current-ratings)) |
+| Input | 48 V battery, 70 A BF1 main fuse |
+| Current rating | 70 A for a few minutes; actuators expected to draw about 10 A RMS, 21 A peak (see [Current Ratings](#current-ratings)) |
 | Outputs | 4 × 48 V actuator branches (XT30), 2 × 24 V, 1 × 6 V, 1 × 3.3 V |
 | Current sensing | 7 × ACS758LCB-100B Hall-effect sensors (±100 A) |
 | Assembly | 207 SMT/THT placements per board by JLCPCB (69 BOM lines); fuses and fuse holders installed by hand |
@@ -51,7 +51,7 @@ The full schematic is in [`images/schematic.pdf`](images/schematic.pdf).
 ```text
 Battery + (J3)
    |
-   F1  100 A main fuse
+   F1  70 A main fuse (BF1)
    |
    +-- RPRE1 precharge resistor ---+
    +-- Precharge contactor --------+   (off-board, J13 -> J14)
@@ -91,18 +91,24 @@ Compute and control (24 V, 3.3 V) is fed from `48V_MAIN`, ahead of the E-stop co
 
 ## Current Ratings
 
-These ratings come from the parts on the board. They have not been confirmed by a load or thermal test on Rev 1.
+| | Current |
+|---|---|
+| Board rating | 70 A for a few minutes |
+| Main fuse (F1) | 70 A Littelfuse BF1, 142.5631.5702 (58 V, M5 bolt-down) |
+| Expected actuator draw | About 10 A RMS walking at 1.0 m/s; peaks of about 21 A (100 ms) and 28 A (10 ms) |
 
-| Path | Rating | Set by |
+These are design targets. Rev 1 has not been load or thermally tested yet.
+
+**Why the rating is far above the expected load:** the board is deliberately oversized. Rev 1's power path was laid out before we had current numbers for the robot. Those came later, from a walking simulation of the actuators. It counts the motors only, with no regen, and has about ±25% uncertainty. The worst case was walking at 1.0 m/s: about 10 A RMS at the battery, with peaks of about 21 A over 100 ms and 28 A over 10 ms. We still want the board rated well above that, with room for roughly twice the actuator current for future expansion. That headroom covers the actuators only; the compute and servo rails draw current on top of it.
+
+Each output also has a limit set by its parts:
+
+| Output | Limit | Set by |
 |---|---|---|
-| Battery input (48 V) | 100 A | F1 100 A main fuse; U4 measures up to ±100 A |
-| Each actuator output (ACT1–ACT4) | 15 A continuous, 30 A for 1 minute | XT30 connector rating (the fuse holders accept blade fuses up to 30 A) |
-| All four actuator outputs together | 60 A continuous | 4 × 15 A; U8 measures up to ±100 A |
-| 24 V rail | About 8 A (190 W) | L2 inductor (8.7 A rated) and 8 A per output connector; the converter's current limit trips at about 15 A peak |
-| 6 V rail | 8 A (48 W) | J12 connector rating; the converter's current limit trips at about 15 A peak |
+| Each actuator output (ACT1–ACT4) | 15 A continuous, 30 A for 1 minute | XT30 connector |
+| 24 V rail | About 8 A (190 W) | L2 inductor (8.7 A rated) and 8 A per output connector |
+| 6 V rail | 8 A (48 W) | J12 connector |
 | 3.3 V rail | 1.5 A | LMR36015 regulator |
-
-With every output at full load the battery supplies about 65 A. The team currently expects the actuators to draw 15–20 A on average.
 
 ## Major Board Features
 
@@ -139,7 +145,7 @@ Each output is RC-filtered and brought out on **J11** (JST-GH 8-pin) for the rob
 
 ### Protection
 
-- 100 A main fuse (F1, bolt-down BF1, M5)
+- 70 A main fuse (F1, Littelfuse BF1 142.5631.5702, M5 bolt-down)
 - Individually fused actuator branches (F4–F7), 24 V buck input (F2) and 6 V buck input (F3)
 - 0.5 A fuses on the contactor coil supplies (F8, F10)
 - SMC TVS diodes on the fused 48 V input, each actuator branch, and the 24 V and 6 V outputs
