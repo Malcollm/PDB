@@ -892,5 +892,16 @@
 		(solder_mask_margin 0.102)
 		(uuid "94962431-ce6f-4434-b77e-5581943ad69f")
 	)
+	(model "${KIPRJMOD}/3d Models/ACS758LCB-100B-PFF-T.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 	(embedded_fonts no)
 )

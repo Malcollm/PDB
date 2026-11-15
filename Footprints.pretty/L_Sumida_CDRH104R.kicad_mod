@@ -156,5 +156,16 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e21e1933-a80c-46a1-98e2-1be1766283f9")
 	)
+	(model "${KIPRJMOD}/3d Models/L_Sumida_CDRH104R.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 	(embedded_fonts no)
 )

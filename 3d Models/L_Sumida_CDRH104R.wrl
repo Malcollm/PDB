@@ -1,0 +1,5 @@
+#VRML V2.0 utf8
+# Simplified Sumida CDRH104R body: 10.0 x 10.2 x 3.8 mm, electrodes 3.0 x 1.2 mm on the pad edges (datasheet)
+Transform { translation 0.0000 0.0000 0.7677 children [ Shape { appearance Appearance { material Material { diffuseColor 0.170 0.170 0.180 specularColor 0.3 0.3 0.3 shininess 0.30 } } geometry Box { size 3.9370 4.0157 1.4567 } } ] }
+Transform { translation 0.0000 -1.7717 0.1181 children [ Shape { appearance Appearance { material Material { diffuseColor 0.780 0.780 0.750 specularColor 0.3 0.3 0.3 shininess 0.80 } } geometry Box { size 1.1811 0.4921 0.2362 } } ] }
+Transform { translation 0.0000 1.7717 0.1181 children [ Shape { appearance Appearance { material Material { diffuseColor 0.780 0.780 0.750 specularColor 0.3 0.3 0.3 shininess 0.80 } } geometry Box { size 1.1811 0.4921 0.2362 } } ] }

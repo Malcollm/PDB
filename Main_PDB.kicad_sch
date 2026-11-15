@@ -11,7 +11,7 @@
 		(company "WiscoHumanoids")
 	)
 	(lib_symbols
-		(symbol "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T"
+		(symbol "PDB_ICs:ACS758LCB-100B-PFF-T"
 			(pin_names
 				(offset 1.016)
 			)
@@ -286,7 +286,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(name "IP+"
@@ -304,7 +304,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -323,7 +323,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -342,7 +342,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -361,7 +361,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -380,7 +380,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -399,7 +399,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -418,7 +418,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -437,7 +437,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -456,7 +456,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -475,7 +475,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -494,7 +494,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -513,7 +513,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -532,7 +532,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -551,7 +551,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -570,7 +570,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -589,7 +589,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -608,7 +608,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(name "IP-"
@@ -626,7 +626,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -645,7 +645,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -664,7 +664,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -683,7 +683,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -702,7 +702,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -721,7 +721,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -740,7 +740,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -759,7 +759,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -778,7 +778,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -797,7 +797,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -816,7 +816,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -835,7 +835,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -854,7 +854,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -873,7 +873,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -892,7 +892,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -911,7 +911,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(hide yes)
@@ -4116,7 +4116,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LM5148RGYR:LM5148RGYR"
+		(symbol "PDB_ICs:LM5148RGYR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4872,7 +4872,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 20.32 22.86 180)
 					(length 5.08)
 					(name "VDDA"
@@ -4890,7 +4890,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 20.32 25.4 180)
 					(length 5.08)
 					(name "VCC"
@@ -5202,7 +5202,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LMR36015ARNXR:LMR36015ARNXR"
+		(symbol "PDB_ICs:LMR36015ARNXR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -5383,7 +5383,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 20.32 5.08 180)
 					(length 5.08)
 					(name "NC"
@@ -5401,7 +5401,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 20.32 15.24 180)
 					(length 5.08)
 					(name "BST"
@@ -5419,7 +5419,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -20.32 -5.08 0)
 					(length 5.08)
 					(name "VCC"
@@ -5545,7 +5545,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at 20.32 7.62 180)
 					(length 5.08)
 					(name "SW"
@@ -5566,487 +5566,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCP1401T-E_OT_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U14"
-				(at 13.97 9.906 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "MCP1402T-E/OT"
-				(at 13.97 7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Footprints:SOT-23-5_MC_MCH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "MCP1402-E/OT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "MCP1401T-E/OT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT-23-5_MC_MCH SOT-23-5_MC_MCH-M SOT-23-5_MC_MCH-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP1401T-E_OT_1_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 20.32 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -10.16) (xy 20.32 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -5.08 180)
-					(length 7.62)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -2.54 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP1401T-E_OT_1_1_1"
-				(pin unspecified line
-					(at 27.94 0 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MCP1401T-E_OT_2"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U13"
-				(at 13.462 9.906 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "MCP1402T-E/OT"
-				(at 13.462 7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Footprints:SOT-23-5_MC_MCH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "MCP1401T-E/OT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "MCP1401T-E/OT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT-23-5_MC_MCH SOT-23-5_MC_MCH-M SOT-23-5_MC_MCH-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP1401T-E_OT_2_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 20.32 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -10.16) (xy 20.32 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -5.08 180)
-					(length 7.62)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -2.54 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP1401T-E_OT_2_1_1"
-				(pin unspecified line
-					(at 27.94 0 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MCP1402T-E_OT_1"
+		(symbol "PDB_ICs:MCP1402T-E_OT"
 			(pin_names
 				(offset 0.254)
 			)
@@ -6142,7 +5662,7 @@
 					)
 				)
 			)
-			(symbol "MCP1402T-E_OT_1_0_1"
+			(symbol "MCP1402T-E_OT_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -10.16)
@@ -6191,7 +5711,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 0 0)
 					(length 7.62)
 					(name "GND"
@@ -6209,7 +5729,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "VDD"
@@ -6227,7 +5747,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 27.94 -5.08 180)
 					(length 7.62)
 					(name "IN"
@@ -6245,7 +5765,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 27.94 -2.54 180)
 					(length 7.62)
 					(name "GND"
@@ -6263,7 +5783,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 27.94 0 180)
 					(length 7.62)
 					(name "OUT"
@@ -6383,7 +5903,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NMOS_1"
+		(symbol "PDB_ICs:IRFR220TRPBF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6492,7 +6012,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_0_1"
+			(symbol "IRFR220TRPBF_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -6659,7 +6179,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1_1"
+			(symbol "IRFR220TRPBF_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -6717,7 +6237,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NMOS_2"
+		(symbol "PDB_ICs:IRFR220TRPBF_ALT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6826,7 +6346,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_2_0_1"
+			(symbol "IRFR220TRPBF_ALT_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -6993,7 +6513,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_2_1_1"
+			(symbol "IRFR220TRPBF_ALT_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -7051,7 +6571,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R_1"
+		(symbol "PDB_ICs:R_TO263_Tab"
 			(pin_numbers
 				(hide yes)
 			)
@@ -7138,7 +6658,7 @@
 					)
 				)
 			)
-			(symbol "R_1_0_1"
+			(symbol "R_TO263_Tab_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -7151,7 +6671,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1_1"
+			(symbol "R_TO263_Tab_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -7188,7 +6708,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "GND"
@@ -7703,7 +7223,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TLV3011AIDBVT:TLV3011AIDBVT"
+		(symbol "PDB_ICs:TLV3011AIDBVT"
 			(pin_names
 				(offset 1.016)
 			)
@@ -8592,7 +8112,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UCC27511DBVR:UCC27511DBVR"
+		(symbol "PDB_ICs:UCC27511DBVR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -19860,7 +19380,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LM5148RGYR:LM5148RGYR")
+		(lib_id "PDB_ICs:LM5148RGYR")
 		(at 599.44 401.32 0)
 		(unit 1)
 		(body_style 1)
@@ -25017,7 +24537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
+		(lib_id "PDB_ICs:ACS758LCB-100B-PFF-T")
 		(at 701.04 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -26717,84 +26237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 276.86 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31122ac9-889a-4c1e-af6a-1deb7dece4d5")
-		(property "Reference" "#PWR071"
-			(at 276.86 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 276.86 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 276.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1337ab7d-48bf-4409-b38c-d8c75a522861")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 105.41 372.11 180)
 		(unit 1)
@@ -26899,7 +26341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
+		(lib_id "PDB_ICs:ACS758LCB-100B-PFF-T")
 		(at 635 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -28257,7 +27699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
+		(lib_id "PDB_ICs:ACS758LCB-100B-PFF-T")
 		(at 709.93 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -31181,7 +30623,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
+		(lib_id "PDB_ICs:ACS758LCB-100B-PFF-T")
 		(at 281.94 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -33190,8 +32632,7 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1402T-E_OT_1")
-		(lib_id "2026-09-19_04-13-18:MCP1402T-E_OT")
+		(lib_id "PDB_ICs:MCP1402T-E_OT")
 		(at 492.76 237.49 0)
 		(unit 1)
 		(body_style 1)
@@ -37113,7 +36554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
+		(lib_id "PDB_ICs:ACS758LCB-100B-PFF-T")
 		(at 701.04 233.68 0)
 		(unit 1)
 		(body_style 1)
@@ -37876,7 +37317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
+		(lib_id "PDB_ICs:ACS758LCB-100B-PFF-T")
 		(at 353.06 422.91 0)
 		(unit 1)
 		(body_style 1)
@@ -40372,7 +39813,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LM5148RGYR:LM5148RGYR")
+		(lib_id "PDB_ICs:LM5148RGYR")
 		(at 175.26 420.37 0)
 		(unit 1)
 		(body_style 1)
@@ -40838,84 +40279,6 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 276.86 27.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d5a1f16-080f-4b38-9053-4bdd9872889f")
-		(property "Reference" "#FLG04"
-			(at 276.86 29.845 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 276.86 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 276.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fa2c223-e379-4cef-a9d1-b34ea3eb1b17")
-		)
-		(instances
-			(project "Main_PDB"
-				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -43291,7 +42654,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LMR36015ARNXR:LMR36015ARNXR")
+		(lib_id "PDB_ICs:LMR36015ARNXR")
 		(at 208.28 275.59 0)
 		(unit 1)
 		(body_style 1)
@@ -43414,7 +42777,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UCC27511DBVR:UCC27511DBVR")
+		(lib_id "PDB_ICs:UCC27511DBVR")
 		(at 499.11 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -47966,7 +47329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
+		(lib_id "PDB_ICs:ACS758LCB-100B-PFF-T")
 		(at 701.04 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -49318,8 +48681,7 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1402T-E_OT_1")
-		(lib_id "2026-09-19_04-13-18:MCP1402T-E_OT")
+		(lib_id "PDB_ICs:MCP1402T-E_OT")
 		(at 96.52 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -50038,8 +49400,7 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1402T-E_OT_1")
-		(lib_id "2026-09-19_04-13-18:MCP1402T-E_OT")
+		(lib_id "PDB_ICs:MCP1402T-E_OT")
 		(at 440.69 237.49 0)
 		(unit 1)
 		(body_style 1)
@@ -50679,8 +50040,7 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
+		(lib_id "PDB_ICs:R_TO263_Tab")
 		(at 153.67 82.55 90)
 		(unit 1)
 		(body_style 1)
@@ -51551,8 +50911,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NMOS_2")
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "PDB_ICs:IRFR220TRPBF_ALT")
 		(at 520.7 193.04 90)
 		(unit 1)
 		(body_style 1)
@@ -53506,7 +52865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TLV3011AIDBVT:TLV3011AIDBVT")
+		(lib_id "PDB_ICs:TLV3011AIDBVT")
 		(at 414.02 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -54519,8 +53878,7 @@
 		)
 	)
 	(symbol
-		(lib_name "NMOS_1")
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "PDB_ICs:IRFR220TRPBF")
 		(at 468.63 193.04 90)
 		(unit 1)
 		(body_style 1)
@@ -55200,6 +54558,1254 @@
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
 					(reference "RPD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 297.18 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "561840f4-8f56-489f-8d7c-e1f15841cec6")
+		(property "Reference" "#FLG04"
+			(at 297.18 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 297.18 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 297.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "502be562-5308-41c1-8055-b1633d60339f")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.12 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f69fccd8-5c0b-440f-9c18-4244f4518f1f")
+		(property "Reference" "#FLG05"
+			(at 325.12 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.12 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 325.12 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "548715f7-46f9-46a1-a85a-d1fb7dde2937")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 340.36 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c90cd8-5c41-4879-965d-8de49e8501be")
+		(property "Reference" "#FLG06"
+			(at 340.36 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 340.36 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 340.36 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d005e9fb-5767-4e1d-8eb2-f9680ed0763a")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 557.53 396.24 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e69dc198-7ac0-4f87-a5d4-655856fc26a9")
+		(property "Reference" "#FLG07"
+			(at 557.53 398.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 557.53 401.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 557.53 396.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 557.53 396.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 557.53 396.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f70b5b3a-4094-42d5-a748-edc89474d1d2")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 368.3 436.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13a47812-b3be-4e23-baf1-a7cfc1ce976e")
+		(property "Reference" "#FLG08"
+			(at 368.3 438.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 368.3 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 436.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 436.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 368.3 436.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1177cfbc-093d-4355-854a-28edd53d1353")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 254.0 312.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a6be52-cf20-4cb4-97bc-43e0199ddb1f")
+		(property "Reference" "#FLG09"
+			(at 254.0 314.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 254.0 317.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254.0 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254.0 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 254.0 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ed99afd-8d1d-446e-ae32-d9d9d64ee6d1")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 656.59 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4812468f-3c2e-4434-80b2-a39c957ac496")
+		(property "Reference" "#FLG010"
+			(at 656.59 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 656.59 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 656.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 656.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 656.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61a30c7b-d366-4f5e-a6a1-f0c9d128ee9b")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 417.83 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "977719d0-562f-49c6-b31a-279a65d74bb0")
+		(property "Reference" "#FLG011"
+			(at 417.83 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 417.83 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 417.83 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "594d1771-7ea8-4dda-bfb1-3d0c4eb6c8b8")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 434.34 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "755167e7-f141-43cf-a33d-8f27a37dd9ea")
+		(property "Reference" "#FLG012"
+			(at 434.34 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 434.34 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 434.34 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 434.34 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 434.34 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7de32170-4188-466d-973f-49c191c8f28e")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 449.58 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b44bf593-7c8c-4e89-8b3f-7aad6a4dce7a")
+		(property "Reference" "#FLG013"
+			(at 449.58 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 449.58 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 449.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 449.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 449.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa742014-2e82-42ea-aa4c-6b32af70a617")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 716.28 243.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d149ddee-e1a7-4c74-9d3f-cd95252798d9")
+		(property "Reference" "#FLG014"
+			(at 716.28 245.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 716.28 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 716.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 716.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 716.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cb9366b-6c2d-4cc9-855c-d620788c69b4")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 135.89 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0db12991-e0d5-457d-969c-2e24e9ecc403")
+		(property "Reference" "#FLG015"
+			(at 135.89 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 135.89 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29349fc8-2f27-4e97-ba6b-d26235601640")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 680.72 393.7 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8528239a-81d8-4d87-8cc2-579fd683e0dc")
+		(property "Reference" "#FLG016"
+			(at 680.72 395.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 680.72 398.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 680.72 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 680.72 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 680.72 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97fb62f0-edda-4cc1-ac7e-ea03a3fb5323")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 344.17 471.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f801714f-ae2a-4a38-9c23-d0d8cc5a54e9")
+		(property "Reference" "#FLG017"
+			(at 344.17 473.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 344.17 476.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 471.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 471.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 344.17 471.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a979ac9-41c7-449c-9d5e-86fc10a08083")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 384.81 213.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95439d68-87c8-403f-bd9b-018290c51974")
+		(property "Reference" "#FLG018"
+			(at 384.81 215.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 384.81 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 384.81 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86ef95dd-f46e-4a9c-af15-119c8754e1e0")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 92.71 344.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928e463c-7f99-4df1-a609-c1cd5ccff804")
+		(property "Reference" "#FLG019"
+			(at 92.71 346.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 92.71 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 92.71 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b02f1b8-caa1-41df-8711-ccf93b98fc10")
+		)
+		(instances
+			(project "Main_PDB"
+				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
+					(reference "#FLG019")
 					(unit 1)
 				)
 			)

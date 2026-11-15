@@ -3795,7 +3795,7 @@
 			(uuid "3188e3fd-1a64-4596-beac-8e6134ce7692")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7114,7 +7114,7 @@
 			(uuid "ed5c6c7d-abaa-471a-9581-e7c0c99fdda3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSONP-8-1EP_5x6_P1.27mm.step"
+		(model "${KIPRJMOD}/3d Models/VSONP-8-1EP_5x6_P1.27mm.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7122,7 +7122,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13598,7 +13598,7 @@
 			(uuid "9f12c11a-12f6-46d0-b03c-37d431b7385e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16350,7 +16350,7 @@
 			(uuid "85dbbccc-669f-49db-9043-763f54323544")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17389,6 +17389,17 @@
 			(uuid "d243740a-fb0c-4bdb-b34d-55d908227928")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -18104,7 +18115,7 @@
 			(uuid "ff0b2e61-d621-4c7e-8c83-1e87b4aefc34")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18621,7 +18632,7 @@
 			(uuid "68942aa9-8ed3-43b3-957e-e1cdbb6dc8d7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20387,7 +20398,7 @@
 			(uuid "c64c138c-9faa-47d0-ab97-964ce2da161b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20561,7 +20572,7 @@
 			(uuid "6ad81da6-0f30-4c7f-b26e-a6523f60d6fa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21078,7 +21089,7 @@
 			(uuid "fcc67ace-68fe-4741-a679-4b0140e95406")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24526,7 +24537,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.7464)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -24866,7 +24877,7 @@
 			(uuid "ad14e365-e46c-4da2-9853-0a1a1eb47d77")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26855,7 +26866,7 @@
 			(uuid "ac03f830-2367-4dc2-b729-898fde35ca3e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28677,7 +28688,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.7464)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -30986,6 +30997,17 @@
 			(uuid "b849f5de-fe6a-4e04-a209-caac431fda01")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:CP_Elec_10x10"
 		(layer "F.Cu")
@@ -34175,7 +34197,7 @@
 			(uuid "b12e15bc-128d-4217-8bfa-1d6fe57dee5c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSONP-8-1EP_5x6_P1.27mm.step"
+		(model "${KIPRJMOD}/3d Models/VSONP-8-1EP_5x6_P1.27mm.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34183,7 +34205,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -36777,7 +36799,7 @@
 			(uuid "d0cb305c-487f-4ea7-9ca3-9e55795458b3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36952,7 +36974,7 @@
 			(uuid "2f12b50d-2af2-4ba9-83db-f572af1d23f8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43416,7 +43438,7 @@
 			(uuid "b248c9a1-f638-4eb9-b676-8f815d60e3e6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45263,7 +45285,7 @@
 			(uuid "2970d1e5-8786-4cfd-8663-7064b30c27f1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47133,6 +47155,17 @@
 			(uuid "c4099118-9a7d-4b58-9c7b-70656b30e53b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
@@ -49475,7 +49508,7 @@
 			(uuid "13dd0b9a-d49f-4979-a685-c3bb42140924")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSONP-8-1EP_5x6_P1.27mm.step"
+		(model "${KIPRJMOD}/3d Models/VSONP-8-1EP_5x6_P1.27mm.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49483,7 +49516,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -50728,12 +50761,12 @@
 			(uuid "0d915499-33d0-4d39-aa7a-b02b4892d92d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.7464)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -51222,7 +51255,7 @@
 			(uuid "77265297-f699-451d-a581-d4df18fb05bc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSONP-8-1EP_5x6_P1.27mm.step"
+		(model "${KIPRJMOD}/3d Models/VSONP-8-1EP_5x6_P1.27mm.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51230,7 +51263,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -54873,7 +54906,7 @@
 			(uuid "8aefcd37-854d-4a17-a586-78cab587b8fd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55741,7 +55774,7 @@
 			(uuid "c86e9827-9aad-4e4a-a666-7d504e9b5b6b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSONP-8-1EP_5x6_P1.27mm.step"
+		(model "${KIPRJMOD}/3d Models/VSONP-8-1EP_5x6_P1.27mm.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55749,7 +55782,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -58240,7 +58273,7 @@
 			(uuid "7571fe5b-9e54-4940-a070-49cf783ae20c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -63689,7 +63722,7 @@
 			(uuid "9df2a5e3-7347-46c4-99de-6cb057fb9f14")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSONP-8-1EP_5x6_P1.27mm.step"
+		(model "${KIPRJMOD}/3d Models/VSONP-8-1EP_5x6_P1.27mm.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -63697,7 +63730,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -63864,7 +63897,7 @@
 			(uuid "c0356a86-e389-4573-9346-f0a92119e5bf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5015_Micro_Mini.step"
+		(model "${KIPRJMOD}/3d Models/TestPoint_Keystone_5015_Micro_Mini.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -64063,6 +64096,17 @@
 			(uuid "02034e1d-4c8f-433e-a10f-d3016c17dce8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d Models/L_Sumida_CDRH104R.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Footprints:LITTELFUSE_178.6165.0002"
 		(layer "F.Cu")
@@ -65371,7 +65415,7 @@
 			(uuid "f3ef5ac4-a7c3-46e9-9491-dd0dd6b334fb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSONP-8-1EP_5x6_P1.27mm.step"
+		(model "${KIPRJMOD}/3d Models/VSONP-8-1EP_5x6_P1.27mm.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -65379,7 +65423,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)

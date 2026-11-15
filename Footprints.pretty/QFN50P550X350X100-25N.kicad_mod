@@ -402,5 +402,16 @@
 		(solder_mask_margin 0.102)
 		(uuid "615283c6-e18f-445b-8ec4-20f78b9490d2")
 	)
+	(model "${KIPRJMOD}/3d Models/LM5148RGYR--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 	(embedded_fonts no)
 )

@@ -61,11 +61,10 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -20.8 -6)
-		(end 20.8 6)
+		(start -22 -7)
+		(end 22 7)
 		(stroke
 			(width 0.1)
 			(type solid)
