@@ -29,19 +29,19 @@ This repository contains the power distribution board (PDB) for the WiscoHumanoi
 
 Each layer is shown with the board outline and silkscreen so parts can be located on it.
 
-| F.Cu (top) | In1.Cu |
+| L1 (top) | L2 |
 |---|---|
-| ![F.Cu](images/layer-f-cu.svg) | ![In1.Cu](images/layer-in1-cu.svg) |
+| ![L1](images/layer-f-cu.svg) | ![L2](images/layer-in1-cu.svg) |
 | Components, signal routing, 48 V power pours, PGND | Solid PGND plane |
 
-| In2.Cu | In3.Cu |
+| L3 | L4 |
 |---|---|
-| ![In2.Cu](images/layer-in2-cu.svg) | ![In3.Cu](images/layer-in3-cu.svg) |
-| 48 V power pours (paralleling the top layer), PGND | Solid PGND plane |
+| ![L3](images/layer-in2-cu.svg) | ![L4](images/layer-in3-cu.svg) |
+| 48 V power pours (paralleling L1), PGND, some signal routing | Solid PGND plane |
 
-| In4.Cu | B.Cu (bottom) |
+| L5 | L6 (bottom) |
 |---|---|
-| ![In4.Cu](images/layer-in4-cu.svg) | ![B.Cu](images/layer-b-cu.svg) |
+| ![L5](images/layer-in4-cu.svg) | ![L6](images/layer-b-cu.svg) |
 | PGND, signal routing | Signal routing, PGND |
 
 The full schematic is in [`images/schematic.pdf`](images/schematic.pdf).
@@ -106,7 +106,7 @@ Each output also has a limit set by its parts:
 | Output | Limit | Set by |
 |---|---|---|
 | Each actuator output (ACT1–ACT4) | 15 A continuous, 30 A for 1 minute | XT30 connector |
-| 24 V rail | About 8 A (190 W) | L2 inductor (8.7 A rated) and 8 A per output connector |
+| 24 V rail | About 8 A (190 W) | 24 V buck inductor (8.7 A rated) and 8 A per output connector |
 | 6 V rail | 8 A (48 W) | J12 connector |
 | 3.3 V rail | 1.5 A | LMR36015 regulator |
 
@@ -114,7 +114,7 @@ Each output also has a limit set by its parts:
 
 ### 48 V Actuator Distribution
 
-The main power path distributes 48 V battery power to four actuator branches. Each branch has its own blade fuse (F4–F7), current sensor and TVS diode, and leaves the board on an XT30 connector. Because this path carries the highest current on the board, the 48 V nets are poured on both the top layer and In2, with short current paths and bolt-down M5 connections for the battery and contactors.
+The main power path distributes 48 V battery power to four actuator branches. Each branch has its own blade fuse (F4–F7), current sensor and TVS diode, and leaves the board on an XT30 connector. Because this path carries the highest current on the board, the 48 V nets are poured on both L1 and L3, with short current paths and bolt-down M5 connections for the battery and contactors.
 
 ### Precharge Circuit
 
@@ -174,7 +174,7 @@ The board uses one power ground plus local analog grounds:
 
 | Net | Purpose |
 |---|---|
-| PGND | High-current power ground and switching converter return. Solid planes on In1, In3, In4, plus pours on the outer layers |
+| PGND | High-current power ground and switching converter return. Continuous reference planes on L2 and L4; on L1, L3, L5 and L6 it is poured around signal routing |
 | AGND, AGND1–AGND10 | Local analog grounds for each buck converter's feedback network, each current sensor, and the regen comparator |
 
 Each local AGND joins PGND at one point through a net tie (NT1–NT11). This keeps large return currents out of the feedback and measurement references.
