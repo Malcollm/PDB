@@ -114,7 +114,7 @@ Each output also has a limit set by its parts:
 
 ### 48 V Actuator Distribution
 
-The main power path distributes 48 V battery power to four actuator branches. Each branch has its own blade fuse (F4–F7), current sensor and TVS diode, and leaves the board on an XT30 connector. Because this path carries the highest current on the board, the 48 V nets are poured on both L1 and L3, with short current paths and bolt-down M5 connections for the battery and contactors.
+The main power path distributes 48 V battery power to four actuator branches. Each branch has its own 20 A ATO blade fuse (F4–F7), current sensor and TVS diode, and leaves the board on an XT30 connector. Because this path carries the highest current on the board, the 48 V nets are poured on both L1 and L3, with short current paths and bolt-down M5 connections for the battery and contactors.
 
 ### Precharge Circuit
 
@@ -146,7 +146,7 @@ Each output is RC-filtered and brought out on **J11** (JST-GH 8-pin) for the rob
 ### Protection
 
 - 70 A main fuse (F1, Littelfuse BF1 142.5631.5702, M5 bolt-down)
-- Individually fused actuator branches (F4–F7), 24 V buck input (F2) and 6 V buck input (F3)
+- 20 A ATO blade fuses on each actuator branch (F4–F7), a 10 A fuse on the 24 V compute buck input (F2) and a 5 A fuse on the 6 V servo buck input (F3)
 - 0.5 A fuses on the contactor coil supplies (F8, F10)
 - SMC TVS diodes on the fused 48 V input, each actuator branch, and the 24 V and 6 V outputs
 - Varistor across the E-stop contactor coil; flyback diode on the precharge contactor coil
