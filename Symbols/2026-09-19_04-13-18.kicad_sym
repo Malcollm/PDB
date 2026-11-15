@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "MCP1401T-E_OT"
+	(symbol "MCP1402T-E_OT"
 		(pin_names
 			(offset 0.254)
 		)
@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1401T-E/OT"
+		(property "Value" "MCP1402T-E/OT"
 			(at 27.94 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1401T-E/OT"
+		(property "Datasheet" "MCP1402T-E/OT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76,7 +76,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "MCP1401T-E/OT"
+		(property "ki_keywords" "MCP1402T-E/OT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,7 +98,7 @@
 				)
 			)
 		)
-		(symbol "MCP1401T-E_OT_0_1"
+		(symbol "MCP1402T-E_OT_0_1"
 			(polyline
 				(pts
 					(xy 7.62 5.08) (xy 7.62 -10.16)

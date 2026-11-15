@@ -14,6 +14,7 @@ This repository contains the power distribution board (PDB) for the WiscoHumanoi
 | Layers | 6 (FR-4 TG155, 1.6 mm) |
 | Copper | 2 oz outer, 1 oz inner |
 | Input | 48 V battery, 100 A main fuse |
+| Current rating | 100 A at the battery input; about 65 A continuous with every output at full load (see [Current Ratings](#current-ratings)) |
 | Outputs | 4 × 48 V actuator branches (XT30), 2 × 24 V, 1 × 6 V, 1 × 3.3 V |
 | Current sensing | 7 × ACS758LCB-100B Hall-effect sensors (±100 A) |
 | Assembly | 207 SMT/THT placements per board by JLCPCB (69 BOM lines); fuses and fuse holders installed by hand |
@@ -87,6 +88,21 @@ Compute and control (24 V, 3.3 V) is fed from `48V_MAIN`, ahead of the E-stop co
 | 24 V | LM5148 synchronous buck controller (U2), 10 µH | J5, J6 (Phoenix MC 3.81 mm) | Jetson compute and USB-C PD controller |
 | 6 V | LM5148 synchronous buck controller (U7), 4.7 µH | J12 (Phoenix MC 3.81 mm) | Servo motors in the robot hands (E-stop protected) |
 | 3.3 V | LMR36015 buck regulator (U3), 18 µH | J4 (Phoenix MC 3.81 mm) | Sensors, current sensors, regen comparator, control logic |
+
+## Current Ratings
+
+These ratings come from the parts on the board. They have not been confirmed by a load or thermal test on Rev 1.
+
+| Path | Rating | Set by |
+|---|---|---|
+| Battery input (48 V) | 100 A | F1 100 A main fuse; U4 measures up to ±100 A |
+| Each actuator output (ACT1–ACT4) | 15 A continuous, 30 A for 1 minute | XT30 connector rating (the fuse holders accept blade fuses up to 30 A) |
+| All four actuator outputs together | 60 A continuous | 4 × 15 A; U8 measures up to ±100 A |
+| 24 V rail | About 8 A (190 W) | L2 inductor (8.7 A rated) and 8 A per output connector; the converter's current limit trips at about 15 A peak |
+| 6 V rail | 8 A (48 W) | J12 connector rating; the converter's current limit trips at about 15 A peak |
+| 3.3 V rail | 1.5 A | LMR36015 regulator |
+
+With every output at full load the battery supplies about 65 A. The team currently expects the actuators to draw 15–20 A on average.
 
 ## Major Board Features
 

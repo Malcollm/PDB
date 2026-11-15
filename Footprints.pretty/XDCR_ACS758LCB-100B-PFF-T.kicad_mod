@@ -1,4 +1,4 @@
-(footprint "XDCR_ACS758LCB-100U-PFF-T"
+(footprint "XDCR_ACS758LCB-100B-PFF-T"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "XDCR_ACS758LCB-100U-PFF-T"
+	(property "Value" "XDCR_ACS758LCB-100B-PFF-T"
 		(at 10.625 13.365 0)
 		(layer "F.Fab")
 		(uuid "9a9821c9-f1d8-48ea-a8a9-d6d488f39e33")

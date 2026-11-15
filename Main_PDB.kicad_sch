@@ -6,11 +6,12 @@
 	(paper "A1")
 	(title_block
 		(title "PDB")
-		(date "2026-10-25")
+		(date "2026-11-14")
+		(rev "1")
 		(company "WiscoHumanoids")
 	)
 	(lib_symbols
-		(symbol "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T"
+		(symbol "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T"
 			(pin_names
 				(offset 1.016)
 			)
@@ -30,7 +31,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ACS758LCB-100U-PFF-T"
+			(property "Value" "ACS758LCB-100B-PFF-T"
 				(at -10.16 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -41,7 +42,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ACS758LCB-100U-PFF-T:XDCR_ACS758LCB-100U-PFF-T"
+			(property "Footprint" "ACS758LCB-100B-PFF-T:XDCR_ACS758LCB-100B-PFF-T"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -219,7 +220,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "ACS758LCB-100U-PFF-T_0_0"
+			(symbol "ACS758LCB-100B-PFF-T_0_0"
 				(rectangle
 					(start -10.16 -7.62)
 					(end 10.16 7.62)
@@ -3710,7 +3711,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "178.6165.0002:LITTELFUSE_178.6165.0002"
+			(property "Footprint" "Footprints:LITTELFUSE_178.6165.0002"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5201,7 +5202,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LRM36015:LMR36015ARNXR"
+		(symbol "LMR36015ARNXR:LMR36015ARNXR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -10708,6 +10709,12 @@
 		(uuid "6b5f6264-750c-4a5f-8def-9d89dd804ac5")
 	)
 	(junction
+		(at 396.24 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cd54bbd-9ad7-4d15-8dae-46987aa216e3")
+	)
+	(junction
 		(at 434.34 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10748,12 +10755,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "738b23fb-3b11-4d90-8053-340151f86700")
-	)
-	(junction
-		(at 396.24 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7511a354-5a18-42ca-a6b2-dac3563c6d2b")
 	)
 	(junction
 		(at 287.02 431.8)
@@ -12807,6 +12808,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 97.79) (xy 396.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37274ce7-64bf-4d96-aff5-1590814e54bc")
+	)
+	(wire
+		(pts
 			(xy 172.72 280.67) (xy 176.53 280.67)
 		)
 		(stroke
@@ -13527,7 +13538,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 116.84) (xy 394.97 114.3)
+			(xy 394.97 114.3) (xy 394.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -16707,16 +16718,6 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 111.76) (xy 396.24 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8446e43-5db4-4e34-9c6a-faa34fd12b80")
-	)
-	(wire
-		(pts
 			(xy 173.99 254) (xy 184.15 254)
 		)
 		(stroke
@@ -18756,7 +18757,7 @@
 		(uuid "a83eafdd-a7a4-4a3a-8e3d-e6f3f1d25aa4")
 	)
 	(label "DUMP_REF"
-		(at 396.24 114.3 180)
+		(at 394.97 116.84 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18968,7 +18969,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 659.13 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18990,7 +18991,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 655.32 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19001,7 +19002,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT2 decoupling, 100 V"
 			(at 655.32 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19093,7 +19094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 146.05 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -19104,7 +19105,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck input capacitor, 100 V"
 			(at 146.05 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -19174,7 +19175,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 183.261 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19206,7 +19207,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 184.15 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19287,7 +19288,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b2ebac87f2dfe6d4c984db6dc95f96e6.pdf?productCode=C5246576"
 			(at 528.32 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -19298,7 +19299,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "6 V buck input bulk, 80 V"
 			(at 528.32 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -19479,7 +19480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 71.12 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -19490,7 +19491,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 66.04 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -19567,7 +19568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 71.12 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -19578,7 +19579,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "12 V bias test point"
 			(at 66.04 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -19732,7 +19733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1653"
 			(at 654.05 459.74 0)
 			(hide yes)
 			(show_name no)
@@ -19743,7 +19744,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 V compensation high-frequency pole, 50 V"
 			(at 654.05 459.74 0)
 			(hide yes)
 			(show_name no)
@@ -19913,7 +19914,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 V synchronous buck controller, 80 V input"
 			(at 599.44 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -19922,369 +19923,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "B_NOM" "0.25"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "EMAX" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D_MAX" "5.6"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "BALL_COLUMNS" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTEV" "February 2023"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PIN_COUNT_D" "10.0"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "THERMAL_PAD" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DMAX" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM5148RGYR/Texas+Instruments/view-part/?ref=eda"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "B_MAX" "0.3"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "3.5-V to 80-V, current mode synchronous buck controller"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "EMIN" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "JEDEC" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "ENOM" "0.5"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D_NOM" "5.5"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VACANCIES" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "L_MAX" "0.5"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "A_MAX" "1.0"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(property "Package" "VFQFN-24 Texas Instruments"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "E2_NOM" "2.1"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D2_NOM" "4.1"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DNOM" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM5148RGYR/Texas+Instruments/view-part/?ref=snap"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DMIN" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "E_NOM" "3.5"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "BALL_ROWS" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "B_MIN" "0.2"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "L_NOM" "0.4"
 			(at 599.44 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -20308,30 +19949,6 @@
 				(justify bottom)
 			)
 		)
-		(property "IPC" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PIN_COLUMNS" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MF" "Texas Instruments"
 			(at 599.44 401.32 0)
 			(hide yes)
@@ -20344,127 +19961,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00 mm"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PIN_COUNT_E" "4.0"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "BODY_DIAMETER" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "E_MIN" "3.4"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE_TYPE" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D_MIN" "5.4"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "LM5148RGYR"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PINS" ""
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "L_MIN" "0.3"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 599.44 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "E_MAX" "3.6"
 			(at 599.44 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -20615,7 +20112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 323.85 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -20626,7 +20123,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V output capacitor, 50 V"
 			(at 323.85 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -20931,7 +20428,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 199.771 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20963,7 +20460,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 200.66 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -21099,7 +20596,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF"
 			(at 414.528 235.458 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21131,7 +20628,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 V bias decoupling, 50 V"
 			(at 417.83 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21202,7 +20699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "178.6165.0002"
 			(at 96.52 356.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21213,7 +20710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+		(property "Footprint" "Footprints:LITTELFUSE_178.6165.0002"
 			(at 92.71 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -21225,7 +20722,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 92.71 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -21236,7 +20733,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "24 V buck input fuse holder, 30 A"
 			(at 92.71 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -21260,42 +20757,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 92.71 355.6 0)
 			(hide yes)
@@ -21308,91 +20769,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "178.6165.0002"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 92.71 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 92.71 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -21471,7 +20848,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 690.88 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21492,7 +20869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 690.88 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -21503,7 +20880,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "ACT3 output TVS, 58 V standoff"
 			(at 690.88 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -21595,7 +20972,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V output capacitor, 16 V"
 			(at 264.16 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -21686,7 +21063,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 99.06 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -21697,7 +21074,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Q2 gate test point"
 			(at 93.98 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -21754,7 +21131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 565.15 361.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21776,7 +21153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 561.34 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -21787,7 +21164,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck input capacitor, 100 V"
 			(at 561.34 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -21966,7 +21343,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Dump resistor output, M5 bolt"
 			(at 585.47 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -22110,7 +21487,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ec3e308e963624b453a77b63220f4bbf.pdf?productCode=C218044"
 			(at 571.5 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -22121,7 +21498,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V switching frequency set, 1%, 100 mW"
 			(at 571.5 396.24 0)
 			(hide yes)
 			(show_name no)
@@ -22260,7 +21637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 73.66 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22282,7 +21659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 71.12 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -22293,7 +21670,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "48 V input TVS, 58 V standoff"
 			(at 71.12 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -22375,7 +21752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C95204"
 			(at 708.66 431.8 0)
 			(hide yes)
 			(show_name no)
@@ -22386,7 +21763,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V feedback divider, bottom, 0.1%, 100 mW"
 			(at 708.66 431.8 0)
 			(hide yes)
 			(show_name no)
@@ -22682,7 +22059,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 739.14 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22704,7 +22081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 735.33 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -22715,7 +22092,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT3 current output filter, 16 V"
 			(at 735.33 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -22785,7 +22162,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "100A"
 			(at 59.69 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22806,7 +22183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/960e246dc66fe579b39aa415d04fb3fd.pdf?productCode=C3661745"
 			(at 59.69 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -22817,7 +22194,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "100 A main battery fuse, BF1 58 V"
 			(at 59.69 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -22944,7 +22321,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 745.49 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22966,7 +22343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 741.68 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -22977,7 +22354,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT4 current output filter, 16 V"
 			(at 741.68 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -23078,7 +22455,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M3 mounting hole"
 			(at 562.61 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -23154,7 +22531,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q9 gate damping resistor, 1%, 100 mW"
 			(at 590.55 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -23247,7 +22624,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop contactor input, M5 bolt"
 			(at 271.78 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -23326,7 +22703,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 325.12 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -23474,7 +22851,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://cre.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/e927f00c2cec7f21f12dafb44164cea1.pdf?productCode=C105388"
 			(at 267.97 420.37 0)
 			(hide yes)
 			(show_name no)
@@ -23485,7 +22862,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V buck current-sense shunt, 1%, 2 W"
 			(at 267.97 420.37 0)
 			(hide yes)
 			(show_name no)
@@ -23822,7 +23199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1588"
 			(at 81.28 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -23833,7 +23210,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "24 V enable filter, 50 V"
 			(at 81.28 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -23893,7 +23270,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 654.05 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23915,7 +23292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 650.24 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -23926,7 +23303,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT3 decoupling, 100 V"
 			(at 650.24 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -24108,7 +23485,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V output capacitor, 16 V"
 			(at 276.86 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -24211,7 +23588,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "ACT3 bulk capacitor, 100 V"
 			(at 643.89 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -24326,7 +23703,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Precharge contactor output, M5 bolt"
 			(at 163.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -24394,7 +23771,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22775"
 			(at 124.46 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -24405,7 +23782,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge FET gate resistor, 1%, 100 mW"
 			(at 124.46 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -24465,7 +23842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x08"
+		(property "Value" "Current Sense Out"
 			(at 770.89 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24487,7 +23864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1912111437_JST-Sales-America-BM08B-GHS-TBT-LF-SN_C133062.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 768.35 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -24498,7 +23875,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Current sensor outputs to controller"
 			(at 768.35 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -24655,7 +24032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 666.75 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24677,7 +24054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 662.94 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -24688,7 +24065,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT3 decoupling, 100 V"
 			(at 662.94 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -24759,7 +24136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V Zener 1W"
+		(property "Value" "SMAZ12-13-F"
 			(at 387.35 220.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24781,7 +24158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMAZ12-13-F/725035"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/cc6412513453b26615ae87468f11d42c.pdf?productCode=C110523"
 			(at 384.81 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -24792,7 +24169,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "12 V gate-driver bias zener, 1 W"
 			(at 384.81 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -24872,7 +24249,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C705776"
 			(at 142.24 405.13 0)
 			(hide yes)
 			(show_name no)
@@ -24883,7 +24260,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V controller CNFG setting, 0.1%, 100 mW"
 			(at 142.24 405.13 0)
 			(hide yes)
 			(show_name no)
@@ -24973,7 +24350,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M3 mounting hole"
 			(at 514.35 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -25014,7 +24391,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ6.5A"
 			(at 732.79 389.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25035,7 +24412,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312271607_Liown-SMCJ7-0A_C2990078.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/fbc6dea61d025da032a7e49d55cc13ca.pdf?productCode=C492903"
 			(at 728.98 389.89 0)
 			(hide yes)
 			(show_name no)
@@ -25046,7 +24423,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "6 V output TVS, 6.5 V standoff"
 			(at 728.98 389.89 0)
 			(hide yes)
 			(show_name no)
@@ -25184,7 +24561,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 402.59 427.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25206,7 +24583,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 398.78 426.72 0)
 			(hide yes)
 			(show_name no)
@@ -25217,7 +24594,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "24 V current output filter, 16 V"
 			(at 398.78 426.72 0)
 			(hide yes)
 			(show_name no)
@@ -25320,7 +24697,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V output capacitor, 50 V"
 			(at 290.83 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -25580,7 +24957,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "24 V buck input bulk, 100 V"
 			(at 99.06 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -25640,7 +25017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T")
+		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
 		(at 701.04 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -25671,7 +25048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+		(property "Footprint" "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 			(at 701.04 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -25694,7 +25071,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ACT1 current sensor, 100 A"
 			(at 701.04 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -25706,18 +25083,6 @@
 			)
 		)
 		(property "MF" "Allegro MicroSystems"
-			(at 701.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 			(at 701.04 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -25741,91 +25106,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 701.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 701.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 701.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 701.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 701.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
-			(at 701.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 701.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 701.04 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26114,7 +25395,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Battery positive, M5 bolt"
 			(at 45.72 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -26338,7 +25619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 731.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26349,7 +25630,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ACT1 current output filter, 5%, 100 mW"
 			(at 731.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26431,7 +25712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/089cb779a3f867a09f41e3da9a65fd83.pdf?productCode=C480537"
 			(at 359.41 473.71 0)
 			(hide yes)
 			(show_name no)
@@ -26442,7 +25723,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "24 V output to USB-C PD"
 			(at 359.41 473.71 0)
 			(hide yes)
 			(show_name no)
@@ -26658,7 +25939,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 671.83 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26691,7 +25972,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Actuator current sensor bypass, 50 V"
 			(at 668.02 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -26918,7 +26199,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 642.62 388.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26951,7 +26232,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck bootstrap, 50 V"
 			(at 638.81 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -27021,7 +26302,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "178.6165.0002"
 			(at 624.8399 227.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27032,7 +26313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+		(property "Footprint" "Footprints:LITTELFUSE_178.6165.0002"
 			(at 623.57 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -27044,7 +26325,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 623.57 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -27055,7 +26336,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "ACT4 fuse holder, 30 A"
 			(at 623.57 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -27079,42 +26360,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 623.57 231.14 0)
 			(hide yes)
@@ -27127,91 +26372,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "178.6165.0002"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 623.57 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 623.57 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -27322,7 +26483,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "Brake chopper dump FET, 100 V 79 A"
 			(at 590.55 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -27451,7 +26612,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 434.34 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -27656,7 +26817,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 109.22 373.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27678,7 +26839,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 105.41 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -27689,7 +26850,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck input capacitor, 100 V"
 			(at 105.41 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -27738,7 +26899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T")
+		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
 		(at 635 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -27769,7 +26930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+		(property "Footprint" "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 			(at 635 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -27792,7 +26953,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Actuator group current sensor, 100 A"
 			(at 635 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -27804,18 +26965,6 @@
 			)
 		)
 		(property "MF" "Allegro MicroSystems"
-			(at 635 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 			(at 635 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -27839,91 +26988,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 635 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 635 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 635 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 635 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 635 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
-			(at 635 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 635 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 635 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -28100,7 +27165,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 443.23 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28132,7 +27197,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Dump comparator bypass, 50 V"
 			(at 443.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -28313,7 +27378,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V output capacitor, 35 V"
 			(at 741.68 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -28405,7 +27470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0805X7R104K101DT_C344180.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 668.02 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -28416,7 +27481,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT4 decoupling, 100 V"
 			(at 668.02 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -28564,7 +27629,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 199.771 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28596,7 +27661,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 200.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -28678,7 +27743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C24123"
 			(at 180.34 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -28689,7 +27754,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V regulator VCC bypass, 16 V"
 			(at 180.34 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -28759,7 +27824,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 732.79 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28791,7 +27856,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT3 current sensor bypass, 50 V"
 			(at 732.79 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -28961,7 +28026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 68.58 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -28972,7 +28037,7 @@
 				)
 			)
 		)
-		(property "Description" "EN series resistor from precharge board (J24 pin 4)"
+		(property "Description" "24 V enable series resistor, 0.1%, 100 mW"
 			(at 68.58 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -29192,7 +28257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T")
+		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
 		(at 709.93 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -29223,7 +28288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+		(property "Footprint" "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 			(at 709.93 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -29246,7 +28311,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ACT3 current sensor, 100 A"
 			(at 709.93 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -29258,18 +28323,6 @@
 			)
 		)
 		(property "MF" "Allegro MicroSystems"
-			(at 709.93 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 			(at 709.93 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -29293,91 +28346,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 709.93 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 709.93 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 709.93 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 709.93 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 709.93 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
-			(at 709.93 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 709.93 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 709.93 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -29588,7 +28557,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 449.58 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -29636,7 +28605,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "178.6165.0002"
 			(at 624.8399 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29647,7 +28616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+		(property "Footprint" "Footprints:LITTELFUSE_178.6165.0002"
 			(at 623.57 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -29659,7 +28628,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 623.57 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -29670,7 +28639,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "ACT3 fuse holder, 30 A"
 			(at 623.57 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -29694,42 +28663,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 623.57 181.61 0)
 			(hide yes)
@@ -29742,91 +28675,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "178.6165.0002"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 623.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 623.57 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -30004,7 +28853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0d42e53646b854ce68c80048cebf9779.pdf?productCode=C149926"
 			(at 213.36 444.5 0)
 			(hide yes)
 			(show_name no)
@@ -30015,7 +28864,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V loop compensation, 0.1%, 100 mW"
 			(at 213.36 444.5 0)
 			(hide yes)
 			(show_name no)
@@ -30152,7 +29001,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 722.63 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30184,7 +29033,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT1 current sensor bypass, 50 V"
 			(at 722.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -30333,7 +29182,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 183.261 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30365,7 +29214,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 184.15 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -30447,7 +29296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 135.89 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -30458,7 +29307,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck input capacitor, 100 V"
 			(at 135.89 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -30529,7 +29378,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 744.22 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30551,7 +29400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 740.41 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -30562,7 +29411,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT2 current output filter, 16 V"
 			(at 740.41 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -30632,7 +29481,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "178.6165.0002"
 			(at 624.8399 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30643,7 +29492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+		(property "Footprint" "Footprints:LITTELFUSE_178.6165.0002"
 			(at 623.57 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -30655,7 +29504,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 623.57 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -30666,7 +29515,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "ACT2 fuse holder, 30 A"
 			(at 623.57 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -30690,42 +29539,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 623.57 140.97 0)
 			(hide yes)
@@ -30738,91 +29551,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "178.6165.0002"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 623.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 623.57 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -31012,7 +29741,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Brake chopper enable jumper"
 			(at 544.83 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -31104,7 +29833,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck bootstrap, 50 V"
 			(at 236.22 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -31175,7 +29904,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 121.92 373.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31197,7 +29926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 118.11 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -31208,7 +29937,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck input capacitor, 100 V"
 			(at 118.11 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -31379,7 +30108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 173.99 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -31390,7 +30119,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck input capacitor, 100 V"
 			(at 173.99 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -31727,7 +30456,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V output capacitor, 35 V"
 			(at 279.4 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -31986,7 +30715,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V output capacitor, 35 V"
 			(at 293.37 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -32135,7 +30864,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 345.44 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32157,7 +30886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 341.63 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -32168,7 +30897,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Main current output filter, 16 V"
 			(at 341.63 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -32452,7 +31181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T")
+		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
 		(at 281.94 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -32483,7 +31212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+		(property "Footprint" "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 			(at 281.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -32506,7 +31235,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Main input current sensor, 100 A"
 			(at 281.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -32518,18 +31247,6 @@
 			)
 		)
 		(property "MF" "Allegro MicroSystems"
-			(at 281.94 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 			(at 281.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -32553,91 +31270,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 281.94 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 281.94 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 281.94 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 281.94 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 281.94 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
-			(at 281.94 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 281.94 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 281.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -33459,7 +32092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 127 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -33470,7 +32103,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 121.92 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -33549,7 +32182,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C513710"
 			(at 148.59 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -33560,7 +32193,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck input capacitor, 100 V"
 			(at 148.59 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -33731,7 +32364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/089cb779a3f867a09f41e3da9a65fd83.pdf?productCode=C480537"
 			(at 791.21 398.78 0)
 			(hide yes)
 			(show_name no)
@@ -33742,7 +32375,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "6 V output to hand servos"
 			(at 791.21 398.78 0)
 			(hide yes)
 			(show_name no)
@@ -33912,7 +32545,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "3.3 V buck input capacitor, 100 V"
 			(at 121.92 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -34026,7 +32659,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V output capacitor, 35 V"
 			(at 712.47 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -34130,7 +32763,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "24 V low-side FET, 100 V 79 A"
 			(at 231.14 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -34224,7 +32857,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF"
 			(at 414.02 251.968 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34256,7 +32889,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 V bias decoupling, 50 V"
 			(at 417.83 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -34360,7 +32993,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 417.83 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -34429,7 +33062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 728.98 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -34440,7 +33073,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ACT3 current output filter, 5%, 100 mW"
 			(at 728.98 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -34557,8 +33190,8 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1401T-E_OT_1")
-		(lib_id "2026-09-19_04-13-18:MCP1401T-E_OT")
+		(lib_name "MCP1402T-E_OT_1")
+		(lib_id "2026-09-19_04-13-18:MCP1402T-E_OT")
 		(at 492.76 237.49 0)
 		(unit 1)
 		(body_style 1)
@@ -34600,7 +33233,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf"
 			(at 492.76 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -34612,7 +33245,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "E-stop FET Q3 gate driver, 0.5 A"
 			(at 492.76 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -34702,7 +33335,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 69.85 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -34713,7 +33346,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "Battery sense divider, top, 0.1%, 100 mW"
 			(at 69.85 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -34793,7 +33426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0efada0d99592d943f8f862e3fe842eb.pdf?productCode=C468887"
 			(at 375.92 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -34804,7 +33437,18 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "E-stop coil supply fuse, 0.5 A"
+			(at 375.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C468887"
 			(at 375.92 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -34852,7 +33496,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 636.27 370.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34884,7 +33528,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V controller VDDA bypass, 50 V"
 			(at 636.27 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -35065,7 +33709,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V output capacitor, 35 V"
 			(at 308.61 427.99 0)
 			(hide yes)
 			(show_name no)
@@ -35158,7 +33802,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1653"
 			(at 241.3 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -35169,7 +33813,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "3.3 V feedback feed-forward, 50 V"
 			(at 241.3 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -35340,7 +33984,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C95204"
 			(at 260.35 463.55 0)
 			(hide yes)
 			(show_name no)
@@ -35351,7 +33995,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V feedback divider, bottom, 0.1%, 100 mW"
 			(at 260.35 463.55 0)
 			(hide yes)
 			(show_name no)
@@ -35587,7 +34231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 71.12 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -35598,7 +34242,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "E-stop FET midpoint test point"
 			(at 66.04 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -35675,7 +34319,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 210.82 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -35686,7 +34330,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Dump sense test point"
 			(at 205.74 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -35933,7 +34577,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "24 V high-side FET, 100 V 44 A"
 			(at 231.14 405.13 0)
 			(hide yes)
 			(show_name no)
@@ -36050,7 +34694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 40.64 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -36061,7 +34705,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "Bus sense divider, top, 0.1%, 100 mW"
 			(at 40.64 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -36072,7 +34716,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C122538"
+		(property "LCSC" "C122538"
 			(at 40.64 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -36219,7 +34863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 99.06 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -36230,7 +34874,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 93.98 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -36307,7 +34951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 182.88 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -36318,7 +34962,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "3.3 V regulator VCC test point"
 			(at 177.8 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -36474,7 +35118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 81.28 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -36485,7 +35129,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Battery sense filter, 50 V"
 			(at 81.28 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -36645,7 +35289,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C513710"
 			(at 161.29 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -36656,7 +35300,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck input HF bypass, 100 V"
 			(at 161.29 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -36727,7 +35371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ACT2 Out"
 			(at 693.42 161.6455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36749,7 +35393,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207151430_Changzhou-Amass-Elec-XT30UPB-F30-G-Y_C108769.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1062cb8d320432b7b9c1544228df14c9.pdf?productCode=C108769"
 			(at 690.88 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -36760,7 +35404,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ACT2 actuator output"
 			(at 690.88 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -36842,7 +35486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/089cb779a3f867a09f41e3da9a65fd83.pdf?productCode=C480537"
 			(at 312.42 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -36853,7 +35497,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "3.3 V output"
 			(at 312.42 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -36992,7 +35636,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 659.13 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37014,7 +35658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 655.32 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -37025,7 +35669,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT4 decoupling, 100 V"
 			(at 655.32 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -37095,7 +35739,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uF 35V"
+		(property "Value" "100uF"
 			(at 418.846 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37128,7 +35772,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "12 V bias bulk, 35 V"
 			(at 405.13 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -37199,7 +35843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ACT1 Out"
 			(at 693.42 110.8455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37221,7 +35865,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207151430_Changzhou-Amass-Elec-XT30UPB-F30-G-Y_C108769.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1062cb8d320432b7b9c1544228df14c9.pdf?productCode=C108769"
 			(at 690.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -37232,7 +35876,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ACT1 actuator output"
 			(at 690.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -37314,7 +35958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C4190"
 			(at 520.7 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -37325,7 +35969,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ESTOP_EN2 input pulldown, 1%, 100 mW"
 			(at 520.7 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -37384,7 +36028,7 @@
 				)
 			)
 		)
-		(property "Value" "1.65M"
+		(property "Value" "1.6M"
 			(at 438.15 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37405,7 +36049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ec3e308e963624b453a77b63220f4bbf.pdf?productCode=C218412"
 			(at 438.15 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -37416,7 +36060,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump comparator hysteresis, 1%, 125 mW"
 			(at 438.15 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -37497,7 +36141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0805X7R104K101DT_C344180.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 756.92 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -37508,7 +36152,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V output capacitor, 100 V"
 			(at 756.92 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -37769,7 +36413,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 340.36 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -37995,7 +36639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 668.02 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -38006,7 +36650,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT2 decoupling, 100 V"
 			(at 668.02 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -38110,7 +36754,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "6 V high-side FET, 100 V 44 A"
 			(at 657.86 383.54 0)
 			(hide yes)
 			(show_name no)
@@ -38316,7 +36960,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "ACT4 bulk capacitor, 100 V"
 			(at 635 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -38398,7 +37042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ACT4 Out"
 			(at 693.42 251.8155 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38420,7 +37064,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207151430_Changzhou-Amass-Elec-XT30UPB-F30-G-Y_C108769.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1062cb8d320432b7b9c1544228df14c9.pdf?productCode=C108769"
 			(at 690.88 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -38431,7 +37075,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ACT4 actuator output"
 			(at 690.88 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -38469,7 +37113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T")
+		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
 		(at 701.04 233.68 0)
 		(unit 1)
 		(body_style 1)
@@ -38500,7 +37144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+		(property "Footprint" "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 			(at 701.04 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -38523,7 +37167,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ACT4 current sensor, 100 A"
 			(at 701.04 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -38535,18 +37179,6 @@
 			)
 		)
 		(property "MF" "Allegro MicroSystems"
-			(at 701.04 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 			(at 701.04 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -38570,91 +37202,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 701.04 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 701.04 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 701.04 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 701.04 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 701.04 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
-			(at 701.04 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 701.04 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 701.04 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -38852,7 +37400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 179.07 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -38863,18 +37411,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 173.99 497.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS" "C2906768"
+		(property "Description" "PGND test point"
 			(at 173.99 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -38998,7 +37535,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 722.63 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39030,7 +37567,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT4 current sensor bypass, 50 V"
 			(at 722.63 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -39100,7 +37637,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 183.261 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39132,7 +37669,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 184.15 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -39290,7 +37827,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 511.81 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -39301,7 +37838,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q3 gate pulldown, 1%, 100 mW"
 			(at 511.81 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -39339,7 +37876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T")
+		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
 		(at 353.06 422.91 0)
 		(unit 1)
 		(body_style 1)
@@ -39370,7 +37907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+		(property "Footprint" "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 			(at 353.06 422.91 0)
 			(hide yes)
 			(show_name no)
@@ -39393,7 +37930,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24 V rail current sensor, 100 A"
 			(at 353.06 422.91 0)
 			(hide yes)
 			(show_name no)
@@ -39405,18 +37942,6 @@
 			)
 		)
 		(property "MF" "Allegro MicroSystems"
-			(at 353.06 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 			(at 353.06 422.91 0)
 			(hide yes)
 			(show_name no)
@@ -39440,91 +37965,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 353.06 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 353.06 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 353.06 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 353.06 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 353.06 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
-			(at 353.06 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 353.06 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 353.06 422.91 0)
 			(hide yes)
 			(show_name no)
@@ -39702,7 +38143,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 135.89 373.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39724,7 +38165,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 132.08 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -39735,7 +38176,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck input capacitor, 100 V"
 			(at 132.08 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -39815,7 +38256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL8080-XXX"
+		(property "Footprint" "Footprints:L_Coilank_AAPS0880"
 			(at 251.46 420.37 0)
 			(hide yes)
 			(show_name no)
@@ -39837,7 +38278,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "24 V buck inductor, 8.7 A"
 			(at 251.46 420.37 0)
 			(hide yes)
 			(show_name no)
@@ -39930,7 +38371,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q6 gate damping resistor, 1%, 100 mW"
 			(at 568.96 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -40011,7 +38452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 68.58 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -40022,7 +38463,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "24 V enable pulldown, 0.1%, 100 mW"
 			(at 68.58 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -40259,7 +38700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309141733_MAX-MX126-5-0-02P-GN01-Cu-S-A_C5188434.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/f81da43c133b386f14d372a038c5dc3a.pdf?productCode=C5188434"
 			(at 410.21 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -40270,7 +38711,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop contactor coil"
 			(at 410.21 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -40360,7 +38801,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M3 mounting hole"
 			(at 586.74 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -40425,7 +38866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RNCP0603FTD24K9 | Datasheet | SEI(Stackpole Electronics Inc.) | LCSC Electronics"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ec3e308e963624b453a77b63220f4bbf.pdf?productCode=C217904"
 			(at 386.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -40436,7 +38877,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump sense divider, bottom, 1%, 100 mW"
 			(at 386.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -40828,7 +39269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23164"
 			(at 528.32 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -40839,7 +39280,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump driver turn-off resistor, 1%, 100 mW"
 			(at 528.32 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -41011,7 +39452,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "6 V low-side FET, 100 V 79 A"
 			(at 657.86 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -41215,7 +39656,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "3.3 V buck inductor, 3.1 A"
 			(at 247.65 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -41341,7 +39782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "958dd9a8-2b17-4169-8c62-5727ea14152d")
-		(property "Reference" "ZV50K2220801NIR1"
+		(property "Reference" "RV1"
 			(at 411.48 201.676 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41351,7 +39792,7 @@
 				)
 			)
 		)
-		(property "Value" "Varistor"
+		(property "Value" "RL2220A820K-452A"
 			(at 411.226 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41372,7 +39813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/ZV50K2220801NIR1/11585294"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/561ec76f53e3d05fb907cfe7e05faafe.pdf?productCode=C53286339"
 			(at 411.48 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -41383,7 +39824,7 @@
 				)
 			)
 		)
-		(property "Description" "Voltage dependent resistor"
+		(property "Description" "E-stop coil surge suppressor, 82 V"
 			(at 411.48 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -41427,7 +39868,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "threshold=1k"
+		(property "Sim.Params" "threshold=82"
 			(at 411.48 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -41469,7 +39910,7 @@
 		(instances
 			(project "Main_PDB"
 				(path "/b0f96dc2-0eeb-4c9a-9b54-b0ba45b68ce7"
-					(reference "ZV50K2220801NIR1")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -41675,7 +40116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://cre.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/e927f00c2cec7f21f12dafb44164cea1.pdf?productCode=C105388"
 			(at 692.15 398.78 0)
 			(hide yes)
 			(show_name no)
@@ -41686,7 +40127,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V buck current-sense shunt, 1%, 2 W"
 			(at 692.15 398.78 0)
 			(hide yes)
 			(show_name no)
@@ -41790,7 +40231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/089cb779a3f867a09f41e3da9a65fd83.pdf?productCode=C480537"
 			(at 359.41 461.01 0)
 			(hide yes)
 			(show_name no)
@@ -41801,7 +40242,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "24 V output to Jetson"
 			(at 359.41 461.01 0)
 			(hide yes)
 			(show_name no)
@@ -41882,7 +40323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 124.46 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -41893,7 +40334,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "PRECH_EN input pulldown, 1%, 100 mW"
 			(at 124.46 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -41985,7 +40426,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24 V synchronous buck controller, 80 V input"
 			(at 175.26 420.37 0)
 			(hide yes)
 			(show_name no)
@@ -41994,369 +40435,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "B_NOM" "0.25"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "EMAX" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D_MAX" "5.6"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "BALL_COLUMNS" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTEV" "February 2023"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PIN_COUNT_D" "10.0"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "THERMAL_PAD" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DMAX" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM5148RGYR/Texas+Instruments/view-part/?ref=eda"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "B_MAX" "0.3"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "3.5-V to 80-V, current mode synchronous buck controller"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "EMIN" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "JEDEC" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "ENOM" "0.5"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D_NOM" "5.5"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VACANCIES" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "L_MAX" "0.5"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "A_MAX" "1.0"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(property "Package" "VFQFN-24 Texas Instruments"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "E2_NOM" "2.1"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D2_NOM" "4.1"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DNOM" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM5148RGYR/Texas+Instruments/view-part/?ref=snap"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DMIN" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "E_NOM" "3.5"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "BALL_ROWS" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "B_MIN" "0.2"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "L_NOM" "0.4"
 			(at 175.26 420.37 0)
 			(hide yes)
 			(show_name no)
@@ -42380,30 +40461,6 @@
 				(justify bottom)
 			)
 		)
-		(property "IPC" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PIN_COLUMNS" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MF" "Texas Instruments"
 			(at 175.26 420.37 0)
 			(hide yes)
@@ -42416,127 +40473,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00 mm"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PIN_COUNT_E" "4.0"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "BODY_DIAMETER" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "E_MIN" "3.4"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE_TYPE" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "D_MIN" "5.4"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "LM5148RGYR"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PINS" ""
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "L_MIN" "0.3"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 175.26 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "E_MAX" "3.6"
 			(at 175.26 420.37 0)
 			(hide yes)
 			(show_name no)
@@ -42699,7 +40636,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 464.82 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -42748,7 +40685,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 646.43 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42770,7 +40707,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 642.62 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -42781,7 +40718,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT4 decoupling, 100 V"
 			(at 642.62 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -43006,7 +40943,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 524.51 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43038,7 +40975,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Dump gate driver bypass, 50 V"
 			(at 524.51 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -43207,7 +41144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 182.88 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -43218,7 +41155,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Dump trigger test point"
 			(at 177.8 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -43274,7 +41211,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 681.99 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43295,7 +41232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 681.99 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -43306,7 +41243,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "ACT4 output TVS, 58 V standoff"
 			(at 681.99 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -43466,7 +41403,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C326730"
 			(at 386.08 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -43477,7 +41414,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump sense divider, top, 0.1%, 100 mW"
 			(at 386.08 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -43557,7 +41494,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 476.25 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -43568,7 +41505,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q2 gate pulldown, 1%, 100 mW"
 			(at 476.25 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -43725,7 +41662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1653"
 			(at 217.17 450.85 0)
 			(hide yes)
 			(show_name no)
@@ -43736,7 +41673,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "24 V compensation high-frequency pole, 50 V"
 			(at 217.17 450.85 0)
 			(hide yes)
 			(show_name no)
@@ -43895,7 +41832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 668.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -43906,7 +41843,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT1 decoupling, 100 V"
 			(at 668.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -44232,7 +42169,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C24123"
 			(at 93.98 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -44243,7 +42180,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Gate driver supply bypass, 16 V"
 			(at 93.98 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -44303,7 +42240,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 659.13 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44325,7 +42262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 655.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -44336,7 +42273,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT1 decoupling, 100 V"
 			(at 655.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -44405,7 +42342,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 674.116 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44426,7 +42363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 674.37 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -44437,7 +42374,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "ACT1 output TVS, 58 V standoff"
 			(at 674.37 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -44518,7 +42455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 675.64 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -44529,7 +42466,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT3 decoupling, 100 V"
 			(at 675.64 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -44620,7 +42557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ba25842b104504a1bcc61f4e6aea13b3.pdf?productCode=C1870141"
 			(at 220.98 444.5 0)
 			(hide yes)
 			(show_name no)
@@ -44631,7 +42568,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "24 V loop compensation, 50 V"
 			(at 220.98 444.5 0)
 			(hide yes)
 			(show_name no)
@@ -44735,7 +42672,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 402.59 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -44961,7 +42898,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 575.31 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -44972,7 +42909,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck input capacitor, 100 V"
 			(at 575.31 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -45076,7 +43013,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 356.87 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -45237,7 +43174,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V feedback divider, top, 0.1%, 100 mW"
 			(at 708.66 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -45354,7 +43291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LRM36015:LMR36015ARNXR")
+		(lib_id "LMR36015ARNXR:LMR36015ARNXR")
 		(at 208.28 275.59 0)
 		(unit 1)
 		(body_style 1)
@@ -45409,7 +43346,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3 V buck regulator, 60 V 1.5 A"
 			(at 208.28 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -45520,7 +43457,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fucc27511"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ucc27511"
 			(at 499.11 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -45531,7 +43468,7 @@
 				)
 			)
 		)
-		(property "Description" "4-A/8-A single-channel gate driver with 5-V UVLO, split outputs, and 13-ns Prop delay"
+		(property "Description" "Brake chopper gate driver, 4 A/8 A"
 			(at 499.11 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -45567,55 +43504,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 499.11 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UCC27511DBVR/Texas+Instruments/view-part/?ref=snap"
-			(at 499.11 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "UCC27511DBVR"
-			(at 499.11 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 499.11 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UCC27511DBVR/Texas+Instruments/view-part/?ref=eda"
 			(at 499.11 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -45710,7 +43599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 254 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -45721,7 +43610,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3.3 V feedback divider, top, 0.1%, 100 mW"
 			(at 254 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -45859,7 +43748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 538.48 361.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45881,7 +43770,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 534.67 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -45892,7 +43781,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck input capacitor, 100 V"
 			(at 534.67 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -45983,7 +43872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ec3e308e963624b453a77b63220f4bbf.pdf?productCode=C218044"
 			(at 139.7 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -45994,7 +43883,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V switching frequency set, 1%, 100 mW"
 			(at 139.7 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -46087,7 +43976,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Precharge contactor input, M5 bolt"
 			(at 143.51 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -46155,7 +44044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 495.3 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -46166,7 +44055,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "E-stop FET midpoint pulldown, 1%, 100 mW"
 			(at 495.3 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -46226,7 +44115,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 646.43 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46248,7 +44137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 642.62 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -46259,7 +44148,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT1 decoupling, 100 V"
 			(at 642.62 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -46350,7 +44239,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a4d1e2744bd5d44ba57842651a3fd598.pdf?productCode=C77034"
 			(at 657.86 452.12 0)
 			(hide yes)
 			(show_name no)
@@ -46361,7 +44250,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "6 V loop compensation, 50 V"
 			(at 657.86 452.12 0)
 			(hide yes)
 			(show_name no)
@@ -46765,7 +44654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 389.89 422.91 0)
 			(hide yes)
 			(show_name no)
@@ -46776,7 +44665,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V current output filter, 5%, 100 mW"
 			(at 389.89 422.91 0)
 			(hide yes)
 			(show_name no)
@@ -46836,7 +44725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ACT3 Out"
 			(at 702.31 202.2855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46858,7 +44747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207151430_Changzhou-Amass-Elec-XT30UPB-F30-G-Y_C108769.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1062cb8d320432b7b9c1544228df14c9.pdf?productCode=C108769"
 			(at 699.77 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -46869,7 +44758,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ACT3 actuator output"
 			(at 699.77 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -46949,7 +44838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 154.94 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -46960,7 +44849,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 149.86 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -47037,7 +44926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 154.94 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -47048,7 +44937,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Precharge FET gate test point"
 			(at 149.86 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -47125,7 +45014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 666.75 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -47136,7 +45025,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Actuator current output filter, 5%, 100 mW"
 			(at 666.75 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -47216,7 +45105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 238.76 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -47227,7 +45116,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Dump reference test point"
 			(at 233.68 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -47461,7 +45350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/7d88b38cafa2a3503d7ab68f4802b356.pdf?productCode=C473237"
 			(at 69.85 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -47472,7 +45361,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "Battery sense divider, bottom, 0.1%, 100 mW"
 			(at 69.85 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -47565,7 +45454,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Battery negative, M5 bolt"
 			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -47711,7 +45600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C96346"
 			(at 443.23 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -47722,7 +45611,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "E-stop feedback divider, top, 1%, 125 mW"
 			(at 443.23 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -47803,7 +45692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b2ebac87f2dfe6d4c984db6dc95f96e6.pdf?productCode=C5246576"
 			(at 636.27 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -47814,7 +45703,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "ACT1 bulk capacitor, 80 V"
 			(at 636.27 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -47974,7 +45863,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 744.22 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47996,7 +45885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 740.41 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -48007,7 +45896,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT1 current output filter, 16 V"
 			(at 740.41 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -48177,7 +46066,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309141733_MAX-MX126-5-0-02P-GN01-Cu-S-A_C5188434.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/f81da43c133b386f14d372a038c5dc3a.pdf?productCode=C5188434"
 			(at 430.53 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -48188,7 +46077,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop button, normally closed"
 			(at 430.53 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -48325,7 +46214,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "178.6165.0002"
 			(at 623.5699 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48336,7 +46225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+		(property "Footprint" "Footprints:LITTELFUSE_178.6165.0002"
 			(at 622.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -48348,7 +46237,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 622.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -48359,7 +46248,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "ACT1 fuse holder, 30 A"
 			(at 622.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -48383,42 +46272,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 622.3 97.79 0)
 			(hide yes)
@@ -48431,91 +46284,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "178.6165.0002"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 622.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 622.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -48615,7 +46384,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0efada0d99592d943f8f862e3fe842eb.pdf?productCode=C468887"
 			(at 114.3 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -48626,7 +46395,18 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Precharge coil supply fuse, 0.5 A"
+			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C468887"
 			(at 114.3 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -48697,7 +46477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C861404"
 			(at 254 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -48708,7 +46488,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3.3 V feedback divider, bottom, 0.1%, 100 mW"
 			(at 254 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -48788,7 +46568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C705776"
 			(at 566.42 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -48799,7 +46579,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V controller CNFG setting, 0.1%, 100 mW"
 			(at 566.42 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -48858,7 +46638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3V Zener"
+		(property "Value" "MMSZ5226BT1G"
 			(at 423.164 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48891,7 +46671,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "E-stop feedback clamp, 3.3 V zener, 500 mW"
 			(at 434.34 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -48950,7 +46730,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 199.771 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48982,7 +46762,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 200.66 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -49141,7 +46921,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C95204"
 			(at 481.33 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -49152,7 +46932,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump trigger pull-up, 0.1%, 100 mW"
 			(at 481.33 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -49233,7 +47013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C4190"
 			(at 468.63 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -49244,7 +47024,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ESTOP_EN1 input pulldown, 1%, 100 mW"
 			(at 468.63 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -49326,7 +47106,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23234"
 			(at 443.23 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -49337,7 +47117,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "E-stop feedback divider, bottom, 1%, 100 mW"
 			(at 443.23 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -49396,7 +47176,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 374.65 412.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49428,7 +47208,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "24 V current sensor bypass, 50 V"
 			(at 374.65 417.83 0)
 			(hide yes)
 			(show_name no)
@@ -49755,7 +47535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 127 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -49766,7 +47546,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "24 V controller VCC test point"
 			(at 121.92 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -49854,7 +47634,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "Brake chopper dump FET, 100 V 79 A"
 			(at 568.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -49949,7 +47729,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 681.99 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49970,7 +47750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 681.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -49981,7 +47761,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "ACT2 output TVS, 58 V standoff"
 			(at 681.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -50140,7 +47920,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 154.94 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -50151,7 +47931,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "6 V controller VCC test point"
 			(at 149.86 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -50186,7 +47966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACS758LCB-100U-PFF-T:ACS758LCB-100U-PFF-T")
+		(lib_id "ACS758LCB-100B-PFF-T:ACS758LCB-100B-PFF-T")
 		(at 701.04 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -50217,7 +47997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+		(property "Footprint" "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 			(at 701.04 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -50240,7 +48020,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ACT2 current sensor, 100 A"
 			(at 701.04 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -50252,18 +48032,6 @@
 			)
 		)
 		(property "MF" "Allegro MicroSystems"
-			(at 701.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 			(at 701.04 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -50287,91 +48055,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 701.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 701.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 701.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 701.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 701.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
-			(at 701.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 701.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 701.04 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -50549,7 +48233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 685.8 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50571,7 +48255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 681.99 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -50582,7 +48266,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Actuator current output filter, 16 V"
 			(at 681.99 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -50684,7 +48368,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Dump resistor input, M5 bolt"
 			(at 585.47 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -50808,7 +48492,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 725.17 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50840,7 +48524,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT2 current sensor bypass, 50 V"
 			(at 725.17 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -50910,7 +48594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S1M"
+		(property "Value" "S1M-13-F"
 			(at 113.284 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50943,7 +48627,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge coil flyback diode, 1 kV 1 A"
 			(at 110.49 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -51314,7 +48998,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 203.2 389.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51335,7 +49019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C377773"
 			(at 203.2 394.97 0)
 			(hide yes)
 			(show_name no)
@@ -51346,7 +49030,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V controller VCC bypass, 50 V"
 			(at 203.2 394.97 0)
 			(hide yes)
 			(show_name no)
@@ -51528,7 +49212,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 372.11 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -51677,7 +49361,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf"
 			(at 96.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -51689,7 +49373,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Precharge FET gate driver, 0.5 A"
 			(at 96.52 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -51857,7 +49541,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 50.8 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -51868,7 +49552,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Bus sense filter, 50 V"
 			(at 50.8 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -51961,7 +49645,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 480.06 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -52041,7 +49725,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "6 V switch node probe pad"
 			(at 93.98 539.75 0)
 			(hide yes)
 			(show_name no)
@@ -52109,7 +49793,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22775"
 			(at 520.7 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -52120,7 +49804,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q3 gate resistor, 1%, 100 mW"
 			(at 520.7 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -52180,7 +49864,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 551.18 361.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52202,7 +49886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 547.37 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -52213,7 +49897,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck input capacitor, 100 V"
 			(at 547.37 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -52305,7 +49989,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/7d88b38cafa2a3503d7ab68f4802b356.pdf?productCode=C473237"
 			(at 40.64 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -52316,7 +50000,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "Bus sense divider, bottom, 0.1%, 100 mW"
 			(at 40.64 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -52354,8 +50038,8 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1401T-E_OT_2")
-		(lib_id "2026-09-19_04-13-18:MCP1401T-E_OT")
+		(lib_name "MCP1402T-E_OT_1")
+		(lib_id "2026-09-19_04-13-18:MCP1402T-E_OT")
 		(at 440.69 237.49 0)
 		(unit 1)
 		(body_style 1)
@@ -52397,7 +50081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf"
 			(at 440.69 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -52409,7 +50093,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "E-stop FET Q2 gate driver, 0.5 A"
 			(at 440.69 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -52500,7 +50184,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C861285"
 			(at 260.35 448.31 0)
 			(hide yes)
 			(show_name no)
@@ -52511,7 +50195,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V feedback divider, top, 0.1%, 100 mW"
 			(at 260.35 448.31 0)
 			(hide yes)
 			(show_name no)
@@ -52571,7 +50255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 81.28 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52593,7 +50277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -52604,7 +50288,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "48 V input TVS, 58 V standoff"
 			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -52685,7 +50369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309141733_MAX-MX126-5-0-02P-GN01-Cu-S-A_C5188434.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/f81da43c133b386f14d372a038c5dc3a.pdf?productCode=C5188434"
 			(at 100.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -52696,7 +50380,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Precharge contactor coil"
 			(at 100.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -52776,7 +50460,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C705723"
 			(at 650.24 452.12 0)
 			(hide yes)
 			(show_name no)
@@ -52787,7 +50471,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V loop compensation, 0.1%, 100 mW"
 			(at 650.24 452.12 0)
 			(hide yes)
 			(show_name no)
@@ -52946,7 +50630,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 135.89 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -52957,7 +50641,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge FET gate pulldown, 1%, 100 mW"
 			(at 135.89 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -53038,7 +50722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://s.resistor.today/shop/products/epdf/TPAL0263.pdf"
 			(at 153.67 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -53049,7 +50733,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge resistor, 1%, 35 W"
 			(at 153.67 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -53290,7 +50974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b2ebac87f2dfe6d4c984db6dc95f96e6.pdf?productCode=C5246576"
 			(at 636.27 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -53301,7 +50985,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "ACT2 bulk capacitor, 80 V"
 			(at 636.27 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -53559,7 +51243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 99.06 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -53570,7 +51254,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "24 V enable test point"
 			(at 93.98 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -53647,7 +51331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 732.79 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -53658,7 +51342,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ACT4 current output filter, 5%, 100 mW"
 			(at 732.79 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -53796,7 +51480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K 1W"
+		(property "Value" "4.7k"
 			(at 387.35 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53829,7 +51513,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "12 V bias dropper resistor, 1%, 1 W"
 			(at 384.81 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -53889,7 +51573,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS IRFR220N"
+		(property "Value" "IRFR220TRPBF"
 			(at 520.7 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53910,7 +51594,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRFR220TRPBF/812636?gclsrc=aw.ds&gad_source=1&gad_campaignid=175054755&gbraid=0AAAAADrbLlgVF38o4_tkCjH0WKL5eGYna&gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnSd27kBHZgEVZjKiPUajKvSh4oJTavFo-Ruw0AECKPMUqdrRMVNNJAaAi0dEALw_wcB"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/5640b14a67b36b06136a511da4b3496a.pdf?productCode=C506577"
 			(at 533.4 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -53921,7 +51605,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "E-stop coil switch 2, 200 V 3 A"
 			(at 520.7 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -54095,7 +51779,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 306.07 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54127,7 +51811,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Main current sensor bypass, 50 V"
 			(at 306.07 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -54298,7 +51982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22775"
 			(at 468.63 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -54309,7 +51993,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q2 gate resistor, 1%, 100 mW"
 			(at 468.63 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -54368,7 +52052,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 212.09 392.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54389,7 +52073,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 212.09 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -54400,7 +52084,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V controller VDDA bypass, 50 V"
 			(at 212.09 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -54549,7 +52233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 646.43 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54571,7 +52255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 642.62 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -54582,7 +52266,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT2 decoupling, 100 V"
 			(at 642.62 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -54683,7 +52367,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M3 mounting hole"
 			(at 538.48 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -54803,7 +52487,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "E-stop Ctrl"
 			(at 760.73 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54824,7 +52508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2410010302_JST-BM04B-GHS-TBT-LF-SN_C161692.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 760.73 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -54835,7 +52519,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop enables and feedback"
 			(at 760.73 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -54932,7 +52616,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "3.3 V switch node probe pad"
 			(at 121.92 539.75 0)
 			(hide yes)
 			(show_name no)
@@ -55155,7 +52839,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 734.06 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -55166,7 +52850,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ACT2 current output filter, 5%, 100 mW"
 			(at 734.06 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -55246,7 +52930,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 127 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -55257,7 +52941,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Q3 gate test point"
 			(at 121.92 510.54 0)
 			(hide yes)
 			(show_name no)
@@ -55312,7 +52996,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ26A"
 			(at 351.79 457.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55333,7 +53017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438106"
 			(at 347.98 457.2 0)
 			(hide yes)
 			(show_name no)
@@ -55344,7 +53028,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "24 V output TVS, 26 V standoff"
 			(at 347.98 457.2 0)
 			(hide yes)
 			(show_name no)
@@ -55424,7 +53108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 332.74 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -55435,7 +53119,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Main current output filter, 5%, 100 mW"
 			(at 332.74 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -55526,7 +53210,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "6 V buck inductor, 14.6 A"
 			(at 673.1 398.78 0)
 			(hide yes)
 			(show_name no)
@@ -55584,7 +53268,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 636.524 360.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55605,7 +53289,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C377773"
 			(at 636.27 364.49 0)
 			(hide yes)
 			(show_name no)
@@ -55616,7 +53300,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V controller VCC bypass, 50 V"
 			(at 636.27 364.49 0)
 			(hide yes)
 			(show_name no)
@@ -55876,7 +53560,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-power comparator with reference (open-drain)"
+		(property "Description" "Regen dump comparator"
 			(at 414.02 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -55912,55 +53596,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 414.02 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLV3011AIDBVT/Texas+Instruments/view-part/?ref=snap"
-			(at 414.02 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "TLV3011AIDBVT"
-			(at 414.02 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 414.02 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TLV3011AIDBVT/Texas+Instruments/view-part/?ref=eda"
 			(at 414.02 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -56033,7 +53669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "178.6165.0002"
 			(at 524.51 344.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56044,7 +53680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+		(property "Footprint" "Footprints:LITTELFUSE_178.6165.0002"
 			(at 520.7 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -56056,7 +53692,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 520.7 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -56067,7 +53703,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "6 V buck input fuse holder, 30 A"
 			(at 520.7 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -56091,42 +53727,6 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Package" "None"
 			(at 520.7 342.9 0)
 			(hide yes)
@@ -56139,91 +53739,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "178.6165.0002"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 520.7 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 520.7 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -56324,7 +53840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b2ebac87f2dfe6d4c984db6dc95f96e6.pdf?productCode=C5246576"
 			(at 772.16 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -56335,7 +53851,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "6 V output bulk, 80 V"
 			(at 772.16 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -56514,7 +54030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_JST-BM06B-GHS-TBT-LF-SN_C189892.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 44.45 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -56525,7 +54041,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Precharge controller interface"
 			(at 44.45 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -56596,7 +54112,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 203.2 402.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56617,7 +54133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 203.2 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -56628,7 +54144,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck bootstrap, 50 V"
 			(at 203.2 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -56732,7 +54248,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop contactor output, M5 bolt"
 			(at 603.25 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -56954,7 +54470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23164"
 			(at 528.32 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -56965,7 +54481,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump driver turn-on resistor, 1%, 100 mW"
 			(at 528.32 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -57025,7 +54541,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS IRFR220N"
+		(property "Value" "IRFR220TRPBF"
 			(at 468.63 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57046,7 +54562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRFR220TRPBF/812636?gclsrc=aw.ds&gad_source=1&gad_campaignid=175054755&gbraid=0AAAAADrbLlgVF38o4_tkCjH0WKL5eGYna&gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnSd27kBHZgEVZjKiPUajKvSh4oJTavFo-Ruw0AECKPMUqdrRMVNNJAaAi0dEALw_wcB"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/5640b14a67b36b06136a511da4b3496a.pdf?productCode=C506577"
 			(at 481.33 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -57057,7 +54573,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "E-stop coil switch 1, 200 V 3 A"
 			(at 468.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -57185,7 +54701,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V output capacitor, 35 V"
 			(at 726.44 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -57289,7 +54805,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 387.35 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -57368,7 +54884,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "Precharge contactor coil switch, 100 V 79 A"
 			(at 124.46 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -57495,7 +55011,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "24 V switch node probe pad"
 			(at 66.04 539.75 0)
 			(hide yes)
 			(show_name no)
@@ -57641,7 +55157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 549.91 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -57652,7 +55168,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump FET gate pulldown, 1%, 100 mW"
 			(at 549.91 128.27 0)
 			(hide yes)
 			(show_name no)

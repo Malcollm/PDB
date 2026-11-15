@@ -9,7 +9,8 @@
 	(paper "A2")
 	(title_block
 		(title "PDB PCB")
-		(date "2026-10-27")
+		(date "2026-11-14")
+		(rev "1")
 		(company "WiscoHumanoids")
 	)
 	(layers
@@ -46,12 +47,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -61,7 +64,7 @@
 			(layer "dielectric 1"
 				(type "prepreg")
 				(thickness 0.1)
-				(material "FR4")
+				(material "FR4 TG155")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
@@ -72,7 +75,7 @@
 			(layer "dielectric 2"
 				(type "core")
 				(thickness 0.5)
-				(material "FR4")
+				(material "FR4 TG155")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
@@ -83,7 +86,7 @@
 			(layer "dielectric 3"
 				(type "prepreg")
 				(thickness 0.1)
-				(material "FR4")
+				(material "FR4 TG155")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
@@ -94,7 +97,7 @@
 			(layer "dielectric 4"
 				(type "core")
 				(thickness 0.5)
-				(material "FR4")
+				(material "FR4 TG155")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
@@ -105,7 +108,7 @@
 			(layer "dielectric 5"
 				(type "prepreg")
 				(thickness 0.1)
-				(material "FR4")
+				(material "FR4 TG155")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
@@ -115,6 +118,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -122,8 +126,9 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -140,8 +145,8 @@
 			(front no)
 			(back no)
 		)
-		(capping no)
-		(filling no)
+		(capping yes)
+		(filling yes)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -196,7 +201,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2ef92fa3-22b0-453a-998d-9e62140181a1")
@@ -207,7 +212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -218,7 +223,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT3 current output filter, 16 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -391,7 +396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0d42e53646b854ce68c80048cebf9779.pdf?productCode=C149926"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -402,7 +407,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V loop compensation, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -551,7 +556,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "499d32b5-1ebe-49b3-bf25-bc0b82a0a68b")
@@ -562,7 +567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C377773"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -573,7 +578,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V controller VCC bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -735,7 +740,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "100A"
 			(at 0 6.98 0)
 			(layer "F.Fab")
 			(uuid "21ba98f3-9fb4-422c-9157-0a29294359c2")
@@ -746,7 +751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/960e246dc66fe579b39aa415d04fb3fd.pdf?productCode=C3661745"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -757,7 +762,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "100 A main battery fuse, BF1 58 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1503,7 +1508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1514,7 +1519,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Battery sense filter, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1685,7 +1690,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "24 V buck input bulk, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2159,7 +2164,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/7d88b38cafa2a3503d7ab68f4802b356.pdf?productCode=C473237"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2170,7 +2175,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "Battery sense divider, bottom, 0.1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2330,7 +2335,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b2ebac87f2dfe6d4c984db6dc95f96e6.pdf?productCode=C5246576"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2341,7 +2346,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "6 V output bulk, 80 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2815,7 +2820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2826,7 +2831,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT1 decoupling, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2999,7 +3004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b2ebac87f2dfe6d4c984db6dc95f96e6.pdf?productCode=C5246576"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3010,7 +3015,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "ACT2 bulk capacitor, 80 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3484,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22775"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3495,7 +3500,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge FET gate resistor, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3655,7 +3660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3668,7 +3673,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "12 V bias test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3831,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3842,7 +3847,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck input capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3987,7 +3992,7 @@
 			)
 		)
 	)
-	(footprint "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+	(footprint "Footprints:LITTELFUSE_178.6165.0002"
 		(layer "F.Cu")
 		(uuid "0cb04a42-df7b-47ee-953e-00031f3e3207")
 		(at 335.74 209.84)
@@ -4002,7 +4007,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "178.6165.0002"
 			(at 4.99 4.885 0)
 			(layer "F.Fab")
 			(uuid "6c0bfa07-c548-4a6b-be5e-f18c1f8a2701")
@@ -4013,7 +4018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4024,7 +4029,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "ACT4 fuse holder, 30 A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4048,45 +4053,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d536da80-5d4d-4b01-9a31-e99c83f0cb94")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d8f5c9a-2b0e-4e44-bfa3-81b8d41a8458")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "230254bf-87e9-4a65-82f8-b5054955b406")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "None"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4100,103 +4066,12 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1c46b6d0-d04e-476a-9984-669dc8f78085")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55aeee38-0224-428e-b1f5-5456ee834481")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7074783f-6fcd-4f14-92cf-7f9b7e05ed04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "67970830-b5d4-49a7-b42d-9ff1abe6de2f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "908ad14e-3f4d-44d0-b6ca-ec436d5aea7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "178.6165.0002"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c7f8c63-5285-480e-ac79-e6a143d1c63e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f674bdaf-2f2e-458e-bf2b-dd11a4c7e5bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f03d4ee-4752-4b6c-9d33-59d9baad4f4f")
 			(effects
 				(font
 					(size 1 1)
@@ -4456,7 +4331,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+	(footprint "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 		(layer "F.Cu")
 		(uuid "0d20bbfe-7335-4b97-b3e1-4c18873ad150")
 		(at 307.02 308.16 90)
@@ -4493,7 +4368,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ACT1 current sensor, 100 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4517,19 +4392,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02dc1c27-0690-41d0-aed3-38b301902caf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "5-CB-5 Allegro MicroSystems LLC"
 			(at 0 0 90)
 			(unlocked yes)
@@ -4543,103 +4405,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81de5076-7fd4-472d-9066-09fbe50faf04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2791bf8e-ceeb-42b6-9711-24e68d46786c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "360d1d46-6d71-49c3-9cd7-0ebeadc98c3c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a48d8096-e239-4f85-86db-ccc732a982a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7bd415cc-ece7-4e12-86c9-58e3a2d95654")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8c986ec7-9c02-4d8f-8361-96bef0866825")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11f550cf-d8a5-454d-8015-994def4aebc6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5547c454-1fff-4cdc-bbf7-4dc98c358665")
 			(effects
 				(font
 					(size 1 1)
@@ -5642,7 +5413,7 @@
 			(uuid "da510199-3972-4ae8-a5bc-ba2cc10c11c7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/ACS758LCB-100U-PFF-T.STEP"
+		(model "${KIPRJMOD}/3d Models/ACS758LCB-100B-PFF-T.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5682,7 +5453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5693,7 +5464,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Main current output filter, 5%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5864,7 +5635,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Precharge contactor output, M5 bolt"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6356,7 +6127,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop contactor input, M5 bolt"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6826,7 +6597,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "610e6801-e74c-433e-be13-ba4de4ace4e5")
@@ -6837,7 +6608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C377773"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6848,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V controller VCC bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7034,7 +6805,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "6 V high-side FET, 100 V 44 A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7354,17 +7125,6 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/3d Models/CSD18533Q5A.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -7394,7 +7154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7405,7 +7165,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V current output filter, 5%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7565,7 +7325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/089cb779a3f867a09f41e3da9a65fd83.pdf?productCode=C480537"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7576,7 +7336,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "24 V output to Jetson"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7813,7 +7573,7 @@
 			)
 		)
 	)
-	(footprint "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+	(footprint "Footprints:LITTELFUSE_178.6165.0002"
 		(layer "F.Cu")
 		(uuid "1585035b-792a-453f-986b-986d81adb7bd")
 		(at 328.14 288.14 -90)
@@ -7828,7 +7588,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "178.6165.0002"
 			(at 4.99 4.885 90)
 			(layer "F.Fab")
 			(uuid "a1154ecd-28d6-4d93-a997-ee22b780c7fc")
@@ -7839,7 +7599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7850,7 +7610,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "ACT2 fuse holder, 30 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7874,45 +7634,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0a2bb10-d339-4a53-9e17-8b9976f843d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "678a4b52-1526-47d2-bf8e-1f6fb4551f8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d49a75c3-c83a-422b-b2ec-817a2fa46e46")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "None"
 			(at 0 0 270)
 			(unlocked yes)
@@ -7926,103 +7647,12 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0163ab56-f38c-45a5-9cfd-25ecbaa2687d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0c696fd-d4ad-44f6-80bf-04bc5c0be361")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "12496911-119e-4396-8040-7c04746e56bf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e6467ad-5375-49c9-875a-992e77832d8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11f02852-273f-42a8-adbd-bbb78aabeb0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "178.6165.0002"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c5447e49-225b-4fe8-b1a3-bf0934f66310")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b70ba38a-aef2-4939-9f63-6f304548e43c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6c084eb-cf68-4e2f-8520-07da36a604db")
 			(effects
 				(font
 					(size 1 1)
@@ -8310,7 +7940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://cre.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/e927f00c2cec7f21f12dafb44164cea1.pdf?productCode=C105388"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8321,7 +7951,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V buck current-sense shunt, 1%, 2 W"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8507,7 +8137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8518,7 +8148,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT2 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8663,7 +8293,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+	(footprint "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 		(layer "F.Cu")
 		(uuid "17f0e029-b144-4f38-8f0c-af360e431e6d")
 		(at 343.325 192.9 90)
@@ -8700,7 +8330,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Actuator group current sensor, 100 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8724,19 +8354,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01951051-f26f-48ef-a668-102225f13e30")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "5-CB-5 Allegro MicroSystems LLC"
 			(at 0 0 90)
 			(unlocked yes)
@@ -8750,103 +8367,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a30b321-7802-4df8-8c0d-5a81b6679252")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e39946c-03a7-4c30-af60-2e744bd621e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "600ac048-dcc7-4542-8412-a47436377a4f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c81479e-5d00-433b-a2ce-b2a13e2f5070")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ef63df8-8eb7-4f8a-879a-2a5aed6b049f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "44a51437-eb0d-41fe-979b-e27641c8d4cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "31c295f3-098f-4e0c-b060-2f142a78d253")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9209e9eb-b210-42f7-97b3-6433992cf6e0")
 			(effects
 				(font
 					(size 1 1)
@@ -9849,7 +9375,7 @@
 			(uuid "6f7018bd-4b6c-4ef0-af1f-1f04855590bd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/ACS758LCB-100U-PFF-T.STEP"
+		(model "${KIPRJMOD}/3d Models/ACS758LCB-100B-PFF-T.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9889,7 +9415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C4190"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9900,7 +9426,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ESTOP_EN2 input pulldown, 1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10038,7 +9564,7 @@
 		(at 219.6 275.2 90)
 		(descr "Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf)")
 		(tags "capacitor")
-		(property "Reference" "ZV50K2220801NIR1"
+		(property "Reference" "RV1"
 			(at -0.4 5.8 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10050,7 +9576,7 @@
 				)
 			)
 		)
-		(property "Value" "Varistor"
+		(property "Value" "RL2220A820K-452A"
 			(at 0 3.65 90)
 			(layer "F.Fab")
 			(uuid "8db421f0-a046-408f-b6ec-a7a0691eab49")
@@ -10061,7 +9587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/ZV50K2220801NIR1/11585294"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/561ec76f53e3d05fb907cfe7e05faafe.pdf?productCode=C53286339"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10072,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Description" "Voltage dependent resistor"
+		(property "Description" "E-stop coil surge suppressor, 82 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10134,7 +9660,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "threshold=1k"
+		(property "Sim.Params" "threshold=82"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10308,7 +9834,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V feedback divider, top, 0.1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10440,7 +9966,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+	(footprint "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 		(layer "F.Cu")
 		(uuid "19dfafd6-2892-42fb-a08f-0d468bbdf18d")
 		(at 259.83 217.82)
@@ -10477,7 +10003,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24 V rail current sensor, 100 A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10501,19 +10027,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "209c03fb-1923-49a0-a944-a8746ba98db7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "5-CB-5 Allegro MicroSystems LLC"
 			(at 0 0 0)
 			(unlocked yes)
@@ -10527,103 +10040,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e4b1e67b-0384-4cb7-aa9e-8277f94df460")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef1edaf3-0f1d-4310-9e41-76906240107e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18899e19-ade3-4f16-aeb2-4427eac50b85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0b36b51-9bf2-47a5-a2eb-4684f9cd1794")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f30227dc-0f85-47ae-afa5-43da799bbe0f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7e276f6-3c88-429e-8ca4-30d9acf8c67f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "379d5df9-953d-4274-9ef9-083757db3ee7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9edbf71-8ea9-4e66-b6dc-9bec53d73459")
 			(effects
 				(font
 					(size 1 1)
@@ -11594,7 +11016,7 @@
 			(uuid "989393f3-c923-405f-a61b-5d6184ac15fd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/ACS758LCB-100U-PFF-T.STEP"
+		(model "${KIPRJMOD}/3d Models/ACS758LCB-100B-PFF-T.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11634,7 +11056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1588"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11645,7 +11067,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "24 V enable filter, 50 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11805,7 +11227,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/7d88b38cafa2a3503d7ab68f4802b356.pdf?productCode=C473237"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11816,7 +11238,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "Bus sense divider, bottom, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11965,7 +11387,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ACT3 Out"
 			(at 2.5 4 180)
 			(layer "F.Fab")
 			(uuid "fb977aa6-fef2-44ab-9fd4-4e98d95d4860")
@@ -11976,7 +11398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207151430_Changzhou-Amass-Elec-XT30UPB-F30-G-Y_C108769.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1062cb8d320432b7b9c1544228df14c9.pdf?productCode=C108769"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11989,7 +11411,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ACT3 actuator output"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12303,7 +11725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23234"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12314,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "E-stop feedback divider, bottom, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12474,7 +11896,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C24123"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12485,7 +11907,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Gate driver supply bypass, 16 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12657,7 +12079,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M3 mounting hole"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12773,7 +12195,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V output capacitor, 35 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12934,7 +12356,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08"
+		(property "Value" "Current Sense Out"
 			(at 0 4 90)
 			(layer "F.Fab")
 			(uuid "ecbca449-3485-469a-b3a8-25f0f7bf28ce")
@@ -12945,7 +12367,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1912111437_JST-Sales-America-BM08B-GHS-TBT-LF-SN_C133062.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12956,7 +12378,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Current sensor outputs to controller"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13528,7 +12950,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V output capacitor, 35 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13700,7 +13122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23164"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13711,7 +13133,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump driver turn-off resistor, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13871,7 +13293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13882,7 +13304,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ACT4 current output filter, 5%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14042,7 +13464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14055,7 +13477,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14216,7 +13638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14227,7 +13649,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "Bus sense divider, top, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14250,7 +13672,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C122538"
+		(property "LCSC" "C122538"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14387,7 +13809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/089cb779a3f867a09f41e3da9a65fd83.pdf?productCode=C480537"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14398,7 +13820,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "24 V output to USB-C PD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14663,7 +14085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1653"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14674,7 +14096,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 V compensation high-frequency pole, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14834,7 +14256,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1653"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14845,7 +14267,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "24 V compensation high-frequency pole, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15019,7 +14441,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15119,7 +14541,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ec3e308e963624b453a77b63220f4bbf.pdf?productCode=C218044"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15130,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V switching frequency set, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15279,7 +14701,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "2ac91918-8a93-4808-88bc-948c16a91f1c")
@@ -15290,7 +14712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15303,7 +14725,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "ACT4 output TVS, 58 V standoff"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15555,7 +14977,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+	(footprint "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 		(layer "F.Cu")
 		(uuid "308e562d-a1a5-4d49-88b3-cba5baf4568b")
 		(at 352.125 300.9 90)
@@ -15592,7 +15014,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ACT2 current sensor, 100 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15616,19 +15038,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8daa5c5b-9d6d-4f16-998e-87d27e78429f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "5-CB-5 Allegro MicroSystems LLC"
 			(at 0 0 90)
 			(unlocked yes)
@@ -15642,103 +15051,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72411c8a-7c68-46bd-a0e4-c71bf7725481")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7144f7a2-8a84-43c6-83dd-62f196bb2bf6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65226509-b319-4d28-9131-b78b1b1baf38")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4ec0957-061b-4fd4-862a-b834c72b9d6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "050f3ab4-a333-4e56-9644-e10661bdd2ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38a93dce-4f5a-43b1-a71a-5ec0a7a07d84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20cc9af2-5ae0-4ccf-9d15-1f16c0c898b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "028a2982-883c-447f-a47d-8390d1e0cafe")
 			(effects
 				(font
 					(size 1 1)
@@ -16741,7 +16059,7 @@
 			(uuid "96d9d2a3-eda3-461b-a03b-e608949a54e5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/ACS758LCB-100U-PFF-T.STEP"
+		(model "${KIPRJMOD}/3d Models/ACS758LCB-100B-PFF-T.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16792,7 +16110,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M3 mounting hole"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16897,7 +16215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16910,7 +16228,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Q3 gate test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17061,7 +16379,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 0 10.55 90)
 			(layer "F.Fab")
 			(uuid "be6ea80b-afea-40ca-bdd2-c9bf59581406")
@@ -17083,7 +16401,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17532,7 +16850,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17543,7 +16861,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "E-stop FET Q2 gate driver, 0.5 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18100,7 +17418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a4d1e2744bd5d44ba57842651a3fd598.pdf?productCode=C77034"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18111,7 +17429,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "6 V loop compensation, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18273,7 +17591,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "511143d8-0f3c-42e2-91ae-93d349a382b6")
@@ -18295,7 +17613,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT1 current sensor bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18479,7 +17797,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V output capacitor, 35 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18651,7 +17969,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18664,7 +17982,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Q2 gate test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18826,7 +18144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C96346"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18837,7 +18155,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "E-stop feedback divider, top, 1%, 125 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18997,7 +18315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19008,7 +18326,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "E-stop FET midpoint pulldown, 1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19168,7 +18486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19181,7 +18499,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "3.3 V regulator VCC test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19332,7 +18650,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 0 10.55 90)
 			(layer "F.Fab")
 			(uuid "36da035e-41df-4887-b179-21f5f2566e20")
@@ -19354,7 +18672,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19802,7 +19120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19813,7 +19131,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "PRECH_EN input pulldown, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19962,7 +19280,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f3d6c92e-71d3-4c07-b62b-e0479eb70242")
@@ -19984,7 +19302,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT4 current sensor bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20157,7 +19475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b2ebac87f2dfe6d4c984db6dc95f96e6.pdf?productCode=C5246576"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20168,7 +19486,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "6 V buck input bulk, 80 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20631,7 +19949,7 @@
 				)
 			)
 		)
-		(property "Value" "S1M"
+		(property "Value" "S1M-13-F"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "e2d4a1a7-2a78-45bf-829c-1052c230f38c")
@@ -20655,7 +19973,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge coil flyback diode, 1 kV 1 A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20934,7 +20252,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20947,7 +20265,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Dump reference test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21109,7 +20427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21122,7 +20440,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21283,7 +20601,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21294,7 +20612,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q2 gate pulldown, 1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21454,7 +20772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21465,7 +20783,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ACT1 current output filter, 5%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21625,7 +20943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21638,7 +20956,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Dump sense test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21789,7 +21107,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "e779be65-ffdf-4e47-b4b2-11bfb5a2a899")
@@ -21800,7 +21118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21813,7 +21131,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "48 V input TVS, 58 V standoff"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22093,7 +21411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22104,7 +21422,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge FET gate pulldown, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22277,7 +21595,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "6 V switch node probe pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22374,7 +21692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C513710"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22385,7 +21703,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck input HF bypass, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22547,7 +21865,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a5b31006-1aa0-41c2-8c16-6ac031f1179b")
@@ -22558,7 +21876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22569,7 +21887,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT1 current output filter, 16 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22731,7 +22049,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 0 10.55 90)
 			(layer "F.Fab")
 			(uuid "755cffd7-152c-4d00-a4f1-011d1853591e")
@@ -22753,7 +22071,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23212,7 +22530,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Battery positive, M5 bolt"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23682,7 +23000,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "2e803f03-7ff8-445a-9a8a-99869c148703")
@@ -23693,7 +23011,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23704,7 +23022,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck input capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23866,7 +23184,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "ff24fa70-cac3-4110-a490-212697065c37")
@@ -23877,7 +23195,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23890,7 +23208,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "ACT1 output TVS, 58 V standoff"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24159,7 +23477,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "6b60383f-853e-4e9a-afe4-60738c9da5c8")
@@ -24170,7 +23488,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24183,7 +23501,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "ACT3 output TVS, 58 V standoff"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24463,7 +23781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C4190"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24474,7 +23792,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ESTOP_EN1 input pulldown, 1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24623,7 +23941,7 @@
 				)
 			)
 		)
-		(property "Value" "1.65M"
+		(property "Value" "1.6M"
 			(at 0 1.68 180)
 			(layer "F.Fab")
 			(uuid "ccaa5f3a-b376-4c28-b5a7-34935d37a1c1")
@@ -24634,7 +23952,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ec3e308e963624b453a77b63220f4bbf.pdf?productCode=C218412"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -24645,7 +23963,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump comparator hysteresis, 1%, 125 mW"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -24805,7 +24123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309141733_MAX-MX126-5-0-02P-GN01-Cu-S-A_C5188434.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/f81da43c133b386f14d372a038c5dc3a.pdf?productCode=C5188434"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24816,7 +24134,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop contactor coil"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25243,7 +24561,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ec3e308e963624b453a77b63220f4bbf.pdf?productCode=C218044"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25254,7 +24572,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V switching frequency set, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25414,7 +24732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25427,7 +24745,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25589,7 +24907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25600,7 +24918,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck input capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25773,7 +25091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0805X7R104K101DT_C344180.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25784,7 +25102,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT4 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25945,7 +25263,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 1.5 -1.5 0)
 			(layer "F.Fab")
 			(uuid "dd083687-f94f-405e-8a1e-4cf8c1d254f5")
@@ -25956,7 +25274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25967,7 +25285,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Main current output filter, 16 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26140,7 +25458,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_JST-BM06B-GHS-TBT-LF-SN_C189892.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26151,7 +25469,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Precharge controller interface"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26684,7 +26002,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26795,7 +26113,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Brake chopper enable jumper"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27048,7 +26366,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V output capacitor, 35 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27231,7 +26549,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V output capacitor, 16 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27403,7 +26721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27416,7 +26734,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27591,7 +26909,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27663,7 +26981,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+	(footprint "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 		(layer "F.Cu")
 		(uuid "63a266ad-729e-43c3-bb46-db15ae423608")
 		(at 352.3665 267.5 90)
@@ -27700,7 +27018,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ACT3 current sensor, 100 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27724,19 +27042,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "31c2178d-30e9-4165-8096-9bb040a51dec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "5-CB-5 Allegro MicroSystems LLC"
 			(at 0 0 90)
 			(unlocked yes)
@@ -27750,103 +27055,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7101021-2de8-45ed-88f6-4ae9226d4674")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "579ae914-395a-4573-969f-174cf09423b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a815364-9452-41f5-9c6c-f9306d6b4f37")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92873b08-796d-47bf-a700-cfd464c3ab6f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40c05fd2-eb0a-4bb3-94df-fc98e2a24fbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e410de9a-fd55-45e3-8296-668f73619b55")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "773b6e88-2093-4104-b2cc-d171bbe08721")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ec2efb7-7304-4598-9743-fc5b3c3094d8")
 			(effects
 				(font
 					(size 1 1)
@@ -28849,7 +28063,7 @@
 			(uuid "d195a8e1-64c0-4e96-9bd8-9dbebd3ebe20")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/ACS758LCB-100U-PFF-T.STEP"
+		(model "${KIPRJMOD}/3d Models/ACS758LCB-100B-PFF-T.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28889,7 +28103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28900,7 +28114,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3.3 V feedback divider, top, 0.1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29060,7 +28274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309141733_MAX-MX126-5-0-02P-GN01-Cu-S-A_C5188434.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/f81da43c133b386f14d372a038c5dc3a.pdf?productCode=C5188434"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29071,7 +28285,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop button, normally closed"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29487,7 +28701,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF 35V"
+		(property "Value" "100uF"
 			(at 0 4.35 0)
 			(layer "F.Fab")
 			(uuid "b277b6cd-50fb-4ac1-bba5-196ca6cb2770")
@@ -29509,7 +28723,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "12 V bias bulk, 35 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29960,7 +29174,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 0 10.55 90)
 			(layer "F.Fab")
 			(uuid "bc1793b0-62ee-464d-8a4b-94dfca20175a")
@@ -29982,7 +29196,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30419,7 +29633,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "257a4fc7-b4b0-4fa2-968c-434402b1aeb3")
@@ -30441,7 +29655,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Dump comparator bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30627,7 +29841,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "3.3 V switch node probe pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30733,7 +29947,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-power comparator with reference (open-drain)"
+		(property "Description" "Regen dump comparator"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30770,64 +29984,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9da52945-040f-46d1-90b2-df8e656c8eda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLV3011AIDBVT/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e5636056-5f1e-4fc5-946c-0b37b4eab297")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "TLV3011AIDBVT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fcc999d4-133e-4c83-9927-12b17d280b65")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e41180a8-00a2-4d73-bde7-c333d637a3e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TLV3011AIDBVT/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6c953a4-ddcc-43ce-9fee-d44acea3770b")
 			(effects
 				(font
 					(size 1 1)
@@ -31179,7 +30341,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M3 mounting hole"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31285,7 +30447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31296,7 +30458,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "E-stop FET Q3 gate driver, 0.5 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31853,7 +31015,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211031700_KNSCHA-RVT100UF80V167RV0112_C5246576.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b2ebac87f2dfe6d4c984db6dc95f96e6.pdf?productCode=C5246576"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31864,7 +31026,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "ACT1 bulk capacitor, 80 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32349,7 +31511,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "ACT4 bulk capacitor, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32812,7 +31974,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "56055467-cd04-4c95-8966-929a9917a342")
@@ -32834,7 +31996,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT2 current sensor bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32996,7 +32158,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ACT2 Out"
 			(at 2.5 4 180)
 			(layer "F.Fab")
 			(uuid "5413083b-0ccf-460e-8946-9d946a03a3c2")
@@ -33007,7 +32169,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207151430_Changzhou-Amass-Elec-XT30UPB-F30-G-Y_C108769.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1062cb8d320432b7b9c1544228df14c9.pdf?productCode=C108769"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33020,7 +32182,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ACT2 actuator output"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33334,7 +32496,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://s.resistor.today/shop/products/epdf/TPAL0263.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33345,7 +32507,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Precharge resistor, 1%, 35 W"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33677,7 +32839,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M3 mounting hole"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33791,7 +32953,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24 V synchronous buck controller, 80 V input"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33802,402 +32964,12 @@
 				)
 			)
 		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a7abeb4-77a0-48f9-b145-9030a50f0df9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "B_NOM" "0.25"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2c9ddad-f385-43f6-bd66-a2bfc39e2276")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EMAX" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "387ffd49-5dbe-4b03-9820-bd167f746a11")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "D_MAX" "5.6"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "867b625a-8190-475c-b71c-059dc5e4e3fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "BALL_COLUMNS" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d20bd273-5636-4721-a50c-5f4cd208f1a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTEV" "February 2023"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa85e5a7-0ed0-4bc1-82d1-b4e873d53f75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PIN_COUNT_D" "10.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42a75f33-405f-4fa9-9892-571605418686")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "THERMAL_PAD" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b889c162-209a-4e4e-8481-c8951651b443")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DMAX" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "10eff8a6-cb7c-461f-8380-21e8c7dcac53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM5148RGYR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b4f6399-7aec-4fb0-906f-a989d334b941")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "B_MAX" "0.3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "403eb2eb-7060-4955-8f9a-ef0bdf687243")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "3.5-V to 80-V, current mode synchronous buck controller"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3a6676e-e437-41a2-a3e8-7b213ebd5330")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EMIN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd2879b8-ef3a-432f-83e3-a79be8fb8075")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JEDEC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c3ff2b7-67a7-4a8f-8fc7-cf238fcadce5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b7ff21b-5eae-4208-87e5-0746a3dcbb9c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "ENOM" "0.5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08caa119-a543-4cde-83a7-fe440e40e532")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "D_NOM" "5.5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e790cb1e-f833-4e10-af6a-f79618aecb16")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VACANCIES" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f056abfa-e868-4c10-b5bd-4a176fb271cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "L_MAX" "0.5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a073451f-49c5-4048-bb9f-c3901902a507")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "A_MAX" "1.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b44ad027-fc43-4c3f-84eb-1d2a5c6e4c3c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "VFQFN-24 Texas Instruments"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17795e15-2057-4961-9f61-498e32e9c56d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "E2_NOM" "2.1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37139e12-01b4-48ef-969b-baee61976399")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "D2_NOM" "4.1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39836b95-d7b1-47f7-8ce6-6b99e6e2f72b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNOM" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac35c807-c2c4-47f8-b6d9-bf6972911340")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM5148RGYR/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "560c675f-d8a1-4c8a-b928-3cb8b858d340")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DMIN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "abf76c51-371f-4778-a4f9-47506d54547f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "E_NOM" "3.5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03f31a19-0421-4bca-abbb-512ab7e97387")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "BALL_ROWS" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "752e2fa3-00ec-4c8f-9887-13a883ac9519")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "B_MIN" "0.2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8f9c01e-c6d2-4a51-82ee-e1cccea49507")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "950c68ca-5e59-41ae-937d-d87832d6c85c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "L_NOM" "0.4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4e70273-d606-4c93-8a6b-c663c9c1c253")
 			(effects
 				(font
 					(size 1 1)
@@ -34218,32 +32990,6 @@
 				)
 			)
 		)
-		(property "IPC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f2f9b794-7b03-41f5-9930-1f52fea1a7ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PIN_COLUMNS" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "363249ea-41ed-454b-9676-2265e7bc35df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MF" "Texas Instruments"
 			(at 0 0 0)
 			(unlocked yes)
@@ -34257,142 +33003,12 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00 mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc0bf713-2297-48af-93d2-3feee7a703ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PIN_COUNT_E" "4.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68c7342b-248d-42f8-a087-16f545a5dac5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "BODY_DIAMETER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a32fc77a-ff95-4fed-86fe-6d2a87827fde")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "E_MIN" "3.4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "21c5d836-e988-40c4-880a-972b9b120d04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE_TYPE" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6cdb4290-71db-4ccf-8d07-0a899ea8bbd3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "D_MIN" "5.4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5bad882-24f5-4ec2-ba5b-b6e84b32fef9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "LM5148RGYR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31b1c828-2075-4043-8cce-471400fb4c58")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PINS" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e5aae00-0fad-4f6f-9e02-1af1781c8ce9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "L_MIN" "0.3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c282262-ae99-4982-889e-1d2d7f802ab3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "080d0baa-0a2e-45a0-9142-64b353fefabe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "E_MAX" "3.6"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d61f3c9b-df9a-4952-bddd-acd1323d5dcd")
 			(effects
 				(font
 					(size 1 1)
@@ -34864,7 +33480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C705776"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34875,7 +33491,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V controller CNFG setting, 0.1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35024,7 +33640,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6b6fbb23-102d-4a48-a4e7-026b82010605")
@@ -35046,7 +33662,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 V bias decoupling, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35232,7 +33848,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "24 V low-side FET, 100 V 79 A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35570,17 +34186,6 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/3d Models/CSD18533Q5A.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -35621,7 +34226,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck bootstrap, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35766,7 +34371,7 @@
 			)
 		)
 	)
-	(footprint "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+	(footprint "Footprints:LITTELFUSE_178.6165.0002"
 		(layer "F.Cu")
 		(uuid "7508e892-5de5-46fc-97bc-6c866384e921")
 		(at 335.61 252.48)
@@ -35781,7 +34386,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "178.6165.0002"
 			(at 4.99 4.885 0)
 			(layer "F.Fab")
 			(uuid "758e2576-3fa4-4914-8b1a-0b90445184c7")
@@ -35792,7 +34397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35803,7 +34408,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "ACT3 fuse holder, 30 A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35827,45 +34432,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05f12a89-af08-4d26-bfc5-bbff7ad76e6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf9998fc-3f84-4bff-b9cd-a07cb1fc9e3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c34a9a41-d0ee-40f4-9361-74e4e4379425")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "None"
 			(at 0 0 0)
 			(unlocked yes)
@@ -35879,103 +34445,12 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91de0e25-908a-4a04-9a6b-bef511f4d269")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f680be3-3360-49bc-a0f0-d5323a64afe8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23f096cc-1ac4-442d-80f2-881cc06efeeb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "240f03d8-f6b4-4a4e-93a8-776dd8ffb71d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5d5fadc-55e3-4c93-8147-067276c04506")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "178.6165.0002"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca17d1af-7210-472b-a038-e85fb1b53f40")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ca85fad-32d3-4c3e-ad3a-8a78818b2132")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3901879b-250c-43e8-b1a5-6231561e19b0")
 			(effects
 				(font
 					(size 1 1)
@@ -36253,7 +34728,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fa19f271-0ffc-42be-bf1b-d7e51f01a05f")
@@ -36275,7 +34750,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck bootstrap, 50 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36447,7 +34922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C705723"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36458,7 +34933,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V loop compensation, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36607,7 +35082,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cddfe133-d15c-463c-bd43-21fb094afb97")
@@ -36629,7 +35104,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 V bias decoupling, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36791,7 +35266,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4dfa3bf2-e4ed-482b-b625-e76c853b57a5")
@@ -36813,7 +35288,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V controller VDDA bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36997,7 +35472,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "6 V buck inductor, 14.6 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37179,7 +35654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0efada0d99592d943f8f862e3fe842eb.pdf?productCode=C468887"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -37190,11 +35665,22 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "E-stop coil supply fuse, 0.5 A"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f5c323e-2665-40aa-a556-177614945b90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C468887"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae3e7b49-c118-490c-b70e-8538dd82fc92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37326,7 +35812,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a568b388-5a75-4fd0-8cba-cf109be8eab4")
@@ -37348,7 +35834,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Actuator current sensor bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37510,7 +35996,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "566fd2eb-9e05-4130-9f69-2291b339b5f4")
@@ -37521,7 +36007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37532,7 +36018,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT1 decoupling, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37694,7 +36180,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "0b342c4f-4960-41b1-930d-b4cb7f18f864")
@@ -37705,7 +36191,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37718,7 +36204,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "48 V input TVS, 58 V standoff"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37998,7 +36484,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38009,7 +36495,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "24 V enable pulldown, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38169,7 +36655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38182,7 +36668,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PGND test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38191,19 +36677,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LSCS" "C2906768"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f47857d-93c9-408e-a1c9-832f6acc63fd")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -38344,7 +36817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38357,7 +36830,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "24 V enable test point"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38530,7 +37003,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q6 gate damping resistor, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38701,7 +37174,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "3.3 V buck input capacitor, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39164,7 +37637,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 0 10.55 90)
 			(layer "F.Fab")
 			(uuid "ddf21840-27b9-4d81-9d82-62c9d97f08c9")
@@ -39186,7 +37659,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -39634,7 +38107,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23164"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39645,7 +38118,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump driver turn-on resistor, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39794,7 +38267,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ6.5A"
 			(at 0 4.2 90)
 			(layer "F.Fab")
 			(uuid "c1ff636c-826c-4c5d-9a53-2518a30bbfe9")
@@ -39805,7 +38278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312271607_Liown-SMCJ7-0A_C2990078.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/fbc6dea61d025da032a7e49d55cc13ca.pdf?productCode=C492903"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39818,7 +38291,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "6 V output TVS, 6.5 V standoff"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40095,7 +38568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fucc27511"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ucc27511"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40106,7 +38579,7 @@
 				)
 			)
 		)
-		(property "Description" "4-A/8-A single-channel gate driver with 5-V UVLO, split outputs, and 13-ns Prop delay"
+		(property "Description" "Brake chopper gate driver, 4 A/8 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40143,64 +38616,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a9d7fe9-0d51-4e09-9d1e-9911f2fe348c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UCC27511DBVR/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b30dde3a-9e58-4308-9f77-7c8f65ff9f2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "UCC27511DBVR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2768cb5a-90f2-4d95-91eb-711577c774a4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3392f1d2-d84d-45d5-914b-bde7a9af2c9a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UCC27511DBVR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd028694-87df-419b-a7be-408cf36ffebe")
 			(effects
 				(font
 					(size 1 1)
@@ -40540,7 +38961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C95204"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40551,7 +38972,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V feedback divider, bottom, 0.1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40711,7 +39132,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40722,7 +39143,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck input capacitor, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40867,7 +39288,7 @@
 			)
 		)
 	)
-	(footprint "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+	(footprint "Footprints:LITTELFUSE_178.6165.0002"
 		(layer "F.Cu")
 		(uuid "87a2757f-3d5a-4fb6-aff4-f93d518513b6")
 		(at 282.42 191.12 180)
@@ -40882,7 +39303,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "178.6165.0002"
 			(at 4.99 4.885 0)
 			(layer "F.Fab")
 			(uuid "7dcf6cfd-6bdb-4685-8c78-8a5e904d04af")
@@ -40893,7 +39314,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40904,7 +39325,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "24 V buck input fuse holder, 30 A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40928,45 +39349,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "320c6571-945b-44f8-8de5-7cac920340f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b76902c-cd63-4bea-b6b1-c45c87b79d43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf902d31-ccfd-4146-aa32-1e315afe5755")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "None"
 			(at 0 0 180)
 			(unlocked yes)
@@ -40980,103 +39362,12 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e3413cb-bcb0-4153-9a78-1e03a4bff2d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56abb9f4-d869-47d8-9627-be980241b146")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "365c0759-ac50-4895-9c73-1da616ad2435")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aab66131-464e-490b-a6ad-c3e8021bd977")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "206cf4d7-97f6-457c-8274-58c5e77f0e11")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "178.6165.0002"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3fb48d5a-bb37-4df5-999a-efb80ddc06c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "204eae6d-6c02-473c-87e1-86d254b50850")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55d5860c-bdaa-40c3-bb24-93daf97d7da4")
 			(effects
 				(font
 					(size 1 1)
@@ -41373,7 +39664,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 V synchronous buck controller, 80 V input"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41384,402 +39675,12 @@
 				)
 			)
 		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "617536e7-6497-4f61-a370-8182dd6ff170")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "B_NOM" "0.25"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d44195b-2cd2-424b-b8f3-5e33e160d273")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EMAX" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef36c31e-02b4-4a1b-90b5-a7dd236d9bb4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "D_MAX" "5.6"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82bcd5f3-f401-4522-95d8-f1aea9b93597")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "BALL_COLUMNS" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f746d031-3e39-4fa8-9660-a4ae8022d8a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTEV" "February 2023"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c001a87b-1f58-45c3-9f6a-7a461a9b8681")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PIN_COUNT_D" "10.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6675fd66-377b-4b9d-ac3f-99cd6b60ae5d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "THERMAL_PAD" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40e9a822-b755-4464-8900-6ce37eca20dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DMAX" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2efb9bb8-648d-437b-8e40-ce4fe6f56374")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM5148RGYR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fc660c25-8b3c-4738-830a-493d19f78964")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "B_MAX" "0.3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5996692-0728-4305-a319-183d52727ab4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "3.5-V to 80-V, current mode synchronous buck controller"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06e80a11-ed16-4a41-bd5b-9de04744bda2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EMIN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9a189fe-d266-4950-a678-179aac0c3499")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JEDEC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b6e197c-1138-4b04-8b1c-378b153ec2a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99a1b2a8-4a39-4d34-a3fd-66f7c040aae8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "ENOM" "0.5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8579f73-56cc-454a-b8f4-a6f08ccb1c3a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "D_NOM" "5.5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f10eedc8-c712-497b-a1cb-e13e9fce53f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VACANCIES" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a83987e-f0a7-470c-94a1-493b1522afb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "L_MAX" "0.5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7e86a9f-1ae5-4b76-84f2-f73940a11d00")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "A_MAX" "1.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7e82b23-cffb-4de4-8aca-52ecbe331a43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "VFQFN-24 Texas Instruments"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c400d1aa-1ead-4259-843c-bb8bcc6505b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "E2_NOM" "2.1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8b7cc28-47a3-4bb2-9497-358558314faa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "D2_NOM" "4.1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4fbeafd9-bce9-43cb-8efd-bccf8555e82f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNOM" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3cf9dfc4-1234-4c43-aff5-19ea3c9a8bfe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM5148RGYR/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c0e1b7e-1748-4dc8-ad51-c3fdb276b4a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DMIN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7303f40d-bc87-4fe6-885e-c7774faef13c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "E_NOM" "3.5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "859d153f-7c63-434d-bcca-ff50d27f6fdf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "BALL_ROWS" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a104927-a28f-4a6a-a6ac-2f63b942dd80")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "B_MIN" "0.2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22f40031-701a-4c7c-91d9-a7f27adf04f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1aee7cc0-3721-4cda-a137-d831ff21474e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "L_NOM" "0.4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4eecec53-c8f1-4844-b74b-b57b450128b9")
 			(effects
 				(font
 					(size 1 1)
@@ -41800,32 +39701,6 @@
 				)
 			)
 		)
-		(property "IPC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca7bf743-fb84-43b7-90f0-dffbaa087265")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PIN_COLUMNS" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c965c998-0a08-40cf-8cd0-72720d1e6a6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MF" "Texas Instruments"
 			(at 0 0 0)
 			(unlocked yes)
@@ -41839,142 +39714,12 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00 mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "939cc592-04f8-44bc-9b15-8edfa81d3165")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PIN_COUNT_E" "4.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f4c613a-c350-4062-ab12-3d83781b8ef7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "BODY_DIAMETER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dcc9559d-2e62-47be-9ee3-734041cbb6fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "E_MIN" "3.4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6bf17d3e-53e5-44c1-9077-56dc284862b8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE_TYPE" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ddfbfa9-e270-480f-84d2-0f3f4e20be47")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "D_MIN" "5.4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96884db9-4572-4723-91b2-ff17597c8df0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "LM5148RGYR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ac08f1d-b92a-40b6-9a2f-154ab35a26fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PINS" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a69b8651-b7e5-4397-91d5-111f28eadd13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "L_MIN" "0.3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8502d7f5-821b-4d03-b7c1-aaaf59c18eda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d74b052-caa8-497c-876f-a3affb703fb3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "E_MAX" "3.6"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "abfec3d5-ffe3-439d-9f33-962db0ed2d23")
 			(effects
 				(font
 					(size 1 1)
@@ -42435,7 +40180,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3V Zener"
+		(property "Value" "MMSZ5226BT1G"
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "9854a5e7-6e09-4891-b571-2b2e3a1c77a3")
@@ -42459,7 +40204,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "E-stop feedback clamp, 3.3 V zener, 500 mW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42748,7 +40493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0efada0d99592d943f8f862e3fe842eb.pdf?productCode=C468887"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42759,11 +40504,22 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Precharge coil supply fuse, 0.5 A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0c1f28e-2f60-4327-8d1b-e8e76a7081e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C468887"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "042c0b77-85e3-4f0e-8fa3-a1ecf93bf817")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42906,7 +40662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C326730"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42917,7 +40673,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump sense divider, top, 0.1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43066,7 +40822,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "3db78949-2b7a-4ff4-b68f-4854ebf60045")
@@ -43088,7 +40844,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Dump gate driver bypass, 50 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43261,7 +41017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22775"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43272,7 +41028,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q2 gate resistor, 1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43443,7 +41199,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V output capacitor, 35 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43604,7 +41360,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ58A"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "01ea5143-867d-4596-abd2-8d2151d1f457")
@@ -43615,7 +41371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438117"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43628,7 +41384,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "ACT2 output TVS, 58 V standoff"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43897,7 +41653,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7K 1W"
+		(property "Value" "4.7k"
 			(at 0 2.63 0)
 			(layer "F.Fab")
 			(uuid "981475c1-fcb4-43c8-b5df-f9b3d2f42f44")
@@ -43919,7 +41675,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "12 V bias dropper resistor, 1%, 1 W"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44093,7 +41849,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44193,7 +41949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C705776"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44204,7 +41960,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V controller CNFG setting, 0.1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44353,7 +42109,7 @@
 				)
 			)
 		)
-		(property "Value" "12V Zener 1W"
+		(property "Value" "SMAZ12-13-F"
 			(at 0 2.6 0)
 			(layer "F.Fab")
 			(uuid "301f2f1b-7764-483f-b8de-9f6233780e79")
@@ -44364,7 +42120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMAZ12-13-F/725035"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/cc6412513453b26615ae87468f11d42c.pdf?productCode=C110523"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44377,7 +42133,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "12 V gate-driver bias zener, 1 W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44667,7 +42423,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Dump resistor output, M5 bolt"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45120,12 +42876,12 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_Coilcraft_XAL8080-XXX"
+	(footprint "Footprints:L_Coilank_AAPS0880"
 		(layer "F.Cu")
 		(uuid "9ae700cc-ca1e-49ef-bc27-0018b311b7c4")
 		(at 262.92 191.69 90)
-		(descr "Inductor, Coilcraft, XAL8080-XXX, 8.3x8.8x8.0mm, (https://www.coilcraft.com/getmedia/345e50d6-a804-4ecb-9a92-5185221faf3e/xal8080.pdf)")
-		(tags "xal")
+		(descr "Inductor, Coilank AAPS0880, 8.9x8.5x8.0mm. Pads are the Coilcraft XAL8080 land used on Rev 1; Coilank recommends 2.55x8.0mm pads, 2.7mm gap (https://www.coilank.com)")
+		(tags "AAPS0880 Coilank inductor")
 		(property "Reference" "L2"
 			(at -5.11 -0.12 180)
 			(layer "F.SilkS")
@@ -45159,7 +42915,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "24 V buck inductor, 8.7 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45330,7 +43086,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "49672d84-69b0-4adc-8203-e2eb3c03f8ca")
@@ -45352,7 +43108,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT3 current sensor bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45525,7 +43281,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45538,7 +43294,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "E-stop FET midpoint test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45689,7 +43445,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS IRFR220N"
+		(property "Value" "IRFR220TRPBF"
 			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "0654bd7a-8399-4dd0-938c-415c820b3815")
@@ -45700,7 +43456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRFR220TRPBF/812636?gclsrc=aw.ds&gad_source=1&gad_campaignid=175054755&gbraid=0AAAAADrbLlgVF38o4_tkCjH0WKL5eGYna&gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnSd27kBHZgEVZjKiPUajKvSh4oJTavFo-Ruw0AECKPMUqdrRMVNNJAaAi0dEALw_wcB"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/5640b14a67b36b06136a511da4b3496a.pdf?productCode=C506577"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45711,7 +43467,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "E-stop coil switch 1, 200 V 3 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46101,7 +43857,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "9e99983a-a86c-4a8f-b004-ebb831d75a96")
@@ -46112,7 +43868,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46123,7 +43879,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck input capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46296,7 +44052,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C861404"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46307,7 +44063,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3.3 V feedback divider, bottom, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46480,7 +44236,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "24 V switch node probe pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46549,7 +44305,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+	(footprint "Footprints:LITTELFUSE_178.6165.0002"
 		(layer "F.Cu")
 		(uuid "a13d5c9c-40c4-4822-8b0c-b0a88c084d90")
 		(at 277.275 246.7975 180)
@@ -46564,7 +44320,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "178.6165.0002"
 			(at 4.99 4.885 0)
 			(layer "F.Fab")
 			(uuid "b0ea0351-c0e0-43ae-9a67-06899109d071")
@@ -46575,7 +44331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46586,7 +44342,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "6 V buck input fuse holder, 30 A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46610,45 +44366,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b6b0c2e-4ecb-483e-a707-622d1376d004")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0e89c3c3-902f-42fd-beea-c42cadfc50d7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e62c718-31d1-4b08-b68d-46d389faebc0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "None"
 			(at 0 0 180)
 			(unlocked yes)
@@ -46662,103 +44379,12 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0cf4257-6bc4-4f6b-a93b-286e36a4ea81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a591d0b7-9e55-443d-81e1-bbfd94f2ebdc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f45d62bb-5e03-4e93-98c3-7c5c2bc7d296")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37c3a1ae-51e2-4dd1-9a73-0943d04c27b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "88d2a6a9-888e-4ca9-8329-415aafbe76a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "178.6165.0002"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11f9d5b1-fb28-4448-996b-203db914c5e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98caa0d8-9684-407f-aa3c-f066f7fcc05d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "706aa61b-e6ca-4b72-8402-64486b83e2f5")
 			(effects
 				(font
 					(size 1 1)
@@ -47060,7 +44686,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47160,7 +44786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47171,7 +44797,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ACT3 current output filter, 5%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47331,7 +44957,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47342,7 +44968,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q3 gate pulldown, 1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47502,7 +45128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47515,7 +45141,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "6 V controller VCC test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47649,7 +45275,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+	(footprint "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 		(layer "F.Cu")
 		(uuid "a4c90e2a-5e46-4840-9247-524496569a63")
 		(at 313.522427 104.85 180)
@@ -47686,7 +45312,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Main input current sensor, 100 A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47710,19 +45336,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9cbe8baf-8165-4cd5-a066-692448144c26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "5-CB-5 Allegro MicroSystems LLC"
 			(at 0 0 180)
 			(unlocked yes)
@@ -47736,103 +45349,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d54e04e0-44cc-416a-ac84-c0c19d3bb432")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a71e64d2-72f3-4a12-b459-6b9549c9e84a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd173a05-0f26-4998-8fda-4bd5c10a596b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4dee29d2-42b8-4e23-833a-57677968cc29")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "63a1f994-68f0-4887-8c60-4bdd1331d862")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "659fcb68-ae47-486b-b015-fa740cc64452")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd8036a0-4067-4b41-98c0-508c134eacc5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e8bbd34-181b-4347-bf2c-5c042ae136f5")
 			(effects
 				(font
 					(size 1 1)
@@ -48835,7 +46357,7 @@
 			(uuid "c0abc4a5-9d3e-43d3-b12a-78e92b50a88e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/ACS758LCB-100U-PFF-T.STEP"
+		(model "${KIPRJMOD}/3d Models/ACS758LCB-100B-PFF-T.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48864,7 +46386,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "5b95ef4a-d472-449e-9fc0-9f0b9a14911a")
@@ -48875,7 +46397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48886,7 +46408,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT4 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49060,7 +46582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809291521_Microchip-Tech-MCP1402T-E-OT_C128573.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49071,7 +46593,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Precharge FET gate driver, 0.5 A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49629,7 +47151,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "3a314304-b3ba-491a-af9f-fe34019b3b97")
@@ -49640,7 +47162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49651,7 +47173,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT2 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49813,7 +47335,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "a526087b-5527-462b-9d7c-f9f5b6b9b5f5")
@@ -49824,7 +47346,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49835,7 +47357,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT3 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -50008,7 +47530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50019,7 +47541,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck input capacitor, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50181,7 +47703,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ACT1 Out"
 			(at 2.5 4 0)
 			(layer "F.Fab")
 			(uuid "40d27bfa-51e6-45bc-bd81-d516aa0102ad")
@@ -50192,7 +47714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207151430_Changzhou-Amass-Elec-XT30UPB-F30-G-Y_C108769.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1062cb8d320432b7b9c1544228df14c9.pdf?productCode=C108769"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50205,7 +47727,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ACT1 actuator output"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50491,7 +48013,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:XDCR_ACS758LCB-100U-PFF-T"
+	(footprint "Footprints:XDCR_ACS758LCB-100B-PFF-T"
 		(layer "F.Cu")
 		(uuid "aad095d6-5f4d-430f-ad33-d1d2a030091e")
 		(at 352.325 224.5 90)
@@ -50528,7 +48050,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ACT4 current sensor, 100 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -50552,19 +48074,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af9e1a95-3451-45ac-9d0b-bbacb2894733")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "5-CB-5 Allegro MicroSystems LLC"
 			(at 0 0 90)
 			(unlocked yes)
@@ -50578,103 +48087,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7335cadd-20dd-4412-a4c7-545f7a33fcaf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=eda"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8545b654-f4a5-490c-8672-4cb1f4328b99")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1154d574-7f06-4768-b233-4fc39ba2760a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "18"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "abab3da9-3246-4ad3-9866-2bad2fa0735d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ACS758LCB100UPFFT/Allegro/view-part/?ref=snap"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7206c354-e21a-4c4b-ac38-6882bfeaf273")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "ACS758LCB100BPFFT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68ceb48c-7b8d-4511-8dda-515e6bf59a09")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "CURRENT SENSOR, 100A, UNI, 3CB; Quiescent Current:10mA; Bandwidth:120kHz; Sensor Case Style:PFF; No. of Pins:5Pins; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Operating Temperature Min:-40°C; Operating Temperature Max:150°C; Product Range:-; RoHS Phthalates Compliant:Yes; MSL:-; SVHC:No SVHC (07-Jul-2017); Operating Temperature Range:-40°C to +150°C; Supply Voltage Range:3V to 5.5V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfe34a65-b08e-4dfe-9c79-84794db9d0f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d2d5552-8267-4cc2-9798-4df7e983875e")
 			(effects
 				(font
 					(size 1 1)
@@ -51677,7 +49095,7 @@
 			(uuid "0b359b91-6748-4b18-bd4c-7d1bc17847ed")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/ACS758LCB-100U-PFF-T.STEP"
+		(model "${KIPRJMOD}/3d Models/ACS758LCB-100B-PFF-T.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51730,7 +49148,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "Precharge contactor coil switch, 100 V 79 A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52086,7 +49504,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b115517f-eb42-4f3e-bf31-3934dcd711ec")
@@ -52097,7 +49515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52108,7 +49526,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "24 V current output filter, 16 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52270,7 +49688,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "dde991b6-d822-4dcb-ba3f-970ab749537a")
@@ -52281,7 +49699,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52292,7 +49710,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT2 current output filter, 16 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52465,7 +49883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14675"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52476,7 +49894,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump FET gate pulldown, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52636,7 +50054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/089cb779a3f867a09f41e3da9a65fd83.pdf?productCode=C480537"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52647,7 +50065,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "6 V output to hand servos"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52912,7 +50330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309141733_MAX-MX126-5-0-02P-GN01-Cu-S-A_C5188434.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/f81da43c133b386f14d372a038c5dc3a.pdf?productCode=C5188434"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52923,7 +50341,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Precharge contactor coil"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -53364,7 +50782,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53477,7 +50895,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "24 V high-side FET, 100 V 44 A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53815,17 +51233,6 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/3d Models/CSD18533Q5A.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -53844,7 +51251,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 4 -1.5 0)
 			(layer "F.Fab")
 			(uuid "11ca2deb-81e8-44d9-ac61-3fd9a82605cf")
@@ -53866,7 +51273,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Main current sensor bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54039,7 +51446,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ba25842b104504a1bcc61f4e6aea13b3.pdf?productCode=C1870141"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54050,7 +51457,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "24 V loop compensation, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54237,7 +51644,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54348,7 +51755,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Precharge contactor input, M5 bolt"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54829,7 +52236,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "kicad-embed://cre.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/e927f00c2cec7f21f12dafb44164cea1.pdf?productCode=C105388"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -54840,7 +52247,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V buck current-sense shunt, 1%, 2 W"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -55026,7 +52433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -55037,7 +52444,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Bus sense filter, 50 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -55208,7 +52615,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V output capacitor, 16 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -55380,7 +52787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22775"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -55391,7 +52798,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q3 gate resistor, 1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -55540,7 +52947,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "a9a6917a-c6d7-4020-b145-1fa25026ea56")
@@ -55551,7 +52958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -55562,7 +52969,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck input capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -55746,7 +53153,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Battery negative, M5 bolt"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56227,7 +53634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56238,7 +53645,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT3 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56400,7 +53807,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f113e83b-d28f-4bbf-8597-fd115fbe7584")
@@ -56411,7 +53818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56422,7 +53829,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V controller VDDA bypass, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56595,7 +54002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1653"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56606,7 +54013,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor NP0"
+		(property "Description" "3.3 V feedback feed-forward, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56768,7 +54175,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "5af080a7-9d4f-4395-ae90-024e06492ca0")
@@ -56779,7 +54186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56790,7 +54197,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT2 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56952,7 +54359,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "296e8115-eeca-4664-8a1b-1287c6996182")
@@ -56963,7 +54370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56974,7 +54381,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT3 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -57136,7 +54543,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "15e3340c-18dc-46c6-807e-c7d04b946e67")
@@ -57147,7 +54554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -57158,7 +54565,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V buck input capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -57331,7 +54738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57344,7 +54751,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "24 V controller VCC test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57495,7 +54902,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "E-stop Ctrl"
 			(at 0 4 90)
 			(layer "F.Fab")
 			(uuid "a2c28031-b71a-4755-8ac0-bcb03ec1c80c")
@@ -57506,7 +54913,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2410010302_JST-BM04B-GHS-TBT-LF-SN_C161692.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -57517,7 +54924,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop enables and feedback"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -58007,7 +55414,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "Brake chopper dump FET, 100 V 79 A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58334,7 +55741,7 @@
 			(uuid "c86e9827-9aad-4e4a-a666-7d504e9b5b6b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/CSD18533Q5A.STEP"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSONP-8-1EP_5x6_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58342,7 +55749,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -58363,7 +55770,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "470uF"
 			(at 0 10.55 90)
 			(layer "F.Fab")
 			(uuid "cac7721e-c68f-4e3a-842a-0baf56ace82f")
@@ -58385,7 +55792,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor 100V"
+		(property "Description" "Main bus bulk capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -58833,7 +56240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/089cb779a3f867a09f41e3da9a65fd83.pdf?productCode=C480537"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -58844,7 +56251,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "3.3 V output"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59109,7 +56516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C95204"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -59120,7 +56527,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "6 V feedback divider, bottom, 0.1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -59269,7 +56676,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2552795c-fbf6-4701-b1cb-c04aa67926fc")
@@ -59280,7 +56687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59291,7 +56698,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Actuator current output filter, 16 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59475,7 +56882,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V output capacitor, 35 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59647,7 +57054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C95204"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59658,7 +57065,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump trigger pull-up, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59818,7 +57225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C861285"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59829,7 +57236,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "24 V feedback divider, top, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59989,7 +57396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -60000,7 +57407,7 @@
 				)
 			)
 		)
-		(property "Description" "EN pulldown - 24V buck off unless precharge board drives 24V_EN_IN high"
+		(property "Description" "Battery sense divider, top, 0.1%, 100 mW"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -60160,7 +57567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_CCTC-TCC0805X7R104K101DT_C344180.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/71a9f8eccc4da164324d4a716182c5e3.pdf?productCode=C344180"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -60171,7 +57578,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "6 V output capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -60343,7 +57750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60354,7 +57761,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "ACT2 current output filter, 5%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60514,7 +57921,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C24123"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60525,7 +57932,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V regulator VCC bypass, 16 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60698,7 +58105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60711,7 +58118,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Precharge FET gate test point"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60873,7 +58280,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C14676"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60884,7 +58291,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Actuator current output filter, 5%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61033,7 +58440,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS IRFR220N"
+		(property "Value" "IRFR220TRPBF"
 			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "d2aa5d0f-b0b0-4df2-b73c-dfc122a2f2c4")
@@ -61044,7 +58451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/IRFR220TRPBF/812636?gclsrc=aw.ds&gad_source=1&gad_campaignid=175054755&gbraid=0AAAAADrbLlgVF38o4_tkCjH0WKL5eGYna&gclid=Cj0KCQjw5bjVBhCiARIsAJzMVnSd27kBHZgEVZjKiPUajKvSh4oJTavFo-Ruw0AECKPMUqdrRMVNNJAaAi0dEALw_wcB"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/5640b14a67b36b06136a511da4b3496a.pdf?productCode=C506577"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -61055,7 +58462,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "E-stop coil switch 2, 200 V 3 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -61456,7 +58863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RNCP0603FTD24K9 | Datasheet | SEI(Stackpole Electronics Inc.) | LCSC Electronics"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/ec3e308e963624b453a77b63220f4bbf.pdf?productCode=C217904"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -61467,7 +58874,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Dump sense divider, bottom, 1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -61638,7 +59045,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V output capacitor, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61800,7 +59207,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMCJ26A"
 			(at 0 4.2 90)
 			(layer "F.Fab")
 			(uuid "7e38bf86-23c2-4502-8895-1575abf23d94")
@@ -61811,7 +59218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/30c536fe584d45c8d03dea9ed65a638b.pdf?productCode=C438106"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61824,7 +59231,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "24 V output TVS, 26 V standoff"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62115,7 +59522,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Q9 gate damping resistor, 1%, 100 mW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62264,7 +59671,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "ab28b0b9-d434-4412-af74-5ddad1caa4bf")
@@ -62275,7 +59682,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -62286,7 +59693,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck input capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -62448,7 +59855,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "08ebfdef-cc4f-4aef-bdcf-0f0354bff980")
@@ -62459,7 +59866,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62470,7 +59877,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT1 decoupling, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62643,7 +60050,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C513710"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62654,7 +60061,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "3.3 V buck input capacitor, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -62816,7 +60223,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "ACT4 Out"
 			(at 2.5 4 180)
 			(layer "F.Fab")
 			(uuid "3370a3f0-a244-4e99-82b9-5e9a1e8039f5")
@@ -62827,7 +60234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207151430_Changzhou-Amass-Elec-XT30UPB-F30-G-Y_C108769.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/1062cb8d320432b7b9c1544228df14c9.pdf?productCode=C108769"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62840,7 +60247,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ACT4 actuator output"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63165,7 +60572,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "E-stop contactor output, M5 bolt"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -63657,7 +61064,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Dump resistor input, M5 bolt"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64138,7 +61545,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64149,7 +61556,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V output capacitor, 50 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64311,7 +61718,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "2c7d2060-477e-40f7-847a-1ecd0232266f")
@@ -64322,7 +61729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -64333,7 +61740,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck input capacitor, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -64495,7 +61902,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "c0bbf7b9-b698-4bfa-bb85-94d20647b41e")
@@ -64506,7 +61913,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/a99e0252a05e00d2f66d6d299a8ef975.pdf?productCode=C381466"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -64517,7 +61924,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "ACT4 decoupling, 100 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -64704,7 +62111,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64794,7 +62201,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d6db7c2f-98fe-494f-bfca-141dd10075de")
@@ -64805,7 +62212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1591"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -64816,7 +62223,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor XR7"
+		(property "Description" "24 V buck bootstrap, 50 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -64989,7 +62396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/46d7760c582640714d605308a25a220a.pdf?productCode=C122538"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -65000,7 +62407,7 @@
 				)
 			)
 		)
-		(property "Description" "EN series resistor from precharge board (J24 pin 4)"
+		(property "Description" "24 V enable series resistor, 0.1%, 100 mW"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -65173,7 +62580,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3 V buck regulator, 60 V 1.5 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -65420,7 +62827,7 @@
 			(uuid "2e8e709b-86e4-4da6-b866-dd6ec6fe32fc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3d Models/TI_LMR3601ARNXR.stp"
+		(model "${KIPRJMOD}/3d Models/TI_LMR36015ARNXR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -65449,7 +62856,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "341360f3-9dee-4abe-83dc-adf2d3d3501d")
@@ -65460,7 +62867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C519406"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -65471,7 +62878,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "ACT4 current output filter, 16 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -65633,7 +63040,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "62510c4e-8d5c-49a3-9141-41bd8b166490")
@@ -65655,7 +63062,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "24 V current sensor bypass, 50 V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -65842,7 +63249,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65955,7 +63362,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "6 V low-side FET, 100 V 79 A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66293,17 +63700,6 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/3d Models/CSD18533Q5A.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 		(layer "F.Cu")
@@ -66333,7 +63729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121200_Keystone-5015_C2906768.pdf"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p55.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66346,7 +63742,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Dump trigger test point"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66520,7 +63916,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "3.3 V buck inductor, 3.1 A"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -66668,7 +64064,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "LITTLEFUSE_178.6165.0002:LITTELFUSE_178.6165.0002"
+	(footprint "Footprints:LITTELFUSE_178.6165.0002"
 		(layer "F.Cu")
 		(uuid "fa851c13-525d-4e36-b42b-f4f95a0fae24")
 		(at 305.69 288.01 -90)
@@ -66683,7 +64079,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "178.6165.0002"
 			(at 4.99 4.885 90)
 			(layer "F.Fab")
 			(uuid "3fbad4d0-8aa7-4d52-969e-5f552ae26e26")
@@ -66694,7 +64090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0e07c97b9bd07e2df008e51002483122.pdf?productCode=C207061"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -66705,7 +64101,7 @@
 				)
 			)
 		)
-		(property "Description" "FLR PCB Mount Automotive Fuseholder, 30A, 80V | Littelfuse 178.6165.0002"
+		(property "Description" "ACT1 fuse holder, 30 A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -66729,45 +64125,6 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "17.50mm"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "33e05638-66aa-47b2-b380-1bc83abf2308")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "CREATOR" "AMINA"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab75f8c2-2863-45d3-b795-bd3e847fb3f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ebbe597-a958-4748-ac1e-e7b333fa088b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "None"
 			(at 0 0 270)
 			(unlocked yes)
@@ -66781,103 +64138,12 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=eda"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dcfd3e20-4275-4bdc-a185-720a5065f6cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6426b64f-8a38-45a1-b284-ec0c1b73d103")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "H"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5b3da9a-acd4-47d2-bb38-a9b710a46910")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VERIFIER" "Your name, use the same always"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7fcb840d-1b1d-4d01-b912-46dd3624c5c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/178.6165.0002/Littelfuse/view-part/?ref=snap"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb6062d3-f5a0-4b49-bbea-9ec7e39003d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MP" "178.6165.0002"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "35dc108a-9ff1-4ae7-b634-40086449e51c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2716633&manufacturer=Littelfuse Inc.&part_name=178.6165.0002&search_term=None"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8fbb6c9b-db2a-4456-9939-53fb6eb5fb8a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bef5119c-f451-4bc0-9d84-884fd649a6aa")
 			(effects
 				(font
 					(size 1 1)
@@ -67179,7 +64445,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67290,7 +64556,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "ACT3 bulk capacitor, 100 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67777,7 +65043,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "Brake chopper dump FET, 100 V 79 A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68159,7 +65425,7 @@
 				)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" "AGND to PGND single-point tie"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
