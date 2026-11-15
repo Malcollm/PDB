@@ -1,4 +1,4 @@
-# Humanoid Robot Power Distribution Board
+# WiscoHumanoids Power Distribution Board
 
 ![Power distribution board](images/board-iso.png)
 
