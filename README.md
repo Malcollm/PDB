@@ -110,6 +110,63 @@ Each output also has a limit set by its parts:
 | 6 V rail | 8 A (48 W) | J12 connector |
 | 3.3 V rail | 1.5 A | LMR36015 regulator |
 
+## Signal Connectors
+
+The PDB has three low-voltage signal connectors, all JST-GH (1.25 mm pitch). They use 3.3 V logic and are referenced to PGND. In the tables below, **In** and **Out** are from the PDB's point of view.
+
+| Connector | Pins | Purpose |
+|---|---|---|
+| J11 | 8 | Analog current-sense outputs |
+| J2 | 4 | E-stop logic: two enables in, contactor feedback out |
+| J24 | 6 | Precharge board interface: precharge and 24 V enables in, battery and bus voltage sense out, 3.3 V supply out |
+
+The contactor coil and E-stop button terminals (J20, J21, J22) run at battery voltage, not logic level. They are covered under [Precharge Circuit](#precharge-circuit) and [E-Stop and Actuator Disconnect](#e-stop-and-actuator-disconnect).
+
+### J11: Current Sense Outputs (JST-GH 8-pin)
+
+| Pin | Net | Dir | Measures |
+|---|---|---|---|
+| 1 | `Act_rail_curr` | Out | Actuator group, after the E-stop contactor (U8) |
+| 2 | (unnamed) | Out | ACT1, J8 (U10) |
+| 3 | (unnamed) | Out | ACT2, J7 (U9) |
+| 4 | (unnamed) | Out | ACT3, J10 (U12) |
+| 5 | (unnamed) | Out | ACT4, J9 (U11) |
+| 6 | `Main_curr` | Out | Main battery input (U4) |
+| 7 | `Com_cur` | Out | 24 V rail output (U5) |
+| 8 | GND | | PGND |
+
+- Each output comes from an ACS758LCB-100B powered from 3.3 V, through a 1 kΩ / 10 nF filter (about 16 kHz cutoff).
+- The output is ratiometric to the 3.3 V supply. It reads 1.65 V at 0 A and changes by about 13.2 mV/A (the datasheet's 20 mV/A at 5 V, scaled to 3.3 V), so `I = (V − 1.65 V) / 0.0132 V/A`. ±100 A spans about 0.33–2.97 V.
+- Current flowing toward the load reads above 1.65 V. Current flowing back toward the battery (regen) reads below 1.65 V.
+
+### J2: E-Stop Logic (JST-GH 4-pin)
+
+| Pin | Net | Dir | Function |
+|---|---|---|---|
+| 1 | GND | | PGND |
+| 2 | `ESTOP_FB` | Out | E-stop contactor coil state: low = coil energized (actuators powered), high = coil off |
+| 3 | `ESTOP_EN2` | In | Turns on coil switch Q3 (through gate driver U14) |
+| 4 | `ESTOP_EN1` | In | Turns on coil switch Q2 (through gate driver U13) |
+
+- **Enables:** active high, into MCP1402 gate drivers (high above 2.4 V, low below 0.8 V). The coil is energized only when both enables are high and the E-stop button is closed. Each enable has a 2.2 kΩ pull-down, so an unplugged connector or an unpowered controller leaves the contactor open. The controller has to source about 1.5 mA per enable at 3.3 V.
+- **Feedback:** taken from the low side of the coil through a 100 kΩ / 7.5 kΩ divider and clamped by a 3.3 V zener (D11). With the coil off, the coil pulls this node up to battery voltage, so `ESTOP_FB` reads about 0.07 × battery voltage: about 3.3 V on a 48 V pack, and about 2.8 V at 40 V. With the coil energized it reads about 0 V. It reports the coil drive, not whether the contactor's contacts actually closed. It also reads low if the battery is disconnected or the coil fuse (F8) has blown.
+
+### J24: Precharge Board Interface (JST-GH 6-pin)
+
+| Pin | Net | Dir | Function |
+|---|---|---|---|
+| 1 | GND | | PGND |
+| 2 | +3.3V | Out | 3.3 V supply for the precharge board (from U3) |
+| 3 | `PRECH_EN` | In | Closes the precharge contactor, bypassing RPRE1 |
+| 4 | `24V_EN_IN` | In | Turns on the 24 V buck (U2) for the Jetson and USB-C PD controller |
+| 5 | `PRECH_SENSE` | Out | Bus voltage (`48V_PRECH`, after the precharge resistor), divided by 26.6 |
+| 6 | `BATT_SENSE` | Out | Battery voltage (`48V_FUSE`, after F1), divided by 26.6 |
+
+- **`PRECH_EN`:** active high, into an MCP1402 gate driver (U15) that drives Q1, the low-side switch for the contactor coil on J22. A 100 kΩ pull-down keeps the contactor open when nothing drives it.
+- **`24V_EN_IN`:** active high. It reaches U2's EN/UVLO pin through a 100 kΩ / 100 kΩ divider, so a 3.3 V input puts 1.65 V on the pin. Left low or unconnected, the 24 V rail stays off. That keeps the Jetson and USB-C PD load off the precharge resistor until the precharge board turns the rail on.
+- **Voltage sense:** 100 kΩ / 3.9 kΩ dividers (0.1%), so `V = V_pin × 26.64`. 48 V reads 1.80 V, and 3.3 V full scale is 87.9 V. Each has a 100 nF filter capacitor (about 3.75 kΩ source impedance, about 420 Hz cutoff).
+- **3.3 V supply:** U3 runs from `48V_MAIN`, so the 3.3 V rail comes up while the bus is still charging through RPRE1. The precharge board can read both sense lines before it closes the contactor. This pin shares the 3.3 V rail's 1.5 A limit with the current sensors.
+
 ## Major Board Features
 
 ### 48 V Actuator Distribution
@@ -120,11 +177,11 @@ The main power path distributes 48 V battery power to four actuator branches. Ea
 
 The main bus carries 2.82 mF of bulk capacitance, so connecting the battery directly would cause a large inrush current. The precharge resistor RPRE1 sits permanently across an off-board precharge contactor (J13/J14), so the bus charges slowly through RPRE1 when the battery is connected. An external controller watches the battery and bus voltages, then closes the contactor (through an MCP1402 gate driver and Q1) to bypass the resistor.
 
-Precharge connections are on **J24** (JST-GH 6-pin): `PRECH_EN`, `PRECH_SENSE`, `BATT_SENSE`, `24V_EN_IN`, 3.3 V and GND. The contactor coil connects to **J22**.
+The precharge board connects on **J24** (pinout in [Signal Connectors](#j24-precharge-board-interface-jst-gh-6-pin)). The contactor coil connects to **J22**.
 
 ### E-Stop and Actuator Disconnect
 
-An off-board E-stop contactor between JESTOP1 and JESTOP2 separates the actuator/servo group from the compute/control group. Its coil (**J20**) is powered through the normally-closed E-stop button (**J21**) and two series FETs (Q2/Q3), driven by MCP1402 gate drivers. The two enables and a feedback line are on **J2** (JST-GH 4-pin: `ESTOP_EN1`, `ESTOP_EN2`, `ESTOP_FB`, GND). Opening either the button or an enable drops the actuator group while compute stays up.
+An off-board E-stop contactor between JESTOP1 and JESTOP2 separates the actuator/servo group from the compute/control group. Its coil (**J20**) is powered through the normally-closed E-stop button (**J21**) and two series FETs (Q2/Q3), driven by MCP1402 gate drivers. The two enables and a feedback line are on **J2** (pinout in [Signal Connectors](#j2-e-stop-logic-jst-gh-4-pin)). Opening either the button or an enable drops the actuator group while compute stays up.
 
 ### Regen Protection (Brake Chopper)
 
@@ -141,7 +198,7 @@ Seven ACS758LCB-100B bidirectional Hall-effect sensors monitor:
 | U10, U9, U12, U11 | Actuator branches ACT1–ACT4 |
 | U5 | 24 V rail output |
 
-Each output is RC-filtered and brought out on **J11** (JST-GH 8-pin) for the robot's controller. Current measurement is used for detecting abnormal loads, debugging actuator behavior, estimating power use, and measuring regen.
+Each output is RC-filtered and brought out on **J11** for the robot's controller (pinout and scaling in [Signal Connectors](#j11-current-sense-outputs-jst-gh-8-pin)). Current measurement is used for detecting abnormal loads, debugging actuator behavior, estimating power use, and measuring regen.
 
 ### Protection
 
@@ -160,13 +217,14 @@ TP1–TP16 and TP20 are Keystone 5015 test points on PGND, the E-stop, precharge
 
 ### Off-Board Parts (Rev 1)
 
-Rev 1 uses three large parts that mount off the board and bolt to its M5 pads:
+Rev 1 has these parts mounted off the board, bolted to its M5 pads:
 
 | Part | Connects to | Rev 2 plan |
 |---|---|---|
 | Precharge contactor | J13 / J14 (coil on J22) | Replace with power FETs on the board |
 | E-stop contactor | JESTOP1 / JESTOP2 (coil on J20) | Replace with power FETs on the board |
 | 1 Ω, 200 W chassis-mount dump resistor | J16 / J17 | Find a smaller solution |
+| Dump resistor freewheel diode (DFB2) | Across the dump resistor: cathode to J16, anode to J17 | Move onto the board |
 
 ## Grounding
 

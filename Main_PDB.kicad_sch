@@ -27523,7 +27523,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -27572,7 +27572,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Dump resistor freewheel diode, fitted off-board"
 			(at 593.09 96.52 0)
 			(hide yes)
 			(show_name no)
