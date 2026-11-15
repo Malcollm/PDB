@@ -1,4 +1,4 @@
-* regen_models.lib -- models for regen_protection.asc
+* regen_models.lib -- models for the regen sims
 * Behavioral stand-ins for the Wiscohumanoids PDB back-current protection.
 * Works in LTspice and ngspice. Swap in vendor models once the design settles.
 
@@ -68,6 +68,9 @@ BCPL   P N I={Pmin}/max(V(VF,N),10)
 * Regen TVS clamp -- placeholder: ~56 V breakdown, ~0.25 ohm dynamic R.
 * Fit BV and Rs to your part's Vbr and Vc @ Ipp.
 .model DTVS D(Is=1p N=1 Rs=0.25 BV=56 Ibv=1m Cjo=2n)
+
+* Rev 1 bus TVS: D1 + D2 (SMCJ58A) in parallel. Vbr 64.4-71.2 V, Vc 93.6 V @ 16 A each.
+.model DTVS58 D(Is=1p N=1 Rs=0.85 BV=66 Ibv=1m Cjo=3n)
 
 * Freewheel diode across the dump resistor (NOT on the current schematic)
 .model DFW D(Is=1u N=1.1 Rs=5m Cjo=500p BV=100 Ibv=1u)

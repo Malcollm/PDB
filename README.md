@@ -93,11 +93,13 @@ Compute and control (24 V, 3.3 V) is fed from `48V_MAIN`, ahead of the E-stop co
 
 | | Current |
 |---|---|
-| Board rating | 70 A for a few minutes |
+| Board rating | 70 A for a few minutes (exact duration to be confirmed by a Rev 1 load test) |
 | Main fuse (F1) | 70 A Littelfuse BF1, 142.5631.5702 (58 V, M5 bolt-down) |
 | Expected actuator draw | About 10 A RMS walking at 1.0 m/s; peaks of about 21 A (100 ms) and 28 A (10 ms) |
 
 These are design targets. Rev 1 has not been load or thermally tested yet.
+
+**Copper estimate (from the layout, before testing):** the narrowest point in the 48 V path is the actuator feed just after U8. It has about 1.5 mm² of copper across the top layer and In2 combined, the same as a 21 mm wide 2 oz trace. The rest of the main path is 2.2–2.6 mm². The IPC-2221 trace formula puts the rise at 70 A at about 45 °C at that point and 17–24 °C elsewhere. That formula assumes a long trace, so it overstates the rise for short necks like these. Board copper typically settles to a steady temperature within several minutes, so the copper sets how hot the board gets rather than how long 70 A can flow. The duration will more likely be set by the off-board contactors and the bolted M5 lug joints, which the load test will confirm.
 
 **Why the rating is far above the expected load:** the board is deliberately oversized. Rev 1's power path was laid out before we had current numbers for the robot. Those came later, from a walking simulation of the actuators. It counts the motors only, with no regen, and has about ±25% uncertainty. The worst case was walking at 1.0 m/s: about 10 A RMS at the battery, with peaks of about 21 A over 100 ms and 28 A over 10 ms. We still want the board rated well above that, with room for roughly twice the actuator current for future expansion. That headroom covers the actuators only; the compute and servo rails draw current on top of it.
 
@@ -128,7 +130,7 @@ An off-board E-stop contactor between JESTOP1 and JESTOP2 separates the actuator
 
 ### Regen Protection (Brake Chopper)
 
-When actuators decelerate they push energy back into the bus. If the battery can't take it (E-stop open, BMS charge FET open, or a full pack), the bus voltage rises. A TLV3011 comparator (U1) watches the actuator bus. When it crosses its trip point, a UCC27511 gate driver (U6) switches Q6/Q9 to dump the excess into an external chassis-mount resistor on **J16/J17**. Pulling jumper **J18** (`BC_Disconnect`) disables the chopper.
+When actuators decelerate they push energy back into the bus. If the battery can't take it (E-stop open, BMS charge FET open, or a full pack), the bus voltage rises. A TLV3011 comparator (U1) watches the actuator bus. When it crosses its trip point, a UCC27511 gate driver (U6) switches Q6/Q9 to dump the excess into an external 1 Ω, 200 W chassis-mount resistor on **J16/J17**. Pulling jumper **J18** (`BC_Disconnect`) disables the chopper.
 
 ### Current Sensing
 
@@ -158,6 +160,16 @@ Each output is RC-filtered and brought out on **J11** (JST-GH 8-pin) for the rob
 
 TP1–TP16 and TP20 are Keystone 5015 test points on PGND, the E-stop, precharge and regen-dump control signals, and the converter bias rails. TP17–TP19 are bare probe pads on the switch nodes of the 24 V, 6 V and 3.3 V converters.
 
+### Off-Board Parts (Rev 1)
+
+Rev 1 uses three large parts that mount off the board and bolt to its M5 pads:
+
+| Part | Connects to | Rev 2 plan |
+|---|---|---|
+| Precharge contactor | J13 / J14 (coil on J22) | Replace with power FETs on the board |
+| E-stop contactor | JESTOP1 / JESTOP2 (coil on J20) | Replace with power FETs on the board |
+| 1 Ω, 200 W chassis-mount dump resistor | J16 / J17 | Find a smaller solution |
+
 ## Grounding
 
 The board uses one power ground plus local analog grounds:
@@ -175,10 +187,10 @@ LTspice simulations live in [`LTspice Simulations/`](LTspice%20Simulations/). Ea
 
 | Simulation | Purpose |
 |---|---|
-| `precharge_sims/precharge_Rsweep.asc` | Sweeps the precharge resistor value to compare bus charge time against resistor and main-fuse stress |
-| `precharge_sims/precharge_Loadsweep.asc` | Sweeps the load drawn during precharge to check the bus still reaches full voltage before the contactor closes |
-| `Regen Protection/regen_2_as_drawn.asc` | The regen dump circuit exactly as drawn on the schematic, with injected actuator regen current. Checks peak bus voltage, dump resistor power, and TVS and FET stress |
-| `Regen Protection/regen_3_fixed_Rsweep.asc` | The same circuit with candidate fixes (freewheel diode, local ceramic, sense filter, gate pulldown), sweeping the external dump resistor value |
+| `precharge/precharge_resistor_sweep.asc` | Sweeps the precharge resistor value (the board uses 100 Ω) to compare bus charge time against resistor and main-fuse stress |
+| `precharge/precharge_load_sweep.asc` | With the board's 100 Ω resistor, sweeps the load drawn during precharge to check the bus still reaches full voltage before the contactor closes |
+| `regen/regen_earlier_design.asc` | An earlier version of the regen dump circuit, kept for reference. It is expected to fail its checks; the sim below shows the fixes |
+| `regen/regen_current_sweep.asc` | The regen dump circuit with the fixes (freewheel diode, local ceramic, sense filter, gate pulldown), the board's resistor values and TVS diodes, and the 1 Ω dump resistor. Sweeps regen current from 10 to 50 A, held for 10 ms; 28 A is the worst 10 ms battery peak from the walking simulation. Checks the actuators stay under their 55 V maximum, the dump FET under 80 V, and the TVS diodes don't conduct |
 
 Results are written to the SPICE output log as `.meas` values, including pass/fail checks.
 

@@ -1,4 +1,4 @@
-* precharge_models.lib -- models for precharge_Rsweep.asc
+* precharge_models.lib -- models for the precharge sims
 
 * D1/D2 input TVS, SMCJ58A: Vbr 64.4-71.2 V @ 1 mA, Vc 93.6 V @ 16 A
 .model DSMCJ58A D(Is=1p N=1 Rs=1.7 BV=66 Ibv=1m Cjo=1.5n)
