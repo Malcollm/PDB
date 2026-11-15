@@ -99,8 +99,6 @@ Compute and control (24 V, 3.3 V) is fed from `48V_MAIN`, ahead of the E-stop co
 
 These are design targets. Rev 1 has not been load or thermally tested yet.
 
-**Copper estimate (from the layout, before testing):** the narrowest point in the 48 V path is the actuator feed just after U8. It has about 1.5 mm² of copper across the top layer and In2 combined, the same as a 21 mm wide 2 oz trace. The rest of the main path is 2.2–2.6 mm². The IPC-2221 trace formula puts the rise at 70 A at about 45 °C at that point and 17–24 °C elsewhere. That formula assumes a long trace, so it overstates the rise for short necks like these. Board copper typically settles to a steady temperature within several minutes, so the copper sets how hot the board gets rather than how long 70 A can flow. The duration will more likely be set by the off-board contactors and the bolted M5 lug joints, which the load test will confirm.
-
 **Why the rating is far above the expected load:** the board is deliberately oversized. Rev 1's power path was laid out before we had current numbers for the robot. Those came later, from a walking simulation of the actuators. It counts the motors only, with no regen, and has about ±25% uncertainty. The worst case was walking at 1.0 m/s: about 10 A RMS at the battery, with peaks of about 21 A over 100 ms and 28 A over 10 ms. We still want the board rated well above that, with room for roughly twice the actuator current for future expansion. That headroom covers the actuators only; the compute and servo rails draw current on top of it.
 
 Each output also has a limit set by its parts:
